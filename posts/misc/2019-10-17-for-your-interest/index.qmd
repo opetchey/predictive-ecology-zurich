@@ -1,0 +1,15 @@
+---
+title: "For your interest"
+author: "Owen Petchey"
+date: 2019-10-17
+categories: [misc, thoughts]
+image: cover.jpg
+---
+
+A few things I've written that may be of interest. I wrote them a while ago and could now quibble with some of the points and arguments, but I think the main themes still hold up.
+
+- [**About fairness in the workplace**](../2015-10-09-about-fairness-in-the-workplace/index.qmd) — an incomplete delve into the role of fairness in the workplace.
+- [**An academic in business school, and being a better dad**](../2019-03-11-an-academic-in-business-school-and-being-a-better-dad/index.qmd) — a perhaps rather preachy piece about leadership and competitiveness.
+- [**When should I start giving?**](../2014-07-28-when-should-i-start-giving/index.qmd) — some thoughts on when, during our careers, we might start "giving".
+- [**Students are not our customers, they are our products**](../2019-03-11-students-are-not-our-customers-they-are-our-products/index.qmd) — ideas about how we could avoid viewing students as customers, even if we did view a university as a business.
+- [**A tool for valuing contributions in teams**](../../organising/2019-03-13-valuing-contributions-in-teams/index.qmd) — comments on some challenges of working in teams, and a tool to help avoid them.

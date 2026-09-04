@@ -1,0 +1,35 @@
+---
+title: "Calculating FD"
+author: "Owen Petchey"
+date: 2019-03-04
+categories: [research, functional diversity]
+image: cover.jpg
+---
+
+Code and instructions for calculating FD, the measure of functional diversity that Owen and Kevin Gaston created.
+
+Below is advice on using code and functions in R that follow the same matrix notation as the original publication, [Petchey & Gaston (2002)](http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract). The functions have been updated to account for [the development](http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2006.00924.x/abstract) of FD we published in 2006.
+
+## Example 1
+
+- Get the [code and example datasets](https://github.com/opetchey/dumping_ground/tree/master/functional_diversity).
+- Use the `dist` and `hclust` functions to calculate a dendrogram from a trait matrix.
+- Paste the `Xtree` function into R and use it to transform the object returned by `hclust` into an object from which total branch length is easy to calculate. The object returned by `Xtree` is a list containing a species-by-branch matrix (`H1`) and a branch-length vector (`h2`) — see the [original paper](http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract) for details.
+- Follow the methods in [Petchey & Gaston (2002)](http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract) to get FD from `H1` and `h2`.
+- The `FD.example.1.r` file contains an example of using R to calculate the FD of a random community as it loses species — paste the text into R (remembering to paste in the `Xtree` function first).
+
+## FD Example 2
+
+This example addresses a common question: how to calculate the FD of communities with different compositions, and see whether those measures of FD correlate with a particular measure of ecosystem process (or community property).
+
+Three data files form the foundation of this type of analysis. Each is created and saved in a spreadsheet, then exported as a comma-delimited text file (`.csv`), which is easily read into R. Download all of these files to a single directory (you really only need the `.csv` versions):
+
+1. The species-by-trait matrix: `species.traits.csv`. The first column contains the species names, and the remaining columns the traits.
+2. The community composition matrix: `community.composition.csv`. Species names must correspond with those in the species-by-trait matrix.
+3. The community-by-functioning matrix: `community.functioning.csv`. Community identifiers must correspond with those in the community composition matrix.
+
+The `FD.example.2.r` code shows how to calculate the FD of each community from the traits of its species, and check whether it correlates with functioning.
+
+## FD Example 3
+
+Finally, there's a demonstration of the difference between FD and variance calculated on a single trait — see the file `FDandvariance.r`.

@@ -9,10 +9,10 @@ title-block-banner: false
 ```
 
 ::: {.hero}
-<div class="hero-slide" style="background-image:url('assets/img/banner/placeholder-1.jpg');"></div>
-<div class="hero-slide" style="background-image:url('assets/img/banner/placeholder-2.jpg');"></div>
-<div class="hero-slide" style="background-image:url('assets/img/banner/placeholder-3.jpg');"></div>
-<div class="hero-slide" style="background-image:url('assets/img/banner/placeholder-4.jpg');"></div>
+<div class="hero-slide" style="background-image:url('assets/img/banner/group-2016.jpg');"></div>
+<div class="hero-slide" style="background-image:url('assets/img/banner/group-2021.jpg');"></div>
+<div class="hero-slide" style="background-image:url('assets/img/banner/group-2023.jpg');"></div>
+<div class="hero-slide" style="background-image:url('assets/img/banner/turtles.jpg');"></div>
 
 <div class="hero-caption">
 <div class="hero-inner">
@@ -21,7 +21,7 @@ title-block-banner: false
 # Understanding ecology well enough to predict it {.hero-title}
 
 <div class="hero-subtitle">
-Placeholder banner — swap in real fieldwork and lab photography whenever it's ready.
+The Predictive Ecology Group, on retreats and in the field.
 </div>
 </div>
 </div>
@@ -52,6 +52,7 @@ the group's research focus.)*
 - [**Organising**](organising.qmd) — meetings and sessions we help run
 - [**Outreach**](outreach.qmd) — sharing ecology beyond academia
 - [**Join us**](join-us.qmd) — open positions and how to get in touch
+- [**Misc**](misc.qmd) — reflections, opinions, and practical tips
 - [**Contact**](contact.qmd) — how to reach us
 
 </div>

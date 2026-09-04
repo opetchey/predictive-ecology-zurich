@@ -1,0 +1,17 @@
+---
+title: "Making an (even more) effective enquiry"
+author: "Owen Petchey"
+date: 2019-03-03
+categories: [join-us, advice]
+image: cover.jpg
+---
+
+Whether you're asking about available positions (and perhaps funding), or you've found a funding scheme you'd like to apply for (to be held in a group member's lab), there are a few things you can do to make it more likely you get a useful response.
+
+- Include your CV, including the names of any previous supervisors.
+- Include a short statement of your research interests and motivation, highlighting any notable achievements.
+- Include a statement about the research you propose and how it fits well with the supervisor's or group's work.
+- Be explicit about the funding source(s) you have in mind, and link to the relevant funding scheme web pages.
+- Begin enquiries at least one month before any deadlines — more time may be needed in many cases.
+
+The point many enquiries miss is fit: it's often unclear, or only weakly argued, why this particular supervisor or group is the right one for the proposed research. If you'd like advice about who at UZH, in Zurich, or further afield might be a better fit, lead with your own suggestions of people, groups, or labs — each with a short rationale — and we're happy to give feedback on those.

@@ -7,13 +7,16 @@ built with [Quarto](https://quarto.org), served by GitHub Pages at
 ## Structure
 
 - `index.qmd`, `people.qmd`, `research.qmd`, `education.qmd`,
-  `organising.qmd`, `outreach.qmd`, `join-us.qmd`, `contact.qmd`,
-  `imprint.qmd` — the static pages.
+  `organising.qmd`, `outreach.qmd`, `join-us.qmd`, `misc.qmd`,
+  `contact.qmd`, `imprint.qmd` — the static pages.
 - `posts/` — all blog-style content, one subfolder per **controlled tag**:
-  `research`, `education`, `organising`, `outreach`, `join-us`. Each of
-  those five subfolders feeds the matching page's listing automatically —
-  a post appears on e.g. the Research page because it lives in
-  `posts/research/` and its `categories:` starts with `research`.
+  `research`, `education`, `organising`, `outreach`, `join-us`, `misc`.
+  Each of those six subfolders feeds the matching page's listing
+  automatically — a post appears on e.g. the Research page because it
+  lives in `posts/research/` and its `categories:` starts with `research`.
+  `misc` is the catch-all for content that doesn't fit the other five —
+  personal reflections, opinions, and practical tips — distinguished on
+  the Misc page by freeform tags like `thoughts` or `tips`.
 - `posts.qmd` — the "All posts" page: every post ever published, unfiltered
   (including archived ones), with search/sort/category-filter controls.
 - `scripts/build_listings.py` — a pre-render step (see "Archiving a post")
@@ -26,7 +29,7 @@ built with [Quarto](https://quarto.org), served by GitHub Pages at
 ## Adding a post
 
 1. Pick the controlled tag that matches the page it should appear on:
-   `research`, `education`, `organising`, `outreach`, or `join-us`.
+   `research`, `education`, `organising`, `outreach`, `join-us`, or `misc`.
 2. Create a new folder under `posts/<that tag>/`, named
    `YYYY-MM-DD-short-slug/`, containing an `index.qmd`.
 3. In the YAML front matter, set `categories:` to a list starting with the

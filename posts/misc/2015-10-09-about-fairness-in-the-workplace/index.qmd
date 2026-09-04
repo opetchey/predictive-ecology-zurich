@@ -1,0 +1,65 @@
+---
+title: "About fairness in the workplace"
+author: "Owen Petchey"
+date: 2015-10-09
+categories: [misc, thoughts, team culture]
+image: cover.jpg
+---
+
+Following a discussion with a colleague about fairness in the workplace, I gave myself two hours to research it. A good starting point turned out to be Fujishiro, K. (2005), *Fairness at work: its impacts on employee well-being*.
+
+## What is fairness in the workplace (organisational justice)?
+
+**Distributive fairness (justice)**: individuals assess their own contribution-to-reward ratio and compare it with their assessment of their colleagues'. This looks like deservedness-based fairness, as distinct from sameness (everyone gets the same reward regardless of contribution) or need-based fairness (reward based on need rather than contribution). High distributive fairness might be thought of as a meritocracy based on equality of opportunity.
+
+**Procedural fairness**: involvement in decision-making processes. This enhances the perception of fairness, because people feel they can influence a decision, and because merely expressing an opinion can have positive effects on its own.
+
+**Interactional justice**: fairness in how employees are treated within organisational procedures — e.g. during a hiring or promotion process — enhanced by truthfulness, respect, appropriate questions, and clear justification.
+
+On equality versus equity: in the workplace, equality seems to be the stronger influence, though measures to promote equity also exist. As Dr Angie Hobbs put it on BBC Radio 4's Today programme: "For me, the most attractive interpretation is that each person is of equal worth and should have the opportunity — ideally, an equal opportunity — to access goods, but most of the goods themselves will be proportionally distributed, according to need in some cases and merit in others."
+
+Fairness assessment requires perceiving one's own situation relative to others', so accurate perception matters — and accurate perception is likely tied to effective communication (my own thought, not from the literature).
+
+My conclusion: workplace fairness is mostly about how fair workers *perceive* their environment to be, largely on meritocratic grounds.
+
+## Is fairness in the workplace important?
+
+Two meta-analyses found that high workplace fairness predicts "high job satisfaction, high performance, low withdrawal, fewer counterproductive behaviors, high organizational commitment, and more organizational citizenship behaviours" (Fujishiro, 2005, citing Cohen-Charash & Spector, 2001, and Colquitt et al., 2001).
+
+A few more quotes from Fujishiro (2005):
+
+> "Fairness, or justice, is one of the most fundamental concerns in society."
+>
+> "A lack of perceived fairness was negatively associated with employee well-being."
+>
+> "High workload was associated with high strain only when perceived fairness was low."
+>
+> "Low levels of organizational justice may act as an occupational stressor and have detrimental effects on employee health and well-being."
+
+A large-scale longitudinal study in Finland found that a lack of organisational justice is associated with subsequent declines in self-rated health, absence due to sickness, and psychiatric disorders.
+
+The ease with which I found convincing evidence for the positive effects of fairness made me conclude that it's an important issue, both for individuals and for organisations.
+
+## Objections to fairness
+
+Are there studies, theories, or ideas suggesting unfairness might sometimes be desirable — or that concern for workplace fairness might be pointless or unprofitable? Here's what I found in the little time I gave myself:
+
+- The world isn't fair — reality isn't fair, there's no such thing as a genuinely fair system.
+- There may be higher-priority issues in the workplace.
+- Chasing absolute fairness may itself cost performance — there's presumably a curve of diminishing returns relating gains in perceived fairness to the effort spent pursuing it.
+
+One stimulating (if disagreeable) read put it this way: "Our idea of fairness isn't actually obtainable. It's really just a cloak for wishful thinking."
+
+My conclusion: it's worth thinking carefully about whether investing in perceived fairness is worthwhile — i.e. whether the benefits are likely to outweigh the costs.
+
+## How to increase workplace fairness (should you wish to)
+
+From *Workplace Tribes*: "Treating people fairly is important. Ensuring that they feel fairly treated is even more important."
+
+I ran out of time on this one, but hope to come back to it.
+
+**References**
+
+Cohen-Charash, Y., & Spector, P. E. (2001). The role of justice in organizations: A meta-analysis. *Organizational Behavior & Human Decision Processes*, 86(2), 278–321.
+
+Colquitt, J. A., Conlon, D. E., Wesson, M. J., Porter, C. O. L. H., & Ng, K. Y. (2001). Justice at the millennium: A meta-analytic review of 25 years of organizational justice research. *Journal of Applied Psychology*, 86(3), 425–445.

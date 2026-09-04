@@ -1,0 +1,25 @@
+---
+title: "Food webs: a brief history of our work"
+author: "Predictive Ecology Group"
+date: 2018-09-09
+categories: [research, food webs, history]
+image: cover.jpg
+---
+
+A brief history of our work on understanding, explaining, and predicting variation in food web structure.
+
+1. **The first quantitative explanation (i.e. mathematical model) for the number of trophic links one would expect to see in a food web.** We also showed that when parameterised with independent data the explanation made very good predictions of what is observed in real food webs ([Beckerman et al. 2006](https://www.pnas.org/content/103/37/13745)). The explanation is based on the *contingency* foraging model, which predicts which of the food items a consumer should choose to consume out of all available food items. The contingency model does this by finding the food items that would maximise energy intake rate, using organismal traits such as the energetic content of a food item, rate of space clearance, time to handle a food item, and probability of encountering different food items.
+
+2. **The first model able to predict food web complexity and structure.** We added size dependency of the organismal traits (i.e. allometries of the foraging-relevant traits) to the model ([Petchey et al. 2008](https://www.pnas.org/content/105/11/4191)). This produced explanations for the patterning of trophic links in food webs that matched the observed structure of some real food webs remarkably well. We termed this model the *Allometric Diet Breadth Model* (ADBM).
+
+3. **The first predictions of temperature effects on food web complexity (connectance).** We added temperature dependence of the organismal traits to the ADBM ([Petchey et al. 2010](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2010.0011)). The effect of temperature on the number of links (and connectance) in a food web is predicted to depend on variation in the effects of temperature on the different organismal traits.
+
+4. **83% of trophic links predicted correctly when ignoring taxonomy.** When allowed to ignore taxonomy, the ADBM explained the structure of empirical food webs almost twice as accurately as the equivalent species-based explanation, with the best performance being 83% of the links predicted correctly in the Broadstone Stream food web ([Woodward et al. 2010](https://www.sciencedirect.com/science/article/pii/B978012385005800006X)).
+
+5. **Clarifying what is different and special about our approach.** Peer reviews of Petchey et al. 2008 argued that our model should not be compared to previous ones, as doing so would be like comparing apples and oranges — we took this as recognition that our model is genuinely different. We set out the differences and their implications (e.g. why comparisons with other model types are somewhat misplaced) in [Petchey et al. 2011](https://www.sciencedirect.com/science/article/pii/S0022519311001652).
+
+6. **Adaptive rewiring predicted by the ADBM stabilises food webs.** A study of model food webs in which species are made extinct and the remaining ones adjust their diets according to the contingency foraging model in the ADBM. This adjustment, also termed *rewiring*, generally leads to fewer secondary extinctions — though not always, depending on species body sizes and the criteria used for secondary extinctions ([Thierry et al. 2011](https://www.sciencedirect.com/science/article/pii/S1439179111001186)).
+
+7. **Foraging allometries explain variation in food web structure.** A theoretical investigation of if and how allometries of organismal traits (e.g. handling time, space clearance rate) affect food web allometries: the generality-mass, vulnerability-mass, and trophic-height-mass correlations. The results show how allometries of individual foraging behaviour are linked across scales of organisation ([Thierry et al. 2011](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1600-0706.2010.18861.x)).
+
+This work continues, with newer projects building on the ADBM and on what it takes to make food web structure genuinely predictable.

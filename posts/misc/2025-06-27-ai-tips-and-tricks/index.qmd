@@ -1,0 +1,20 @@
+---
+title: "AI tips and tricks"
+author: "Owen Petchey"
+date: 2025-06-27
+categories: [misc, tips, AI]
+image: cover.jpg
+---
+
+At a recent group retreat we shared AI tips and tricks:
+
+- Don't forget all the cool stuff in [Google NotebookLM](https://notebooklm.google/), including making podcasts to listen to on the train, in the gym, or while doing the laundry.
+- You can make agents with [Copilot](https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents) (depending on your Microsoft licence) — potentially useful for building chatbots for teaching.
+- Keep the [ethical](https://milvus.io/ai-quick-reference/what-ethical-concerns-exist-with-llms), [societal](https://cacm.acm.org/news/gauging-societal-impacts-of-large-language-models/), and [environmental](https://www.nature.com/articles/s41598-024-76682-6) aspects in mind, and learn about them.
+- [Temporary chat](https://help.openai.com/en/articles/8914046-temporary-chat-faq) is a useful ChatGPT feature — a clean slate for a conversation, and the content isn't used for training.
+- [Projects](https://help.openai.com/en/articles/10169521-projects-in-chatgpt) in ChatGPT are useful (may require a paid subscription).
+- [Claude allows linking to a GitHub repository](https://support.anthropic.com/en/articles/10167454-using-the-github-integration), handy when getting AI help on a coding project.
+- ChatGPT can help by searching through the titles and abstracts of, say, 200 papers from a Web of Science search, for the most relevant ones.
+- Great for generating ideas for the title and/or acronym of a paper, proposal, or project.
+- A good website for keeping up with AI tools: [oneusefulthing.org](https://www.oneusefulthing.org/).
+- Watch out for agents that do things *for* us — e.g. planning and booking a holiday, replying to emails, scheduling meetings.

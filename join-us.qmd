@@ -14,15 +14,51 @@ listing:
 ---
 
 ::: {.section-intro}
-*(General statement on the kinds of opportunities the group offers goes
-here — e.g. PhD and postdoc positions, MSc/BSc thesis projects, and
-whether unsolicited enquiries are welcome.)*
+If you might be interested in joining the team, welcome — below is some
+general guidance on Masters, PhD, and postdoctoral opportunities. For who's
+currently in the group and their research interests, see the
+[People](people.qmd) page; get in touch with whoever's work looks like the
+best fit (please read our
+[advice on making an effective enquiry](posts/join-us/2019-03-03-making-an-effective-enquiry/index.qmd)
+first).
 
-Specific open positions are posted below (tag a post `join-us`). Once a
-position is filled, add `archive` to its tags to take it off this list —
-it stays visible on the [All posts](posts.qmd) page. If nothing current
-fits, see [Contact](contact.qmd) for how to get in touch anyway.
+Specific open positions, when there are any, are posted below (tag a post
+`join-us`). Once a position is filled, add `archive` to its tags to take it
+off this list — it stays visible on the [All posts](posts.qmd) page. If
+nothing current fits, see [Contact](contact.qmd) for how to get in touch
+anyway.
 :::
+
+## Masters
+
+The group participates in the following graduate programmes:
+
+- [Masters in Biology, Ecology](https://www.biologie.uzh.ch/de/Studium/Masterstudium/MasterStudies/Ecology.html)
+- [Masters in Biology, Systematics and Evolution](https://www.biologie.uzh.ch/de/Studium/Masterstudium/MasterStudies/SystematicsEvolution.html)
+- [Masters in Biology, Animal Behaviour](https://www.biologie.uzh.ch/de/Studium/Masterstudium/MasterStudies/AnimalBehaviour.html)
+- [Masters in Environmental Sciences](https://www.ieu.uzh.ch/en/teaching/envsci/master.html)
+
+## PhDs
+
+Please contact a team member listed on the [People](people.qmd) page if
+you have an idea for a PhD that fits with the group's research aims (and
+please consider our
+[advice about making an effective enquiry](posts/join-us/2019-03-03-making-an-effective-enquiry/index.qmd)
+first). If you're interested in a PhD in Ecology (or a related subject),
+UZH runs a strong ecology programme jointly with ETH — you can apply
+directly, and may then be invited to Zurich to meet professors and groups
+for a short interview, or you can apply directly to a professor. See
+[the ecology PhD programme](https://www.ieu.uzh.ch/en/teaching/phd/graduate.html)
+for more information, or, for PhDs in other areas of biology,
+[the Life Sciences Zurich Graduate School](https://www.lifescience-graduateschool.uzh.ch/en.html).
+
+## Postdocs
+
+We're always happy to hear from motivated, enthusiastic postdoctoral
+researchers whose interests fit well with the group's. Please contact a
+team member listed on the [People](people.qmd) page (and, again, consider
+our [advice about making an effective enquiry](posts/join-us/2019-03-03-making-an-effective-enquiry/index.qmd)
+first).
 
 ## Current opportunities
 

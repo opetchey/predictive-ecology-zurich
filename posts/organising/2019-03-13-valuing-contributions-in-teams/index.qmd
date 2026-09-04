@@ -1,0 +1,36 @@
+---
+title: "A tool for valuing contributions in teams"
+author: "Owen Petchey"
+date: 2019-03-13
+categories: [organising, team culture]
+image: cover.jpg
+---
+
+Working in teams can be some of the most stimulating, exciting, and important experiences we have. At other times things can get a bit sticky — for example when it comes to attributing rewards, such as deciding authorship and authorship order on publications. Proactive planning and assessment of contributions can help, alongside a collaboration agreement.
+
+The [web application for valuing contributions in teams](https://owenpetchey.shinyapps.io/valuing_contributions_in_teams/) summarises the contributions a team can report in the associated [Google Sheet](https://docs.google.com/spreadsheets/d/1jw3rfSDpQbT-IfgGsCbYSy7XIe92UiZqCFw8zMZcLRM). Below is a bit more detail about the problems it addresses and how.
+
+### In the Google Sheet, you:
+
+- Enter the project information you have so far; update as required.
+- Enter your team members by name.
+- Enter the contributions made by each team member on the contributions sheet.
+
+### Problems and solutions in team projects
+
+There are a number of recurring challenges:
+
+- Authorship order alone doesn't capture what are, in reality, nuanced, continuous, and diverse types of contribution.
+- Lack of transparency in team members' efforts can lead to [overestimating our own contribution and underestimating others'](https://www.thecut.com/2017/04/what-to-do-when-you-feel-like-the-only-roommate-who-cleans.html).
+- Contributions change over the course of a project.
+- Actual and intended contributions can diverge.
+- Value created by synergies is hard to account for.
+
+Some solutions to these problems:
+
+- Use the Contributor Roles Taxonomy (CRediT) with a degree of contribution (lead, equal, supporting), and report this in publications.
+- Keep a team-accessible list of contributions.
+- Track how contributions evolve, from intended to actual/final.
+- Use a transparent, flexible method for translating actual/final contributions into authorship order.
+- Give each contributor responsibility for recording their own contributions.
+- Give the project leader responsibility for making sure this self-responsibility is understood, remembered, and acted upon — e.g. by building it into the team's research culture, and issuing reminders.
