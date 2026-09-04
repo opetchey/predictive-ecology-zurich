@@ -1,0 +1,24 @@
+---
+title: "All posts"
+page-layout: article
+listing:
+  id: all-posts
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: cloud
+  sort-ui: true
+  filter-ui: true
+  feed: true
+  image-height: "180px"
+---
+
+::: {.section-intro}
+Every post ever published, across every page — including posts marked
+`archive` that no longer appear in their page's own feed. Use the search
+box and category cloud below to filter by topic, controlled tag, or
+`archive` status.
+:::
+
+:::{#all-posts}
+:::

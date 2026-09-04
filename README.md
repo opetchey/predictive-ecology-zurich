@@ -14,6 +14,10 @@ built with [Quarto](https://quarto.org), served by GitHub Pages at
   those five subfolders feeds the matching page's listing automatically —
   a post appears on e.g. the Research page because it lives in
   `posts/research/` and its `categories:` starts with `research`.
+- `posts.qmd` — the "All posts" page: every post ever published, unfiltered
+  (including archived ones), with search/sort/category-filter controls.
+- `scripts/build_listings.py` — a pre-render step (see "Archiving a post")
+  that builds each page's post list, leaving out anything tagged `archive`.
 - `assets/` — theme SCSS, shared CSS, self-hosted fonts, and images
   (banner placeholders, People-page placeholders, favicon).
 - `.github/workflows/publish.yml` — GitHub Actions workflow that renders
@@ -35,26 +39,31 @@ built with [Quarto](https://quarto.org), served by GitHub Pages at
 
 ## Archiving a post
 
-Adding `archive` (or any second word) to `categories:` does **not** hide a
-post — the page listings are driven by which `posts/<tag>/` folder a post
-lives in, not by its category values, so an `[research, archive]` post in
-`posts/research/` still shows up on the Research page.
-
-To actually take a post out of circulation while keeping it online at its
-existing URL (so old links/citations keep working), add `draft: true` to
-its YAML front matter:
+Add `archive` to a post's `categories:` list to retire it from its page's
+own feed, without deleting it or touching `draft:`:
 
 ```yaml
 categories: [research, archive]
-draft: true
 ```
 
-This removes it from the page listing, the RSS feed, and the on-site
-search index, while still rendering its own page — reachable only by
-whoever already has the direct link. Nothing else on the site links to
-it once it's out of the listing. The `archive` category is then just a
-label for your own reference; `draft: true` is what actually does the
-hiding.
+Before each render, `scripts/build_listings.py` runs as a Quarto
+[pre-render step](https://quarto.org/docs/projects/scripts.html) (wired up
+in `_quarto.yml`). It reads every post's front matter and writes
+`listings/<tag>.yml` for each controlled tag — the file each page's
+`listing.contents` actually points to — leaving out anything tagged
+`archive`. So:
+
+- The post disappears from its page's listing (e.g. Research) and that
+  page's RSS feed.
+- It stays fully visible, findable and filterable on the
+  [All posts](posts.qmd) page, which points straight at `posts/`,
+  unfiltered.
+- It stays in the site-wide search index, and its own page keeps
+  rendering at its existing URL — nothing about the post itself changes,
+  only which page's feed includes it.
+
+`listings/` is generated on every render (see `.gitignore`) — never edit
+those files directly, edit the posts' `categories:` instead.
 
 ## Local preview
 

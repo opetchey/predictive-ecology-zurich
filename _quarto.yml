@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: _site
+  pre-render: "python3 scripts/build_listings.py"
   resources:
     - "CNAME"
     - "robots.txt"
@@ -42,7 +43,7 @@ website:
     center: |
       Content & photos [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Website code [MIT](https://github.com/opetchey/predictive-ecology-zurich/blob/main/LICENSE)
     right: |
-      [Contact](/contact.qmd) · [Imprint & privacy](/imprint.qmd)
+      [All posts](/posts.qmd) · [Contact](/contact.qmd) · [Imprint & privacy](/imprint.qmd)
 
 format:
   html:

@@ -3,7 +3,7 @@ title: "Research"
 page-layout: article
 listing:
   id: research-posts
-  contents: posts/research
+  contents: listings/research.yml
   type: default
   sort: "date desc"
   categories: true
@@ -20,7 +20,9 @@ paragraph or two.)*
 
 Individual research themes and projects are introduced in the posts below —
 tag a post `research` (plus any freeform topic tags) and it will appear in
-this feed automatically.
+this feed automatically. Add `archive` as well to retire a post from this
+feed without deleting it — it stays visible on the [All posts](posts.qmd)
+page.
 :::
 
 ## Latest research posts
