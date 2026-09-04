@@ -33,6 +33,29 @@ built with [Quarto](https://quarto.org), served by GitHub Pages at
 5. `.qmd` posts can contain executable R code chunks (see the example
    research post) — they run at render time, both locally and in CI.
 
+## Archiving a post
+
+Adding `archive` (or any second word) to `categories:` does **not** hide a
+post — the page listings are driven by which `posts/<tag>/` folder a post
+lives in, not by its category values, so an `[research, archive]` post in
+`posts/research/` still shows up on the Research page.
+
+To actually take a post out of circulation while keeping it online at its
+existing URL (so old links/citations keep working), add `draft: true` to
+its YAML front matter:
+
+```yaml
+categories: [research, archive]
+draft: true
+```
+
+This removes it from the page listing, the RSS feed, and the on-site
+search index, while still rendering its own page — reachable only by
+whoever already has the direct link. Nothing else on the site links to
+it once it's out of the listing. The `archive` category is then just a
+label for your own reference; `draft: true` is what actually does the
+hiding.
+
 ## Local preview
 
 Requires [Quarto](https://quarto.org/docs/get-started/) and R installed
