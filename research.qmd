@@ -12,6 +12,7 @@ listing:
   filter-ui: false
   feed: true
   image-height: "160px"
+  fields: [image, title, description]
 ---
 
 ::: {.section-intro}
