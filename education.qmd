@@ -1,0 +1,25 @@
+---
+title: "Education"
+page-layout: article
+listing:
+  id: education-posts
+  contents: posts/education
+  type: default
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+  image-height: "180px"
+---
+
+::: {.section-intro}
+*(Overview of the group's teaching and training activities goes here —
+courses taught, supervision approach, any training materials or workshops
+the group runs or contributes to.)*
+:::
+
+## Latest education posts
+
+:::{#education-posts}
+:::

@@ -1,0 +1,44 @@
+---
+title: "Imprint & privacy"
+page-layout: article
+---
+
+## Imprint
+
+**Responsible for this website's content:**
+Owen Petchey, Predictive Ecology Group, Department of Evolutionary Biology
+and Environmental Studies, University of Zurich.
+
+See [Contact](contact.qmd) for how to get in touch.
+
+## Licence
+
+Written content and photographs on this site are licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) unless noted
+otherwise. The website's source code is licensed under
+[MIT](https://github.com/opetchey/predictive-ecology-zurich/blob/main/LICENSE).
+See [LICENSE-CONTENT.md](https://github.com/opetchey/predictive-ecology-zurich/blob/main/LICENSE-CONTENT.md)
+for details.
+
+## Privacy
+
+This website does not use analytics, does not set cookies, and does not
+embed third-party trackers. Fonts, styles and scripts are all served from
+this site itself rather than from third-party services, so visiting this
+site does not, on its own, send information about you to any company
+other than the one hosting the site (see below).
+
+**Hosting.** This site is hosted on GitHub Pages (GitHub, Inc.). As with any
+web host, GitHub's servers necessarily process standard technical
+information to deliver pages — for example your IP address and the page
+requested — as part of ordinary web server operation. This is GitHub's
+infrastructure-level logging, not anything added by this site. See
+[GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)
+for details of how GitHub Pages handles this.
+
+**Outbound links.** Some pages link out to third-party sites — for example
+individual researchers' personal pages, Google Scholar, or ORCID profiles.
+Those sites have their own, separate privacy practices, which this notice
+does not cover.
+
+If you have questions about this privacy notice, see [Contact](contact.qmd).

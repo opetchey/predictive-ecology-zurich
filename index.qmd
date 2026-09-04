@@ -1,0 +1,58 @@
+---
+title: "Predictive Ecology Group"
+page-layout: full
+title-block-banner: false
+---
+
+```{=html}
+<style>#title-block-header{display:none;}</style>
+```
+
+::: {.hero}
+<div class="hero-slide" style="background-image:url('assets/img/banner/placeholder-1.jpg');"></div>
+<div class="hero-slide" style="background-image:url('assets/img/banner/placeholder-2.jpg');"></div>
+<div class="hero-slide" style="background-image:url('assets/img/banner/placeholder-3.jpg');"></div>
+<div class="hero-slide" style="background-image:url('assets/img/banner/placeholder-4.jpg');"></div>
+
+<div class="hero-caption">
+<div class="hero-inner">
+<div class="hero-eyebrow">University of Zurich</div>
+
+# Understanding ecology well enough to predict it {.hero-title}
+
+<div class="hero-subtitle">
+Placeholder banner — swap in real fieldwork and lab photography whenever it's ready.
+</div>
+</div>
+</div>
+:::
+
+::: {.container-lg}
+<div style="max-width: 760px; margin: 3.5rem auto 1rem;">
+
+## Welcome
+
+We are the **Predictive Ecology Group** at the University of Zurich. We study
+the processes that structure ecological communities — from individual
+interactions to whole food webs — with the aim of making ecology a more
+predictive science.
+
+*(Replace this paragraph with a fuller welcome and a short description of
+the group's research focus.)*
+
+</div>
+
+<div style="max-width: 760px; margin: 0 auto 4rem;">
+
+## Explore
+
+- [**People**](people.qmd) — who we are
+- [**Research**](research.qmd) — what we study
+- [**Education**](education.qmd) — teaching and training
+- [**Organising**](organising.qmd) — meetings and sessions we help run
+- [**Outreach**](outreach.qmd) — sharing ecology beyond academia
+- [**Join us**](join-us.qmd) — open positions and how to get in touch
+- [**Contact**](contact.qmd) — how to reach us
+
+</div>
+:::

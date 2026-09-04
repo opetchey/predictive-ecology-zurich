@@ -1,0 +1,28 @@
+---
+title: "Join us"
+page-layout: article
+listing:
+  id: join-us-posts
+  contents: posts/join-us
+  type: default
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+  image-height: "180px"
+---
+
+::: {.section-intro}
+*(General statement on the kinds of opportunities the group offers goes
+here — e.g. PhD and postdoc positions, MSc/BSc thesis projects, and
+whether unsolicited enquiries are welcome.)*
+
+Specific open positions are posted below (tag a post `join-us`). If nothing
+current fits, see [Contact](contact.qmd) for how to get in touch anyway.
+:::
+
+## Current opportunities
+
+:::{#join-us-posts}
+:::

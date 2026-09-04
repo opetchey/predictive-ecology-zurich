@@ -1,0 +1,42 @@
+---
+title: "People"
+page-layout: article
+---
+
+The people who make up the Predictive Ecology Group. Each person controls
+their own contact details on their own page — we link out to those rather
+than listing email addresses here.
+
+*(This page is a template with one real and one placeholder entry. Copy a
+`.person-card` block below for each additional group member — current
+members, and optionally an "Alumni" section further down the page.)*
+
+::: {.people-grid}
+
+::: {.person-card}
+![](assets/img/people/placeholder-owen.jpg){.person-photo}
+<div class="person-name">Owen Petchey</div>
+<div class="person-role">Group leader</div>
+<div class="person-bio">
+*(One or two sentences on Owen's research focus and role in the group go
+here.)*
+</div>
+<div class="person-links">
+[Personal page →](https://www.google.com/search?q=owen+petchey+uzh){target="_blank"}
+</div>
+:::
+
+::: {.person-card}
+![](assets/img/people/placeholder-generic.jpg){.person-photo}
+<div class="person-name">Name Surname</div>
+<div class="person-role">Role — e.g. Postdoctoral researcher</div>
+<div class="person-bio">
+*(Short bio placeholder — replace with a sentence or two about this
+person's research interests.)*
+</div>
+<div class="person-links">
+[Personal page →](#){target="_blank"}
+</div>
+:::
+
+:::

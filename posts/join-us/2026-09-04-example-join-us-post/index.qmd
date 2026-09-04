@@ -1,0 +1,17 @@
+---
+title: "Example open position"
+description: "A placeholder post advertising an open position."
+author: "Predictive Ecology Group"
+date: 2026-09-04
+categories: [join-us]
+image: cover.jpg
+---
+
+*(This is a placeholder post. Replace with a real opening — e.g. a PhD or
+postdoc position, with a deadline and how to apply — and delete or archive
+it once the position is filled.)*
+
+Posts in this `join-us` folder appear automatically on the
+[Join us](/join-us.qmd) page, because their folder is `posts/join-us/` and
+their `categories:` field starts with `join-us`, the controlled tag for
+this page.

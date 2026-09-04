@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - "CNAME"
+    - "robots.txt"
+    - "assets/fonts/**"
+    - "assets/img/**"
+
+execute:
+  freeze: auto
+
+website:
+  title: "Predictive Ecology Group"
+  site-url: "https://predictiveecologyzurich.org"
+  description: "Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting."
+  favicon: assets/img/favicon.svg
+  page-navigation: true
+
+  navbar:
+    background: primary
+    left:
+      - text: "People"
+        href: people.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Education"
+        href: education.qmd
+      - text: "Organising"
+        href: organising.qmd
+      - text: "Outreach"
+        href: outreach.qmd
+      - text: "Join us"
+        href: join-us.qmd
+      - text: "Contact"
+        href: contact.qmd
+
+  page-footer:
+    border: true
+    left: |
+      Predictive Ecology Group · Department of Evolutionary Biology and Environmental Studies · University of Zurich
+    center: |
+      Content & photos [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · Website code [MIT](https://github.com/opetchey/predictive-ecology-zurich/blob/main/LICENSE)
+    right: |
+      [Contact](/contact.qmd) · [Imprint & privacy](/imprint.qmd)
+
+format:
+  html:
+    theme:
+      light: [default, assets/theme-light.scss]
+      dark: [default, assets/theme-dark.scss]
+    css: assets/styles.css
+    toc: false
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      - text: |
+          <link rel="preload" href="assets/fonts/lora-variable.woff2" as="font" type="font/woff2" crossorigin>
+          <link rel="preload" href="assets/fonts/worksans-variable.woff2" as="font" type="font/woff2" crossorigin>

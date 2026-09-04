@@ -1,0 +1,26 @@
+---
+title: "Contact"
+page-layout: article
+---
+
+::: {.section-intro}
+For general enquiries about the group, please get in touch via Owen Petchey's
+personal page, where his contact details are listed:
+
+**[Owen Petchey — personal page →](https://www.google.com/search?q=owen+petchey+uzh){target="_blank"}**
+
+For enquiries about a specific person's work, see their entry on the
+[People](people.qmd) page and use the link to their own page.
+
+Postal address:
+
+> Predictive Ecology Group\
+> Department of Evolutionary Biology and Environmental Studies\
+> University of Zurich\
+> Winterthurerstrasse 190\
+> 8057 Zurich\
+> Switzerland
+
+*(Department street address confirmed against ieu.uzh.ch — add a specific
+room/building number if you'd like visitors to find you directly.)*
+:::

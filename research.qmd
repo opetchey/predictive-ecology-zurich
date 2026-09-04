@@ -1,0 +1,29 @@
+---
+title: "Research"
+page-layout: article
+listing:
+  id: research-posts
+  contents: posts/research
+  type: default
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: true
+  image-height: "180px"
+---
+
+::: {.section-intro}
+*(General overview of the group's research goes here — the questions that
+motivate the group, the systems studied, and the broad approach, in a
+paragraph or two.)*
+
+Individual research themes and projects are introduced in the posts below —
+tag a post `research` (plus any freeform topic tags) and it will appear in
+this feed automatically.
+:::
+
+## Latest research posts
+
+:::{#research-posts}
+:::

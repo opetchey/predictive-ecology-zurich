@@ -1,0 +1,60 @@
+/*-- scss:defaults --*/
+
+$font-family-serif:      "Lora", Georgia, "Times New Roman", serif !default;
+$font-family-sans-serif: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !default;
+
+$font-family-base: $font-family-sans-serif;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 600;
+$headings-line-height: 1.18;
+
+// UZH Blue tint used as the accent on dark backgrounds (full-strength UZH Blue
+// does not have enough contrast against a near-black background)
+$uzh-blue: #0028A5;
+$uzh-blue-tint: #BACBFF;
+
+$primary:   $uzh-blue-tint;
+$secondary: #a9adc2;
+$body-bg:    #0b0d16;
+$body-color: #eef0f7;
+$link-color: $uzh-blue-tint;
+
+$navbar-bg: #070811;
+$navbar-fg: #eef0f7;
+$navbar-hl: #ffffff;
+
+$footer-bg: #0b0d16;
+$footer-fg: #a9adc2;
+
+$border-color: #232637;
+$code-bg: #151725;
+
+$h1-font-size: 2.6rem;
+$h2-font-size: 1.9rem;
+$h3-font-size: 1.4rem;
+
+/*-- scss:rules --*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.navbar {
+  border-bottom: 1px solid #1a1c2b;
+  .navbar-brand { font-family: $font-family-serif; font-weight: 600; letter-spacing: 0.01em; }
+  .nav-link { font-size: 0.92rem; letter-spacing: 0.01em; }
+}
+
+a { text-underline-offset: 0.15em; }
+
+.page-footer {
+  font-size: 0.82rem;
+  border-top-color: #1a1c2b !important;
+  a { color: $footer-fg; text-decoration: underline; }
+  a:hover { color: $uzh-blue-tint; }
+}
+
+blockquote {
+  border-left: 3px solid $uzh-blue;
+  color: $secondary;
+}
