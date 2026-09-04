@@ -1,16 +1,17 @@
 ---
 title: "Research"
-page-layout: article
 listing:
   id: research-posts
   contents: listings/research.yml
-  type: default
+  type: grid
+  grid-columns: 3
+  grid-item-align: left
   sort: "date desc"
   categories: true
   sort-ui: false
   filter-ui: false
   feed: true
-  image-height: "180px"
+  image-height: "160px"
 ---
 
 ::: {.section-intro}
