@@ -1,0 +1,11 @@
+---
+title: "Owen Petchey"
+date: 2026-09-05
+categories: [team, group-leader]
+image: owen.jpg
+---
+
+Owen leads the group's work on ecological forecasting — understanding food
+webs and ecological communities well enough to predict how they change.
+
+[Personal page →](https://www.google.com/search?q=owen+petchey+uzh){target="_blank"}

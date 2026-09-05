@@ -6,30 +6,35 @@ built with [Quarto](https://quarto.org), served by GitHub Pages at
 
 ## Structure
 
-- `index.qmd`, `people.qmd`, `research.qmd`, `education.qmd`,
+- `index.qmd`, `team.qmd`, `research.qmd`, `education.qmd`,
   `organising.qmd`, `outreach.qmd`, `join-us.qmd`, `misc.qmd`,
   `contact.qmd`, `imprint.qmd` — the static pages.
 - `posts/` — all blog-style content, one subfolder per **controlled tag**:
-  `research`, `education`, `organising`, `outreach`, `join-us`, `misc`.
-  Each of those six subfolders feeds the matching page's listing
+  `research`, `education`, `organising`, `outreach`, `join-us`, `misc`,
+  `team`. Each of those seven subfolders feeds the matching page's listing
   automatically — a post appears on e.g. the Research page because it
   lives in `posts/research/` and its `categories:` starts with `research`.
-  `misc` is the catch-all for content that doesn't fit the other five —
+  `misc` is the catch-all for content that doesn't fit the other pages —
   personal reflections, opinions, and practical tips — distinguished on
-  the Misc page by freeform tags like `thoughts` or `tips`.
+  the Misc page by freeform tags like `thoughts` or `tips`. `team` is
+  different from the rest: each post is a group member's profile (photo
+  + short bio) shown on the Team page, tagged `team` plus a role like
+  `group-leader`, `postdoc`, or `phd-student`.
 - `posts.qmd` — the "All posts" page: every post ever published, unfiltered
   (including archived ones), with search/sort/category-filter controls.
 - `scripts/build_listings.py` — a pre-render step (see "Archiving a post")
   that builds each page's post list, leaving out anything tagged `archive`.
 - `assets/` — theme SCSS, shared CSS, self-hosted fonts, and images
-  (banner placeholders, People-page placeholders, favicon).
+  (banner placeholders, favicon). Team-member and post photos live
+  alongside their own `index.qmd` under `posts/`, not here.
 - `.github/workflows/publish.yml` — GitHub Actions workflow that renders
   the site and deploys it to the `gh-pages` branch on every push to `main`.
 
 ## Adding a post
 
 1. Pick the controlled tag that matches the page it should appear on:
-   `research`, `education`, `organising`, `outreach`, `join-us`, or `misc`.
+   `research`, `education`, `organising`, `outreach`, `join-us`, `misc`, or
+   `team` (see below for `team`, which works a bit differently).
 2. Create a new folder under `posts/<that tag>/`, named
    `YYYY-MM-DD-short-slug/`, containing an `index.qmd`.
 3. In the YAML front matter, set `categories:` to a list starting with the
@@ -39,6 +44,16 @@ built with [Quarto](https://quarto.org), served by GitHub Pages at
    freeform tags after it are open-ended.
 5. `.qmd` posts can contain executable R code chunks (see the example
    research post) — they run at render time, both locally and in CI.
+
+## Adding a team member
+
+Copy `posts/team/2026-09-05-example-team-member/` (or any real member's
+folder), rename it to the person's name, replace `cover.jpg` with their
+photo, and set `categories: [team, <role>]` — e.g. `group-leader`,
+`postdoc`, `phd-student`, or `msc-student`. The body is a short bio and a
+link to the person's own page (for their contact details — see the
+"no email addresses" note above). They'll appear on the [Team](team.qmd)
+page automatically, grouped/filterable by role via the category list.
 
 ## Archiving a post
 

@@ -10,7 +10,7 @@ personal page, where his contact details are listed:
 **[Owen Petchey — personal page →](https://www.google.com/search?q=owen+petchey+uzh){target="_blank"}**
 
 For enquiries about a specific person's work, see their entry on the
-[People](people.qmd) page and use the link to their own page.
+[Team](team.qmd) page and use the link to their own page.
 
 Postal address:
 

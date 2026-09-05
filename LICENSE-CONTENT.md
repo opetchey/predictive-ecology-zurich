@@ -1,7 +1,7 @@
 # Content licence
 
 Except where noted otherwise, the written content and photographs on this
-site — pages, posts, People-page bios, and images — are © 2026 Predictive
+site — pages, posts, Team-page bios, and images — are © 2026 Predictive
 Ecology Group, University of Zurich, and are licensed under a
 [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
@@ -14,7 +14,7 @@ This licence applies to the content of the site. The website's underlying
 source code (Quarto/HTML/CSS/JavaScript) is licensed separately under the
 MIT licence — see [LICENSE](LICENSE).
 
-Photographs of individual group members (e.g. on the People page) are used
+Photographs of individual group members (e.g. on the Team page) are used
 with that person's consent; please contact us (see the [Contact](contact.qmd)
 page) before reusing a personal photo outside the scope of normal CC BY 4.0
 attribution-and-reuse, as a courtesy to the person pictured.

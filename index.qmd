@@ -46,7 +46,7 @@ the group's research focus.)*
 
 ## Explore
 
-- [**People**](people.qmd) — who we are
+- [**Team**](team.qmd) — who we are
 - [**Research**](research.qmd) — what we study
 - [**Education**](education.qmd) — teaching and training
 - [**Organising**](organising.qmd) — meetings and sessions we help run

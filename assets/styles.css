@@ -140,49 +140,6 @@
 }
 
 /* ---------------------------------------------------------------------
-   People page — photo + short bio cards
-   --------------------------------------------------------------------- */
-
-.people-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 2.2rem 1.8rem;
-  margin: 2rem 0;
-}
-
-.person-card .person-photo {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  border-radius: 2px;
-  margin-bottom: 0.9rem;
-  background: var(--bs-secondary-bg, #eee);
-}
-
-.person-card .person-name {
-  font-family: "Lora", Georgia, serif;
-  font-weight: 600;
-  font-size: 1.1rem;
-  margin-bottom: 0.15rem;
-}
-
-.person-card .person-role {
-  font-size: 0.85rem;
-  color: var(--bs-secondary-color, #666);
-  margin-bottom: 0.5rem;
-}
-
-.person-card .person-bio {
-  font-size: 0.92rem;
-  line-height: 1.5;
-}
-
-.person-card .person-links {
-  font-size: 0.85rem;
-  margin-top: 0.4rem;
-}
-
-/* ---------------------------------------------------------------------
    Section intros — short overview text above a post listing/feed
    --------------------------------------------------------------------- */
 

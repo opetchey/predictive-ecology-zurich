@@ -26,7 +26,7 @@ import glob
 import os
 import re
 
-CONTROLLED_TAGS = ["research", "education", "organising", "outreach", "join-us", "misc"]
+CONTROLLED_TAGS = ["research", "education", "organising", "outreach", "join-us", "misc", "team"]
 ARCHIVE_TAG = "archive"
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)

@@ -1,44 +1,31 @@
 ---
-title: "People"
-page-layout: article
+title: "Team"
+aliases: ["/people.html"]
+listing:
+  id: team-posts
+  contents: listings/team.yml
+  type: grid
+  grid-columns: 3
+  grid-item-align: left
+  sort: "date desc"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  image-height: "220px"
+  fields: [image, title, description]
 ---
 
-The people who make up the Predictive Ecology Group. Each person controls
-their own contact details on their own page — we link out to those rather
-than listing email addresses here. For the full, up-to-date roster, see the
+The people who make up the Predictive Ecology Group. Each person is a short
+post here — tag it `team` (plus a role tag like `group-leader`, `postdoc`,
+`phd-student`, or `msc-student`) and a photo and short bio, and it appears
+below automatically. Each person controls their own contact details on
+their own page, linked from their bio — we don't list email addresses
+here. For the full, up-to-date roster, see the
 [group's page on the IEU website](https://www.ieu.uzh.ch/en/research/ecology/extinction/member.html).
 
-*(This page has one real entry and one placeholder — copy a `.person-card`
-block below for each additional current group member.)*
+## Current members
 
-::: {.people-grid}
-
-::: {.person-card}
-![](assets/img/people/owen.jpg){.person-photo}
-<div class="person-name">Owen Petchey</div>
-<div class="person-role">Group leader</div>
-<div class="person-bio">
-Owen leads the group's work on ecological forecasting — understanding food
-webs and ecological communities well enough to predict how they change.
-</div>
-<div class="person-links">
-[Personal page →](https://www.google.com/search?q=owen+petchey+uzh){target="_blank"}
-</div>
-:::
-
-::: {.person-card}
-![](assets/img/people/placeholder-generic.jpg){.person-photo}
-<div class="person-name">Name Surname</div>
-<div class="person-role">Role — e.g. Postdoctoral researcher</div>
-<div class="person-bio">
-*(Short bio placeholder — replace with a sentence or two about this
-person's research interests.)*
-</div>
-<div class="person-links">
-[Personal page →](#){target="_blank"}
-</div>
-:::
-
+:::{#team-posts}
 :::
 
 ## Alumni

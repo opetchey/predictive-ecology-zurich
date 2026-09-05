@@ -17,7 +17,7 @@ listing:
 If you might be interested in joining the team, welcome — below is some
 general guidance on Masters, PhD, and postdoctoral opportunities. For who's
 currently in the group and their research interests, see the
-[People](people.qmd) page; get in touch with whoever's work looks like the
+[Team](team.qmd) page; get in touch with whoever's work looks like the
 best fit (please read our
 [advice on making an effective enquiry](posts/join-us/2019-03-03-making-an-effective-enquiry/index.qmd)
 first).
@@ -40,7 +40,7 @@ The group participates in the following graduate programmes:
 
 ## PhDs
 
-Please contact a team member listed on the [People](people.qmd) page if
+Please contact a team member listed on the [Team](team.qmd) page if
 you have an idea for a PhD that fits with the group's research aims (and
 please consider our
 [advice about making an effective enquiry](posts/join-us/2019-03-03-making-an-effective-enquiry/index.qmd)
@@ -56,7 +56,7 @@ for more information, or, for PhDs in other areas of biology,
 
 We're always happy to hear from motivated, enthusiastic postdoctoral
 researchers whose interests fit well with the group's. Please contact a
-team member listed on the [People](people.qmd) page (and, again, consider
+team member listed on the [Team](team.qmd) page (and, again, consider
 our [advice about making an effective enquiry](posts/join-us/2019-03-03-making-an-effective-enquiry/index.qmd)
 first).
 

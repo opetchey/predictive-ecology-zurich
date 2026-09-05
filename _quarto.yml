@@ -21,8 +21,8 @@ website:
   navbar:
     background: primary
     left:
-      - text: "People"
-        href: people.qmd
+      - text: "Team"
+        href: team.qmd
       - text: "Research"
         href: research.qmd
       - text: "Education"
