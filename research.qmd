@@ -20,6 +20,10 @@ listing:
 motivate the group, the systems studied, and the broad approach, in a
 paragraph or two.)*
 
+Owen's full publication list:
+[Google Scholar](https://scholar.google.com/citations?user=lDoG41MAAAAJ&hl=en){target="_blank"} ·
+[ORCID](https://orcid.org/0000-0002-7724-1633){target="_blank"}
+
 Individual research themes and projects are introduced in the posts below —
 tag a post `research` (plus any freeform topic tags) and it will appear in
 this feed automatically. Add `archive` as well to retire a post from this

@@ -1,0 +1,15 @@
+---
+title: "The Response Diversity Network"
+author: "Owen Petchey"
+date: 2026-09-05
+categories: [organising, response diversity, community]
+image: cover.jpg
+---
+
+The [Response Diversity Network](https://responsediversitynetwork.github.io/RDN-website/) is a community of researchers working on a deceptively simple question: what is response diversity, why does it matter, and what should the field prioritise next?
+
+Response diversity — the idea that different species or organisms respond differently to the same environmental change — is increasingly framed as a sustainability strategy: it's part of why ecosystem services can keep being delivered even as conditions shift, since not everything fails at once.
+
+The network runs regular seminars with researchers presenting on biodiversity–stability relationships, species traits, and ecosystem resilience; maintains a shared Zotero library of response-diversity-related papers; organises symposia at conferences including GfO, BES, and ESJ; and sends out a quarterly newsletter. A steering committee has been in place since November 2022, with a new leadership team as of this year.
+
+This group contributes to the network's work on turning response diversity research into concrete opportunities for policy- and decision-makers — one strand of the broader push to make response diversity a genuinely useful concept outside academic ecology, not just inside it.

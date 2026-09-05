@@ -1,0 +1,13 @@
+---
+title: "Response diversity: why it matters for predicting ecological change"
+author: "Owen Petchey"
+date: 2026-09-05
+categories: [research, response diversity]
+image: cover.jpg
+---
+
+Response diversity is the variation among species, or among individuals and populations within a species, in how they respond to the same environmental change. Some populations of a species might decline under warming while others hold steady or even increase; some species in a food web might be highly sensitive to a drought while their competitors barely notice. That variation matters a great deal for prediction: it's a big part of why ecosystem functions and services can keep being delivered even as conditions shift, since a disturbance rarely affects every species, or every population, in the same way at the same time.
+
+For a group whose motivating question is how well we can forecast ecological dynamics, response diversity is central rather than a side interest. If we want to predict how a community or ecosystem will respond to change, we need to know not just the average response, but how that response is distributed across the species, populations, and individuals that make it up — and why some parts of the system are more resistant, or more resilient, than others.
+
+This is an active and fast-moving area: a recent synthesis sets out [expert-led priorities for a response diversity research agenda in ecology](https://www.biorxiv.org/content/10.1101/2025.09.17.676972v1.full), and other recent work looks at how species interactions shape [when response diversity actually protects community stability](https://pmc.ncbi.nlm.nih.gov/articles/PMC12755191/) against pulse disturbances. The group contributes to this effort through the [ReDiLEEP doctoral network](../../organising/2026-09-05-redileep/index.qmd) and the [Response Diversity Network](../../organising/2026-09-05-response-diversity-network/index.qmd) — both about turning response diversity from a useful idea into something measurable, comparable across systems, and genuinely useful for conservation, restoration, and policy.
