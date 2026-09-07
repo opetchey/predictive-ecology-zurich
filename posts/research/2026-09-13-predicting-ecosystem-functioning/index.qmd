@@ -1,0 +1,13 @@
+---
+title: "Predicting ecosystem functioning: functional diversity"
+author: "Owen Petchey"
+date: 2026-09-13
+categories: [research, ecosystem functioning, functional diversity]
+image: cover.jpg
+---
+
+Two communities with the same number of species can function very differently, because what matters for processes like productivity, decomposition, or nutrient cycling is often less how many species are present than what those species actually do. Functional diversity (FD) is an attempt to measure that directly: the diversity of species' functional traits, rather than just a species count.
+
+Petchey & Gaston proposed an FD index based on the branch lengths of a functional dendrogram built from species' trait data — a general, taxon-independent way to quantify functional diversity that doesn't require picking out any one trait as *the* important one in advance. The approach, and the broader case for why ecosystem functioning needs to be linked to trait diversity rather than species richness alone, is set out in [Petchey & Gaston (2002), "Functional diversity (FD), species richness and community composition"](https://onlinelibrary.wiley.com/doi/abs/10.1046/j.1461-0248.2002.00339.x) and revisited in their later review, [Petchey & Gaston (2006), "Functional diversity: back to basics and looking forward"](https://www.researchgate.net/publication/7074563_Petchey_OL_Gaston_KJ_Functional_diversity_back_to_basics_and_looking_forward_Ecol_Lett_9_741-758).
+
+This work underpins the group's [FD code and instructions](../2019-03-04-calculating-fd/index.qmd) — the practical side of taking a trait matrix and turning it into a number that's meant to predict something about how an ecosystem functions.

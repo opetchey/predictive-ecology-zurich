@@ -1,0 +1,13 @@
+---
+title: "Video microscopy and computer vision"
+author: "Owen Petchey"
+date: 2026-09-10
+categories: [research, methods, video tracking, R]
+image: cover.jpg
+---
+
+A microscope video of a protist microcosm contains far more information than a human observer can practically extract by eye: not just how many individuals of each species are present, but their body sizes, shapes, and how they're moving — all changing from one sampling point to the next. Getting that information out of raw video, reliably and at scale, needs computer vision rather than manual counting.
+
+BEMOVI (BEhaviour and MOrphology from VIdeos) is an open-source video-analysis pipeline built for exactly this: it identifies individual organisms in each video frame, links them into trajectories across frames, and extracts per-individual measurements of body size, shape, and movement, alongside population-level metrics like density and size distributions. It was introduced in [Pennekamp, Schtickzelle & Petchey (2015), "BEMOVI, software for extracting behavior and morphology from videos, illustrated with analyses of microbes"](https://onlinelibrary.wiley.com/doi/10.1002/ece3.1529), and is [available on GitHub](https://github.com/efronhofer/bemovi) and at [bemovi.info](http://bemovi.info/).
+
+This is what turns [experimental microbial ecology](../2026-09-11-experimental-microbial-ecology/index.qmd) from a source of jars and test tubes into a source of quantitative, repeated-measures data — the same kind of automated, non-invasive measurement that experiments testing ecological forecasts depend on.

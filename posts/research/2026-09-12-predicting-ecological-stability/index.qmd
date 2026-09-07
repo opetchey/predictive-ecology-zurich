@@ -1,0 +1,13 @@
+---
+title: "Predicting ecological stability: response diversity and food web structure"
+author: "Owen Petchey"
+date: 2026-09-12
+categories: [research, ecological stability, response diversity, food webs]
+image: cover.jpg
+---
+
+Whether an ecological community stays stable in the face of a changing environment depends on at least two things: how the species in it are connected, and how differently they respond to the change in the first place. The group's work on stability sits at the join of these two threads — [food web structure](../2019-03-04-food-webs-history/index.qmd) and [response diversity](../2026-09-05-response-diversity/index.qmd) — rather than treating them separately.
+
+A food web's structure (who eats whom, how strongly, and how those interactions are arranged) shapes how a disturbance to one species propagates to the rest of the community — whether an effect dampens out or cascades. Response diversity — variation in how species, populations, or individuals respond to the same environmental change — shapes whether a disturbance affects everyone at once or only part of the system. Neither is the whole story on its own: a well-connected food web full of species that all respond identically can still collapse together, and high response diversity among species that barely interact may not translate into whole-community stability.
+
+Bringing these together is central to the group's aim of actually predicting stability, rather than just describing it after the fact — asking not just *is* a community stable, but *why*, and *for how long*, given what we know about its structure and its species' responses.

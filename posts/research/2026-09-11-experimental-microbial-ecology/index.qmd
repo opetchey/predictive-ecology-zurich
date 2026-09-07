@@ -1,0 +1,13 @@
+---
+title: "Experimental microbial ecology"
+author: "Owen Petchey"
+date: 2026-09-11
+categories: [research, microbial ecology, protist microcosms]
+image: cover.jpg
+---
+
+Testing ecological theory properly needs replicated experiments, manipulated conditions, and — ideally — enough generations to see population and community dynamics actually play out. That's rarely possible with the plants and animals ecology is usually about, but it's exactly what protist microcosms offer: aquatic communities of ciliates and other protists, cultured in small volumes (test tubes, multiwell plates), with generation times of hours to days rather than years.
+
+That combination — fast dynamics, easy replication, and manipulable diversity, temperature, resources, and disturbance regimes — makes protist microcosms a tractable model system for asking questions that are otherwise nearly impossible to test experimentally: how diversity affects stability and functioning, how populations respond to environmental change, and how well different models forecast what a community will do next. The group has contributed to the methodological groundwork for this approach, set out in [Altermatt et al. (2015), "Big answers from small worlds: a user's guide for protist microcosms as a model system in ecology and evolution"](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12312).
+
+Measuring these microcosms in enough detail to be useful is its own challenge, which is where the group's [video microscopy and computer vision](../2026-09-10-video-microscopy-computer-vision/index.qmd) work comes in.

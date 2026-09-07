@@ -1,0 +1,13 @@
+---
+title: "Mathematical modelling"
+author: "Owen Petchey"
+date: 2026-09-09
+categories: [research, mathematical modelling]
+image: cover.jpg
+---
+
+Underneath the group's empirical and experimental work is a consistent commitment to mathematical models — not as an end in themselves, but as the way ecological ideas get turned into predictions that can actually be tested and be wrong.
+
+The [allometric diet breadth model](../2026-09-14-predicting-food-webs-adbm/index.qmd) is a model of food web structure built from body-size scaling relationships. The [functional diversity](../2026-09-13-predicting-ecosystem-functioning/index.qmd) index is a model for turning trait data into a single, comparable number. Work on [response diversity and stability](../2026-09-12-predicting-ecological-stability/index.qmd) draws on population and community dynamics models to ask what determines whether a community holds together under change. In each case, the mathematics is what lets a verbal hypothesis be stated precisely enough to generate a testable, quantitative prediction — and what lets that prediction be checked against data from food webs, trait measurements, or the [protist microcosm experiments](../2026-09-11-experimental-microbial-ecology/index.qmd) the group runs.
+
+This is really the connective tissue of the group's research: whatever the system or method, the aim is always a model precise enough to predict something, and data good enough to tell whether it worked.
