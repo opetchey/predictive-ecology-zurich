@@ -18,6 +18,13 @@ listing:
 courses taught, supervision approach, any training materials or workshops
 the group runs or contributes to.)*
 
+Education work includes:
+
+- [Data Analysis in Biology](https://opetchey.github.io/BIO144_Course_Book/){target="_blank"} at UZH
+- Biodiversity Assessment and Monitoring Field Course
+- [Getting Started with R: An Introduction for Biologists](https://global.oup.com/academic/product/getting-started-with-r-9780198787846){target="_blank"}
+- [Insights from Data with R: An Introduction for the Life and Environmental Sciences](https://global.oup.com/academic/product/insights-from-data-with-r-9780198849827){target="_blank"}
+
 Tag a post `archive` (alongside `education`) to retire it from this feed
 without deleting it — it stays visible on the [All posts](posts.qmd) page.
 :::

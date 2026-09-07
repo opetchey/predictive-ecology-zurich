@@ -18,6 +18,11 @@ listing:
 convened, special sessions or symposia organised, editorial roles, and
 similar community service.)*
 
+The group is also involved in the organising activities of the
+[Response Diversity Network](https://responsediversitynetwork.github.io/RDN-website/){target="_blank"},
+the [European Chapter of the Ecological Forecasting Initiative](https://euro-ecoforecast.wordpress.com/){target="_blank"},
+and the [World Biodiversity Forum](https://worldbiodiversityforum.org/){target="_blank"}.
+
 Tag a post `archive` (alongside `organising`) to retire it from this feed
 without deleting it — it stays visible on the [All posts](posts.qmd) page.
 :::

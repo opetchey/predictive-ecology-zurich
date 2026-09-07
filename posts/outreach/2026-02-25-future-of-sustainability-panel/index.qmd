@@ -1,0 +1,11 @@
+---
+title: "Panel moderation: Future of Sustainability"
+author: "Owen Petchey"
+date: 2026-02-25
+categories: [outreach, panel discussion]
+image: cover.jpg
+---
+
+On 25 February 2026, Owen moderated a discussion panel on the Future of Sustainability at the University of Zurich.
+
+*(Add the panelists, the discussion's focus, and how it went.)*

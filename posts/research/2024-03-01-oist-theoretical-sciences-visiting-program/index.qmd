@@ -1,0 +1,13 @@
+---
+title: "Visiting Fellow at OIST's Theoretical Sciences Visiting Program"
+author: "Owen Petchey"
+date: 2024-03-01
+categories: [research, visiting fellowship]
+image: cover.jpg
+---
+
+From 1 to 30 March 2024, Owen was a Visiting Fellow in the [Theoretical Sciences Visiting Program (TSVP)](https://www.oist.jp/visiting-program){target="_blank"} at the [Okinawa Institute of Science and Technology (OIST)](https://www.oist.jp/){target="_blank"}, Japan.
+
+TSVP brings researchers from across disciplines to OIST for extended visits, intensifying collaborations within OIST's interdisciplinary research environment — a chance to work alongside theoreticians outside ecology and bring some of that thinking back to the group's own predictive work.
+
+*(Add who Owen worked with at OIST and what came out of the visit.)*

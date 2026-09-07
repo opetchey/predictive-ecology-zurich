@@ -10,4 +10,10 @@ image: owen.jpg
 Owen leads the group's work on ecological forecasting — understanding food
 webs and ecological communities well enough to predict how they change.
 
+## Organising roles
+
+- [Response Diversity Network](https://responsediversitynetwork.github.io/RDN-website/){target="_blank"} — Co-founder (with Sam Ross), Steering Committee member, Leadership Team Chair
+- [European Chapter of the Ecological Forecasting Initiative](https://euro-ecoforecast.wordpress.com/){target="_blank"} — Founding member, Steering Committee member
+- [World Biodiversity Forum](https://worldbiodiversityforum.org/){target="_blank"} — Scientific Steering Committee member, Co-founder (with Bernhard Schmid and Michael Schaepman)
+
 [Personal page →](https://www.google.com/search?q=owen+petchey+uzh){target="_blank"}

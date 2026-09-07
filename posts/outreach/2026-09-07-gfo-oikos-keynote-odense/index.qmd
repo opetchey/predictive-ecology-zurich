@@ -1,0 +1,11 @@
+---
+title: "Keynote at the joint GfÖ/Oikos meeting, Odense"
+author: "Owen Petchey"
+date: 2026-09-07
+categories: [outreach, keynote]
+image: cover.jpg
+---
+
+Owen gave a keynote talk at the joint annual meeting of the [German Ecological Society (GfÖ)](https://gfoe.org/en/){target="_blank"} and the [Nordic Society Oikos](https://www.nordicsocietyoikos.org/news/nordic-oikos-2026){target="_blank"}, held in Odense, Denmark, on 7 September 2026.
+
+*(Add the talk's title and a sentence or two on what it covered.)*

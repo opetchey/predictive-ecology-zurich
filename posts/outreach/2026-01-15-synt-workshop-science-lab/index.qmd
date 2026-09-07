@@ -2,7 +2,7 @@
 title: "SYNT workshop at the UZH Science Lab"
 author: "Owen Petchey"
 date: 2026-01-15
-categories: [outreach, public engagement]
+categories: [outreach, public engagement, judging]
 image: cover.jpg
 ---
 
@@ -10,4 +10,6 @@ In January, Owen hosted the SYNT workshop at the [UZH Science Lab](https://www.s
 
 The Science Lab's format is built around doing rather than just listening: participants work through activities and experiments pitched at their class level, across subjects from biology and chemistry to physics, sustainability, and digitalisation. Hosting a workshop there is a chance to bring the group's own thinking — about ecological forecasting, food webs, and how ecosystems respond to change — to an audience well outside the usual academic seminar room.
 
-*(Add who the workshop was for, what it covered, and how it went.)*
+Alongside hosting the workshop, Owen also judged as part of SYNT 2026.
+
+*(Add who the workshop was for, what it covered, how it went, and what the judging involved.)*
