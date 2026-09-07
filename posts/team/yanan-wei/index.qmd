@@ -5,11 +5,12 @@ categories: [team, phd-student, visiting]
 image: cover.jpg
 ---
 
+![](yanan-portrait.jpg){.float-end width="300"}
+
 Yanan Wei joined the group on 1 September 2026 as a visiting PhD student from the [School of Life Sciences](https://njunju.nju.edu.cn/EN/7f/76/c7136a163702/page.htm){target="_blank"}, Nanjing University, for a two-year stay funded by the [China Scholarship Council](https://www.chinesescholarshipcouncil.com){target="_blank"}.
 
 Yanan works on biodiversity–ecosystem functioning and stability, with a particular focus on how species loss, functional traits, soil biota, and multitrophic interactions shape ecosystem processes. His current work is based around a long-term species-removal experiment in an alpine meadow on the Tibetan Plateau, looking at the consequences of losing functional groups, dominant species, common species, and rare species.
 
 His project connects closely with several things we care about in the group: response diversity, ecological stability, species interactions, and how field data can be linked with experimental and modelling approaches. We look forward to a great two years — a very warm welcome to Yanan!
 
-Yanan has already published during his PhD... his paper in *Functional Ecology* asks whether soil pH itself matters for ecosystem multifunctionality — the ability of an ecosystem to simultaneously sustain multiple functions and services — rather than acting only indirectly through the other drivers usually studied. Using an empirical test in a semi-arid grassland, it looks at pH alongside plant, microbial, and abiotic variables to work out how directly it shapes multifunctionality, a question that matters for grasslands generally, where soils span a wide pH range. (Wei, Y., Jing, X., Su, F., Li, Z., Wang, F. & Guo, H. (2022). Does pH matter for ecosystem multifunctionality? An empirical test in a semi‐arid grassland on the Loess Plateau. *Functional Ecology*, 36, 1739–1753.)
-
+Yanan has already published during his PhD... his paper in *Functional Ecology* asks whether soil pH itself matters for ecosystem multifunctionality — the ability of an ecosystem to simultaneously sustain multiple functions and services — rather than acting only indirectly through the other drivers usually studied. Using an empirical test in a semi-arid grassland, it looks at pH alongside plant, microbial, and abiotic variables to work out how directly it shapes multifunctionality, a question that matters for grasslands generally, where soils span a wide pH range. ([Wei, Y., Jing, X., Su, F., Li, Z., Wang, F. & Guo, H. (2022). Does pH matter for ecosystem multifunctionality? An empirical test in a semi‐arid grassland on the Loess Plateau. *Functional Ecology*, 36, 1739–1753.](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2745.70013){target="_blank"})

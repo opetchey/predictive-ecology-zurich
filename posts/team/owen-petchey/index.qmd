@@ -5,6 +5,8 @@ categories: [team, group-leader]
 image: owen.jpg
 ---
 
+![](owen.jpg){.float-end width="300"}
+
 Owen leads the group's work on ecological forecasting — understanding food
 webs and ecological communities well enough to predict how they change.
 
