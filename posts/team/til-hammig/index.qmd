@@ -1,0 +1,10 @@
+---
+title: "Til Hämmig"
+date: 2026-09-18
+categories: [team, phd-student]
+image: cover.jpg
+---
+
+Til Hämmig is a PhD student in the group.
+
+*(Add a sentence or two about Til's research project here.)*

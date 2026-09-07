@@ -1,0 +1,8 @@
+---
+title: "Jeannine Roy"
+date: 2026-09-17
+categories: [team, lab-manager, technician]
+image: cover.jpg
+---
+
+Jeannine Roy is the group's lab manager and technician, keeping the lab and fieldwork running.

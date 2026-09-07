@@ -32,6 +32,8 @@ here. For the full, up-to-date roster, see the
 
 Past members of the group, and where they went next:
 
+- [**Lina Hasenfratz**](posts/team/lina-hasenfratz/index.qmd) — Bachelor's thesis, 2025–2026
+- [**Paula Stöckli**](posts/team/paula-stockli/index.qmd) — Bachelor's thesis, 2025–2026
 - **Chris Clements** — PhD 2011–2014
 - **Aurélie Garnier** — PhD 2014–2018; postdoc in Hamburg on spatio-temporal food web dynamics in the Baltic Sea
 - **Gian Marco Palamara** — PhD student & postdoc

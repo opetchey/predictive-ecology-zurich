@@ -1,0 +1,10 @@
+---
+title: "Francesco Polazzo"
+date: 2026-09-20
+categories: [team, postdoc]
+image: cover.jpg
+---
+
+Francesco Polazzo is a postdoc in the group.
+
+*(Add a sentence or two about Francesco's research focus here.)*

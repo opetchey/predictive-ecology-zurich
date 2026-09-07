@@ -1,0 +1,8 @@
+---
+title: "Lia Moana De Turris"
+date: 2026-09-08
+categories: [team, technician, apprentice]
+image: cover.jpg
+---
+
+Lia Moana De Turris is a technician apprentice with the group.

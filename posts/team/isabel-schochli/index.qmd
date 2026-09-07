@@ -1,0 +1,8 @@
+---
+title: "Isabel Schöchli"
+date: 2026-09-11
+categories: [team, administration]
+image: cover.jpg
+---
+
+Isabel Schöchli handles HR administration for the group.

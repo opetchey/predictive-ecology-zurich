@@ -1,0 +1,10 @@
+---
+title: "Maura Ganz"
+date: 2026-09-09
+categories: [team, postdoc]
+image: cover.jpg
+---
+
+Maura Ganz is a postdoctoral researcher in the group.
+
+*(Add a sentence or two about Maura's research focus here.)*

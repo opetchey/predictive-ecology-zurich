@@ -1,0 +1,8 @@
+---
+title: "Maja Weilenmann"
+date: 2026-09-10
+categories: [team, administration]
+image: cover.jpg
+---
+
+Maja Weilenmann handles group administration.

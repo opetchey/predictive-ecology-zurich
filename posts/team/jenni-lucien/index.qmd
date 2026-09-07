@@ -1,0 +1,10 @@
+---
+title: "Jenni Lucien"
+date: 2026-09-15
+categories: [team, bsc-student]
+image: cover.jpg
+---
+
+Jenni Lucien is completing a Bachelor's thesis with the group.
+
+*(Add a sentence about Jenni's thesis topic here.)*

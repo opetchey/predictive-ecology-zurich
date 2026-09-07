@@ -1,0 +1,10 @@
+---
+title: "Noé Bugaud"
+date: 2026-09-12
+categories: [team, msc-student, archive]
+image: cover.jpg
+---
+
+*(Draft — not yet public. Remove the `archive` tag from the front matter once Noé actually starts.)*
+
+Noé Bugaud will join the group as a Master's student in 2027.

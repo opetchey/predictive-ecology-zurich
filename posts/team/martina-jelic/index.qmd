@@ -1,0 +1,10 @@
+---
+title: "Martina Jelić"
+date: 2026-09-19
+categories: [team, phd-student]
+image: cover.jpg
+---
+
+Martina Jelić is a PhD student in the group.
+
+*(Add a sentence or two about Martina's research project here.)*
