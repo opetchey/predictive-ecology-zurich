@@ -5,4 +5,6 @@ categories: [team, administration]
 image: cover.jpg
 ---
 
+![](cover.jpg){.float-end width="300"}
+
 Maja Weilenmann handles group administration.

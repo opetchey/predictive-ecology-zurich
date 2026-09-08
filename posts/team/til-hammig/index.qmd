@@ -5,6 +5,8 @@ categories: [team, phd-student]
 image: cover.jpg
 ---
 
+![](cover.jpg){.float-end width="300"}
+
 Til Hämmig is a PhD student in the group.
 
 *(Add a sentence or two about Til's research project here.)*
