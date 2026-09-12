@@ -19,8 +19,6 @@ A sustained body of work involving Owen Petchey, Andrew Beckerman and Phil Warre
 
 Those ideas eventually produced the Allometric Diet Breadth Model (ADBM)—a mechanistic model linking body size, optimal foraging and the architecture of entire food webs. The resulting research programme has subsequently expanded to questions about extinction, climate warming, uncertainty and the amount of empirical information we actually need to reconstruct a food web.
 
-![A food web depicted as an interaction matrix: each dot marks a species pair in which the row species consumes the column species.](food-web-matrix.png){fig-align="center" width="350"}
-
 ## The first problem: why are food webs as connected as they are?
 
 One of the fundamental properties of a food web is its connectance: the fraction of all possible feeding links that actually occur. A community could, in principle, contain an enormous number of predator–prey interactions. Real communities contain only a subset.
