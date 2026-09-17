@@ -6,86 +6,10 @@
       version="2.0">
 <channel>
 <title>Predictive Ecology Group</title>
-<link>https://predictiveecologyzurich.org/education.html</link>
-<atom:link href="https://predictiveecologyzurich.org/education.xml" rel="self" type="application/rss+xml"/>
+<link>https://predictive-ecology-zurich.org/education.html</link>
+<atom:link href="https://predictive-ecology-zurich.org/education.xml" rel="self" type="application/rss+xml"/>
 <description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sun, 09 Sep 2018 00:00:00 GMT</lastBuildDate>
-<item>
-  <title>Getting Started with R: what readers and course participants say</title>
-  <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/education/2019-09-09-getting-started-with-r-testimonials/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://predictiveecologyzurich.org/posts/education/2019-09-09-getting-started-with-r-testimonials/first-ed-cover.jpg" class="img-fluid figure-img" width="300"></p>
-<figcaption>First edition</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://predictiveecologyzurich.org/posts/education/2019-09-09-getting-started-with-r-testimonials/second-ed-cover.png" class="img-fluid figure-img" width="300"></p>
-<figcaption>Second edition</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<p><strong>From the <a href="http://www.sciencedirect.com/science/article/pii/S0169534712001590">review of the book in Trends in Ecology and Evolution</a>, by Graeme D. Ruxton, University of St Andrews:</strong></p>
-<ul>
-<li>“The book would make the ideal text for a short course on data management and presentation — it truly packs an amazing amount of wisdom and wit between slim covers.”</li>
-<li>“This command-line interface is part of what makes R wonderful, but also what can make it intimidating to get started on. Blowing away any feeling of intimidation is what this book is about.”</li>
-<li>“A final strength of this book is that it does not try to do too much; its aim is to get you comfortable with R, not to teach you new statistical methodologies.”</li>
-</ul>
-<p><strong>Vi Nguyen (Graduate Student):</strong></p>
-<blockquote class="blockquote">
-<p>I’ve honestly got to say that it has been extremely helpful in my reacquaintance with R! I found the conversational and colloquial tone of the manuscript very effective in getting points across to the inexperienced R user (i.e.&nbsp;me). In the past, referring to other R textbooks has left me feeling even more bewildered and confused than I originally was, as they all seem to assume that the inexperienced reader already knows everything there is to know about R, whereas your manuscript explains everything simply from the start.</p>
-<p>The explanations of <em>why</em> certain commands and steps were done in R were a novel touch — I don’t remember any other R textbook explaining why they’d done certain things.</p>
-<p>I felt like I had constant help and guidance throughout the whole book, rather than being left alone to figure things out.</p>
-</blockquote>
-<p><strong>Three anonymous reviewers:</strong></p>
-<ul>
-<li>“I agree absolutely with the authors’ claim that most people want to learn R, and are put off by the steepness of the learning curve. A book that could help people up that curve would be very popular.”</li>
-<li>“The book is timely and relevant to a large number of courses being taught.”</li>
-<li>“The way that the book is set up is good from the perspective of the things you are probably going to be doing in R… R is very task-oriented.”</li>
-</ul>
-<p><strong>Department of Biology, McGill University, Montreal (20–22 April 2009):</strong></p>
-<ul>
-<li>“I thought the course was excellent and wish I’d started using R five years ago. Thank you!”</li>
-<li>“Very, very helpful. Saved me about a year of my PhD!”</li>
-</ul>
-<p><strong>Andy Hector, Zurich University:</strong></p>
-<blockquote class="blockquote">
-<p>A brilliant demonstration of what multivariate methods are good for and how to implement them in R.</p>
-</blockquote>
-<p><strong>Durham Anthropology and Biology (10–12 March 2008):</strong></p>
-<blockquote class="blockquote">
-<p>This is the best course I’ve been on in the last five years.</p>
-</blockquote>
-<p><strong>Marco Batalha, Federal University of São Carlos, Brazil (12th Nov 2008):</strong></p>
-<blockquote class="blockquote">
-<p>Foi uma grande oportunidade para alunos e professores poderem assistir a esse curso no Brasil. Sua filosofia permite que alguém aprenda o R de maneira intuitiva e perceba as suas muitas poderosas ferramentas. O curso permite que alguém tenha uma transição suave de programas estatísticos orientados por menus para o R.</p>
-</blockquote>
-
-
-
- ]]></description>
-  <category>education</category>
-  <category>R</category>
-  <category>teaching</category>
-  <guid>https://predictiveecologyzurich.org/posts/education/2019-09-09-getting-started-with-r-testimonials/</guid>
-  <pubDate>Sun, 09 Sep 2018 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/education/2019-09-09-getting-started-with-r-testimonials/first-ed-cover.jpg" medium="image" type="image/jpeg"/>
-</item>
+<lastBuildDate>Thu, 17 Sep 2026 15:59:35 GMT</lastBuildDate>
 </channel>
 </rss>

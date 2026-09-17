@@ -21,14 +21,12 @@
     "listing": "/research.html",
     "items": [
       "/posts/research/2026-09-17-from-streams-to-forests/index.html",
-      "/posts/research/2026-09-14-predicting-food-webs-adbm/index.html",
       "/posts/research/2026-09-13-predicting-ecosystem-functioning/index.html",
       "/posts/research/2026-09-12-predicting-ecological-stability/index.html",
       "/posts/research/2026-09-11-experimental-microbial-ecology/index.html",
       "/posts/research/2026-09-10-video-microscopy-computer-vision/index.html",
       "/posts/research/2026-09-09-mathematical-modelling/index.html",
-      "/posts/research/2026-09-05-response-diversity/index.html",
-      "/posts/research/2024-03-01-oist-theoretical-sciences-visiting-program/index.html",
+      "/posts/research/2026-09-05-ecological-forecasting/index.html",
       "/posts/research/2019-03-04-calculating-fd/index.html",
       "/posts/research/2019-03-04-food-web-tools/index.html"
     ]
@@ -45,7 +43,6 @@
       "/posts/team/jeannine-roy/index.html",
       "/posts/team/sara-galizia/index.html",
       "/posts/team/jenni-lucien/index.html",
-      "/posts/research/2026-09-14-predicting-food-webs-adbm/index.html",
       "/posts/team/lina-hasenfratz/index.html",
       "/posts/research/2026-09-13-predicting-ecosystem-functioning/index.html",
       "/posts/team/paula-stockli/index.html",
@@ -60,19 +57,18 @@
       "/posts/team/lia-moana-de-turris/index.html",
       "/posts/team/yanan-wei/index.html",
       "/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/index.html",
-      "/posts/research/2026-09-05-response-diversity/index.html",
+      "/posts/research/2026-09-05-ecological-forecasting/index.html",
       "/posts/team/owen-petchey/index.html",
       "/posts/organising/2026-09-05-response-diversity-network/index.html",
       "/posts/organising/2026-09-05-redileep/index.html",
       "/posts/team/2026-09-05-example-team-member/index.html",
-      "/posts/outreach/2026-09-04-example-outreach-post/index.html",
       "/posts/outreach/2026-04-17-biodiversity-leadership-breakout/index.html",
       "/posts/outreach/2026-02-25-future-of-sustainability-panel/index.html",
       "/posts/outreach/2026-01-15-synt-workshop-science-lab/index.html",
       "/posts/misc/2025-07-16-public-critique-or-private-conversation/index.html",
       "/posts/misc/2025-06-27-ai-tips-and-tricks/index.html",
       "/posts/outreach/2024-06-21-una-europa-one-health-panel/index.html",
-      "/posts/research/2024-03-01-oist-theoretical-sciences-visiting-program/index.html",
+      "/posts/organising/2024-03-01-oist-theoretical-sciences-visiting-program/index.html",
       "/posts/misc/2019-10-17-for-your-interest/index.html",
       "/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/index.html",
       "/posts/organising/2019-03-13-valuing-contributions-in-teams/index.html",
@@ -89,9 +85,7 @@
   },
   {
     "listing": "/education.html",
-    "items": [
-      "/posts/education/2019-09-09-getting-started-with-r-testimonials/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/misc.html",
@@ -109,7 +103,6 @@
     "listing": "/outreach.html",
     "items": [
       "/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/index.html",
-      "/posts/outreach/2026-09-04-example-outreach-post/index.html",
       "/posts/outreach/2026-04-17-biodiversity-leadership-breakout/index.html",
       "/posts/outreach/2026-02-25-future-of-sustainability-panel/index.html",
       "/posts/outreach/2026-01-15-synt-workshop-science-lab/index.html",

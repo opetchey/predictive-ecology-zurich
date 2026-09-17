@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Predictive Ecology Group</title>
-<link>https://predictiveecologyzurich.org/organising.html</link>
-<atom:link href="https://predictiveecologyzurich.org/organising.xml" rel="self" type="application/rss+xml"/>
+<link>https://predictive-ecology-zurich.org/organising.html</link>
+<atom:link href="https://predictive-ecology-zurich.org/organising.xml" rel="self" type="application/rss+xml"/>
 <description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Sat, 05 Sep 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>ReDiLEEP: a doctoral network on response diversity</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/organising/2026-09-05-redileep/</link>
+  <link>https://predictive-ecology-zurich.org/posts/organising/2026-09-05-redileep/</link>
   <description><![CDATA[ 
 
 
@@ -38,14 +38,14 @@
   <category>organising</category>
   <category>response diversity</category>
   <category>funding</category>
-  <guid>https://predictiveecologyzurich.org/posts/organising/2026-09-05-redileep/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/organising/2026-09-05-redileep/</guid>
   <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/organising/2026-09-05-redileep/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/organising/2026-09-05-redileep/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>The Response Diversity Network</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/organising/2026-09-05-response-diversity-network/</link>
+  <link>https://predictive-ecology-zurich.org/posts/organising/2026-09-05-response-diversity-network/</link>
   <description><![CDATA[ 
 
 
@@ -63,14 +63,14 @@
   <category>organising</category>
   <category>response diversity</category>
   <category>community</category>
-  <guid>https://predictiveecologyzurich.org/posts/organising/2026-09-05-response-diversity-network/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/organising/2026-09-05-response-diversity-network/</guid>
   <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/organising/2026-09-05-response-diversity-network/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/organising/2026-09-05-response-diversity-network/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Demonstrating added-value of integrative research</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/</link>
+  <link>https://predictive-ecology-zurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/</link>
   <description><![CDATA[ 
 
 
@@ -82,14 +82,14 @@
 <p>The example involves the corpus of publications arising from the <a href="https://www.gcb.uzh.ch/en.html">University of Zurich Research Priority Programme in Global Change and Biodiversity (URPP GCB)</a>. The reference corpus is from related research fields at the University of Zurich over a similar time period (exact specification in the details section below).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://predictiveecologyzurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/coauthor-network.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://predictive-ecology-zurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/coauthor-network.jpg" class="img-fluid figure-img"></p>
 <figcaption>The network of co-authors in the URPP GCB corpus.</figcaption>
 </figure>
 </div>
 <p>This figure shows the tightly connected co-authorship network of 20 of the researchers in the URPP GCB — a great deal of integration in terms of collaboration. The number of co-authors per article in the URPP GCB corpus is about 20% greater than in the reference corpus, though only by around one author on average, and articles are cited about 30% more often (figure below).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://predictiveecologyzurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/corpus-comparison.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://predictive-ecology-zurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/corpus-comparison.jpg" class="img-fluid figure-img"></p>
 <figcaption>Comparison of number of authors per article and number of times articles are cited, between the reference corpus and the focal (URPP GCB) corpus. Mean ± one standard error.</figcaption>
 </figure>
 </div>
@@ -633,14 +633,14 @@ font-style: inherit;">plot_grid</span>(p2, p1)</span></code></pre></div>
   <category>organising</category>
   <category>bibliometrics</category>
   <category>R</category>
-  <guid>https://predictiveecologyzurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/</guid>
   <pubDate>Thu, 14 Mar 2019 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/coauthor-network.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/coauthor-network.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>A tool for valuing contributions in teams</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/organising/2019-03-13-valuing-contributions-in-teams/</link>
+  <link>https://predictive-ecology-zurich.org/posts/organising/2019-03-13-valuing-contributions-in-teams/</link>
   <description><![CDATA[ 
 
 
@@ -683,14 +683,14 @@ font-style: inherit;">plot_grid</span>(p2, p1)</span></code></pre></div>
  ]]></description>
   <category>organising</category>
   <category>team culture</category>
-  <guid>https://predictiveecologyzurich.org/posts/organising/2019-03-13-valuing-contributions-in-teams/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/organising/2019-03-13-valuing-contributions-in-teams/</guid>
   <pubDate>Wed, 13 Mar 2019 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/organising/2019-03-13-valuing-contributions-in-teams/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/organising/2019-03-13-valuing-contributions-in-teams/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>IEU photo exhibition</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/organising/2014-11-13-ieu-photo-exhibition/</link>
+  <link>https://predictive-ecology-zurich.org/posts/organising/2014-11-13-ieu-photo-exhibition/</link>
   <description><![CDATA[ 
 
 
@@ -709,9 +709,9 @@ font-style: inherit;">plot_grid</span>(p2, p1)</span></code></pre></div>
  ]]></description>
   <category>organising</category>
   <category>community</category>
-  <guid>https://predictiveecologyzurich.org/posts/organising/2014-11-13-ieu-photo-exhibition/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/organising/2014-11-13-ieu-photo-exhibition/</guid>
   <pubDate>Thu, 13 Nov 2014 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/organising/2014-11-13-ieu-photo-exhibition/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/organising/2014-11-13-ieu-photo-exhibition/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

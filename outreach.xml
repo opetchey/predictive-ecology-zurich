@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Predictive Ecology Group</title>
-<link>https://predictiveecologyzurich.org/outreach.html</link>
-<atom:link href="https://predictiveecologyzurich.org/outreach.xml" rel="self" type="application/rss+xml"/>
+<link>https://predictive-ecology-zurich.org/outreach.html</link>
+<atom:link href="https://predictive-ecology-zurich.org/outreach.xml" rel="self" type="application/rss+xml"/>
 <description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Mon, 07 Sep 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Keynote at the joint GfÖ/Oikos meeting, Odense</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/</link>
+  <link>https://predictive-ecology-zurich.org/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/</link>
   <description><![CDATA[ 
 
 
@@ -29,35 +29,14 @@
  ]]></description>
   <category>outreach</category>
   <category>keynote</category>
-  <guid>https://predictiveecologyzurich.org/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/</guid>
   <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Example outreach post</title>
-  <dc:creator>Predictive Ecology Group</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/outreach/2026-09-04-example-outreach-post/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><em>(This is a placeholder post. Replace with real content — e.g.&nbsp;a recap of a public talk, a science communication piece, or a school visit — or delete once real posts exist.)</em></p>
-<p>Posts in this <code>outreach</code> folder appear automatically on the <a href="../../../outreach.html">Outreach</a> page, because their folder is <code>posts/outreach/</code> and their <code>categories:</code> field starts with <code>outreach</code>, the controlled tag for this page.</p>
-
-
-
- ]]></description>
-  <category>outreach</category>
-  <guid>https://predictiveecologyzurich.org/posts/outreach/2026-09-04-example-outreach-post/</guid>
-  <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2026-09-04-example-outreach-post/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Leading a breakout session at the Second UZH Biodiversity Roundtable</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/outreach/2026-04-17-biodiversity-leadership-breakout/</link>
+  <link>https://predictive-ecology-zurich.org/posts/outreach/2026-04-17-biodiversity-leadership-breakout/</link>
   <description><![CDATA[ 
 
 
@@ -74,14 +53,14 @@
  ]]></description>
   <category>outreach</category>
   <category>leadership</category>
-  <guid>https://predictiveecologyzurich.org/posts/outreach/2026-04-17-biodiversity-leadership-breakout/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/outreach/2026-04-17-biodiversity-leadership-breakout/</guid>
   <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2026-04-17-biodiversity-leadership-breakout/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/outreach/2026-04-17-biodiversity-leadership-breakout/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Panel moderation: Future of Sustainability</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/outreach/2026-02-25-future-of-sustainability-panel/</link>
+  <link>https://predictive-ecology-zurich.org/posts/outreach/2026-02-25-future-of-sustainability-panel/</link>
   <description><![CDATA[ 
 
 
@@ -97,14 +76,14 @@
  ]]></description>
   <category>outreach</category>
   <category>panel discussion</category>
-  <guid>https://predictiveecologyzurich.org/posts/outreach/2026-02-25-future-of-sustainability-panel/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/outreach/2026-02-25-future-of-sustainability-panel/</guid>
   <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2026-02-25-future-of-sustainability-panel/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/outreach/2026-02-25-future-of-sustainability-panel/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>SYNT workshop at the UZH Science Lab</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/outreach/2026-01-15-synt-workshop-science-lab/</link>
+  <link>https://predictive-ecology-zurich.org/posts/outreach/2026-01-15-synt-workshop-science-lab/</link>
   <description><![CDATA[ 
 
 
@@ -122,14 +101,14 @@
   <category>outreach</category>
   <category>public engagement</category>
   <category>judging</category>
-  <guid>https://predictiveecologyzurich.org/posts/outreach/2026-01-15-synt-workshop-science-lab/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/outreach/2026-01-15-synt-workshop-science-lab/</guid>
   <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2026-01-15-synt-workshop-science-lab/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/outreach/2026-01-15-synt-workshop-science-lab/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Panelist: Building Resilience Through One Health</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/outreach/2024-06-21-una-europa-one-health-panel/</link>
+  <link>https://predictive-ecology-zurich.org/posts/outreach/2024-06-21-una-europa-one-health-panel/</link>
   <description><![CDATA[ 
 
 
@@ -144,9 +123,9 @@
  ]]></description>
   <category>outreach</category>
   <category>panel discussion</category>
-  <guid>https://predictiveecologyzurich.org/posts/outreach/2024-06-21-una-europa-one-health-panel/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/outreach/2024-06-21-una-europa-one-health-panel/</guid>
   <pubDate>Thu, 20 Jun 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2024-06-21-una-europa-one-health-panel/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/outreach/2024-06-21-una-europa-one-health-panel/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

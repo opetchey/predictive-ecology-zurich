@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Predictive Ecology Group</title>
-<link>https://predictiveecologyzurich.org/research.html</link>
-<atom:link href="https://predictiveecologyzurich.org/research.xml" rel="self" type="application/rss+xml"/>
+<link>https://predictive-ecology-zurich.org/research.html</link>
+<atom:link href="https://predictive-ecology-zurich.org/research.xml" rel="self" type="application/rss+xml"/>
 <description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Thu, 17 Sep 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>From streams to forests: ecology in the natural world</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2026-09-17-from-streams-to-forests/</link>
+  <link>https://predictive-ecology-zurich.org/posts/research/2026-09-17-from-streams-to-forests/</link>
   <description><![CDATA[ 
 
 
@@ -150,38 +150,14 @@
   <category>field ecology</category>
   <category>functional diversity</category>
   <category>ecological stability</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-17-from-streams-to-forests/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/research/2026-09-17-from-streams-to-forests/</guid>
   <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-17-from-streams-to-forests/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Predicting food webs: the allometric diet breadth model</title>
-  <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2026-09-14-predicting-food-webs-adbm/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>A food web is the network of who eats whom in a community, and for decades ecologists mostly had to observe or guess at that network species pair by species pair. The allometric diet breadth model (ADBM) takes a different approach: it predicts a predator’s diet — and so an entire food web’s structure — from body sizes alone.</p>
-<p>The idea builds on optimal foraging theory: a predator should include a prey species in its diet if doing so increases its net rate of energy intake, and both the profitability of an attack and the risk of it succeeding scale predictably with the body sizes of predator and prey. Given nothing more than a list of species’ body sizes, the ADBM ranks potential prey by profitability and predicts which a predator should and shouldn’t eat, generating a whole predicted food web that can be compared against real, observed ones.</p>
-<p>The model was introduced in <a href="https://www.pnas.org/content/103/37/13745">Beckerman, Petchey &amp; Warren (2006), “Foraging biology predicts food web complexity”</a>, and has since been used and extended by the group and others to ask how far body size alone can take us in predicting community structure. It connects directly to the group’s broader history of food web research and to the <a href="../../../posts/research/2019-03-04-food-web-tools/index.html">R tools</a> used to build and analyse these predicted webs.</p>
-
-
-
- ]]></description>
-  <category>research</category>
-  <category>food webs</category>
-  <category>allometric diet breadth model</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-14-predicting-food-webs-adbm/</guid>
-  <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-14-predicting-food-webs-adbm/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-17-from-streams-to-forests/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Predicting ecosystem functioning: functional diversity</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2026-09-13-predicting-ecosystem-functioning/</link>
+  <link>https://predictive-ecology-zurich.org/posts/research/2026-09-13-predicting-ecosystem-functioning/</link>
   <description><![CDATA[ 
 
 
@@ -276,14 +252,14 @@
   <category>research</category>
   <category>ecosystem functioning</category>
   <category>functional diversity</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-13-predicting-ecosystem-functioning/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/research/2026-09-13-predicting-ecosystem-functioning/</guid>
   <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-13-predicting-ecosystem-functioning/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-13-predicting-ecosystem-functioning/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Predicting ecological stability: response diversity</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2026-09-12-predicting-ecological-stability/</link>
+  <link>https://predictive-ecology-zurich.org/posts/research/2026-09-12-predicting-ecological-stability/</link>
   <description><![CDATA[ 
 
 
@@ -349,14 +325,14 @@
   <category>ecological stability</category>
   <category>response diversity</category>
   <category>food webs</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-12-predicting-ecological-stability/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/research/2026-09-12-predicting-ecological-stability/</guid>
   <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-12-predicting-ecological-stability/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-12-predicting-ecological-stability/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Experimental microbial ecology</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2026-09-11-experimental-microbial-ecology/</link>
+  <link>https://predictive-ecology-zurich.org/posts/research/2026-09-11-experimental-microbial-ecology/</link>
   <description><![CDATA[ 
 
 
@@ -401,7 +377,7 @@
 </section>
 <section id="can-ecological-communities-be-forecast" class="level2">
 <h2 class="anchored" data-anchor-id="can-ecological-communities-be-forecast">Can ecological communities be forecast?</h2>
-<p>This leads naturally to another strand of the work: <a href="../../../posts/research/2026-09-05-response-diversity/index.html">ecological forecasting</a>. Daugaard, Pennekamp, Petchey and colleagues followed an experimental microbial community for five months under constant and fluctuating temperatures and explicitly tested how well future species abundances could be predicted [7].</p>
+<p>This leads naturally to another strand of the work: <a href="../2026-09-05-response-diversity/index.qmd">ecological forecasting</a>. Daugaard, Pennekamp, Petchey and colleagues followed an experimental microbial community for five months under constant and fluctuating temperatures and explicitly tested how well future species abundances could be predicted [7].</p>
 <p>Forecast skill depended partly on the structure of species interactions. Species with more—but individually weaker—interactions tended to be more predictable, while increased environmental complexity reduced forecast skill for some species.</p>
 <p>Here the microcosm becomes more than a convenient experimental system. It becomes a testbed for ecological prediction. Because the true future trajectory of the system can subsequently be observed, researchers can make forecasts, wait, and quantitatively evaluate whether those forecasts were correct.</p>
 </section>
@@ -428,14 +404,14 @@
   <category>research</category>
   <category>microbial ecology</category>
   <category>protist microcosms</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-11-experimental-microbial-ecology/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/research/2026-09-11-experimental-microbial-ecology/</guid>
   <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-11-experimental-microbial-ecology/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-11-experimental-microbial-ecology/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Video microscopy and computer vision</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/</link>
+  <link>https://predictive-ecology-zurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/</link>
   <description><![CDATA[ 
 
 
@@ -494,14 +470,14 @@
   <category>methods</category>
   <category>video tracking</category>
   <category>R</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/</guid>
   <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Mathematical modelling</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2026-09-09-mathematical-modelling/</link>
+  <link>https://predictive-ecology-zurich.org/posts/research/2026-09-09-mathematical-modelling/</link>
   <description><![CDATA[ 
 
 
@@ -548,14 +524,14 @@
  ]]></description>
   <category>research</category>
   <category>mathematical modelling</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-09-mathematical-modelling/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/research/2026-09-09-mathematical-modelling/</guid>
   <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-09-mathematical-modelling/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-09-mathematical-modelling/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Ecological forecasting</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2026-09-05-response-diversity/</link>
+  <link>https://predictive-ecology-zurich.org/posts/research/2026-09-05-ecological-forecasting/</link>
   <description><![CDATA[ 
 
 
@@ -619,37 +595,14 @@
  ]]></description>
   <category>research</category>
   <category>response diversity</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-05-response-diversity/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/research/2026-09-05-ecological-forecasting/</guid>
   <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-05-response-diversity/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Visiting Fellow at OIST’s Theoretical Sciences Visiting Program</title>
-  <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2024-03-01-oist-theoretical-sciences-visiting-program/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>From 1 to 30 March 2024, Owen was a Visiting Fellow in the <a href="https://www.oist.jp/visiting-program" target="_blank">Theoretical Sciences Visiting Program (TSVP)</a> at the <a href="https://www.oist.jp/" target="_blank">Okinawa Institute of Science and Technology (OIST)</a>, Japan.</p>
-<p>TSVP brings researchers from across disciplines to OIST for extended visits, intensifying collaborations within OIST’s interdisciplinary research environment — a chance to work alongside theoreticians outside ecology and bring some of that thinking back to the group’s own predictive work.</p>
-<p><em>(Add who Owen worked with at OIST and what came out of the visit.)</em></p>
-
-
-
- ]]></description>
-  <category>research</category>
-  <category>visiting fellowship</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2024-03-01-oist-theoretical-sciences-visiting-program/</guid>
-  <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2024-03-01-oist-theoretical-sciences-visiting-program/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-05-ecological-forecasting/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Calculating FD</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2019-03-04-calculating-fd/</link>
+  <link>https://predictive-ecology-zurich.org/posts/research/2019-03-04-calculating-fd/</link>
   <description><![CDATA[ 
 
 
@@ -689,14 +642,14 @@
  ]]></description>
   <category>research</category>
   <category>functional diversity</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2019-03-04-calculating-fd/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/research/2019-03-04-calculating-fd/</guid>
   <pubDate>Mon, 04 Mar 2019 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2019-03-04-calculating-fd/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/research/2019-03-04-calculating-fd/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Food web tools</title>
   <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictiveecologyzurich.org/posts/research/2019-03-04-food-web-tools/</link>
+  <link>https://predictive-ecology-zurich.org/posts/research/2019-03-04-food-web-tools/</link>
   <description><![CDATA[ 
 
 
@@ -897,7 +850,7 @@ font-style: inherit;">box</span>()</span></code></pre></div>
 <div id="fig-niche-web" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-niche-web-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="https://predictiveecologyzurich.org/posts/research/2019-03-04-food-web-tools/index_files/figure-html/fig-niche-web-1.png" class="img-fluid figure-img" width="672">
+<img src="https://predictive-ecology-zurich.org/posts/research/2019-03-04-food-web-tools/index_files/figure-html/fig-niche-web-1.png" class="img-fluid figure-img" width="672">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-niche-web-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: A food web generated with a simple niche-model algorithm.
@@ -915,9 +868,9 @@ Figure&nbsp;1: A food web generated with a simple niche-model algorithm.
   <category>research</category>
   <category>food webs</category>
   <category>R</category>
-  <guid>https://predictiveecologyzurich.org/posts/research/2019-03-04-food-web-tools/</guid>
+  <guid>https://predictive-ecology-zurich.org/posts/research/2019-03-04-food-web-tools/</guid>
   <pubDate>Mon, 04 Mar 2019 00:00:00 GMT</pubDate>
-  <media:content url="https://predictiveecologyzurich.org/posts/research/2019-03-04-food-web-tools/cover.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://predictive-ecology-zurich.org/posts/research/2019-03-04-food-web-tools/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
