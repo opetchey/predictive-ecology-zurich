@@ -14,17 +14,17 @@ listing:
 ---
 
 ::: {.section-intro}
-*(Overview of the group's role in organising the field goes here — meetings
-convened, special sessions or symposia organised, editorial roles, and
-similar community service.)*
 
-The group is also involved in the organising activities of the
-[Response Diversity Network](https://responsediversitynetwork.github.io/RDN-website/){target="_blank"},
-the [European Chapter of the Ecological Forecasting Initiative](https://euro-ecoforecast.wordpress.com/){target="_blank"},
-and the [World Biodiversity Forum](https://worldbiodiversityforum.org/){target="_blank"}.
+The group is involved in the following organising activities:
 
-Tag a post `archive` (alongside `organising`) to retire it from this feed
-without deleting it — it stays visible on the [All posts](posts.qmd) page.
+* [The Response Diversity Network](https://responsediversitynetwork.github.io/RDN-website/){target="_blank"}
+* [The Rigi Workshop 2026 - advancing mechanistic predictions of ecosystem service stability](https://responsediversitynetwork.github.io/RD-Workshop-2026/)
+* [The European Chapter of the Ecological Forecasting Initiative](https://euro-ecoforecast.wordpress.com/){target="_blank"},
+* [The World Biodiversity Forum](https://worldbiodiversityforum.org/){target="_blank"}.
+* [MCSA Doctoral Network ReDiLEEP - Using science-driven response diversity knowledge to leverage efficient ecosystem preservation and restoration](http://redileep.eu/){target="_blank"}
+* [PREDICT - Platform for REsilient Data Integration and Coordinated Forecasting Tools](https://oscars-project.eu/projects/predict-platform-resilient-data-integration-and-coordinated-forecasting-tools){target="_blank"}
+
+
 :::
 
 ## Latest organising posts

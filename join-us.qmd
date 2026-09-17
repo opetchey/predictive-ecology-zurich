@@ -14,7 +14,7 @@ listing:
 ---
 
 ::: {.section-intro}
-If you might be interested in joining the team, welcome — below is some
+**Check at the bottom of this page for open positions.** If you might be interested in joining the team, welcome — below is some
 general guidance on Masters, PhD, and postdoctoral opportunities. For who's
 currently in the group and their research interests, see the
 [Team](team.qmd) page; get in touch with whoever's work looks like the
@@ -22,11 +22,6 @@ best fit (please read our
 [advice on making an effective enquiry](posts/join-us/2019-03-03-making-an-effective-enquiry/index.qmd)
 first).
 
-Specific open positions, when there are any, are posted below (tag a post
-`join-us`). Once a position is filled, add `archive` to its tags to take it
-off this list — it stays visible on the [All posts](posts.qmd) page. If
-nothing current fits, see [Contact](contact.qmd) for how to get in touch
-anyway.
 :::
 
 ## Masters

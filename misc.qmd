@@ -14,13 +14,7 @@ listing:
 ---
 
 ::: {.section-intro}
-Odds and ends that don't fit neatly under Research, Education, Organising,
-Outreach, or Join us — personal reflections, opinions, and practical tips
-picked up along the way. Tag a post `misc` (plus a freeform tag like
-`thoughts` or `tips`) and it will appear here automatically.
-
-Tag a post `archive` (alongside `misc`) to retire it from this feed without
-deleting it — it stays visible on the [All posts](posts.qmd) page.
+Odds and ends that don't fit neatly elsewhere.
 :::
 
 ## Latest posts

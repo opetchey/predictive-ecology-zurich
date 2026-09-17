@@ -2,7 +2,7 @@
 title: "Getting Started with R: what readers and course participants say"
 author: "Owen Petchey"
 date: 2018-09-09
-categories: [education, R, teaching]
+categories: [education, R, teaching, archive]
 image: first-ed-cover.jpg
 ---
 

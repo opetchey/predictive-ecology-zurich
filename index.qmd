@@ -20,7 +20,6 @@ title-block-banner: false
 
 # Understanding ecology well enough to predict it {.hero-title}
 
-
 </div>
 </div>
 :::
@@ -31,12 +30,11 @@ title-block-banner: false
 ## Welcome
 
 We are the **Predictive Ecology Group** at the University of Zurich. We study
-the processes that structure ecological communities — from individual
-interactions to whole food webs — with the aim of making ecology a more
+the processes that structure ecological communities, from individual
+interactions to whole food webs, with the aim of making ecology a more
 predictive science.
 
-*(Replace this paragraph with a fuller welcome and a short description of
-the group's research focus.)*
+We have a special interest in how organisms, populations, communities, and ecosystem respond to environmental change, and how integrating responses across scales can provide a fuller and more predictive understanding of ecological stability.
 
 </div>
 

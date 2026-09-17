@@ -13,14 +13,7 @@ listing:
   image-height: "180px"
 ---
 
-::: {.section-intro}
-*(Overview of the group's outreach activities goes here — public talks,
-science communication, school visits, media engagement, and similar work
-sharing ecology beyond academia.)*
 
-Tag a post `archive` (alongside `outreach`) to retire it from this feed
-without deleting it — it stays visible on the [All posts](posts.qmd) page.
-:::
 
 ## Latest outreach posts
 

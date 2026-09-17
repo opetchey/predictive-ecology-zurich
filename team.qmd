@@ -15,13 +15,8 @@ listing:
   fields: [image, title, description]
 ---
 
-The people who make up the Predictive Ecology Group. Each person is a short
-post here — tag it `team` (plus a role tag like `group-leader`, `postdoc`,
-`phd-student`, or `msc-student`) and a photo and short bio, and it appears
-below automatically. Each person controls their own contact details on
-their own page, linked from their bio — we don't list email addresses
-here. For the full, up-to-date roster, see the
-[group's page on the IEU website](https://www.ieu.uzh.ch/en/research/ecology/extinction/member.html).
+Group members are listed below, along with links to individual pages. The group members are also on the
+[group's page on the departmental website](https://www.ieu.uzh.ch/en/research/ecology/extinction/member.html).
 
 ## Current members
 
