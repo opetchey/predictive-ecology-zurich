@@ -2,7 +2,7 @@
 
 Source for the Predictive Ecology Group website (University of Zurich),
 built with [Quarto](https://quarto.org), served by GitHub Pages at
-**predictiveecologyzurich.org**.
+**predictive-ecology-zurich.org**.
 
 ## Structure
 
@@ -97,7 +97,7 @@ quarto preview
 Every push to `main` triggers the GitHub Actions workflow, which renders
 the site and pushes the result to the `gh-pages` branch. GitHub Pages is
 configured (Settings → Pages) to serve from `gh-pages` / `root`, with the
-custom domain `predictiveecologyzurich.org` (see the `CNAME` file).
+custom domain `predictive-ecology-zurich.org` (see the `CNAME` file).
 
 ## Licence
 

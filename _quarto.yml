@@ -13,7 +13,7 @@ execute:
 
 website:
   title: "Predictive Ecology Group"
-  site-url: "https://predictiveecologyzurich.org"
+  site-url: "https://predictive-ecology-zurich.org"
   description: "Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting."
   favicon: assets/img/favicon.svg
   page-navigation: true
