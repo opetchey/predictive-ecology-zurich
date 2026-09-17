@@ -6,6 +6,10 @@ categories: [outreach, leadership]
 image: cover.jpg
 ---
 
-On 17 April 2026, Owen led a breakout session on biodiversity leadership at the Second UZH Biodiversity Roundtable.
+On 17 April 2026, Owen co-led a breakout session on biodiversity leadership at the Second UZH Biodiversity Roundtable — an invitation-only event bringing together around 55 sustainability specialists from Swiss and international companies and foundations, convened at the invitation of the UZH President to build a Switzerland-rooted network of biodiversity supporters with global reach.
 
-*(Add who took part, what the session covered, and any outcomes.)*
+The roundtable ran three keynotes and breakout sessions, on biodiversity leadership, biodiversity assessment, and biodiversity finance, aimed at turning discussion into collaborative action towards a nature-positive future.
+
+Owen co-moderated the Biodiversity Leadership breakout together with Gabriela Schaepman-Strub (UZH), Meike Müller-Forte (Siemens), and Anja Helena Liski (Oliver Wyman). The session argued that meaningful leadership on biodiversity loss usually emerges through everyday decisions and influence rather than perfect strategies or formal authority, that it depends on cross-sectoral collaboration between science and business, and that the aim should be transformative action rather than simple information transfer — themes echoed in the World Biodiversity Forum's 2026 focus on "Leading Transformation Together".
+
+The other two breakouts covered biodiversity assessment — recognising that biodiversity can be measured in many ways, so the starting point should be the information actually needed rather than a search for the single best metric — and biodiversity finance, on biodiversity loss as an emerging financial risk that also opens up investment opportunities in nature-based and sustainable solutions.
