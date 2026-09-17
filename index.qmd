@@ -20,9 +20,7 @@ title-block-banner: false
 
 # Understanding ecology well enough to predict it {.hero-title}
 
-<div class="hero-subtitle">
-The Predictive Ecology Group, on retreats and in the field.
-</div>
+
 </div>
 </div>
 :::
