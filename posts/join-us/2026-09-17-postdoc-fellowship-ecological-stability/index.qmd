@@ -1,0 +1,42 @@
+---
+title: "Postdoctoral Research Fellowship in Ecological Stability"
+author: "Predictive Ecology Group"
+date: 2026-09-17
+categories: [join-us, postdoc, ecological stability]
+image: cover.jpg
+---
+
+We're inviting applications for a Postdoctoral Research Fellowship of up to three years, 100%, to develop and lead an independent research programme on [ecological stability](../../research/2026-09-12-predicting-ecological-stability/index.qmd).
+
+## About the fellowship
+
+Unlike a project-based postdoc, this fellowship is for researchers who want to shape and lead their own research agenda rather than join an existing project. Proposals should align with the group's broad interests — understanding and predicting ecological stability through ecological theory, [mathematical modelling](../../research/2026-09-09-mathematical-modelling/index.qmd), [experimental ecology](../../research/2026-09-11-experimental-microbial-ecology/index.qmd), and the analysis of ecological observations and experiments — including the development and application of concepts and tools such as response diversity. Theoretical, computational, experimental, observational, or interdisciplinary approaches are all welcome, as are combinations of these.
+
+The fellowship combines real intellectual freedom with active mentorship: fellows pursue their own programme while benefiting from regular scientific interaction and collaboration within the group and the wider University of Zurich research environment. Projects involving fieldwork or analysis of local-to-large-scale ecological data are welcome, provided they're planned, organised, and led by the fellow. Projects on Arctic ecosystems are also welcomed and may be supported through collaboration with Prof. Dr. Gabriela Schaepman-Strub.
+
+## What's offered
+
+Up to three years of funding, including research funding for the proposed programme, computing and analytical resources, access to the group's lab facilities and infrastructure, and a supportive, collegial research environment with opportunities to collaborate within UZH and beyond.
+
+## Eligibility and what we're looking for
+
+Applicants must have been awarded their PhD no more than four years before the application deadline. We're looking for a compelling vision for future research, creativity and initiative in developing scientific ideas, a strong record of research achievement relative to career stage, the ability to bring research projects to completion, and enthusiasm for collaborative research. Applications are welcome from a wide range of disciplinary backgrounds relevant to ecological stability.
+
+## Application materials
+
+A single PDF containing:
+
+1. A CV (maximum 2 pages).
+2. A research proposal (maximum 4 pages including references), covering the scientific questions to be addressed, the significance and originality of the proposed work, the planned approach and methodology, expected outcomes, how it advances understanding and prediction of ecological stability, and career objectives with the major milestones planned for the fellowship.
+3. Contact details for two referees.
+
+## Details
+
+- **Application deadline:** 31 October 2026.
+- **Earliest start date:** January 2027.
+
+## How to apply
+
+Full details are on the official listing: [Postdoctoral Research Fellowship in Ecological Stability on FindAPostDoc](https://www.findapostdoc.com/search/job-details.aspx?jobcode=12735){target="_blank"}. Applications and administrative questions go to [Maja Weilenmann](../../team/maja-weilenmann/index.qmd); for scientific questions, see [Contact](../../../contact.qmd) to reach Owen Petchey.
+
+Before writing in, it's worth reading our [advice on making an effective enquiry](../2019-03-03-making-an-effective-enquiry/index.qmd).

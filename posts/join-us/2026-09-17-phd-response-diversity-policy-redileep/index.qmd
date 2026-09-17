@@ -1,0 +1,35 @@
+---
+title: "PhD position: bringing response diversity into biodiversity policy (ReDiLEEP)"
+author: "Predictive Ecology Group"
+date: 2026-09-17
+categories: [join-us, phd, response diversity, policy]
+image: cover.jpg
+---
+
+We're recruiting a Doctoral Candidate to [ReDiLEEP](../../organising/2026-09-05-redileep/index.qmd), the Marie Skłodowska-Curie Actions (MSCA) Doctoral Network on response diversity, for a project sitting right at the interface of ecological science and biodiversity policy.
+
+## The project (DC11)
+
+Response diversity — variation in how species or functional groups respond to environmental change — is increasingly recognised as a key driver of [ecosystem resilience](../../research/2026-09-12-predicting-ecological-stability/index.qmd), but current policy instruments such as the EU Nature Restoration Law, the Common Agricultural Policy, and the Corporate Sustainability Reporting Directive lack clear metrics, targets, or monitoring requirements for it. This project (DC11) sets out to close some of that gap.
+
+The doctoral researcher will use AI-assisted text analysis and network analysis to map how response diversity research relates — or fails to relate — to European biodiversity, restoration, and sustainability policy, identifying conceptual alignments, mismatches, and evidence gaps between the science and the policy frameworks. The aim is to help guide the development of policy-ready, measurable indicators that capture response diversity as a mechanism underpinning both ecological stability and policy effectiveness.
+
+Responsibilities include reviewing and synthesising response-diversity research relevant to EU biodiversity policy; applying text and network analysis to scientific literature and policy documents; identifying where ecological resilience and diversity mechanisms could strengthen conservation and restoration policy; and developing draft indicator sets and monitoring templates linking response diversity to ecosystem function and sustainability goals.
+
+## Supervision and network
+
+Main supervisor: Prof. Owen Petchey, with co-supervision from Prof. Maria Santos, Dr Cornelia Krug, and Dr Ute Jacob. The position includes four months of secondments to non-academic and academic partners across the network — BioAgora, Swansea University, CarU, and Advanced Invasives — plus ReDiLEEP-wide training in response-diversity methods, reproducible code, R/Tidyverse, machine learning and AI for ecologists, and science-policy communication.
+
+## Details
+
+- **Duration:** 48 months, full-time (36 months funded through the MSCA Doctoral Network, 12 months through the University of Zurich).
+- **Profile:** a Master's degree (or equivalent) in ecology, environmental science, geography, sustainability science, environmental policy, biodiversity governance, computational social science, data science, or a related field; experience with literature synthesis, policy analysis, text or network analysis, statistical modelling, or programming (R, Python, or similar); strong written and spoken English.
+- **MSCA mobility rule applies:** applicants must not have resided or carried out their main activity in Switzerland for more than 12 of the 48 months immediately before the recruitment date (with the usual exceptions for compulsory national service, refugee status, and temporary protection).
+- **Application deadline:** 1 October 2026.
+- **Earliest start:** 1 February 2027 (by 30 June 2027 at the latest).
+
+## How to apply
+
+Full details, the complete application requirements, and how to submit are on the official listing: [ReDiLEEP PhD position DC11 on EURAXESS](https://euraxess.ec.europa.eu/jobs/461564){target="_blank"}. Administrative questions go to [Maja Weilenmann](../../team/maja-weilenmann/index.qmd); scientific questions about the project go to Owen Petchey — see [Contact](../../../contact.qmd).
+
+Before writing in, it's worth reading our [advice on making an effective enquiry](../2019-03-03-making-an-effective-enquiry/index.qmd).
