@@ -1,13 +1,77 @@
 ---
-title: "Predicting ecological stability: response diversity and food web structure"
+title: "Predicting ecological stability: response diversity"
 author: "Owen Petchey"
 date: 2026-09-12
 categories: [research, ecological stability, response diversity, food webs]
 image: cover.jpg
 ---
 
-Whether an ecological community stays stable in the face of a changing environment depends on at least two things: how the species in it are connected, and how differently they respond to the change in the first place. The group's work on stability sits at the join of these two threads — [food web structure](../2019-03-04-food-webs-history/index.qmd) and [response diversity](../2026-09-05-response-diversity/index.qmd) — rather than treating them separately.
+## Predicting ecological stability: response diversity
 
-A food web's structure (who eats whom, how strongly, and how those interactions are arranged) shapes how a disturbance to one species propagates to the rest of the community — whether an effect dampens out or cascades. Response diversity — variation in how species, populations, or individuals respond to the same environmental change — shapes whether a disturbance affects everyone at once or only part of the system. Neither is the whole story on its own: a well-connected food web full of species that all respond identically can still collapse together, and high response diversity among species that barely interact may not translate into whole-community stability.
+Why are some ecological communities relatively stable when their environment changes, while others fluctuate dramatically? Species richness provides only part of the answer. Two communities containing the same number of species may respond very differently to environmental variation. What may matter more is how differently those species respond to change.
 
-Bringing these together is central to the group's aim of actually predicting stability, rather than just describing it after the fact — asking not just *is* a community stable, but *why*, and *for how long*, given what we know about its structure and its species' responses.
+This variation is known as response diversity, and it has become an important focus of work by Owen Petchey and collaborators. The aim is to move from the general observation that biodiversity can promote stability towards a more mechanistic question: can we predict stability from the environmental responses of the organisms making up a community?
+
+## Diversity as ecological insurance
+
+The basic idea is straightforward. Imagine a community exposed to changing temperature. If all species perform best and worst at approximately the same temperatures, their populations may rise and fall together. If species differ in their temperature responses, however, poor conditions for one species may be favourable for another. Fluctuations can partly compensate for one another, potentially stabilising properties such as total community biomass. Response diversity therefore provides one possible mechanism for the insurance effect of biodiversity.
+
+The difficulty is measurement. Response diversity has often been inferred indirectly from traits assumed to determine environmental responses. Ross, Petchey and colleagues instead developed a framework based on measuring the ecological responses themselves [1]. A species’ abundance, growth or other performance measure can be related empirically to an environmental variable, producing a response curve. Differences among these curves then provide a quantitative description of response diversity.
+
+Importantly, this approach can accommodate nonlinear relationships. Two species may differ not simply in whether they respond positively or negatively, but in the shapes and positions of their environmental response curves.
+
+## From one environmental variable to many
+
+A further complication is that environments rarely change along a single axis.
+
+Temperature, nutrients, precipitation, light and other factors can change simultaneously. Consequently, response diversity measured against temperature alone may not describe how a community responds when temperature and resources change together. Polazzo, Limberger, Pennekamp, Petchey and colleagues extended the response-diversity framework to this multifarious environmental change [2]. In this formulation, species responses occupy a multidimensional environmental space rather than lying along a single environmental gradient.
+
+This leads to an important distinction between response diversity and response capacity. If the future trajectory of environmental change is known—for example, a particular combination of warming and nutrient change—response diversity can be evaluated along that trajectory. If the future trajectory is unknown, the broader distribution of species’ responses can instead be used to characterize the community’s capacity to respond across many possible environmental scenarios [2].
+
+The distinction matters for prediction. Ecologists rarely know precisely how multiple environmental variables will change together. Response capacity attempts to quantify the ecological “insurance” contained within a community without requiring one specific future to be assumed.
+
+## Testing the mechanism experimentally
+
+A conceptual framework becomes much more useful if its predictions can be tested experimentally. Polazzo, Hämmig, Petchey and Pennekamp did this using experimental protist communities exposed to fluctuating temperatures under different nutrient conditions [3]. Rather than manipulating only species richness, they manipulated the distribution of species’ environmental responses.
+
+They introduced the concept of imbalance, describing how those responses are distributed. Communities with lower imbalance had greater temporal stability, whereas species richness itself had no detectable effect on stability in the experiment [3]. The mechanisms were revealing. Population stability and asynchronous dynamics among species together explained much of the variation in community stability. Moreover, environmental responses measured from species grown separately could predict stability when those species were assembled into communities.
+
+This provides an important connection between individual species and ecosystem-level behaviour: species’ environmental responses → asynchronous population dynamics + population variability → community stability.
+
+Response diversity can therefore potentially provide something more mechanistic than species richness alone.
+
+##  When does response diversity stabilise communities?
+
+The relationship is not universal, however. Kunze, Petchey, Ghosh and Hillebrand examined whether response diversity also predicts stability following pulse disturbances—discrete disturbances that abruptly affect a community [4]. Combining multispecies simulations with a meta-analysis of experimental data, they found that the importance of response diversity depended on the disturbance regime and on species interactions.
+
+Under a pulse disturbance, the average response of species could be more important than diversity among responses. If nearly every species is strongly affected by the same event, simply having different degrees of sensitivity does not necessarily produce the compensatory dynamics expected under continuously fluctuating environments [4].
+
+This distinction helps clarify what response diversity does—and does not—predict. Its stabilising effect depends on the type of environmental variation, the structure of species responses and the interactions occurring within the community.
+
+## Response diversity is itself dynamic
+
+There is another complication: a species does not necessarily have one fixed environmental response. Its response to temperature, for example, may depend on nutrient availability, competitors, predators or other environmental conditions. Response diversity can therefore change through time.
+
+Recent work by Hsieh, Pan, Chang, Anneville and Petchey developed a framework that explicitly allows such responses to be dynamic [5]. Applied to four decades of monthly observations from Lake Geneva, the approach found that response diversity among phytoplankton and zooplankton could stabilise biomass within trophic levels, but that the strength of this stabilising effect varied through time.
+
+Response diversity should therefore not necessarily be viewed as a fixed property of a community. Like the populations themselves, it can be context dependent and dynamic.
+
+## Towards predicting stability from biology
+
+Response diversity connects several themes running through research on biodiversity and ecosystem functioning. [Functional diversity](../2026-09-13-predicting-ecosystem-functioning/index.qmd) asks how organisms differ in what they do. [Experimental microbial ecology](../2026-09-11-experimental-microbial-ecology/index.qmd) allows those differences and their consequences to be manipulated under controlled conditions. Response diversity focuses more specifically on how organisms differ in what they do when their environment changes.
+
+That distinction could be important for ecological prediction. Simply knowing how many species occur in a community gives limited information about its response to future environmental change. Knowing how those species respond to temperature, nutrients, drought or other drivers potentially provides considerably more.
+
+The emerging goal is therefore not merely to establish that biodiversity sometimes stabilises ecosystems. It is to identify measurable properties of organisms and communities that tell us when, why and under which environmental changes stability should emerge. Response diversity offers one route towards that more predictive ecology.
+
+## References
+
+[1] Ross, S., Petchey, O. L., Sasaki, T. & Armitage, D. W. (2023). How to measure response diversity. Methods in Ecology and Evolution (Consensus record lists the 2023 preprint record). DOI: 10.1111/2041-210X.14087. 
+
+[2] Polazzo, F., Limberger, R., Pennekamp, F., Ross, S., Simpson, G. L. & Petchey, O. L. (2024). Measuring the Response Diversity of Ecological Communities Experiencing Multifarious Environmental Change. Global Change Biology, 30. DOI: 10.1111/gcb.17594. 
+
+[3] Polazzo, F., Hämmig, T., Petchey, O. L. & Pennekamp, F. (2025). The Imbalance of Nature: The Role of Species Environmental Responses for Community Stability. Ecology Letters. DOI: 10.1111/ele.70224. 
+
+[4] Kunze, C., Petchey, O. L., Ghosh, S. & Hillebrand, H. (2025). Species Interactions Determine the Importance of Response Diversity for Community Stability to Pulse Disturbances. Ecology Letters, 29. DOI: 10.1111/ele.70299. 
+
+[5] Hsieh, C.-h., Pan, R.-Y., Chang, C.-W., Anneville, O. & Petchey, O. L. (2026). Quantifying the effects of response diversity dynamics on ecosystem stability. Nature Communications, 17. DOI: 10.1038/s41467-026-70192-x. 

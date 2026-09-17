@@ -6,8 +6,66 @@ categories: [research, methods, video tracking, R]
 image: cover.jpg
 ---
 
-A microscope video of a protist microcosm contains far more information than a human observer can practically extract by eye: not just how many individuals of each species are present, but their body sizes, shapes, and how they're moving — all changing from one sampling point to the next. Getting that information out of raw video, reliably and at scale, needs computer vision rather than manual counting.
+## Watching microbial communities: video microscopy, computer vision and the development of BEMOVI
 
-BEMOVI (BEhaviour and MOrphology from VIdeos) is an open-source video-analysis pipeline built for exactly this: it identifies individual organisms in each video frame, links them into trajectories across frames, and extracts per-individual measurements of body size, shape, and movement, alongside population-level metrics like density and size distributions. It was introduced in [Pennekamp, Schtickzelle & Petchey (2015), "BEMOVI, software for extracting behavior and morphology from videos, illustrated with analyses of microbes"](https://onlinelibrary.wiley.com/doi/10.1002/ece3.1529), and is [available on GitHub](https://github.com/efronhofer/bemovi) and at [bemovi.info](http://bemovi.info/).
+Microbial communities offer ecologists an unusual opportunity. Entire communities can be maintained in small laboratory microcosms, replicated extensively, and followed across many generations. But their small size also creates a measurement problem: counting organisms manually under a microscope is slow, and measuring their morphology and behaviour at the same time is considerably harder.
 
-This is what turns [experimental microbial ecology](../2026-09-11-experimental-microbial-ecology/index.qmd) from a source of jars and test tubes into a source of quantitative, repeated-measures data — the same kind of automated, non-invasive measurement that experiments testing ecological forecasts depend on.
+Work by Frank Pennekamp, Owen Petchey and colleagues helped address this problem by combining video microscopy, computer vision and machine learning. Rather than using microscopy simply to identify and count organisms, their approach treats a video as a source of quantitative ecological data about individual organisms.
+
+## From microscope videos to ecological data
+
+A central development was BEMOVI—BEhaviour and MOrphology from VIdeos—introduced by Pennekamp, Schtickzelle and Petchey in 2015 [1]. BEMOVI combines video microscopy with automated image analysis using ImageJ and subsequent processing in R. In a video of a microbial community, the workflow identifies individual organisms, measures properties such as their size and shape, and follows them between frames to reconstruct movement trajectories. The resulting data can therefore contain several kinds of information simultaneously: abundance, morphology and movement behaviour.
+
+This matters because these are different dimensions of ecological variation. A conventional count might tell us that a population has declined. Video analysis can additionally reveal whether the organisms have become smaller, are moving faster, or have altered other aspects of their behaviour.
+
+In tests using experimental communities of aquatic protists, automated abundance estimates corresponded closely with manual counts. BEMOVI could process tens to thousands of individuals and produce time series of abundance, morphology and movement traits [1].
+
+## Movement is also a phenotype
+
+An important feature of this approach is that behaviour becomes measurable at essentially the same time as abundance.
+
+For microorganisms such as ciliates, movement contains considerable biological information. Speed, directionality and the geometry of trajectories can differ among species and can also change with environmental conditions.
+
+Pennekamp and colleagues therefore combined BEMOVI-derived measurements with machine-learning classification. Morphological traits could be used to classify individual organisms to species, but including movement information improved classification [1].
+
+Subsequent work pushed this further. Soleymani, Pennekamp, Petchey and Weibel extracted more sophisticated characteristics from movement trajectories and showed that these features could improve automated classification of ciliate species beyond morphology and simple measures such as swimming speed [2].
+
+Computer vision was therefore doing more than replacing manual counting. It was creating a multidimensional description of individual organisms from which taxonomic identity could itself be inferred.
+
+## The complication: organisms change
+
+Automated classification creates another ecological problem, however. Organisms are phenotypically plastic. A classifier trained to recognize a species under one set of conditions may perform poorly if temperature, competition or other environmental conditions alter that species’ size, shape or behaviour.
+
+Pennekamp and colleagues addressed this in experiments following six ciliate species across hundreds of generations, multiple community compositions and a temperature gradient [3]. Simple classifiers struggled because phenotypes changed through time and among environments. A sliding-window classification approach, using random forests trained on observations relevant to nearby temporal and environmental conditions, substantially improved classification and produced results comparable with slower manual identification.
+
+This is an interesting intersection between ecology and machine learning. Environmental variation is not simply statistical noise that makes computer vision difficult. Changes in the features used by the classifier can themselves represent biologically meaningful responses of organisms.
+
+Connecting traits to population dynamics
+
+Once morphology and behaviour can be measured repeatedly for large numbers of individuals, another possibility emerges: asking whether changes in traits help explain changes in population abundance.
+
+Griffiths, Petchey, Pennekamp and Childs applied this idea to an experimental microbial predator–prey–resource system [4]. Rather than modelling community dynamics from species abundances alone, they incorporated changes in individual traits.
+
+The resulting trait-dependent model improved the proportion of ecological dynamics explained from an (R^2) of 0.34 to 0.57. The analysis also identified a biologically interpretable growth–defence trade-off: greater predator abundance was associated with smaller prey, and this reduction in prey size was associated with reduced predation as well as reduced resource consumption [4].
+
+The important point is not simply that automated imaging generates more data. It makes it possible to observe traits and population dynamics together, at temporal and individual resolutions that would be extremely laborious to obtain manually.
+
+## From counting organisms to observing ecological dynamics
+
+BEMOVI and the work around it illustrate a broader change in ecological measurement. A microscope traditionally produces observations that a researcher converts manually into data. Video microscopy coupled with computer vision instead turns the image stream itself into a quantitative dataset. Individual organisms become trackable objects described by morphology, movement and ultimately inferred identity.
+
+For [experimental microbial ecology](../2026-09-11-experimental-microbial-ecology/index.qmd), that creates a particularly useful bridge between scales: individual phenotype → behaviour → species interactions → population dynamics → community dynamics.
+
+It also connects naturally to trait-based ecology. Functional traits need not be fixed numbers assigned to species from a database. They can be measured repeatedly on individual organisms as communities develop and environments change.
+
+The result is a view of ecological communities not as collections of fixed species identities, but as populations of individuals whose phenotypes and behaviours change while interacting with one another—and whose changes can increasingly be measured automatically.
+
+## References
+
+[1] Pennekamp, F., Schtickzelle, N. & Petchey, O. L. (2015). BEMOVI, software for extracting behavior and morphology from videos, illustrated with analyses of microbes. Ecology and Evolution, 5, 2584–2595. DOI: 10.1002/ece3.1529. 
+
+[2] Soleymani, A., Pennekamp, F., Petchey, O. L. & Weibel, R. (2015). Developing and Integrating Advanced Movement Features Improves Automated Classification of Ciliate Species. PLoS ONE, 10. DOI: 10.1371/journal.pone.0145345. 
+
+[3] Pennekamp, F., Griffiths, J. I., Fronhofer, E. A., Garnier, A., Seymour, M., Altermatt, F. & Petchey, O. L. (2017). Dynamic species classification of microorganisms across time, abiotic and biotic environments—A sliding window approach. PLoS ONE, 12. DOI: 10.1371/journal.pone.0176682. 
+
+[4] Griffiths, J. I., Petchey, O. L., Pennekamp, F. & Childs, D. Z. (2018). Linking intraspecific trait variation to community abundance dynamics improves ecological predictability by revealing a growth–defence trade-off. Functional Ecology, 32, 496–508. DOI: 10.1111/1365-2435.12997. 

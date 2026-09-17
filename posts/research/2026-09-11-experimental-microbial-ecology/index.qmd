@@ -6,8 +6,86 @@ categories: [research, microbial ecology, protist microcosms]
 image: cover.jpg
 ---
 
-Testing ecological theory properly needs replicated experiments, manipulated conditions, and — ideally — enough generations to see population and community dynamics actually play out. That's rarely possible with the plants and animals ecology is usually about, but it's exactly what protist microcosms offer: aquatic communities of ciliates and other protists, cultured in small volumes (test tubes, multiwell plates), with generation times of hours to days rather than years.
+## Small worlds, big ecological questions: experimental microbial ecology
 
-That combination — fast dynamics, easy replication, and manipulable diversity, temperature, resources, and disturbance regimes — makes protist microcosms a tractable model system for asking questions that are otherwise nearly impossible to test experimentally: how diversity affects stability and functioning, how populations respond to environmental change, and how well different models forecast what a community will do next. The group has contributed to the methodological groundwork for this approach, set out in [Altermatt et al. (2015), "Big answers from small worlds: a user's guide for protist microcosms as a model system in ecology and evolution"](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12312).
+How can we test ecological ideas that concern whole communities, multiple generations and changing environments? Field observations provide ecological realism, but many processes are difficult to isolate experimentally. One solution is to build much smaller ecosystems in the laboratory.
 
-Measuring these microcosms in enough detail to be useful is its own challenge, which is where the group's [video microscopy and computer vision](../2026-09-10-video-microscopy-computer-vision/index.qmd) work comes in.
+Experimental microbial ecology has been an important part of the work of Owen Petchey and collaborators, including Frank Pennekamp, Florian Altermatt and many others. Using communities of protists and other microorganisms maintained in laboratory microcosms, this research has investigated questions ranging from biodiversity and ecosystem stability to species interactions, environmental change and ecological predictability.
+
+## Small experimental ecosystems
+
+Protists are particularly useful model organisms for experimental ecology. They have short generation times, can be maintained in relatively small volumes, and communities containing several interacting species can be replicated many times. Their abundance, body size and movement can also be quantified using microscopy and automated imaging.
+
+Altermatt and colleagues described these systems as “small worlds” that can address much larger questions in ecology and evolution [1]. Their methodological synthesis brought together protocols for maintaining and manipulating protist communities and highlighted the potential of emerging measurement technologies including flow cytometry, image analysis and video microscopy.
+
+The underlying experimental logic is powerful. Researchers can construct communities with known species composition, manipulate variables such as temperature, nutrients or disturbance, and then follow the resulting population and ecosystem dynamics over many generations.
+
+This makes it possible to move beyond documenting ecological patterns towards experimentally testing the mechanisms that might produce them.
+
+## Biodiversity and stability
+
+One major application has been the long-standing question of whether biodiversity makes ecosystems more stable.
+
+Pennekamp, Petchey and a large group of collaborators addressed this with an unusually large experiment involving 690 aquatic ciliate microcosms, sampled 19 times over 40 days [2]. Communities differed in species richness and were exposed to warming.
+
+The experiment demonstrated an important complication: stability is not a single property.
+
+Increasing species richness increased temporal stability, meaning that ecosystem properties fluctuated less through time. But greater richness simultaneously decreased resistance to warming. Consequently, biodiversity could have opposing effects on different components of stability [2].
+
+The result illustrates one advantage of experimental microbial systems. Different dimensions of stability—variability, resistance and recovery, for example—can be measured within the same replicated experiment rather than considered separately.
+
+## Multiple environmental changes
+
+Natural ecosystems rarely experience one environmental change at a time. Temperature, nutrients, light, pollutants and other drivers can change simultaneously.
+
+Microcosms make these combinations experimentally tractable.
+
+Garnier, Pennekamp, Lemoine and Petchey manipulated temperature, nutrient ratios, carbon enrichment and light in a factorial experiment and measured ecosystem responses through dissolved oxygen [3]. The effects of multiple disturbances depended strongly on the timescale examined. Models that worked well for short-term resistance were not necessarily those that best described longer-term recovery.
+
+Similarly, Tabi, Petchey and Pennekamp investigated the combined effects of warming and nutrient enrichment across different levels of biological organization [4]. Warming reduced the temporal stability of total biomass, while interactions between temperature and enrichment were broadly consistent with predictions derived from metabolic theory.
+
+These experiments show why extrapolating from single environmental drivers can be difficult: ecological responses emerge from interactions among environmental conditions, organisms and timescales.
+
+## From individual species to interacting communities
+
+Another recurring question is whether we can predict the behaviour of a community from what we know about its component species.
+
+Experiments by Tabi and colleagues compared species grown individually with the same species embedded within multispecies microbial communities across different temperatures [5]. At warmer temperatures, community responses became more idiosyncratic, highlighting how species interactions can modify responses that might otherwise be predicted from monocultures.
+
+This distinction matters for ecological forecasting. Knowing how a species responds to temperature in isolation does not necessarily tell us how its abundance will change when competitors, predators and resources are changing at the same time.
+
+A larger experiment using 240 replicated aquatic microcosms reached a related conclusion for multiple global-change drivers. Suleiman and colleagues manipulated fertilizer, glyphosate, metal pollution and antibiotics in all combinations at three temperatures [6]. Combinations of drivers could change both the magnitude and direction of biological responses compared with individual drivers, and temperature further modified these effects.
+
+The controlled nature of the experiment therefore exposed something that is easy to miss in observational data: ecological complexity itself can limit predictability.
+
+## Can ecological communities be forecast?
+
+This leads naturally to another strand of the work: [ecological forecasting](../2026-09-05-response-diversity/index.qmd). Daugaard, Pennekamp, Petchey and colleagues followed an experimental microbial community for five months under constant and fluctuating temperatures and explicitly tested how well future species abundances could be predicted [7].
+
+Forecast skill depended partly on the structure of species interactions. Species with more—but individually weaker—interactions tended to be more predictable, while increased environmental complexity reduced forecast skill for some species.
+
+Here the microcosm becomes more than a convenient experimental system. It becomes a testbed for ecological prediction. Because the true future trajectory of the system can subsequently be observed, researchers can make forecasts, wait, and quantitatively evaluate whether those forecasts were correct.
+
+## Why use microbial microcosms?
+
+Experimental microbial ecosystems clearly do not reproduce all of the complexity of forests, lakes or grasslands. Their value lies elsewhere. They allow ecological hypotheses to be tested with levels of replication, temporal resolution and experimental control that are difficult to achieve in many larger systems. Communities can be assembled deliberately, environmental conditions manipulated precisely, and population and ecosystem responses followed across many generations.
+
+Combined with [automated video microscopy and computer vision](../2026-09-10-video-microscopy-computer-vision/index.qmd), the same experiments can increasingly measure not only species abundances but individual morphology and behaviour. This creates a useful progression from Petchey and colleagues’ earlier work on biodiversity and functional diversity. Rather than asking only whether species differ functionally, experimental microbial ecology makes it possible to manipulate communities and environments and watch those differences play out through time.
+
+Small experimental ecosystems can therefore address some decidedly large questions: How does biodiversity affect stability? How do multiple environmental changes interact? How important are species interactions? And, ultimately, how predictable are ecological communities?
+
+## References
+
+[1] Altermatt, F., Fronhofer, E. A., Garnier, A., Giometto, A., Hammes, F., Klečka, J., et al., Pennekamp, F., et al. & Petchey, O. L. (2015). Big answers from small worlds: a user’s guide for protist microcosms as a model system in ecology and evolution. Methods in Ecology and Evolution, 6. DOI: 10.1111/2041-210X.12312. 
+
+[2] Pennekamp, F., Pontarp, M., Tabi, A., Altermatt, F., Alther, R., Choffat, Y., et al. & Petchey, O. L. (2018). Biodiversity increases and decreases ecosystem stability. Nature, 563, 109–112. DOI: 10.1038/s41586-018-0627-8. 
+
+[3] Garnier, A., Pennekamp, F., Lemoine, M. & Petchey, O. L. (2017). Temporal scale dependent interactions between multiple environmental disturbances in microcosm ecosystems. Global Change Biology, 23, 5237–5248. DOI: 10.1111/gcb.13786. 
+
+[4] Tabi, A., Petchey, O. L. & Pennekamp, F. (2019). Warming reduces the effects of enrichment on stability and functioning across levels of organisation in an aquatic microbial ecosystem. Ecology Letters, 22, 1061–1071. DOI: 10.1111/ele.13262. 
+
+[5] Tabi, A., Pennekamp, F., Altermatt, F., Alther, R., Fronhofer, E. A., Horgan, K., Pontarp, M., Petchey, O. L. & Saavedra, S. (2020). Species multidimensional effects explain idiosyncratic responses of communities to environmental change. Nature Ecology & Evolution, 4, 1036–1043. DOI: 10.1038/s41559-020-1206-6. 
+
+[6] Suleiman, M., Daugaard, U., Choffat, Y., Zheng, X. & Petchey, O. L. (2022). Predicting the effects of multiple global change drivers on microbial communities remains challenging. Global Change Biology, 28, 5575–5586. DOI: 10.1111/gcb.16303. 
+
+[7] Daugaard, U., Munch, S., Inauen, D., Pennekamp, F. & Petchey, O. L. (2022). Forecasting in the face of ecological complexity: Number and strength of species interactions determine forecast skill in ecological communities. Ecology Letters, 25, 1974–1985. DOI: 10.1111/ele.14070. 

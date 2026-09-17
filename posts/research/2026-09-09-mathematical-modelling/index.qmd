@@ -6,8 +6,47 @@ categories: [research, mathematical modelling]
 image: cover.jpg
 ---
 
-Underneath the group's empirical and experimental work is a consistent commitment to mathematical models — not as an end in themselves, but as the way ecological ideas get turned into predictions that can actually be tested and be wrong.
+## Mathematical modelling: exploring the mechanisms behind ecological dynamics
 
-The [allometric diet breadth model](../2026-09-14-predicting-food-webs-adbm/index.qmd) is a model of food web structure built from body-size scaling relationships. The [functional diversity](../2026-09-13-predicting-ecosystem-functioning/index.qmd) index is a model for turning trait data into a single, comparable number. Work on [response diversity and stability](../2026-09-12-predicting-ecological-stability/index.qmd) draws on population and community dynamics models to ask what determines whether a community holds together under change. In each case, the mathematics is what lets a verbal hypothesis be stated precisely enough to generate a testable, quantitative prediction — and what lets that prediction be checked against data from food webs, trait measurements, or the [protist microcosm experiments](../2026-09-11-experimental-microbial-ecology/index.qmd) the group runs.
+Ecological systems contain many interacting processes, making it difficult to determine which mechanisms are responsible for an observed pattern. Mathematical models offer a complementary approach to experiments and field observations: simplify the system, specify its mechanisms explicitly, and investigate their consequences.
 
-This is really the connective tissue of the group's research: whatever the system or method, the aim is always a model precise enough to predict something, and data good enough to tell whether it worked.
+This type of theoretical modelling has been an important strand of work by Owen Petchey and collaborators. The models range from predator–prey interactions and food webs to microbial ecosystems capable of switching between alternative states. A recurring objective is not to reproduce every detail of nature, but to ask what follows logically from a specified set of ecological mechanisms.
+
+## From foraging mechanisms to food-web structure
+
+An early example concerns the effects of temperature on food webs. Petchey, Brose and Rall developed a mathematical model connecting temperature-dependent foraging processes to the structure of ecological networks [1]. The model incorporated temperature dependence into quantities such as attack rates and handling times and then examined the consequences for which feeding interactions should occur — part of the group's longer engagement with [predicting the architecture of food webs](../2019-03-04-food-webs-history/index.qmd).
+
+The results predicted that warming could substantially alter food-web connectance. Importantly, warming did not have a single inevitable effect: whether connectance increased or decreased depended on the relative temperature sensitivities of the underlying foraging processes [1].
+
+## Nonlinear interactions and ecological stability
+
+Mathematical models are particularly valuable when ecological interactions are nonlinear. Daugaard, Petchey and Pennekamp investigated how warming could alter the functional response between a microbial predator and its prey [2]. Experimental observations suggested that increasing temperature shifted the interaction from a stabilising Type III functional response towards a Type II response.
+
+The ecological consequences were explored by incorporating these temperature-dependent functions into a population-dynamic model. Simulations predicted that the change in interaction shape could destabilise predator–prey dynamics and increase the likelihood of prey extinction at higher temperatures [2]. The important result is not simply that temperature affects feeding. A relatively subtle change in the mathematical form of an interaction can qualitatively alter the dynamics of an ecological system.
+
+## Alternative states and tipping points
+
+More recent theoretical work has focused on systems that can undergo abrupt regime shifts. Aquatic microbial ecosystems provide a useful example. Feedbacks among microorganisms, oxygen production and consumption, and biogeochemical processes can allow an ecosystem to persist in very different states—for example, an oxygenated state or an anoxic state.
+
+Limberger, Daugaard, Gupta, Krug, Lemmen, van Moorsel, Suleiman, Zuppinger-Dingley and Petchey used a mathematical model of such anoxic–oxic regime shifts to investigate how biodiversity affects ecosystem resilience [3]. The model contained three functional groups of bacteria and allowed trait diversity within those groups to vary. It was then possible to ask a deceptively simple question: does greater functional diversity make an ecosystem more resistant to collapse?
+
+The answer depended on where that diversity occurred. Greater trait diversity in two bacterial groups increased the resilience of their associated ecosystem state. In another group, however, greater diversity reduced resilience and could facilitate the collapse of the state in which that group occurred [3]. When diversity was introduced simultaneously into several groups, effects could weaken or cancel one another.
+
+The model therefore revealed something that a general statement such as “biodiversity increases resilience” misses. Diversity changes the range of ecological processes occurring within a system, and those processes can either reinforce or undermine the current ecosystem state. In some circumstances, functional diversity may therefore make a desirable ecosystem more resilient. In others, it may help destabilise an undesirable state and facilitate its transition to another one.
+
+## Degradation and recovery need not follow the same path
+  
+Alternative stable states raise another theoretical question. If environmental deterioration pushes an ecosystem from state A to state B, will reversing the environmental change simply take it back along the same trajectory? Bärtschi and Petchey explored this using a deliberately simple mathematical model of a microbial ecosystem in which two components mutually inhibited one another [4]. The simplicity of the model made it possible to manipulate two forms of symmetry independently: symmetry in the biological system itself and symmetry in the way the environment was changed.
+
+When both were perfectly symmetrical, degradation and restoration trajectories were also symmetrical. Introducing asymmetry into either the biological interactions or the environmental change produced increasingly asymmetric ecological responses [4]. This has implications for thinking about tipping points and ecosystem restoration. Removing the environmental pressure that caused ecosystem degradation need not produce an equal and opposite ecological response. Whether recovery resembles degradation depends on the structure and strength of the processes generating the alternative states.
+
+
+## References
+
+[1] Petchey, O. L., Brose, U. & Rall, B. C. (2010). Predicting the effects of temperature on food web connectance. Philosophical Transactions of the Royal Society B: Biological Sciences, 365, 2081–2091. DOI: 10.1098/rstb.2010.0011. 
+
+[2] Daugaard, U., Petchey, O. L. & Pennekamp, F. (2019). Warming can destabilise predator–prey interactions by shifting the functional response from Type III to Type II. Journal of Animal Ecology. DOI associated with the preprint record: 10.1101/498030.
+
+[3] Limberger, R., Daugaard, U., Gupta, A., Krug, R. M., Lemmen, K., van Moorsel, S. J., Suleiman, M., Zuppinger-Dingley, D. & Petchey, O. L. (2023). Functional diversity can facilitate the collapse of an undesirable ecosystem state. Ecology Letters. DOI: 10.1111/ele.14217.
+
+[4] Bärtschi, P. & Petchey, O. L. (2024). Reflecting on the symmetry of ecosystem tipping points: The influence of trait dissimilarity and environmental driver dynamics in a simple ecosystem model. Ecology and Evolution, 14. DOI: 10.1002/ece3.11421. 

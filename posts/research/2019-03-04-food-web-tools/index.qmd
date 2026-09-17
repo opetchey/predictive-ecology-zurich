@@ -6,7 +6,7 @@ categories: [research, food webs, R]
 image: cover.jpg
 ---
 
-Code to model and analyse random, cascade, and niche food web models.
+Code to model and analyse random, cascade, and niche food web models. These sit alongside the group's broader work on [predicting the architecture of food webs](../2019-03-04-food-webs-history/index.qmd) with mechanistic models such as the ADBM.
 
 Download the code and example data files (skip the `ADBM_shiny` folder) from [this folder on GitHub](https://github.com/opetchey/dumping_ground/tree/master/random_cascade_niche). None of this code comes with any guarantee — it's fairly rough and not optimised. Get in touch if you spot issues or possible corrections.
 

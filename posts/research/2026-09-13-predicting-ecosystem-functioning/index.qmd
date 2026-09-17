@@ -6,8 +6,122 @@ categories: [research, ecosystem functioning, functional diversity]
 image: cover.jpg
 ---
 
-Two communities with the same number of species can function very differently, because what matters for processes like productivity, decomposition, or nutrient cycling is often less how many species are present than what those species actually do. Functional diversity (FD) is an attempt to measure that directly: the diversity of species' functional traits, rather than just a species count.
+## From species counts to what species do: two decades of research on functional diversity
 
-Petchey & Gaston proposed an FD index based on the branch lengths of a functional dendrogram built from species' trait data — a general, taxon-independent way to quantify functional diversity that doesn't require picking out any one trait as *the* important one in advance. The approach, and the broader case for why ecosystem functioning needs to be linked to trait diversity rather than species richness alone, is set out in [Petchey & Gaston (2002), "Functional diversity (FD), species richness and community composition"](https://onlinelibrary.wiley.com/doi/abs/10.1046/j.1461-0248.2002.00339.x) and revisited in their later review, [Petchey & Gaston (2006), "Functional diversity: back to basics and looking forward"](https://www.researchgate.net/publication/7074563_Petchey_OL_Gaston_KJ_Functional_diversity_back_to_basics_and_looking_forward_Ecol_Lett_9_741-758).
+Biodiversity is often described by counting species. But species richness tells us relatively little about what those species do. Two communities might each contain 20 species yet differ substantially in the ecological characteristics of those species: how they acquire resources, how large they are, when and where they are active, or how they respond to environmental change.
 
-This work underpins the group's [FD code and instructions](../2019-03-04-calculating-fd/index.qmd) — the practical side of taking a trait matrix and turning it into a number that's meant to predict something about how an ecosystem functions.
+This distinction lies at the centre of functional diversity—the diversity of ecological traits and functions represented by organisms in a community. Over the past two decades, Owen Petchey and colleagues have contributed to developing this idea from a quantitative measure of biodiversity into a broader framework for connecting organisms, communities and ecosystem processes.
+
+## A quantitative measure of functional diversity
+
+A key starting point was the 2002 Ecology Letters paper by Owen Petchey and Kevin Gaston, "Functional diversity (FD), species richness and community composition” [1]. At the time, functional diversity was often represented by assigning species to discrete functional groups. Plants, for example, might be classified as grasses, legumes or forbs.
+
+Petchey and Gaston proposed instead that species could be described using quantitative functional traits. Distances among species in this multivariate trait space could then be represented by a dendrogram, rather like a phylogenetic tree except that the branches represented functional rather than evolutionary differences. Their measure, which they called FD, was the total branch length required to connect all species in a community.
+
+This seemingly simple construction captured an important ecological idea. Adding a species that is functionally very similar to species already present adds relatively little FD. Adding a species with unusual traits adds considerably more. Consequently, species richness and functional diversity need not change in parallel.
+
+The simulations in the original paper also highlighted why the relationship between the two depends on the structure of trait space. When species differ along relatively few dimensions, functional redundancy can be substantial and community composition becomes particularly important. As the effective dimensionality of trait space increases, species richness and FD tend to become more tightly coupled [1]. Worked code and examples for calculating FD are available in [Calculating FD](../2019-03-04-calculating-fd/index.qmd).
+
+## Extinction is not necessarily functionally random
+
+The same year, Petchey and Gaston used FD to ask what happens to ecological trait diversity as species disappear [2]. Using six natural assemblages, they compared observed patterns of functional-diversity loss with simulated extinction sequences. Functional diversity could decline rapidly, particularly when extinction was associated with particular traits. Species with characteristics such as large body size or particular plant resource-use traits were not necessarily interchangeable with the species remaining in the community.
+
+This provided an early quantitative treatment of a point that has subsequently become central to trait-based ecology: the ecological consequences of biodiversity loss depend not only on how many species disappear, but on which species disappear and which traits disappear with them [2].
+
+It also complicated simple notions of functional redundancy. A species-rich community is not necessarily buffered against biodiversity loss if the species most vulnerable to extinction occupy distinctive parts of functional trait space.
+
+## Does functional diversity actually predict ecosystem functioning?
+
+Developing a metric is useful only if the metric captures something ecologically meaningful. Petchey, Andy Hector and Gaston therefore compared FD with other measures using European grassland biodiversity experiments [3].
+
+They compared species richness, functional-group richness, functional attribute diversity and FD as predictors of above-ground biomass production. Measures based on continuous functional information—FD and functional attribute diversity—explained more variation in biomass production than either species richness or the number of functional groups [3].
+
+The study was important because it shifted the question from "how can functional diversity be measured?" towards "does measuring functional differences among organisms help explain ecosystem processes?"
+
+At the same time, Petchey emphasized the need for statistical caution. In a 2004 Functional Ecology paper, he showed that tests involving predefined functional groups could produce misleading conclusions because conventional tests implicitly treated the chosen grouping of species as correct [4]. Randomization tests that accounted for the grouping process changed the ecological interpretation of a substantial fraction of the experiments examined.
+
+Thus, from relatively early in this research programme, functional diversity was treated not simply as a new biodiversity index but as a hypothesis about how organismal differences translate into ecosystem processes—a hypothesis that required explicit testing.
+
+## Back to basics: what should functional diversity mean?
+
+By 2006, functional-diversity metrics were proliferating. Petchey and Gaston responded with a widely cited synthesis in Ecology Letters, "Functional diversity: back to basics and looking forward" [5]. Their definition was deliberately broad: functional diversity concerns the range of things organisms do in communities and ecosystems.
+
+More importantly, they identified three distinct problems that can sometimes become conflated:
+
+1. Which traits should be measured?
+2. How should differences in those traits be converted into a diversity metric?
+3. Does the resulting measure actually predict ecological processes?
+
+The second question is mathematical. The first and third are biological.
+
+This distinction remains important. There is no universally correct list of "functional traits". A trait is functional with respect to some ecological question. Traits relevant to primary production may differ from those relevant to decomposition, trophic interactions or responses to temperature.
+
+Petchey and Gaston therefore argued that functional-diversity measures should ultimately be validated against the processes they are intended to explain [5].
+
+## Functional redundancy in real communities
+
+The idea of redundancy received a particularly direct test in British bird communities. Petchey, Karl Evans, Isla Fishburn and Gaston analysed approximately two decades of changes in British avian assemblages [6].
+
+Functional diversity was generally lower than expected from random assemblages, consistent with environmental or ecological filtering producing communities containing species with relatively similar traits. More strikingly, however, temporal changes in functional diversity were almost proportional to changes in species richness.
+
+In these assemblages, therefore, there was little evidence that species losses were buffered by extensive functional redundancy. Observed colonizations and extinctions altered functional diversity more strongly than would have occurred if species identities had changed randomly [6]. This result reinforced a recurring message of the earlier extinction analyses: redundancy is something to be measured rather than assumed.
+
+The FD metric itself also continued to evolve. Responding to methodological criticism, Petchey and Gaston revised the dendrogram approach so that single-species communities have FD = 0 while preserving desirable mathematical properties such as set monotonicity [7]. The episode illustrates a broader feature of the field: functional-diversity metrics are models of biological difference, and their mathematical behaviour matters for the ecological conclusions drawn from them.
+
+## From species averages to individuals
+
+Most early functional-diversity analyses treated each species as having a single position in trait space. But individuals within species vary.
+
+Cianciaruso, Batalha, Gaston and Petchey extended functional diversity to incorporate this intraspecific trait variation [8]. Their analyses showed that individual-level and species-level estimates of FD can diverge, particularly when within-species variation is large.
+
+That shift is conceptually significant. If functional diversity is ultimately concerned with what organisms do, then species names are convenient containers rather than necessarily the fundamental units of functional variation.
+
+This idea was developed further by Fontana, Petchey and Pomati, who examined functional diversity explicitly at the individual level [9]. They evaluated existing measures of trait richness, evenness and divergence and proposed new measures designed for multidimensional distributions of individual traits.
+
+The result was a movement from functional diversity among species toward the more general concept of trait diversity among organisms.
+
+## Functional diversity beyond experimental grasslands
+
+As the methods matured, they were increasingly applied to large observational datasets. For example, Hagen, Ibáñez-Álamo, Petchey and Evans compared bird communities in 25 cities with paired non-urban assemblages, using 27 functional traits across 529 species [10]. Urbanization did not produce a simple universal reduction in functional diversity. After accounting for species richness, urban bird assemblages could have greater functional diversity than assemblages in semi-natural habitats, while characteristics such as vegetation cover, city size and human population density were associated with variation among cities.
+
+Studies such as this demonstrate why functional diversity can complement species richness. Environmental change can alter the distribution of ecological traits without producing an equivalent change in the number of species.
+
+More recent work has also distinguished effect traits—traits influencing ecosystem processes—from response traits, which determine how organisms respond to environmental change. Hordley and colleagues, including Petchey, showed that these two forms of trait information can provide complementary perspectives on changes in bird communities [11].
+
+The distinction extends the original functional-diversity logic. Understanding ecosystem change requires knowing both what organisms do and how organisms with different functions respond when their environment changes.
+
+
+
+## A continuing research programme
+
+Seen retrospectively, the 2002 FD paper was not simply the introduction of another biodiversity index. It helped formalize a particular way of thinking about biodiversity. Species richness asks how many kinds of organisms are present. Functional diversity asks how different those organisms are in ecologically relevant ways.
+
+The work by Petchey and colleagues since then has progressively complicated—and improved—that basic idea. Functional differences can be continuous rather than categorical. The consequences of extinction depend on which traits are lost. Functional redundancy cannot safely be assumed. Trait choice must depend on the ecological process under investigation. Individuals within species can contribute substantial functional variation. Response and effect traits provide different information. And ecosystem consequences themselves have multiple dimensions.
+
+Perhaps the most durable contribution of this research programme is therefore methodological rather than tied to any single metric. It encourages ecologists to make explicit the chain of reasoning connecting organismal traits → functional differences → community structure → ecosystem processes, and then to test each link.
+
+
+
+## References
+
+[1] Petchey, O. L. & Gaston, K. J. (2002). Functional diversity (FD), species richness and community composition. Ecology Letters, 5, 402–411. DOI: 10.1046/j.1461-0248.2002.00339.x. 
+
+[2] Petchey, O. L. & Gaston, K. J. (2002). Extinction and the loss of functional diversity. Proceedings of the Royal Society of London B, 269, 1721–1727. DOI: 10.1098/rspb.2002.2073. 
+
+[3] Petchey, O. L., Hector, A. & Gaston, K. J. (2004). How do different measures of functional diversity perform?. Ecology, 85, 847–857. DOI: 10.1890/03-0226. 
+
+[4] Petchey, O. L. (2004). On the statistical significance of functional diversity effects. Functional Ecology, 18, 297–303. DOI: 10.1111/j.0269-8463.2004.00852.x. 
+
+[5] Petchey, O. L. & Gaston, K. J. (2006). Functional diversity: back to basics and looking forward. Ecology Letters, 9, 741–758. DOI: 10.1111/j.1461-0248.2006.00924.x. 
+
+[6] Petchey, O. L., Evans, K. L., Fishburn, I. S. & Gaston, K. J. (2007). Low functional diversity and no redundancy in British avian assemblages. Journal of Animal Ecology, 76, 977–985. DOI: 10.1111/j.1365-2656.2007.01271.x. 
+
+[7] Petchey, O. L. & Gaston, K. J. (2007). Dendrograms and measuring functional diversity. Oikos, 116, 1422–1426. DOI: 10.1111/j.0030-1299.2007.15894.x. 
+
+[8] Cianciaruso, M. V., Batalha, M. A., Gaston, K. J. & Petchey, O. L. (2009). Including intraspecific variability in functional diversity. Ecology, 90, 81–89. DOI: 10.1890/07-1864.1. 
+
+[9] Fontana, S., Petchey, O. L. & Pomati, F. (2016). Individual-level trait diversity concepts and indices to comprehensively describe community change in multidimensional trait space. Functional Ecology, 30, 808–818. DOI: 10.1111/1365-2435.12551. 
+
+[10] Hagen, O., Ibáñez-Álamo, J. D., Petchey, O. L. & Evans, K. L. (2017). Impacts of Urban Areas and Their Characteristics on Avian Functional Diversity. Frontiers in Ecology and Evolution, 5, 84. DOI: 10.3389/fevo.2017.00084. 
+
+[11] Hordley, L. A., Gillings, S., Petchey, O. L., Tobias, J. A. & Oliver, T. H. (2021). Diversity of response and effect traits provides complementary information about avian community dynamics linked to ecological function. Functional Ecology. DOI: 10.1111/1365-2435.13865. 

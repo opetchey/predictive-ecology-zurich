@@ -6,7 +6,7 @@ categories: [research, functional diversity]
 image: cover.jpg
 ---
 
-Code and instructions for calculating FD, the measure of functional diversity that Owen and Kevin Gaston created.
+Code and instructions for calculating FD, the measure of functional diversity that Owen and Kevin Gaston created. See [Predicting ecosystem functioning: functional diversity](../2026-09-13-predicting-ecosystem-functioning/index.qmd) for the broader research programme this measure grew into.
 
 Below is advice on using code and functions in R that follow the same matrix notation as the original publication, [Petchey & Gaston (2002)](http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract). The functions have been updated to account for [the development](http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2006.00924.x/abstract) of FD we published in 2006.
 
