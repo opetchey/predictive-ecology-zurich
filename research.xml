@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Predictive Ecology Group</title>
+<link>https://predictiveecologyzurich.org/research.html</link>
+<atom:link href="https://predictiveecologyzurich.org/research.xml" rel="self" type="application/rss+xml"/>
+<description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Thu, 17 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>From streams to forests: ecology in the natural world</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2026-09-17-from-streams-to-forests/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Much of our research uses mathematical models and controlled microbial experiments to isolate ecological mechanisms, but an equally important question is whether those ideas help us understand the much greater complexity of natural ecosystems. We often work with collaborators to bridge the gap between controlled experiments and the complexity of natural systems. This work has ranged across a broad collection of natural systems: geothermally heated streams in Iceland, Sphagnum peatlands, forests and grasslands, urban bird communities, freshwater fishes, and ecological patterns measured across entire countries and continents. These studies connect recurring themes—functional diversity, species interactions, environmental responses and stability—to ecosystems in which the environment cannot be held constant.</p>
+<section id="a-quick-tour-of-the-systems" class="level2">
+<h2 class="anchored" data-anchor-id="a-quick-tour-of-the-systems">A quick tour of the systems</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ecosystem or system</th>
+<th>Organisms / properties</th>
+<th>Question</th>
+<th>Example work</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Geothermally heated streams, Iceland</td>
+<td>Ciliate microbial communities</td>
+<td>How does natural warming alter freshwater communities?</td>
+<td>Plebani et al.&nbsp;2015 [1]</td>
+</tr>
+<tr class="even">
+<td>Forest landscapes</td>
+<td>Trees and their functional traits</td>
+<td>Can functional diversity be measured remotely?</td>
+<td>Schneider et al.&nbsp;2017 [2]</td>
+</tr>
+<tr class="odd">
+<td>Switzerland</td>
+<td>Carbon regulation, erosion prevention, air quality and recreation</td>
+<td>Can ecosystem services and their trade-offs be monitored from Earth observation?</td>
+<td>Braun et al.&nbsp;2018 [3]</td>
+</tr>
+<tr class="even">
+<td>Urban ecosystems worldwide</td>
+<td>Birds</td>
+<td>How does urbanisation change the functional diversity of animal communities?</td>
+<td>Hagen et al.&nbsp;2017 [4]</td>
+</tr>
+<tr class="odd">
+<td>British and North American landscapes</td>
+<td>Birds</td>
+<td>How do traits, climate and spatial synchrony influence community dynamics?</td>
+<td>Hordley et al.&nbsp;2021 [5]</td>
+</tr>
+<tr class="even">
+<td>Temperate terrestrial and freshwater ecosystems</td>
+<td>1,246 bird and 580 fish communities</td>
+<td>How do temperature and biodiversity influence ecological stability in nature?</td>
+<td>Ghosh et al.&nbsp;2024 [6]</td>
+</tr>
+<tr class="odd">
+<td>Sphagnum peatlands</td>
+<td>Microbial food webs</td>
+<td>Do richness or trophic interactions better explain ecosystem functioning?</td>
+<td>Jassey et al.&nbsp;2023 [7]</td>
+</tr>
+<tr class="even">
+<td>Northern peatlands</td>
+<td>Photosynthetic microorganisms and carbon cycling</td>
+<td>Can microbial photosynthesis modify the response of peatland carbon cycling to warming?</td>
+<td>Hamard et al.&nbsp;2025 [8]</td>
+</tr>
+<tr class="odd">
+<td>Global mountains, islands and deltas</td>
+<td>Multiple ecosystem services</td>
+<td>How are services bundled together across contrasting landscapes?</td>
+<td>Reader et al.&nbsp;2022, 2024 [9]</td>
+</tr>
+<tr class="even">
+<td>Biodiversity experiments and natural-system datasets</td>
+<td>Plants and other communities</td>
+<td>How general are relationships among biodiversity, productivity and environmental conditions?</td>
+<td>Parreño et al.&nbsp;2021; Hong et al.&nbsp;2022 [10]</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="icelands-naturally-heated-streams" class="level2">
+<h2 class="anchored" data-anchor-id="icelands-naturally-heated-streams">Iceland’s naturally heated streams</h2>
+<p>One direct way to investigate climate warming is to find ecosystems in which nature has already created a temperature experiment. In Iceland, geothermal activity produces neighbouring streams that are similar in many respects but differ substantially in temperature. Plebani and colleagues studied ciliate communities in 13 such streams spanning mean temperatures of approximately 5–20°C [1]. The same naturally warmed streams have also been used to test how well the architecture of entire food webs can be predicted as temperatures rise, extending the question from single communities to whole networks of feeding interactions. Their results also showed why field ecology can complicate simple expectations from laboratory experiments: on submerged rocks, ciliate biomass and local diversity declined as temperature increased, whereas on sandy substrates community composition showed no comparable temperature dependence. The effect of temperature therefore depended on the physical environment in which the organisms lived, with flow, resources, disturbance and exposure to grazers all potentially modifying how warming affected the microbial community. Natural experiments such as these occupy a useful middle ground between laboratory and observational ecology, because environmental variation is naturally generated but occurs across comparable ecosystems in the field.</p>
+</section>
+<section id="measuring-forests-and-ecosystem-services-from-above" class="level2">
+<h2 class="anchored" data-anchor-id="measuring-forests-and-ecosystem-services-from-above">Measuring forests and ecosystem services from above</h2>
+<p>Natural ecosystems also present a problem of scale. Traits can be measured carefully on individual plants, but ecological questions often concern entire forests and landscapes. Schneider and colleagues addressed this using a combination of airborne laser scanning and imaging spectroscopy to map morphological and physiological variation among trees [2]. The resulting maps estimated functional diversity continuously across a forest landscape rather than assigning a single diversity value to an individual vegetation plot. The remotely sensed estimates agreed reasonably with leaf measurements and forest inventory data collected on the ground, while also revealing relationships between functional diversity, topography and soil conditions [2]. This work connects directly to the earlier research on functional diversity: the question moves from how should functional diversity be measured? to can we actually observe it across real landscapes?</p>
+<p>Remote sensing also makes it possible to move beyond biodiversity itself and investigate what landscapes provide. Braun and colleagues combined Earth observation with ecosystem-service models to examine changes across Switzerland between 2004 and 2014 [3], considering services including carbon dioxide regulation, soil erosion prevention, air-quality regulation and recreational hiking. Rather than all services changing together, their relationships depended on both location and spatial scale, with some services showing synergies and others trade-offs. Related work has extended this perspective internationally, asking how suites of ecosystem services are associated with human modification across major delta systems and how recurring ecosystem-service bundles emerge across mountains, islands and deltas. The ecological unit has therefore expanded dramatically, from individual organisms and communities to landscapes whose ecological properties also affect human societies.</p>
+</section>
+<section id="birds-cities-and-changing-climates" class="level2">
+<h2 class="anchored" data-anchor-id="birds-cities-and-changing-climates">Birds, cities and changing climates</h2>
+<p>Birds have provided another important bridge between functional-diversity theory and large-scale natural communities. Hagen and colleagues compared 529 bird species across 25 urban areas worldwide, using 27 functional traits associated with resource use and comparing urban communities with paired non-urban communities [4]. The results were not a simple story of cities having uniformly lower functional diversity. After accounting for differences in species richness, urban assemblages could have relatively high functional diversity, while characteristics including vegetation, population density and city size were associated with the patterns observed. Other work with long-running bird monitoring data has considered the distinction between response traits—characteristics associated with how species respond to environmental change—and effect traits, which describe how species contribute to ecological functioning [5], a distinction explored further in <a href="../../../posts/research/2026-09-13-predicting-ecosystem-functioning/index.html">Predicting ecosystem functioning</a>. This allows natural bird communities to be viewed not simply as lists of species but as distributions of ecological strategies, linking changes in community composition to potential changes in ecosystem functioning.</p>
+<p>Long-term biodiversity monitoring also makes it possible to test ecological stability theory at much larger scales. Ghosh, Matthews and Petchey analysed 1,246 bird communities and 580 fish communities from temperate regions, asking how biodiversity and different aspects of temperature were related to community stability [6]. Temperature was not represented by a single mean value: the study distinguished its median, variability, long-term trend and extremes and examined how these components related to diversity, synchrony and stability. The results differed between birds and fishes. In fish communities, variation among species in responses to changing median temperature was associated with the diversity–synchrony–stability relationship, whereas in birds there was evidence for a role of temperature extremes [6]. This provides an important test of ideas developed in the <a href="../../../posts/research/2026-09-12-predicting-ecological-stability/index.html">response-diversity work</a>: stability in natural communities depends not only on how many species are present, but also on whether their populations respond to environmental variation in similar or different ways.</p>
+</section>
+<section id="peatlands-tiny-organisms-in-a-major-carbon-store" class="level2">
+<h2 class="anchored" data-anchor-id="peatlands-tiny-organisms-in-a-major-carbon-store">Peatlands: tiny organisms in a major carbon store</h2>
+<p>Some of the smallest organisms studied by the group occur in ecosystems of global significance. Peatlands contain large stores of carbon, and their future under climate change depends partly on the microorganisms responsible for photosynthesis, decomposition and nutrient cycling. In a Sphagnum-dominated peatland, Jassey and colleagues investigated microbial food-web structure and ecosystem functions including decomposition and enzyme activity [7]. Taxonomic richness itself did not directly explain variation in the measured functions. Instead, food-web properties—including trophic interactions, connectance, biomass and energy transfer—were more informative, shifting attention from how many microbial taxa occur in a peatland towards how energy moves among them.</p>
+<p>More recently, Hamard and colleagues investigated another easily overlooked component of peatland ecology: photosynthesis by microorganisms [8]. Their work shows that microbial photosynthesis can mitigate carbon loss from northern peatlands under warming, adding an important biological process to our understanding of peatland carbon cycling. Together, these studies illustrate a recurring feature of this research: ecosystem-scale processes can emerge from interactions among organisms that are individually microscopic. Understanding peatland responses to environmental change therefore requires attention not only to the plants that dominate the visible landscape but also to the microbial communities and food webs associated with them.</p>
+</section>
+<section id="field-systems-as-tests-of-ecological-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="field-systems-as-tests-of-ecological-ideas">Field systems as tests of ecological ideas</h2>
+<p>These natural-system studies span very different organisms and environments, but several common questions recur: does biodiversity stabilise ecological communities, does it matter which traits species possess, do species respond independently or synchronously to environmental change, and are ecosystem processes better predicted by species richness, functional differences or interactions among organisms? Field studies make these questions harder because temperature covaries with other environmental conditions, species interact with many other organisms, landscapes have histories, disturbances occur unexpectedly, and human activities alter both ecosystems and the services obtained from them. But that complexity is precisely why natural ecosystems matter. Laboratory experiments allow ecological mechanisms to be isolated and mathematical models make their assumptions explicit; natural experiments and long-term observations then ask whether those mechanisms remain useful when confronted with the full complexity of ecological systems. Across streams, forests, peatlands, cities and continental monitoring networks, the underlying goal remains much the same: to understand how differences among organisms, their interactions and their responses to environmental change scale up to determine how ecosystems function and persist.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ol type="1">
+<li>Plebani, M., Fussmann, K.E., Hansen, D.M., O’Gorman, E.J., Stewart, R.I.A., Woodward, G. &amp; Petchey, O.L. (2015). Substratum-dependent responses of ciliate assemblages to temperature: a natural experiment in Icelandic streams. <em>Freshwater Biology</em>, 60, 1561–1570. <a href="https://doi.org/10.1111/fwb.12588">DOI: 10.1111/fwb.12588</a></li>
+<li>Schneider, F.D., Morsdorf, F., Schmid, B., Petchey, O.L., Hueni, A., Schimel, D.S. &amp; Schaepman, M.E. (2017). Mapping functional diversity from remotely sensed morphological and physiological forest traits. <em>Nature Communications</em>, 8. <a href="https://doi.org/10.1038/s41467-017-01530-3">DOI: 10.1038/s41467-017-01530-3</a></li>
+<li>Braun, D., Damm, A., Hein, L., Petchey, O.L. &amp; Schaepman, M.E. (2018). Spatio-temporal trends and trade-offs in ecosystem services: An Earth observation based assessment for Switzerland between 2004 and 2014. <em>Ecological Indicators</em>. <a href="https://doi.org/10.1016/j.ecolind.2017.10.016">DOI: 10.1016/j.ecolind.2017.10.016</a></li>
+<li>Hagen, O., Ibáñez-Álamo, J.D., Petchey, O.L. &amp; Evans, K.L. (2017). Impacts of Urban Areas and Their Characteristics on Avian Functional Diversity. <em>Frontiers in Ecology and Evolution</em>, 5, 84. <a href="https://doi.org/10.3389/fevo.2017.00084">DOI: 10.3389/fevo.2017.00084</a></li>
+<li>Hordley, L.A., Gillings, S., Petchey, O.L., Tobias, J.A. &amp; Oliver, T.H. (2021). Diversity of response and effect traits provides complementary information about avian community dynamics linked to ecological function. <em>Functional Ecology</em>, 35, 1938–1950. <a href="https://doi.org/10.1111/1365-2435.13865">DOI: 10.1111/1365-2435.13865</a></li>
+<li>Ghosh, S., Matthews, B. &amp; Petchey, O.L. (2024). Temperature and biodiversity influence community stability differently in birds and fishes. <em>Nature Ecology &amp; Evolution</em>, 8, 1835–1846. <a href="https://doi.org/10.1038/s41559-024-02493-7">DOI: 10.1038/s41559-024-02493-7</a></li>
+<li>Jassey, V.E.J., Petchey, O.L., Binet, P., Buttler, A., Chiapusio, G., Delarue, F., et al.&nbsp;(2023). Food web structure and energy flux dynamics, but not taxonomic richness, influence microbial ecosystem functions in a Sphagnum-dominated peatland. <em>European Journal of Soil Biology</em>, 118, 103532. <a href="https://doi.org/10.1016/j.ejsobi.2023.103532">DOI: 10.1016/j.ejsobi.2023.103532</a></li>
+<li>Hamard, S., Planchenault, S., Walcker, R., Sytiuk, A., Le Geay, M., Küttim, M., et al.&nbsp;(2025). Microbial photosynthesis mitigates carbon loss from northern peatlands under warming. <em>Nature Climate Change</em>, 15, 436–443. <a href="https://doi.org/10.1038/s41558-025-02271-8">DOI: 10.1038/s41558-025-02271-8</a></li>
+<li>Reader, M.O., Eppinga, M.B., de Boer, H.J., Damm, A., Petchey, O.L. &amp; Santos, M.J. (2022). The relationship between ecosystem services and human modification displays decoupling across global delta systems. <em>Communications Earth &amp; Environment</em>, 3. Reader, M.O., Eppinga, M.B., de Boer, H.J., Petchey, O.L. &amp; Santos, M.J. (2024). Consistent ecosystem service bundles emerge across global mountain, island and delta systems. <em>Ecosystem Services</em>, 66, 101593.</li>
+<li>Parreño, M.A., Schmid, B. &amp; Petchey, O.L. (2021). Comparative study of the most tested hypotheses on relationships between biodiversity, productivity, light and nutrients. <em>Basic and Applied Ecology</em>, 53, 175–190. Hong, P., Schmid, B., De Laender, F., Eisenhauer, N., Zhang, X., Chen, H., et al.&nbsp;(2022). Biodiversity promotes ecosystem functioning despite environmental change. <em>Ecology Letters</em>, 25, 555–569.</li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>research</category>
+  <category>natural ecosystems</category>
+  <category>field ecology</category>
+  <category>functional diversity</category>
+  <category>ecological stability</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-17-from-streams-to-forests/</guid>
+  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-17-from-streams-to-forests/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Predicting food webs: the allometric diet breadth model</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2026-09-14-predicting-food-webs-adbm/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A food web is the network of who eats whom in a community, and for decades ecologists mostly had to observe or guess at that network species pair by species pair. The allometric diet breadth model (ADBM) takes a different approach: it predicts a predator’s diet — and so an entire food web’s structure — from body sizes alone.</p>
+<p>The idea builds on optimal foraging theory: a predator should include a prey species in its diet if doing so increases its net rate of energy intake, and both the profitability of an attack and the risk of it succeeding scale predictably with the body sizes of predator and prey. Given nothing more than a list of species’ body sizes, the ADBM ranks potential prey by profitability and predicts which a predator should and shouldn’t eat, generating a whole predicted food web that can be compared against real, observed ones.</p>
+<p>The model was introduced in <a href="https://www.pnas.org/content/103/37/13745">Beckerman, Petchey &amp; Warren (2006), “Foraging biology predicts food web complexity”</a>, and has since been used and extended by the group and others to ask how far body size alone can take us in predicting community structure. It connects directly to the group’s broader history of food web research and to the <a href="../../../posts/research/2019-03-04-food-web-tools/index.html">R tools</a> used to build and analyse these predicted webs.</p>
+
+
+
+ ]]></description>
+  <category>research</category>
+  <category>food webs</category>
+  <category>allometric diet breadth model</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-14-predicting-food-webs-adbm/</guid>
+  <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-14-predicting-food-webs-adbm/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Predicting ecosystem functioning: functional diversity</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2026-09-13-predicting-ecosystem-functioning/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="from-species-counts-to-what-species-do-two-decades-of-research-on-functional-diversity" class="level2">
+<h2 class="anchored" data-anchor-id="from-species-counts-to-what-species-do-two-decades-of-research-on-functional-diversity">From species counts to what species do: two decades of research on functional diversity</h2>
+<p>Biodiversity is often described by counting species. But species richness tells us relatively little about what those species do. Two communities might each contain 20 species yet differ substantially in the ecological characteristics of those species: how they acquire resources, how large they are, when and where they are active, or how they respond to environmental change.</p>
+<p>This distinction lies at the centre of functional diversity—the diversity of ecological traits and functions represented by organisms in a community. Over the past two decades, Owen Petchey and colleagues have contributed to developing this idea from a quantitative measure of biodiversity into a broader framework for connecting organisms, communities and ecosystem processes.</p>
+</section>
+<section id="a-quantitative-measure-of-functional-diversity" class="level2">
+<h2 class="anchored" data-anchor-id="a-quantitative-measure-of-functional-diversity">A quantitative measure of functional diversity</h2>
+<p>A key starting point was the 2002 Ecology Letters paper by Owen Petchey and Kevin Gaston, “Functional diversity (FD), species richness and community composition” [1]. At the time, functional diversity was often represented by assigning species to discrete functional groups. Plants, for example, might be classified as grasses, legumes or forbs.</p>
+<p>Petchey and Gaston proposed instead that species could be described using quantitative functional traits. Distances among species in this multivariate trait space could then be represented by a dendrogram, rather like a phylogenetic tree except that the branches represented functional rather than evolutionary differences. Their measure, which they called FD, was the total branch length required to connect all species in a community.</p>
+<p>This seemingly simple construction captured an important ecological idea. Adding a species that is functionally very similar to species already present adds relatively little FD. Adding a species with unusual traits adds considerably more. Consequently, species richness and functional diversity need not change in parallel.</p>
+<p>The simulations in the original paper also highlighted why the relationship between the two depends on the structure of trait space. When species differ along relatively few dimensions, functional redundancy can be substantial and community composition becomes particularly important. As the effective dimensionality of trait space increases, species richness and FD tend to become more tightly coupled [1]. Worked code and examples for calculating FD are available in <a href="../../../posts/research/2019-03-04-calculating-fd/index.html">Calculating FD</a>.</p>
+</section>
+<section id="extinction-is-not-necessarily-functionally-random" class="level2">
+<h2 class="anchored" data-anchor-id="extinction-is-not-necessarily-functionally-random">Extinction is not necessarily functionally random</h2>
+<p>The same year, Petchey and Gaston used FD to ask what happens to ecological trait diversity as species disappear [2]. Using six natural assemblages, they compared observed patterns of functional-diversity loss with simulated extinction sequences. Functional diversity could decline rapidly, particularly when extinction was associated with particular traits. Species with characteristics such as large body size or particular plant resource-use traits were not necessarily interchangeable with the species remaining in the community.</p>
+<p>This provided an early quantitative treatment of a point that has subsequently become central to trait-based ecology: the ecological consequences of biodiversity loss depend not only on how many species disappear, but on which species disappear and which traits disappear with them [2].</p>
+<p>It also complicated simple notions of functional redundancy. A species-rich community is not necessarily buffered against biodiversity loss if the species most vulnerable to extinction occupy distinctive parts of functional trait space.</p>
+</section>
+<section id="does-functional-diversity-actually-predict-ecosystem-functioning" class="level2">
+<h2 class="anchored" data-anchor-id="does-functional-diversity-actually-predict-ecosystem-functioning">Does functional diversity actually predict ecosystem functioning?</h2>
+<p>Developing a metric is useful only if the metric captures something ecologically meaningful. Petchey, Andy Hector and Gaston therefore compared FD with other measures using European grassland biodiversity experiments [3].</p>
+<p>They compared species richness, functional-group richness, functional attribute diversity and FD as predictors of above-ground biomass production. Measures based on continuous functional information—FD and functional attribute diversity—explained more variation in biomass production than either species richness or the number of functional groups [3].</p>
+<p>The study was important because it shifted the question from “how can functional diversity be measured?” towards “does measuring functional differences among organisms help explain ecosystem processes?”</p>
+<p>At the same time, Petchey emphasized the need for statistical caution. In a 2004 Functional Ecology paper, he showed that tests involving predefined functional groups could produce misleading conclusions because conventional tests implicitly treated the chosen grouping of species as correct [4]. Randomization tests that accounted for the grouping process changed the ecological interpretation of a substantial fraction of the experiments examined.</p>
+<p>Thus, from relatively early in this research programme, functional diversity was treated not simply as a new biodiversity index but as a hypothesis about how organismal differences translate into ecosystem processes—a hypothesis that required explicit testing.</p>
+</section>
+<section id="back-to-basics-what-should-functional-diversity-mean" class="level2">
+<h2 class="anchored" data-anchor-id="back-to-basics-what-should-functional-diversity-mean">Back to basics: what should functional diversity mean?</h2>
+<p>By 2006, functional-diversity metrics were proliferating. Petchey and Gaston responded with a widely cited synthesis in Ecology Letters, “Functional diversity: back to basics and looking forward” [5]. Their definition was deliberately broad: functional diversity concerns the range of things organisms do in communities and ecosystems.</p>
+<p>More importantly, they identified three distinct problems that can sometimes become conflated:</p>
+<ol type="1">
+<li>Which traits should be measured?</li>
+<li>How should differences in those traits be converted into a diversity metric?</li>
+<li>Does the resulting measure actually predict ecological processes?</li>
+</ol>
+<p>The second question is mathematical. The first and third are biological.</p>
+<p>This distinction remains important. There is no universally correct list of “functional traits”. A trait is functional with respect to some ecological question. Traits relevant to primary production may differ from those relevant to decomposition, trophic interactions or responses to temperature.</p>
+<p>Petchey and Gaston therefore argued that functional-diversity measures should ultimately be validated against the processes they are intended to explain [5].</p>
+</section>
+<section id="functional-redundancy-in-real-communities" class="level2">
+<h2 class="anchored" data-anchor-id="functional-redundancy-in-real-communities">Functional redundancy in real communities</h2>
+<p>The idea of redundancy received a particularly direct test in British bird communities. Petchey, Karl Evans, Isla Fishburn and Gaston analysed approximately two decades of changes in British avian assemblages [6].</p>
+<p>Functional diversity was generally lower than expected from random assemblages, consistent with environmental or ecological filtering producing communities containing species with relatively similar traits. More strikingly, however, temporal changes in functional diversity were almost proportional to changes in species richness.</p>
+<p>In these assemblages, therefore, there was little evidence that species losses were buffered by extensive functional redundancy. Observed colonizations and extinctions altered functional diversity more strongly than would have occurred if species identities had changed randomly [6]. This result reinforced a recurring message of the earlier extinction analyses: redundancy is something to be measured rather than assumed.</p>
+<p>The FD metric itself also continued to evolve. Responding to methodological criticism, Petchey and Gaston revised the dendrogram approach so that single-species communities have FD = 0 while preserving desirable mathematical properties such as set monotonicity [7]. The episode illustrates a broader feature of the field: functional-diversity metrics are models of biological difference, and their mathematical behaviour matters for the ecological conclusions drawn from them.</p>
+</section>
+<section id="from-species-averages-to-individuals" class="level2">
+<h2 class="anchored" data-anchor-id="from-species-averages-to-individuals">From species averages to individuals</h2>
+<p>Most early functional-diversity analyses treated each species as having a single position in trait space. But individuals within species vary.</p>
+<p>Cianciaruso, Batalha, Gaston and Petchey extended functional diversity to incorporate this intraspecific trait variation [8]. Their analyses showed that individual-level and species-level estimates of FD can diverge, particularly when within-species variation is large.</p>
+<p>That shift is conceptually significant. If functional diversity is ultimately concerned with what organisms do, then species names are convenient containers rather than necessarily the fundamental units of functional variation.</p>
+<p>This idea was developed further by Fontana, Petchey and Pomati, who examined functional diversity explicitly at the individual level [9]. They evaluated existing measures of trait richness, evenness and divergence and proposed new measures designed for multidimensional distributions of individual traits.</p>
+<p>The result was a movement from functional diversity among species toward the more general concept of trait diversity among organisms.</p>
+</section>
+<section id="functional-diversity-beyond-experimental-grasslands" class="level2">
+<h2 class="anchored" data-anchor-id="functional-diversity-beyond-experimental-grasslands">Functional diversity beyond experimental grasslands</h2>
+<p>As the methods matured, they were increasingly applied to large observational datasets. For example, Hagen, Ibáñez-Álamo, Petchey and Evans compared bird communities in 25 cities with paired non-urban assemblages, using 27 functional traits across 529 species [10]. Urbanization did not produce a simple universal reduction in functional diversity. After accounting for species richness, urban bird assemblages could have greater functional diversity than assemblages in semi-natural habitats, while characteristics such as vegetation cover, city size and human population density were associated with variation among cities.</p>
+<p>Studies such as this demonstrate why functional diversity can complement species richness. Environmental change can alter the distribution of ecological traits without producing an equivalent change in the number of species.</p>
+<p>More recent work has also distinguished effect traits—traits influencing ecosystem processes—from response traits, which determine how organisms respond to environmental change. Hordley and colleagues, including Petchey, showed that these two forms of trait information can provide complementary perspectives on changes in bird communities [11].</p>
+<p>The distinction extends the original functional-diversity logic. Understanding ecosystem change requires knowing both what organisms do and how organisms with different functions respond when their environment changes.</p>
+</section>
+<section id="a-continuing-research-programme" class="level2">
+<h2 class="anchored" data-anchor-id="a-continuing-research-programme">A continuing research programme</h2>
+<p>Seen retrospectively, the 2002 FD paper was not simply the introduction of another biodiversity index. It helped formalize a particular way of thinking about biodiversity. Species richness asks how many kinds of organisms are present. Functional diversity asks how different those organisms are in ecologically relevant ways.</p>
+<p>The work by Petchey and colleagues since then has progressively complicated—and improved—that basic idea. Functional differences can be continuous rather than categorical. The consequences of extinction depend on which traits are lost. Functional redundancy cannot safely be assumed. Trait choice must depend on the ecological process under investigation. Individuals within species can contribute substantial functional variation. Response and effect traits provide different information. And ecosystem consequences themselves have multiple dimensions.</p>
+<p>Perhaps the most durable contribution of this research programme is therefore methodological rather than tied to any single metric. It encourages ecologists to make explicit the chain of reasoning connecting organismal traits → functional differences → community structure → ecosystem processes, and then to test each link.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>[1] Petchey, O. L. &amp; Gaston, K. J. (2002). Functional diversity (FD), species richness and community composition. Ecology Letters, 5, 402–411. DOI: 10.1046/j.1461-0248.2002.00339.x.</p>
+<p>[2] Petchey, O. L. &amp; Gaston, K. J. (2002). Extinction and the loss of functional diversity. Proceedings of the Royal Society of London B, 269, 1721–1727. DOI: 10.1098/rspb.2002.2073.</p>
+<p>[3] Petchey, O. L., Hector, A. &amp; Gaston, K. J. (2004). How do different measures of functional diversity perform?. Ecology, 85, 847–857. DOI: 10.1890/03-0226.</p>
+<p>[4] Petchey, O. L. (2004). On the statistical significance of functional diversity effects. Functional Ecology, 18, 297–303. DOI: 10.1111/j.0269-8463.2004.00852.x.</p>
+<p>[5] Petchey, O. L. &amp; Gaston, K. J. (2006). Functional diversity: back to basics and looking forward. Ecology Letters, 9, 741–758. DOI: 10.1111/j.1461-0248.2006.00924.x.</p>
+<p>[6] Petchey, O. L., Evans, K. L., Fishburn, I. S. &amp; Gaston, K. J. (2007). Low functional diversity and no redundancy in British avian assemblages. Journal of Animal Ecology, 76, 977–985. DOI: 10.1111/j.1365-2656.2007.01271.x.</p>
+<p>[7] Petchey, O. L. &amp; Gaston, K. J. (2007). Dendrograms and measuring functional diversity. Oikos, 116, 1422–1426. DOI: 10.1111/j.0030-1299.2007.15894.x.</p>
+<p>[8] Cianciaruso, M. V., Batalha, M. A., Gaston, K. J. &amp; Petchey, O. L. (2009). Including intraspecific variability in functional diversity. Ecology, 90, 81–89. DOI: 10.1890/07-1864.1.</p>
+<p>[9] Fontana, S., Petchey, O. L. &amp; Pomati, F. (2016). Individual-level trait diversity concepts and indices to comprehensively describe community change in multidimensional trait space. Functional Ecology, 30, 808–818. DOI: 10.1111/1365-2435.12551.</p>
+<p>[10] Hagen, O., Ibáñez-Álamo, J. D., Petchey, O. L. &amp; Evans, K. L. (2017). Impacts of Urban Areas and Their Characteristics on Avian Functional Diversity. Frontiers in Ecology and Evolution, 5, 84. DOI: 10.3389/fevo.2017.00084.</p>
+<p>[11] Hordley, L. A., Gillings, S., Petchey, O. L., Tobias, J. A. &amp; Oliver, T. H. (2021). Diversity of response and effect traits provides complementary information about avian community dynamics linked to ecological function. Functional Ecology. DOI: 10.1111/1365-2435.13865.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research</category>
+  <category>ecosystem functioning</category>
+  <category>functional diversity</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-13-predicting-ecosystem-functioning/</guid>
+  <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-13-predicting-ecosystem-functioning/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Predicting ecological stability: response diversity</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2026-09-12-predicting-ecological-stability/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="predicting-ecological-stability-response-diversity" class="level2">
+<h2 class="anchored" data-anchor-id="predicting-ecological-stability-response-diversity">Predicting ecological stability: response diversity</h2>
+<p>Why are some ecological communities relatively stable when their environment changes, while others fluctuate dramatically? Species richness provides only part of the answer. Two communities containing the same number of species may respond very differently to environmental variation. What may matter more is how differently those species respond to change.</p>
+<p>This variation is known as response diversity, and it has become an important focus of work by Owen Petchey and collaborators. The aim is to move from the general observation that biodiversity can promote stability towards a more mechanistic question: can we predict stability from the environmental responses of the organisms making up a community?</p>
+</section>
+<section id="diversity-as-ecological-insurance" class="level2">
+<h2 class="anchored" data-anchor-id="diversity-as-ecological-insurance">Diversity as ecological insurance</h2>
+<p>The basic idea is straightforward. Imagine a community exposed to changing temperature. If all species perform best and worst at approximately the same temperatures, their populations may rise and fall together. If species differ in their temperature responses, however, poor conditions for one species may be favourable for another. Fluctuations can partly compensate for one another, potentially stabilising properties such as total community biomass. Response diversity therefore provides one possible mechanism for the insurance effect of biodiversity.</p>
+<p>The difficulty is measurement. Response diversity has often been inferred indirectly from traits assumed to determine environmental responses. Ross, Petchey and colleagues instead developed a framework based on measuring the ecological responses themselves [1]. A species’ abundance, growth or other performance measure can be related empirically to an environmental variable, producing a response curve. Differences among these curves then provide a quantitative description of response diversity.</p>
+<p>Importantly, this approach can accommodate nonlinear relationships. Two species may differ not simply in whether they respond positively or negatively, but in the shapes and positions of their environmental response curves.</p>
+</section>
+<section id="from-one-environmental-variable-to-many" class="level2">
+<h2 class="anchored" data-anchor-id="from-one-environmental-variable-to-many">From one environmental variable to many</h2>
+<p>A further complication is that environments rarely change along a single axis.</p>
+<p>Temperature, nutrients, precipitation, light and other factors can change simultaneously. Consequently, response diversity measured against temperature alone may not describe how a community responds when temperature and resources change together. Polazzo, Limberger, Pennekamp, Petchey and colleagues extended the response-diversity framework to this multifarious environmental change [2]. In this formulation, species responses occupy a multidimensional environmental space rather than lying along a single environmental gradient.</p>
+<p>This leads to an important distinction between response diversity and response capacity. If the future trajectory of environmental change is known—for example, a particular combination of warming and nutrient change—response diversity can be evaluated along that trajectory. If the future trajectory is unknown, the broader distribution of species’ responses can instead be used to characterize the community’s capacity to respond across many possible environmental scenarios [2].</p>
+<p>The distinction matters for prediction. Ecologists rarely know precisely how multiple environmental variables will change together. Response capacity attempts to quantify the ecological “insurance” contained within a community without requiring one specific future to be assumed.</p>
+</section>
+<section id="testing-the-mechanism-experimentally" class="level2">
+<h2 class="anchored" data-anchor-id="testing-the-mechanism-experimentally">Testing the mechanism experimentally</h2>
+<p>A conceptual framework becomes much more useful if its predictions can be tested experimentally. Polazzo, Hämmig, Petchey and Pennekamp did this using experimental protist communities exposed to fluctuating temperatures under different nutrient conditions [3]. Rather than manipulating only species richness, they manipulated the distribution of species’ environmental responses.</p>
+<p>They introduced the concept of imbalance, describing how those responses are distributed. Communities with lower imbalance had greater temporal stability, whereas species richness itself had no detectable effect on stability in the experiment [3]. The mechanisms were revealing. Population stability and asynchronous dynamics among species together explained much of the variation in community stability. Moreover, environmental responses measured from species grown separately could predict stability when those species were assembled into communities.</p>
+<p>This provides an important connection between individual species and ecosystem-level behaviour: species’ environmental responses → asynchronous population dynamics + population variability → community stability.</p>
+<p>Response diversity can therefore potentially provide something more mechanistic than species richness alone.</p>
+</section>
+<section id="when-does-response-diversity-stabilise-communities" class="level2">
+<h2 class="anchored" data-anchor-id="when-does-response-diversity-stabilise-communities">When does response diversity stabilise communities?</h2>
+<p>The relationship is not universal, however. Kunze, Petchey, Ghosh and Hillebrand examined whether response diversity also predicts stability following pulse disturbances—discrete disturbances that abruptly affect a community [4]. Combining multispecies simulations with a meta-analysis of experimental data, they found that the importance of response diversity depended on the disturbance regime and on species interactions.</p>
+<p>Under a pulse disturbance, the average response of species could be more important than diversity among responses. If nearly every species is strongly affected by the same event, simply having different degrees of sensitivity does not necessarily produce the compensatory dynamics expected under continuously fluctuating environments [4].</p>
+<p>This distinction helps clarify what response diversity does—and does not—predict. Its stabilising effect depends on the type of environmental variation, the structure of species responses and the interactions occurring within the community.</p>
+</section>
+<section id="response-diversity-is-itself-dynamic" class="level2">
+<h2 class="anchored" data-anchor-id="response-diversity-is-itself-dynamic">Response diversity is itself dynamic</h2>
+<p>There is another complication: a species does not necessarily have one fixed environmental response. Its response to temperature, for example, may depend on nutrient availability, competitors, predators or other environmental conditions. Response diversity can therefore change through time.</p>
+<p>Recent work by Hsieh, Pan, Chang, Anneville and Petchey developed a framework that explicitly allows such responses to be dynamic [5]. Applied to four decades of monthly observations from Lake Geneva, the approach found that response diversity among phytoplankton and zooplankton could stabilise biomass within trophic levels, but that the strength of this stabilising effect varied through time.</p>
+<p>Response diversity should therefore not necessarily be viewed as a fixed property of a community. Like the populations themselves, it can be context dependent and dynamic.</p>
+</section>
+<section id="towards-predicting-stability-from-biology" class="level2">
+<h2 class="anchored" data-anchor-id="towards-predicting-stability-from-biology">Towards predicting stability from biology</h2>
+<p>Response diversity connects several themes running through research on biodiversity and ecosystem functioning. <a href="../../../posts/research/2026-09-13-predicting-ecosystem-functioning/index.html">Functional diversity</a> asks how organisms differ in what they do. <a href="../../../posts/research/2026-09-11-experimental-microbial-ecology/index.html">Experimental microbial ecology</a> allows those differences and their consequences to be manipulated under controlled conditions. Response diversity focuses more specifically on how organisms differ in what they do when their environment changes.</p>
+<p>That distinction could be important for ecological prediction. Simply knowing how many species occur in a community gives limited information about its response to future environmental change. Knowing how those species respond to temperature, nutrients, drought or other drivers potentially provides considerably more.</p>
+<p>The emerging goal is therefore not merely to establish that biodiversity sometimes stabilises ecosystems. It is to identify measurable properties of organisms and communities that tell us when, why and under which environmental changes stability should emerge. Response diversity offers one route towards that more predictive ecology.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>[1] Ross, S., Petchey, O. L., Sasaki, T. &amp; Armitage, D. W. (2023). How to measure response diversity. Methods in Ecology and Evolution (Consensus record lists the 2023 preprint record). DOI: 10.1111/2041-210X.14087.</p>
+<p>[2] Polazzo, F., Limberger, R., Pennekamp, F., Ross, S., Simpson, G. L. &amp; Petchey, O. L. (2024). Measuring the Response Diversity of Ecological Communities Experiencing Multifarious Environmental Change. Global Change Biology, 30. DOI: 10.1111/gcb.17594.</p>
+<p>[3] Polazzo, F., Hämmig, T., Petchey, O. L. &amp; Pennekamp, F. (2025). The Imbalance of Nature: The Role of Species Environmental Responses for Community Stability. Ecology Letters. DOI: 10.1111/ele.70224.</p>
+<p>[4] Kunze, C., Petchey, O. L., Ghosh, S. &amp; Hillebrand, H. (2025). Species Interactions Determine the Importance of Response Diversity for Community Stability to Pulse Disturbances. Ecology Letters, 29. DOI: 10.1111/ele.70299.</p>
+<p>[5] Hsieh, C.-h., Pan, R.-Y., Chang, C.-W., Anneville, O. &amp; Petchey, O. L. (2026). Quantifying the effects of response diversity dynamics on ecosystem stability. Nature Communications, 17. DOI: 10.1038/s41467-026-70192-x.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research</category>
+  <category>ecological stability</category>
+  <category>response diversity</category>
+  <category>food webs</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-12-predicting-ecological-stability/</guid>
+  <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-12-predicting-ecological-stability/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Experimental microbial ecology</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2026-09-11-experimental-microbial-ecology/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="small-worlds-big-ecological-questions-experimental-microbial-ecology" class="level2">
+<h2 class="anchored" data-anchor-id="small-worlds-big-ecological-questions-experimental-microbial-ecology">Small worlds, big ecological questions: experimental microbial ecology</h2>
+<p>How can we test ecological ideas that concern whole communities, multiple generations and changing environments? Field observations provide ecological realism, but many processes are difficult to isolate experimentally. One solution is to build much smaller ecosystems in the laboratory.</p>
+<p>Experimental microbial ecology has been an important part of the work of Owen Petchey and collaborators, including Frank Pennekamp, Florian Altermatt and many others. Using communities of protists and other microorganisms maintained in laboratory microcosms, this research has investigated questions ranging from biodiversity and ecosystem stability to species interactions, environmental change and ecological predictability.</p>
+</section>
+<section id="small-experimental-ecosystems" class="level2">
+<h2 class="anchored" data-anchor-id="small-experimental-ecosystems">Small experimental ecosystems</h2>
+<p>Protists are particularly useful model organisms for experimental ecology. They have short generation times, can be maintained in relatively small volumes, and communities containing several interacting species can be replicated many times. Their abundance, body size and movement can also be quantified using microscopy and automated imaging.</p>
+<p>Altermatt and colleagues described these systems as “small worlds” that can address much larger questions in ecology and evolution [1]. Their methodological synthesis brought together protocols for maintaining and manipulating protist communities and highlighted the potential of emerging measurement technologies including flow cytometry, image analysis and video microscopy.</p>
+<p>The underlying experimental logic is powerful. Researchers can construct communities with known species composition, manipulate variables such as temperature, nutrients or disturbance, and then follow the resulting population and ecosystem dynamics over many generations.</p>
+<p>This makes it possible to move beyond documenting ecological patterns towards experimentally testing the mechanisms that might produce them.</p>
+</section>
+<section id="biodiversity-and-stability" class="level2">
+<h2 class="anchored" data-anchor-id="biodiversity-and-stability">Biodiversity and stability</h2>
+<p>One major application has been the long-standing question of whether biodiversity makes ecosystems more stable.</p>
+<p>Pennekamp, Petchey and a large group of collaborators addressed this with an unusually large experiment involving 690 aquatic ciliate microcosms, sampled 19 times over 40 days [2]. Communities differed in species richness and were exposed to warming.</p>
+<p>The experiment demonstrated an important complication: stability is not a single property.</p>
+<p>Increasing species richness increased temporal stability, meaning that ecosystem properties fluctuated less through time. But greater richness simultaneously decreased resistance to warming. Consequently, biodiversity could have opposing effects on different components of stability [2].</p>
+<p>The result illustrates one advantage of experimental microbial systems. Different dimensions of stability—variability, resistance and recovery, for example—can be measured within the same replicated experiment rather than considered separately.</p>
+</section>
+<section id="multiple-environmental-changes" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-environmental-changes">Multiple environmental changes</h2>
+<p>Natural ecosystems rarely experience one environmental change at a time. Temperature, nutrients, light, pollutants and other drivers can change simultaneously.</p>
+<p>Microcosms make these combinations experimentally tractable.</p>
+<p>Garnier, Pennekamp, Lemoine and Petchey manipulated temperature, nutrient ratios, carbon enrichment and light in a factorial experiment and measured ecosystem responses through dissolved oxygen [3]. The effects of multiple disturbances depended strongly on the timescale examined. Models that worked well for short-term resistance were not necessarily those that best described longer-term recovery.</p>
+<p>Similarly, Tabi, Petchey and Pennekamp investigated the combined effects of warming and nutrient enrichment across different levels of biological organization [4]. Warming reduced the temporal stability of total biomass, while interactions between temperature and enrichment were broadly consistent with predictions derived from metabolic theory.</p>
+<p>These experiments show why extrapolating from single environmental drivers can be difficult: ecological responses emerge from interactions among environmental conditions, organisms and timescales.</p>
+</section>
+<section id="from-individual-species-to-interacting-communities" class="level2">
+<h2 class="anchored" data-anchor-id="from-individual-species-to-interacting-communities">From individual species to interacting communities</h2>
+<p>Another recurring question is whether we can predict the behaviour of a community from what we know about its component species.</p>
+<p>Experiments by Tabi and colleagues compared species grown individually with the same species embedded within multispecies microbial communities across different temperatures [5]. At warmer temperatures, community responses became more idiosyncratic, highlighting how species interactions can modify responses that might otherwise be predicted from monocultures.</p>
+<p>This distinction matters for ecological forecasting. Knowing how a species responds to temperature in isolation does not necessarily tell us how its abundance will change when competitors, predators and resources are changing at the same time.</p>
+<p>A larger experiment using 240 replicated aquatic microcosms reached a related conclusion for multiple global-change drivers. Suleiman and colleagues manipulated fertilizer, glyphosate, metal pollution and antibiotics in all combinations at three temperatures [6]. Combinations of drivers could change both the magnitude and direction of biological responses compared with individual drivers, and temperature further modified these effects.</p>
+<p>The controlled nature of the experiment therefore exposed something that is easy to miss in observational data: ecological complexity itself can limit predictability.</p>
+</section>
+<section id="can-ecological-communities-be-forecast" class="level2">
+<h2 class="anchored" data-anchor-id="can-ecological-communities-be-forecast">Can ecological communities be forecast?</h2>
+<p>This leads naturally to another strand of the work: <a href="../../../posts/research/2026-09-05-response-diversity/index.html">ecological forecasting</a>. Daugaard, Pennekamp, Petchey and colleagues followed an experimental microbial community for five months under constant and fluctuating temperatures and explicitly tested how well future species abundances could be predicted [7].</p>
+<p>Forecast skill depended partly on the structure of species interactions. Species with more—but individually weaker—interactions tended to be more predictable, while increased environmental complexity reduced forecast skill for some species.</p>
+<p>Here the microcosm becomes more than a convenient experimental system. It becomes a testbed for ecological prediction. Because the true future trajectory of the system can subsequently be observed, researchers can make forecasts, wait, and quantitatively evaluate whether those forecasts were correct.</p>
+</section>
+<section id="why-use-microbial-microcosms" class="level2">
+<h2 class="anchored" data-anchor-id="why-use-microbial-microcosms">Why use microbial microcosms?</h2>
+<p>Experimental microbial ecosystems clearly do not reproduce all of the complexity of forests, lakes or grasslands. Their value lies elsewhere. They allow ecological hypotheses to be tested with levels of replication, temporal resolution and experimental control that are difficult to achieve in many larger systems. Communities can be assembled deliberately, environmental conditions manipulated precisely, and population and ecosystem responses followed across many generations.</p>
+<p>Combined with <a href="../../../posts/research/2026-09-10-video-microscopy-computer-vision/index.html">automated video microscopy and computer vision</a>, the same experiments can increasingly measure not only species abundances but individual morphology and behaviour. This creates a useful progression from Petchey and colleagues’ earlier work on biodiversity and functional diversity. Rather than asking only whether species differ functionally, experimental microbial ecology makes it possible to manipulate communities and environments and watch those differences play out through time.</p>
+<p>Small experimental ecosystems can therefore address some decidedly large questions: How does biodiversity affect stability? How do multiple environmental changes interact? How important are species interactions? And, ultimately, how predictable are ecological communities?</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>[1] Altermatt, F., Fronhofer, E. A., Garnier, A., Giometto, A., Hammes, F., Klečka, J., et al., Pennekamp, F., et al.&nbsp;&amp; Petchey, O. L. (2015). Big answers from small worlds: a user’s guide for protist microcosms as a model system in ecology and evolution. Methods in Ecology and Evolution, 6. DOI: 10.1111/2041-210X.12312.</p>
+<p>[2] Pennekamp, F., Pontarp, M., Tabi, A., Altermatt, F., Alther, R., Choffat, Y., et al.&nbsp;&amp; Petchey, O. L. (2018). Biodiversity increases and decreases ecosystem stability. Nature, 563, 109–112. DOI: 10.1038/s41586-018-0627-8.</p>
+<p>[3] Garnier, A., Pennekamp, F., Lemoine, M. &amp; Petchey, O. L. (2017). Temporal scale dependent interactions between multiple environmental disturbances in microcosm ecosystems. Global Change Biology, 23, 5237–5248. DOI: 10.1111/gcb.13786.</p>
+<p>[4] Tabi, A., Petchey, O. L. &amp; Pennekamp, F. (2019). Warming reduces the effects of enrichment on stability and functioning across levels of organisation in an aquatic microbial ecosystem. Ecology Letters, 22, 1061–1071. DOI: 10.1111/ele.13262.</p>
+<p>[5] Tabi, A., Pennekamp, F., Altermatt, F., Alther, R., Fronhofer, E. A., Horgan, K., Pontarp, M., Petchey, O. L. &amp; Saavedra, S. (2020). Species multidimensional effects explain idiosyncratic responses of communities to environmental change. Nature Ecology &amp; Evolution, 4, 1036–1043. DOI: 10.1038/s41559-020-1206-6.</p>
+<p>[6] Suleiman, M., Daugaard, U., Choffat, Y., Zheng, X. &amp; Petchey, O. L. (2022). Predicting the effects of multiple global change drivers on microbial communities remains challenging. Global Change Biology, 28, 5575–5586. DOI: 10.1111/gcb.16303.</p>
+<p>[7] Daugaard, U., Munch, S., Inauen, D., Pennekamp, F. &amp; Petchey, O. L. (2022). Forecasting in the face of ecological complexity: Number and strength of species interactions determine forecast skill in ecological communities. Ecology Letters, 25, 1974–1985. DOI: 10.1111/ele.14070.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research</category>
+  <category>microbial ecology</category>
+  <category>protist microcosms</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-11-experimental-microbial-ecology/</guid>
+  <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-11-experimental-microbial-ecology/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Video microscopy and computer vision</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="watching-microbial-communities-video-microscopy-computer-vision-and-the-development-of-bemovi" class="level2">
+<h2 class="anchored" data-anchor-id="watching-microbial-communities-video-microscopy-computer-vision-and-the-development-of-bemovi">Watching microbial communities: video microscopy, computer vision and the development of BEMOVI</h2>
+<p>Microbial communities offer ecologists an unusual opportunity. Entire communities can be maintained in small laboratory microcosms, replicated extensively, and followed across many generations. But their small size also creates a measurement problem: counting organisms manually under a microscope is slow, and measuring their morphology and behaviour at the same time is considerably harder.</p>
+<p>Work by Frank Pennekamp, Owen Petchey and colleagues helped address this problem by combining video microscopy, computer vision and machine learning. Rather than using microscopy simply to identify and count organisms, their approach treats a video as a source of quantitative ecological data about individual organisms.</p>
+</section>
+<section id="from-microscope-videos-to-ecological-data" class="level2">
+<h2 class="anchored" data-anchor-id="from-microscope-videos-to-ecological-data">From microscope videos to ecological data</h2>
+<p>A central development was BEMOVI—BEhaviour and MOrphology from VIdeos—introduced by Pennekamp, Schtickzelle and Petchey in 2015 [1]. BEMOVI combines video microscopy with automated image analysis using ImageJ and subsequent processing in R. In a video of a microbial community, the workflow identifies individual organisms, measures properties such as their size and shape, and follows them between frames to reconstruct movement trajectories. The resulting data can therefore contain several kinds of information simultaneously: abundance, morphology and movement behaviour.</p>
+<p>This matters because these are different dimensions of ecological variation. A conventional count might tell us that a population has declined. Video analysis can additionally reveal whether the organisms have become smaller, are moving faster, or have altered other aspects of their behaviour.</p>
+<p>In tests using experimental communities of aquatic protists, automated abundance estimates corresponded closely with manual counts. BEMOVI could process tens to thousands of individuals and produce time series of abundance, morphology and movement traits [1].</p>
+</section>
+<section id="movement-is-also-a-phenotype" class="level2">
+<h2 class="anchored" data-anchor-id="movement-is-also-a-phenotype">Movement is also a phenotype</h2>
+<p>An important feature of this approach is that behaviour becomes measurable at essentially the same time as abundance.</p>
+<p>For microorganisms such as ciliates, movement contains considerable biological information. Speed, directionality and the geometry of trajectories can differ among species and can also change with environmental conditions.</p>
+<p>Pennekamp and colleagues therefore combined BEMOVI-derived measurements with machine-learning classification. Morphological traits could be used to classify individual organisms to species, but including movement information improved classification [1].</p>
+<p>Subsequent work pushed this further. Soleymani, Pennekamp, Petchey and Weibel extracted more sophisticated characteristics from movement trajectories and showed that these features could improve automated classification of ciliate species beyond morphology and simple measures such as swimming speed [2].</p>
+<p>Computer vision was therefore doing more than replacing manual counting. It was creating a multidimensional description of individual organisms from which taxonomic identity could itself be inferred.</p>
+</section>
+<section id="the-complication-organisms-change" class="level2">
+<h2 class="anchored" data-anchor-id="the-complication-organisms-change">The complication: organisms change</h2>
+<p>Automated classification creates another ecological problem, however. Organisms are phenotypically plastic. A classifier trained to recognize a species under one set of conditions may perform poorly if temperature, competition or other environmental conditions alter that species’ size, shape or behaviour.</p>
+<p>Pennekamp and colleagues addressed this in experiments following six ciliate species across hundreds of generations, multiple community compositions and a temperature gradient [3]. Simple classifiers struggled because phenotypes changed through time and among environments. A sliding-window classification approach, using random forests trained on observations relevant to nearby temporal and environmental conditions, substantially improved classification and produced results comparable with slower manual identification.</p>
+<p>This is an interesting intersection between ecology and machine learning. Environmental variation is not simply statistical noise that makes computer vision difficult. Changes in the features used by the classifier can themselves represent biologically meaningful responses of organisms.</p>
+<p>Connecting traits to population dynamics</p>
+<p>Once morphology and behaviour can be measured repeatedly for large numbers of individuals, another possibility emerges: asking whether changes in traits help explain changes in population abundance.</p>
+<p>Griffiths, Petchey, Pennekamp and Childs applied this idea to an experimental microbial predator–prey–resource system [4]. Rather than modelling community dynamics from species abundances alone, they incorporated changes in individual traits.</p>
+<p>The resulting trait-dependent model improved the proportion of ecological dynamics explained from an (R^2) of 0.34 to 0.57. The analysis also identified a biologically interpretable growth–defence trade-off: greater predator abundance was associated with smaller prey, and this reduction in prey size was associated with reduced predation as well as reduced resource consumption [4].</p>
+<p>The important point is not simply that automated imaging generates more data. It makes it possible to observe traits and population dynamics together, at temporal and individual resolutions that would be extremely laborious to obtain manually.</p>
+</section>
+<section id="from-counting-organisms-to-observing-ecological-dynamics" class="level2">
+<h2 class="anchored" data-anchor-id="from-counting-organisms-to-observing-ecological-dynamics">From counting organisms to observing ecological dynamics</h2>
+<p>BEMOVI and the work around it illustrate a broader change in ecological measurement. A microscope traditionally produces observations that a researcher converts manually into data. Video microscopy coupled with computer vision instead turns the image stream itself into a quantitative dataset. Individual organisms become trackable objects described by morphology, movement and ultimately inferred identity.</p>
+<p>For <a href="../../../posts/research/2026-09-11-experimental-microbial-ecology/index.html">experimental microbial ecology</a>, that creates a particularly useful bridge between scales: individual phenotype → behaviour → species interactions → population dynamics → community dynamics.</p>
+<p>It also connects naturally to trait-based ecology. Functional traits need not be fixed numbers assigned to species from a database. They can be measured repeatedly on individual organisms as communities develop and environments change.</p>
+<p>The result is a view of ecological communities not as collections of fixed species identities, but as populations of individuals whose phenotypes and behaviours change while interacting with one another—and whose changes can increasingly be measured automatically.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>[1] Pennekamp, F., Schtickzelle, N. &amp; Petchey, O. L. (2015). BEMOVI, software for extracting behavior and morphology from videos, illustrated with analyses of microbes. Ecology and Evolution, 5, 2584–2595. DOI: 10.1002/ece3.1529.</p>
+<p>[2] Soleymani, A., Pennekamp, F., Petchey, O. L. &amp; Weibel, R. (2015). Developing and Integrating Advanced Movement Features Improves Automated Classification of Ciliate Species. PLoS ONE, 10. DOI: 10.1371/journal.pone.0145345.</p>
+<p>[3] Pennekamp, F., Griffiths, J. I., Fronhofer, E. A., Garnier, A., Seymour, M., Altermatt, F. &amp; Petchey, O. L. (2017). Dynamic species classification of microorganisms across time, abiotic and biotic environments—A sliding window approach. PLoS ONE, 12. DOI: 10.1371/journal.pone.0176682.</p>
+<p>[4] Griffiths, J. I., Petchey, O. L., Pennekamp, F. &amp; Childs, D. Z. (2018). Linking intraspecific trait variation to community abundance dynamics improves ecological predictability by revealing a growth–defence trade-off. Functional Ecology, 32, 496–508. DOI: 10.1111/1365-2435.12997.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research</category>
+  <category>methods</category>
+  <category>video tracking</category>
+  <category>R</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/</guid>
+  <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Mathematical modelling</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2026-09-09-mathematical-modelling/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="mathematical-modelling-exploring-the-mechanisms-behind-ecological-dynamics" class="level2">
+<h2 class="anchored" data-anchor-id="mathematical-modelling-exploring-the-mechanisms-behind-ecological-dynamics">Mathematical modelling: exploring the mechanisms behind ecological dynamics</h2>
+<p>Ecological systems contain many interacting processes, making it difficult to determine which mechanisms are responsible for an observed pattern. Mathematical models offer a complementary approach to experiments and field observations: simplify the system, specify its mechanisms explicitly, and investigate their consequences.</p>
+<p>This type of theoretical modelling has been an important strand of work by Owen Petchey and collaborators. The models range from predator–prey interactions and food webs to microbial ecosystems capable of switching between alternative states. A recurring objective is not to reproduce every detail of nature, but to ask what follows logically from a specified set of ecological mechanisms.</p>
+</section>
+<section id="from-foraging-mechanisms-to-food-web-structure" class="level2">
+<h2 class="anchored" data-anchor-id="from-foraging-mechanisms-to-food-web-structure">From foraging mechanisms to food-web structure</h2>
+<p>An early example concerns the effects of temperature on food webs. Petchey, Brose and Rall developed a mathematical model connecting temperature-dependent foraging processes to the structure of ecological networks [1]. The model incorporated temperature dependence into quantities such as attack rates and handling times and then examined the consequences for which feeding interactions should occur — part of the group’s longer engagement with predicting the architecture of food webs.</p>
+<p>The results predicted that warming could substantially alter food-web connectance. Importantly, warming did not have a single inevitable effect: whether connectance increased or decreased depended on the relative temperature sensitivities of the underlying foraging processes [1].</p>
+</section>
+<section id="nonlinear-interactions-and-ecological-stability" class="level2">
+<h2 class="anchored" data-anchor-id="nonlinear-interactions-and-ecological-stability">Nonlinear interactions and ecological stability</h2>
+<p>Mathematical models are particularly valuable when ecological interactions are nonlinear. Daugaard, Petchey and Pennekamp investigated how warming could alter the functional response between a microbial predator and its prey [2]. Experimental observations suggested that increasing temperature shifted the interaction from a stabilising Type III functional response towards a Type II response.</p>
+<p>The ecological consequences were explored by incorporating these temperature-dependent functions into a population-dynamic model. Simulations predicted that the change in interaction shape could destabilise predator–prey dynamics and increase the likelihood of prey extinction at higher temperatures [2]. The important result is not simply that temperature affects feeding. A relatively subtle change in the mathematical form of an interaction can qualitatively alter the dynamics of an ecological system.</p>
+</section>
+<section id="alternative-states-and-tipping-points" class="level2">
+<h2 class="anchored" data-anchor-id="alternative-states-and-tipping-points">Alternative states and tipping points</h2>
+<p>More recent theoretical work has focused on systems that can undergo abrupt regime shifts. Aquatic microbial ecosystems provide a useful example. Feedbacks among microorganisms, oxygen production and consumption, and biogeochemical processes can allow an ecosystem to persist in very different states—for example, an oxygenated state or an anoxic state.</p>
+<p>Limberger, Daugaard, Gupta, Krug, Lemmen, van Moorsel, Suleiman, Zuppinger-Dingley and Petchey used a mathematical model of such anoxic–oxic regime shifts to investigate how biodiversity affects ecosystem resilience [3]. The model contained three functional groups of bacteria and allowed trait diversity within those groups to vary. It was then possible to ask a deceptively simple question: does greater functional diversity make an ecosystem more resistant to collapse?</p>
+<p>The answer depended on where that diversity occurred. Greater trait diversity in two bacterial groups increased the resilience of their associated ecosystem state. In another group, however, greater diversity reduced resilience and could facilitate the collapse of the state in which that group occurred [3]. When diversity was introduced simultaneously into several groups, effects could weaken or cancel one another.</p>
+<p>The model therefore revealed something that a general statement such as “biodiversity increases resilience” misses. Diversity changes the range of ecological processes occurring within a system, and those processes can either reinforce or undermine the current ecosystem state. In some circumstances, functional diversity may therefore make a desirable ecosystem more resilient. In others, it may help destabilise an undesirable state and facilitate its transition to another one.</p>
+</section>
+<section id="degradation-and-recovery-need-not-follow-the-same-path" class="level2">
+<h2 class="anchored" data-anchor-id="degradation-and-recovery-need-not-follow-the-same-path">Degradation and recovery need not follow the same path</h2>
+<p>Alternative stable states raise another theoretical question. If environmental deterioration pushes an ecosystem from state A to state B, will reversing the environmental change simply take it back along the same trajectory? Bärtschi and Petchey explored this using a deliberately simple mathematical model of a microbial ecosystem in which two components mutually inhibited one another [4]. The simplicity of the model made it possible to manipulate two forms of symmetry independently: symmetry in the biological system itself and symmetry in the way the environment was changed.</p>
+<p>When both were perfectly symmetrical, degradation and restoration trajectories were also symmetrical. Introducing asymmetry into either the biological interactions or the environmental change produced increasingly asymmetric ecological responses [4]. This has implications for thinking about tipping points and ecosystem restoration. Removing the environmental pressure that caused ecosystem degradation need not produce an equal and opposite ecological response. Whether recovery resembles degradation depends on the structure and strength of the processes generating the alternative states.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>[1] Petchey, O. L., Brose, U. &amp; Rall, B. C. (2010). Predicting the effects of temperature on food web connectance. Philosophical Transactions of the Royal Society B: Biological Sciences, 365, 2081–2091. DOI: 10.1098/rstb.2010.0011.</p>
+<p>[2] Daugaard, U., Petchey, O. L. &amp; Pennekamp, F. (2019). Warming can destabilise predator–prey interactions by shifting the functional response from Type III to Type II. Journal of Animal Ecology. DOI associated with the preprint record: 10.1101/498030.</p>
+<p>[3] Limberger, R., Daugaard, U., Gupta, A., Krug, R. M., Lemmen, K., van Moorsel, S. J., Suleiman, M., Zuppinger-Dingley, D. &amp; Petchey, O. L. (2023). Functional diversity can facilitate the collapse of an undesirable ecosystem state. Ecology Letters. DOI: 10.1111/ele.14217.</p>
+<p>[4] Bärtschi, P. &amp; Petchey, O. L. (2024). Reflecting on the symmetry of ecosystem tipping points: The influence of trait dissimilarity and environmental driver dynamics in a simple ecosystem model. Ecology and Evolution, 14. DOI: 10.1002/ece3.11421.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research</category>
+  <category>mathematical modelling</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-09-mathematical-modelling/</guid>
+  <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-09-mathematical-modelling/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Ecological forecasting</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2026-09-05-response-diversity/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="ecological-forecasting-how-predictable-is-ecology" class="level2">
+<h2 class="anchored" data-anchor-id="ecological-forecasting-how-predictable-is-ecology">Ecological forecasting: how predictable is ecology?</h2>
+<p>Ecology has traditionally been very good at explaining why ecological systems behaved as they did. A more demanding question is whether ecological understanding allows us to say what they will do next. That distinction lies at the heart of ecological forecasting. Rather than asking only whether a model fits past observations, forecasting evaluates predictions against observations that were not used to construct the prediction.</p>
+<p>Work by Owen Petchey, Frank Pennekamp and collaborators has approached forecasting from a particularly fundamental direction. Instead of asking only which statistical or mechanistic model produces the best forecast, they have asked: how predictable are ecological systems in the first place, and what determines that predictability?</p>
+</section>
+<section id="the-ecological-forecast-horizon" class="level2">
+<h2 class="anchored" data-anchor-id="the-ecological-forecast-horizon">The ecological forecast horizon</h2>
+<p>A starting point was the concept of the ecological forecast horizon, developed by Petchey and a large group of collaborators in 2015 [1]. The basic idea is intuitive. A weather forecast may be useful several days ahead but progressively less informative further into the future. Ecological forecasts should similarly have a distance beyond which their usefulness falls below an acceptable threshold.</p>
+<p>Petchey and colleagues defined the forecast horizon as the distance over which a useful ecological forecast can be made [1]. Most obviously, that distance can be time: how many days, months or years ahead can population abundance be predicted? But the concept is deliberately broader. Forecast horizons can also exist across space, environmental conditions such as temperature, or even biological differences among organisms. The framework therefore shifts attention from asking whether ecology is “predictable” in general to a more quantitative question: How far can we predict, with what accuracy, and what determines that limit?</p>
+</section>
+<section id="why-forecasts-fail" class="level2">
+<h2 class="anchored" data-anchor-id="why-forecasts-fail">Why forecasts fail</h2>
+<p>There are many reasons why ecological forecasts deteriorate. Environmental conditions become increasingly uncertain further into the future. Population dynamics contain demographic stochasticity. Parameters are estimated imperfectly. Species interact. Evolution can change the properties of organisms themselves.</p>
+<p>The forecast-horizon framework makes these sources of uncertainty experimentally and quantitatively interesting because each may shorten the distance over which predictions remain useful [1]. This perspective also suggests that predictability should itself be treated as a property to study rather than simply a measure of whether a particular model worked.</p>
+</section>
+<section id="is-the-system-unpredictable-or-is-the-model-poor" class="level2">
+<h2 class="anchored" data-anchor-id="is-the-system-unpredictable-or-is-the-model-poor">Is the system unpredictable, or is the model poor?</h2>
+<p>This distinction motivated subsequent work on intrinsic predictability. Suppose a forecasting model performs badly. There are at least two very different explanations. The ecological system may contain so much stochastic or chaotic variation that accurate forecasting is intrinsically difficult. Alternatively, the system may be quite predictable, but the model—or the available data—may be inadequate.</p>
+<p>Pennekamp and colleagues explored whether information-theoretic properties of ecological time series could help distinguish these possibilities [2]. Using permutation entropy as a model-free measure of time-series complexity, they compared estimates of intrinsic predictability with actual forecasting error across simulations and hundreds of empirical ecological time series.</p>
+<p>The important conceptual distinction is between intrinsic predictability—how predictable a system could in principle be—and realised predictability—how well a particular forecasting approach actually performs. The gap between the two becomes informative. A large gap suggests scope for improving models or data; a small gap may indicate that the dynamics themselves impose a stronger limit on prediction.</p>
+</section>
+<section id="testing-forecastability-experimentally" class="level2">
+<h2 class="anchored" data-anchor-id="testing-forecastability-experimentally">Testing forecastability experimentally</h2>
+<p>Experimental microbial ecology provides an unusually useful setting in which to test these ideas. Daugaard, Munch, Inauen, Pennekamp and Petchey followed microbial communities for five months under constant and fluctuating temperatures [3]. Rather than simply generating forecasts, they asked which properties of the ecological system determined forecast skill. Species interactions turned out to matter.</p>
+<p>Species connected to more other species tended to have individually weaker interactions and were, somewhat counterintuitively, better predicted. Increasing the number of variables included in forecasting models also generally improved forecast skill. Meanwhile, fluctuating environmental conditions reduced forecast skill for some—but not all—species [3].</p>
+<p>Ecological complexity therefore did not translate into a simple rule that “more complexity means less predictability”. Instead, forecastability depended on the structure and strength of interactions and on environmental context.</p>
+</section>
+<section id="does-biodiversity-make-ecosystems-harder-to-forecast" class="level2">
+<h2 class="anchored" data-anchor-id="does-biodiversity-make-ecosystems-harder-to-forecast">Does biodiversity make ecosystems harder to forecast?</h2>
+<p>This raises another interesting possibility. If communities containing more species have more interactions and more complicated dynamics, perhaps biodiversity itself makes ecosystems less predictable. Limberger and colleagues recently tested this experimentally using 30 protist communities observed for 41 weeks and 123 sampling dates [4]. Species richness was manipulated, while communities experienced either constant or gradually declining light.</p>
+<p>The results provided no simple relationship between biodiversity and forecastability. For individual species, greater richness tended to reduce forecast accuracy under constant light but increase it under declining light. These effects were relatively weak and were partly associated with differences in variability and temporal autocorrelation. Forecasts of aggregate ecosystem properties such as community biomass and oxygen concentration showed little dependence on either richness or the light treatment [4].</p>
+<p>Higher diversity, in other words, did not simply make ecological dynamics less forecastable. This is an important empirical result because assumptions about ecological complexity are easily made but difficult to test. Long, highly replicated microcosm experiments make those assumptions experimentally tractable.</p>
+</section>
+<section id="prediction-as-a-scientific-method" class="level2">
+<h2 class="anchored" data-anchor-id="prediction-as-a-scientific-method">Prediction as a scientific method</h2>
+<p>This work also reflects a broader argument about how ecology can use prediction. Pennekamp, Petchey and colleagues compared ecological prediction with practices in applied fields such as epidemiology and other disciplines where forecasts are routinely generated and subsequently evaluated [5]. They argued for more explicit and consistent evaluation of predictive proficiency in ecology.</p>
+<p>Forecasting is valuable here not only because someone might need to know what an ecosystem will look like next month. It also provides a demanding test of ecological understanding. A model can often explain observations from which it was constructed. Predicting observations that have not yet occurred is harder. When forecasts fail, their failures can reveal missing mechanisms, inappropriate assumptions or insufficient observations. The scientific cycle therefore becomes: observe → model → forecast → observe again → evaluate → improve.</p>
+</section>
+<section id="towards-a-more-predictive-ecology" class="level2">
+<h2 class="anchored" data-anchor-id="towards-a-more-predictive-ecology">Towards a more predictive ecology</h2>
+<p>Ecological forecasting connects many of the themes running through Petchey and colleagues’ research. <a href="../../../posts/research/2026-09-13-predicting-ecosystem-functioning/index.html">Functional diversity</a> asks which differences among organisms matter for ecosystem processes. <a href="../../../posts/research/2026-09-10-video-microscopy-computer-vision/index.html">Video microscopy</a> makes it possible to quantify some of those differences at the level of individuals. <a href="../../../posts/research/2026-09-11-experimental-microbial-ecology/index.html">Experimental microbial ecology</a> allows communities and environmental conditions to be manipulated. <a href="../../../posts/research/2026-09-12-predicting-ecological-stability/index.html">Response diversity</a> asks how variation in species’ environmental responses contributes to stability.</p>
+<p>Forecasting asks whether all of that ecological knowledge ultimately improves our ability to predict what happens next. Just as importantly, it asks where the limits lie. The goal is therefore not a claim that ecosystems should be perfectly predictable. Ecological systems contain stochasticity, environmental uncertainty, nonlinear interactions and other sources of unpredictability. Instead, the research programme seeks to make predictability itself quantitative: which ecological variables can we forecast, how far ahead, with what uncertainty, and why does forecast skill differ among systems?</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>[1] Petchey, O. L., Pontarp, M., Massie, T. M., Kéfi, S., Ozgul, A., Weilenmann, M., et al., Pennekamp, F. &amp; Pearse, I. (2015). The ecological forecast horizon, and examples of its uses and determinants. Ecology Letters, 18, 597–611. DOI: 10.1111/ele.12443. Consensus citation count: 304.</p>
+<p>[2] Pennekamp, F., Iles, A. C., Garland, J., Brennan, G., Brose, U., Gaedke, U., et al.&nbsp;&amp; Petchey, O. L. (2018). The intrinsic predictability of ecological time series and its potential to guide forecasting. bioRxiv. DOI: 10.1101/350017. Consensus citation count: 116.</p>
+<p>[3] Daugaard, U., Munch, S., Inauen, D., Pennekamp, F. &amp; Petchey, O. L. (2022). Forecasting in the face of ecological complexity: Number and strength of species interactions determine forecast skill in ecological communities. Ecology Letters, 25, 1974–1985. DOI: 10.1111/ele.14070. Consensus citation count: 21.</p>
+<p>[4] Limberger, R., Daugaard, U., Choffat, Y., Gupta, A., Jelić, M., Jyrkinen, S., et al., Pennekamp, F., et al.&nbsp;&amp; Petchey, O. L. (2025). Mixed Evidence for Species Diversity Affecting Ecological Forecasts in Constant Versus Declining Light. Global Change Biology, 31. DOI: 10.1111/gcb.70364. Consensus citation count: 1.</p>
+<p>[5] Pennekamp, F., Adamson, M. W., Petchey, O. L., Poggiale, J., Aguiar, M., Kooi, B., Botkin, D. &amp; DeAngelis, D. (2017). The practice of prediction: What can ecologists learn from applied, ecology-related fields?. Ecological Complexity, 32, 156–167. DOI: 10.1016/j.ecocom.2016.12.005. Consensus citation count: 28.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research</category>
+  <category>response diversity</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2026-09-05-response-diversity/</guid>
+  <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2026-09-05-response-diversity/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Visiting Fellow at OIST’s Theoretical Sciences Visiting Program</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2024-03-01-oist-theoretical-sciences-visiting-program/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>From 1 to 30 March 2024, Owen was a Visiting Fellow in the <a href="https://www.oist.jp/visiting-program" target="_blank">Theoretical Sciences Visiting Program (TSVP)</a> at the <a href="https://www.oist.jp/" target="_blank">Okinawa Institute of Science and Technology (OIST)</a>, Japan.</p>
+<p>TSVP brings researchers from across disciplines to OIST for extended visits, intensifying collaborations within OIST’s interdisciplinary research environment — a chance to work alongside theoreticians outside ecology and bring some of that thinking back to the group’s own predictive work.</p>
+<p><em>(Add who Owen worked with at OIST and what came out of the visit.)</em></p>
+
+
+
+ ]]></description>
+  <category>research</category>
+  <category>visiting fellowship</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2024-03-01-oist-theoretical-sciences-visiting-program/</guid>
+  <pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2024-03-01-oist-theoretical-sciences-visiting-program/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Calculating FD</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2019-03-04-calculating-fd/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Code and instructions for calculating FD, the measure of functional diversity that Owen and Kevin Gaston created. See <a href="../../../posts/research/2026-09-13-predicting-ecosystem-functioning/index.html">Predicting ecosystem functioning: functional diversity</a> for the broader research programme this measure grew into.</p>
+<p>Below is advice on using code and functions in R that follow the same matrix notation as the original publication, <a href="http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract">Petchey &amp; Gaston (2002)</a>. The functions have been updated to account for <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1461-0248.2006.00924.x/abstract">the development</a> of FD we published in 2006.</p>
+<section id="example-1" class="level2">
+<h2 class="anchored" data-anchor-id="example-1">Example 1</h2>
+<ul>
+<li>Get the <a href="https://github.com/opetchey/dumping_ground/tree/master/functional_diversity">code and example datasets</a>.</li>
+<li>Use the <code>dist</code> and <code>hclust</code> functions to calculate a dendrogram from a trait matrix.</li>
+<li>Paste the <code>Xtree</code> function into R and use it to transform the object returned by <code>hclust</code> into an object from which total branch length is easy to calculate. The object returned by <code>Xtree</code> is a list containing a species-by-branch matrix (<code>H1</code>) and a branch-length vector (<code>h2</code>) — see the <a href="http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract">original paper</a> for details.</li>
+<li>Follow the methods in <a href="http://onlinelibrary.wiley.com/doi/10.1046/j.1461-0248.2002.00339.x/abstract">Petchey &amp; Gaston (2002)</a> to get FD from <code>H1</code> and <code>h2</code>.</li>
+<li>The <code>FD.example.1.r</code> file contains an example of using R to calculate the FD of a random community as it loses species — paste the text into R (remembering to paste in the <code>Xtree</code> function first).</li>
+</ul>
+</section>
+<section id="fd-example-2" class="level2">
+<h2 class="anchored" data-anchor-id="fd-example-2">FD Example 2</h2>
+<p>This example addresses a common question: how to calculate the FD of communities with different compositions, and see whether those measures of FD correlate with a particular measure of ecosystem process (or community property).</p>
+<p>Three data files form the foundation of this type of analysis. Each is created and saved in a spreadsheet, then exported as a comma-delimited text file (<code>.csv</code>), which is easily read into R. Download all of these files to a single directory (you really only need the <code>.csv</code> versions):</p>
+<ol type="1">
+<li>The species-by-trait matrix: <code>species.traits.csv</code>. The first column contains the species names, and the remaining columns the traits.</li>
+<li>The community composition matrix: <code>community.composition.csv</code>. Species names must correspond with those in the species-by-trait matrix.</li>
+<li>The community-by-functioning matrix: <code>community.functioning.csv</code>. Community identifiers must correspond with those in the community composition matrix.</li>
+</ol>
+<p>The <code>FD.example.2.r</code> code shows how to calculate the FD of each community from the traits of its species, and check whether it correlates with functioning.</p>
+</section>
+<section id="fd-example-3" class="level2">
+<h2 class="anchored" data-anchor-id="fd-example-3">FD Example 3</h2>
+<p>Finally, there’s a demonstration of the difference between FD and variance calculated on a single trait — see the file <code>FDandvariance.r</code>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research</category>
+  <category>functional diversity</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2019-03-04-calculating-fd/</guid>
+  <pubDate>Mon, 04 Mar 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2019-03-04-calculating-fd/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Food web tools</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/research/2019-03-04-food-web-tools/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Code to model and analyse random, cascade, and niche food web models. These sit alongside the group’s broader work on predicting the architecture of food webs with mechanistic models such as the ADBM.</p>
+<p>Download the code and example data files (skip the <code>ADBM_shiny</code> folder) from <a href="https://github.com/opetchey/dumping_ground/tree/master/random_cascade_niche">this folder on GitHub</a>. None of this code comes with any guarantee — it’s fairly rough and not optimised. Get in touch if you spot issues or possible corrections.</p>
+<p>All the code is written for R. Virtually every type of ecological analysis is already available in base R and/or extension packages; R’s default graphics are of publication quality (and easily edited); it’s free, runs on Windows, Linux and Mac, and tends to be faster than many alternatives. The one real downside is the learning curve — but small steps get you up it, and the effort is rewarded.</p>
+<p>With the code, you can:</p>
+<ul>
+<li>Model food webs using random, cascade, or niche algorithms.</li>
+<li>Plot a predation matrix of the food web.</li>
+<li>Calculate structural properties of food webs.</li>
+</ul>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<ol type="1">
+<li>Learn how to use R.</li>
+<li>Get the code from the GitHub folder linked above.</li>
+<li>Source <code>FoodWebFunctions.r</code> into R — it contains the food-web-related functions.</li>
+<li>Check <code>FoodWebExamples.r</code> for worked examples of how to use them.</li>
+</ol>
+<p>A small illustration of the idea below: a “niche model” food web is generated by giving each species a random position and feeding range along a single niche axis, then connecting predators to the prey whose niche values fall within their range.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">set.seed</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">42</span>)</span>
+<span id="cb1-2"></span>
+<span id="cb1-3">niche_model <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">function</span>(S, C) {</span>
+<span id="cb1-4">  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># S = number of species, C = target connectance</span></span>
+<span id="cb1-5">  n <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sort</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">runif</span>(S))</span>
+<span id="cb1-6">  beta <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> (<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> (<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> C)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb1-7">  r <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> n <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rbeta</span>(S, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, beta)</span>
+<span id="cb1-8">  c <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">runif</span>(S, r <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>, n)</span>
+<span id="cb1-9"></span>
+<span id="cb1-10">  links <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">matrix</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, S, S)</span>
+<span id="cb1-11">  <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span> (i <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq_len</span>(S)) {</span>
+<span id="cb1-12">    lo <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> c[i] <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> r[i] <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb1-13">    hi <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> c[i] <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> r[i] <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb1-14">    prey <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">which</span>(n <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> lo <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> n <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> hi)</span>
+<span id="cb1-15">    links[i, prey] <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb1-16">  }</span>
+<span id="cb1-17">  links</span>
+<span id="cb1-18">}</span>
+<span id="cb1-19"></span>
+<span id="cb1-20">S <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">25</span></span>
+<span id="cb1-21">web <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">niche_model</span>(S, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">C =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.15</span>)</span>
+<span id="cb1-22"></span>
+<span id="cb1-23"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">image</span>(</span>
+<span id="cb1-24">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">t</span>(web[<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">nrow</span>(web)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, ]),</span>
+<span id="cb1-25">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">col =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"grey95"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#0028A5"</span>),</span>
+<span id="cb1-26">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">axes =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">FALSE</span>,</span>
+<span id="cb1-27">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">xlab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Prey"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylab =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Predator"</span>,</span>
+<span id="cb1-28">  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">main =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste0</span>(S, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"-species niche-model food web"</span>)</span>
+<span id="cb1-29">)</span>
+<span id="cb1-30"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">box</span>()</span></code></pre></div>
+<div class="cell-output-display">
+<div id="fig-niche-web" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-niche-web-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://predictiveecologyzurich.org/posts/research/2019-03-04-food-web-tools/index_files/figure-html/fig-niche-web-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-niche-web-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: A food web generated with a simple niche-model algorithm.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Neo Martinez and Alice Boit recently showed me Network3D — a note to myself to write up instructions and code that helps move between the data format used above and one Network3D can read. The R package <code>cheddar</code> already has a function for formatting data for Network3D.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>research</category>
+  <category>food webs</category>
+  <category>R</category>
+  <guid>https://predictiveecologyzurich.org/posts/research/2019-03-04-food-web-tools/</guid>
+  <pubDate>Mon, 04 Mar 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/research/2019-03-04-food-web-tools/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

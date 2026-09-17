@@ -1,0 +1,160 @@
+/* ---------------------------------------------------------------------
+   Self-hosted fonts. Loaded from this site only — no third-party font
+   CDN is contacted, so a visitor's browser never makes a request to
+   Google (or anyone else) just to render text.
+   --------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "Lora";
+  src: url("fonts/lora-variable.woff2") format("woff2-variations"),
+       url("fonts/lora-variable.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("fonts/lora-italic-variable.woff2") format("woff2-variations"),
+       url("fonts/lora-italic-variable.woff2") format("woff2");
+  font-weight: 400 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("fonts/worksans-variable.woff2") format("woff2-variations"),
+       url("fonts/worksans-variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("fonts/worksans-italic-variable.woff2") format("woff2-variations"),
+       url("fonts/worksans-italic-variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---------------------------------------------------------------------
+   Landing page hero — full-screen rotating banner with overlaid text.
+   Pure CSS crossfade (no JavaScript): four slides share one keyframe
+   animation, staggered with negative animation-delay so only one is
+   ever opaque. Falls back to a single static slide when the visitor
+   has requested reduced motion.
+   --------------------------------------------------------------------- */
+
+.hero {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  height: 100svh;
+  min-height: 560px;
+  overflow: hidden;
+  background: #0b0d16;
+}
+
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: heroFade 32s infinite;
+}
+
+.hero-slide:nth-child(1) { animation-delay: 0s; }
+.hero-slide:nth-child(2) { animation-delay: -8s; }
+.hero-slide:nth-child(3) { animation-delay: -16s; }
+.hero-slide:nth-child(4) { animation-delay: -24s; }
+
+/* Slide 1 is opaque at 0% so the hero shows a photo immediately on page
+   load (no fade-in-from-black flash); each slide then holds, fades out,
+   and stays hidden while the other three take their turn, fading back in
+   just before its next loop. */
+@keyframes heroFade {
+  0%   { opacity: 1; }
+  6%   { opacity: 1; }
+  12%  { opacity: 0; }
+  94%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.hero-slide::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(3,5,15,0.68) 0%, rgba(3,5,15,0.22) 38%, rgba(3,5,15,0.02) 60%);
+}
+
+.hero-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 3rem 1.5rem 3.5rem;
+  color: #fff;
+}
+
+.hero-caption .hero-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hero-eyebrow {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #BACBFF;
+  margin-bottom: 0.6rem;
+}
+
+.hero-title {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 600;
+  font-size: clamp(2.1rem, 5vw, 3.6rem);
+  line-height: 1.12;
+  margin: 0 0 0.75rem;
+  max-width: 20ch;
+}
+
+.hero-subtitle {
+  font-family: "Work Sans", sans-serif;
+  font-size: clamp(1rem, 1.6vw, 1.2rem);
+  font-weight: 400;
+  color: rgba(255,255,255,0.92);
+  max-width: 46ch;
+  line-height: 1.5;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-slide { animation: none; opacity: 0; }
+  .hero-slide:nth-child(1) { opacity: 1; }
+}
+
+/* ---------------------------------------------------------------------
+   Section intros — short overview text above a post listing/feed
+   --------------------------------------------------------------------- */
+
+.section-intro {
+  max-width: 62ch;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Quarto listing cards: force a consistent image crop so mixed photos
+   don't produce a ragged feed */
+.quarto-listing .listing-item-img-placeholder,
+.quarto-listing img.thumbnail-image,
+.quarto-listing .thumbnail-image {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}

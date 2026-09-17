@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Owen Petchey">
+<meta name="dcterms.date" content="2026-09-13">
+
+<title>Predicting ecosystem functioning: functional diversity – Predictive Ecology Group</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/img/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-cf0d5c9346ca631f13b006428188dbc6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-ea5428fb3884b0e48e32e3480b373c0c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-cf0d5c9346ca631f13b006428188dbc6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preload" href="assets/fonts/lora-variable.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="assets/fonts/worksans-variable.woff2" as="font" type="font/woff2" crossorigin="">
+
+
+<link rel="stylesheet" href="../../../assets/styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Predictive Ecology Group</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../team.html"> 
+<span class="menu-text">Team</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../education.html"> 
+<span class="menu-text">Education</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../organising.html"> 
+<span class="menu-text">Organising</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../outreach.html"> 
+<span class="menu-text">Outreach</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../join-us.html"> 
+<span class="menu-text">Join us</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../misc.html"> 
+<span class="menu-text">Misc</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Predicting ecosystem functioning: functional diversity</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">research</div>
+    <div class="quarto-category">ecosystem functioning</div>
+    <div class="quarto-category">functional diversity</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Owen Petchey </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 13, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="from-species-counts-to-what-species-do-two-decades-of-research-on-functional-diversity" class="level2">
+<h2 class="anchored" data-anchor-id="from-species-counts-to-what-species-do-two-decades-of-research-on-functional-diversity">From species counts to what species do: two decades of research on functional diversity</h2>
+<p>Biodiversity is often described by counting species. But species richness tells us relatively little about what those species do. Two communities might each contain 20 species yet differ substantially in the ecological characteristics of those species: how they acquire resources, how large they are, when and where they are active, or how they respond to environmental change.</p>
+<p>This distinction lies at the centre of functional diversity—the diversity of ecological traits and functions represented by organisms in a community. Over the past two decades, Owen Petchey and colleagues have contributed to developing this idea from a quantitative measure of biodiversity into a broader framework for connecting organisms, communities and ecosystem processes.</p>
+</section>
+<section id="a-quantitative-measure-of-functional-diversity" class="level2">
+<h2 class="anchored" data-anchor-id="a-quantitative-measure-of-functional-diversity">A quantitative measure of functional diversity</h2>
+<p>A key starting point was the 2002 Ecology Letters paper by Owen Petchey and Kevin Gaston, “Functional diversity (FD), species richness and community composition” [1]. At the time, functional diversity was often represented by assigning species to discrete functional groups. Plants, for example, might be classified as grasses, legumes or forbs.</p>
+<p>Petchey and Gaston proposed instead that species could be described using quantitative functional traits. Distances among species in this multivariate trait space could then be represented by a dendrogram, rather like a phylogenetic tree except that the branches represented functional rather than evolutionary differences. Their measure, which they called FD, was the total branch length required to connect all species in a community.</p>
+<p>This seemingly simple construction captured an important ecological idea. Adding a species that is functionally very similar to species already present adds relatively little FD. Adding a species with unusual traits adds considerably more. Consequently, species richness and functional diversity need not change in parallel.</p>
+<p>The simulations in the original paper also highlighted why the relationship between the two depends on the structure of trait space. When species differ along relatively few dimensions, functional redundancy can be substantial and community composition becomes particularly important. As the effective dimensionality of trait space increases, species richness and FD tend to become more tightly coupled [1]. Worked code and examples for calculating FD are available in <a href="../../../posts/research/2019-03-04-calculating-fd/index.html">Calculating FD</a>.</p>
+</section>
+<section id="extinction-is-not-necessarily-functionally-random" class="level2">
+<h2 class="anchored" data-anchor-id="extinction-is-not-necessarily-functionally-random">Extinction is not necessarily functionally random</h2>
+<p>The same year, Petchey and Gaston used FD to ask what happens to ecological trait diversity as species disappear [2]. Using six natural assemblages, they compared observed patterns of functional-diversity loss with simulated extinction sequences. Functional diversity could decline rapidly, particularly when extinction was associated with particular traits. Species with characteristics such as large body size or particular plant resource-use traits were not necessarily interchangeable with the species remaining in the community.</p>
+<p>This provided an early quantitative treatment of a point that has subsequently become central to trait-based ecology: the ecological consequences of biodiversity loss depend not only on how many species disappear, but on which species disappear and which traits disappear with them [2].</p>
+<p>It also complicated simple notions of functional redundancy. A species-rich community is not necessarily buffered against biodiversity loss if the species most vulnerable to extinction occupy distinctive parts of functional trait space.</p>
+</section>
+<section id="does-functional-diversity-actually-predict-ecosystem-functioning" class="level2">
+<h2 class="anchored" data-anchor-id="does-functional-diversity-actually-predict-ecosystem-functioning">Does functional diversity actually predict ecosystem functioning?</h2>
+<p>Developing a metric is useful only if the metric captures something ecologically meaningful. Petchey, Andy Hector and Gaston therefore compared FD with other measures using European grassland biodiversity experiments [3].</p>
+<p>They compared species richness, functional-group richness, functional attribute diversity and FD as predictors of above-ground biomass production. Measures based on continuous functional information—FD and functional attribute diversity—explained more variation in biomass production than either species richness or the number of functional groups [3].</p>
+<p>The study was important because it shifted the question from “how can functional diversity be measured?” towards “does measuring functional differences among organisms help explain ecosystem processes?”</p>
+<p>At the same time, Petchey emphasized the need for statistical caution. In a 2004 Functional Ecology paper, he showed that tests involving predefined functional groups could produce misleading conclusions because conventional tests implicitly treated the chosen grouping of species as correct [4]. Randomization tests that accounted for the grouping process changed the ecological interpretation of a substantial fraction of the experiments examined.</p>
+<p>Thus, from relatively early in this research programme, functional diversity was treated not simply as a new biodiversity index but as a hypothesis about how organismal differences translate into ecosystem processes—a hypothesis that required explicit testing.</p>
+</section>
+<section id="back-to-basics-what-should-functional-diversity-mean" class="level2">
+<h2 class="anchored" data-anchor-id="back-to-basics-what-should-functional-diversity-mean">Back to basics: what should functional diversity mean?</h2>
+<p>By 2006, functional-diversity metrics were proliferating. Petchey and Gaston responded with a widely cited synthesis in Ecology Letters, “Functional diversity: back to basics and looking forward” [5]. Their definition was deliberately broad: functional diversity concerns the range of things organisms do in communities and ecosystems.</p>
+<p>More importantly, they identified three distinct problems that can sometimes become conflated:</p>
+<ol type="1">
+<li>Which traits should be measured?</li>
+<li>How should differences in those traits be converted into a diversity metric?</li>
+<li>Does the resulting measure actually predict ecological processes?</li>
+</ol>
+<p>The second question is mathematical. The first and third are biological.</p>
+<p>This distinction remains important. There is no universally correct list of “functional traits”. A trait is functional with respect to some ecological question. Traits relevant to primary production may differ from those relevant to decomposition, trophic interactions or responses to temperature.</p>
+<p>Petchey and Gaston therefore argued that functional-diversity measures should ultimately be validated against the processes they are intended to explain [5].</p>
+</section>
+<section id="functional-redundancy-in-real-communities" class="level2">
+<h2 class="anchored" data-anchor-id="functional-redundancy-in-real-communities">Functional redundancy in real communities</h2>
+<p>The idea of redundancy received a particularly direct test in British bird communities. Petchey, Karl Evans, Isla Fishburn and Gaston analysed approximately two decades of changes in British avian assemblages [6].</p>
+<p>Functional diversity was generally lower than expected from random assemblages, consistent with environmental or ecological filtering producing communities containing species with relatively similar traits. More strikingly, however, temporal changes in functional diversity were almost proportional to changes in species richness.</p>
+<p>In these assemblages, therefore, there was little evidence that species losses were buffered by extensive functional redundancy. Observed colonizations and extinctions altered functional diversity more strongly than would have occurred if species identities had changed randomly [6]. This result reinforced a recurring message of the earlier extinction analyses: redundancy is something to be measured rather than assumed.</p>
+<p>The FD metric itself also continued to evolve. Responding to methodological criticism, Petchey and Gaston revised the dendrogram approach so that single-species communities have FD = 0 while preserving desirable mathematical properties such as set monotonicity [7]. The episode illustrates a broader feature of the field: functional-diversity metrics are models of biological difference, and their mathematical behaviour matters for the ecological conclusions drawn from them.</p>
+</section>
+<section id="from-species-averages-to-individuals" class="level2">
+<h2 class="anchored" data-anchor-id="from-species-averages-to-individuals">From species averages to individuals</h2>
+<p>Most early functional-diversity analyses treated each species as having a single position in trait space. But individuals within species vary.</p>
+<p>Cianciaruso, Batalha, Gaston and Petchey extended functional diversity to incorporate this intraspecific trait variation [8]. Their analyses showed that individual-level and species-level estimates of FD can diverge, particularly when within-species variation is large.</p>
+<p>That shift is conceptually significant. If functional diversity is ultimately concerned with what organisms do, then species names are convenient containers rather than necessarily the fundamental units of functional variation.</p>
+<p>This idea was developed further by Fontana, Petchey and Pomati, who examined functional diversity explicitly at the individual level [9]. They evaluated existing measures of trait richness, evenness and divergence and proposed new measures designed for multidimensional distributions of individual traits.</p>
+<p>The result was a movement from functional diversity among species toward the more general concept of trait diversity among organisms.</p>
+</section>
+<section id="functional-diversity-beyond-experimental-grasslands" class="level2">
+<h2 class="anchored" data-anchor-id="functional-diversity-beyond-experimental-grasslands">Functional diversity beyond experimental grasslands</h2>
+<p>As the methods matured, they were increasingly applied to large observational datasets. For example, Hagen, Ibáñez-Álamo, Petchey and Evans compared bird communities in 25 cities with paired non-urban assemblages, using 27 functional traits across 529 species [10]. Urbanization did not produce a simple universal reduction in functional diversity. After accounting for species richness, urban bird assemblages could have greater functional diversity than assemblages in semi-natural habitats, while characteristics such as vegetation cover, city size and human population density were associated with variation among cities.</p>
+<p>Studies such as this demonstrate why functional diversity can complement species richness. Environmental change can alter the distribution of ecological traits without producing an equivalent change in the number of species.</p>
+<p>More recent work has also distinguished effect traits—traits influencing ecosystem processes—from response traits, which determine how organisms respond to environmental change. Hordley and colleagues, including Petchey, showed that these two forms of trait information can provide complementary perspectives on changes in bird communities [11].</p>
+<p>The distinction extends the original functional-diversity logic. Understanding ecosystem change requires knowing both what organisms do and how organisms with different functions respond when their environment changes.</p>
+</section>
+<section id="a-continuing-research-programme" class="level2">
+<h2 class="anchored" data-anchor-id="a-continuing-research-programme">A continuing research programme</h2>
+<p>Seen retrospectively, the 2002 FD paper was not simply the introduction of another biodiversity index. It helped formalize a particular way of thinking about biodiversity. Species richness asks how many kinds of organisms are present. Functional diversity asks how different those organisms are in ecologically relevant ways.</p>
+<p>The work by Petchey and colleagues since then has progressively complicated—and improved—that basic idea. Functional differences can be continuous rather than categorical. The consequences of extinction depend on which traits are lost. Functional redundancy cannot safely be assumed. Trait choice must depend on the ecological process under investigation. Individuals within species can contribute substantial functional variation. Response and effect traits provide different information. And ecosystem consequences themselves have multiple dimensions.</p>
+<p>Perhaps the most durable contribution of this research programme is therefore methodological rather than tied to any single metric. It encourages ecologists to make explicit the chain of reasoning connecting organismal traits → functional differences → community structure → ecosystem processes, and then to test each link.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>[1] Petchey, O. L. &amp; Gaston, K. J. (2002). Functional diversity (FD), species richness and community composition. Ecology Letters, 5, 402–411. DOI: 10.1046/j.1461-0248.2002.00339.x.</p>
+<p>[2] Petchey, O. L. &amp; Gaston, K. J. (2002). Extinction and the loss of functional diversity. Proceedings of the Royal Society of London B, 269, 1721–1727. DOI: 10.1098/rspb.2002.2073.</p>
+<p>[3] Petchey, O. L., Hector, A. &amp; Gaston, K. J. (2004). How do different measures of functional diversity perform?. Ecology, 85, 847–857. DOI: 10.1890/03-0226.</p>
+<p>[4] Petchey, O. L. (2004). On the statistical significance of functional diversity effects. Functional Ecology, 18, 297–303. DOI: 10.1111/j.0269-8463.2004.00852.x.</p>
+<p>[5] Petchey, O. L. &amp; Gaston, K. J. (2006). Functional diversity: back to basics and looking forward. Ecology Letters, 9, 741–758. DOI: 10.1111/j.1461-0248.2006.00924.x.</p>
+<p>[6] Petchey, O. L., Evans, K. L., Fishburn, I. S. &amp; Gaston, K. J. (2007). Low functional diversity and no redundancy in British avian assemblages. Journal of Animal Ecology, 76, 977–985. DOI: 10.1111/j.1365-2656.2007.01271.x.</p>
+<p>[7] Petchey, O. L. &amp; Gaston, K. J. (2007). Dendrograms and measuring functional diversity. Oikos, 116, 1422–1426. DOI: 10.1111/j.0030-1299.2007.15894.x.</p>
+<p>[8] Cianciaruso, M. V., Batalha, M. A., Gaston, K. J. &amp; Petchey, O. L. (2009). Including intraspecific variability in functional diversity. Ecology, 90, 81–89. DOI: 10.1890/07-1864.1.</p>
+<p>[9] Fontana, S., Petchey, O. L. &amp; Pomati, F. (2016). Individual-level trait diversity concepts and indices to comprehensively describe community change in multidimensional trait space. Functional Ecology, 30, 808–818. DOI: 10.1111/1365-2435.12551.</p>
+<p>[10] Hagen, O., Ibáñez-Álamo, J. D., Petchey, O. L. &amp; Evans, K. L. (2017). Impacts of Urban Areas and Their Characteristics on Avian Functional Diversity. Frontiers in Ecology and Evolution, 5, 84. DOI: 10.3389/fevo.2017.00084.</p>
+<p>[11] Hordley, L. A., Gillings, S., Petchey, O. L., Tobias, J. A. &amp; Oliver, T. H. (2021). Diversity of response and effect traits provides complementary information about avian community dynamics linked to ecological function. Functional Ecology. DOI: 10.1111/1365-2435.13865.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/predictiveecologyzurich\.org");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Predictive Ecology Group · Department of Evolutionary Biology and Environmental Studies · University of Zurich</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Content &amp; photos <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · Website code <a href="https://github.com/opetchey/predictive-ecology-zurich/blob/main/LICENSE">MIT</a></p>
+</div>
+    <div class="nav-footer-right">
+<p><a href="../../../posts.html">All posts</a> · <a href="../../../contact.html">Contact</a> · <a href="../../../imprint.html">Imprint &amp; privacy</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

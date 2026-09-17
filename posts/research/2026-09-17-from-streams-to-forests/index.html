@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Owen Petchey">
+<meta name="dcterms.date" content="2026-09-17">
+
+<title>From streams to forests: ecology in the natural world – Predictive Ecology Group</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/img/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-cf0d5c9346ca631f13b006428188dbc6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-ea5428fb3884b0e48e32e3480b373c0c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-cf0d5c9346ca631f13b006428188dbc6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preload" href="assets/fonts/lora-variable.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="assets/fonts/worksans-variable.woff2" as="font" type="font/woff2" crossorigin="">
+
+
+<link rel="stylesheet" href="../../../assets/styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Predictive Ecology Group</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../team.html"> 
+<span class="menu-text">Team</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../education.html"> 
+<span class="menu-text">Education</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../organising.html"> 
+<span class="menu-text">Organising</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../outreach.html"> 
+<span class="menu-text">Outreach</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../join-us.html"> 
+<span class="menu-text">Join us</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../misc.html"> 
+<span class="menu-text">Misc</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">From streams to forests: ecology in the natural world</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">research</div>
+    <div class="quarto-category">natural ecosystems</div>
+    <div class="quarto-category">field ecology</div>
+    <div class="quarto-category">functional diversity</div>
+    <div class="quarto-category">ecological stability</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Owen Petchey </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 17, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Much of our research uses mathematical models and controlled microbial experiments to isolate ecological mechanisms, but an equally important question is whether those ideas help us understand the much greater complexity of natural ecosystems. We often work with collaborators to bridge the gap between controlled experiments and the complexity of natural systems. This work has ranged across a broad collection of natural systems: geothermally heated streams in Iceland, Sphagnum peatlands, forests and grasslands, urban bird communities, freshwater fishes, and ecological patterns measured across entire countries and continents. These studies connect recurring themes—functional diversity, species interactions, environmental responses and stability—to ecosystems in which the environment cannot be held constant.</p>
+<section id="a-quick-tour-of-the-systems" class="level2">
+<h2 class="anchored" data-anchor-id="a-quick-tour-of-the-systems">A quick tour of the systems</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ecosystem or system</th>
+<th>Organisms / properties</th>
+<th>Question</th>
+<th>Example work</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Geothermally heated streams, Iceland</td>
+<td>Ciliate microbial communities</td>
+<td>How does natural warming alter freshwater communities?</td>
+<td>Plebani et al.&nbsp;2015 [1]</td>
+</tr>
+<tr class="even">
+<td>Forest landscapes</td>
+<td>Trees and their functional traits</td>
+<td>Can functional diversity be measured remotely?</td>
+<td>Schneider et al.&nbsp;2017 [2]</td>
+</tr>
+<tr class="odd">
+<td>Switzerland</td>
+<td>Carbon regulation, erosion prevention, air quality and recreation</td>
+<td>Can ecosystem services and their trade-offs be monitored from Earth observation?</td>
+<td>Braun et al.&nbsp;2018 [3]</td>
+</tr>
+<tr class="even">
+<td>Urban ecosystems worldwide</td>
+<td>Birds</td>
+<td>How does urbanisation change the functional diversity of animal communities?</td>
+<td>Hagen et al.&nbsp;2017 [4]</td>
+</tr>
+<tr class="odd">
+<td>British and North American landscapes</td>
+<td>Birds</td>
+<td>How do traits, climate and spatial synchrony influence community dynamics?</td>
+<td>Hordley et al.&nbsp;2021 [5]</td>
+</tr>
+<tr class="even">
+<td>Temperate terrestrial and freshwater ecosystems</td>
+<td>1,246 bird and 580 fish communities</td>
+<td>How do temperature and biodiversity influence ecological stability in nature?</td>
+<td>Ghosh et al.&nbsp;2024 [6]</td>
+</tr>
+<tr class="odd">
+<td>Sphagnum peatlands</td>
+<td>Microbial food webs</td>
+<td>Do richness or trophic interactions better explain ecosystem functioning?</td>
+<td>Jassey et al.&nbsp;2023 [7]</td>
+</tr>
+<tr class="even">
+<td>Northern peatlands</td>
+<td>Photosynthetic microorganisms and carbon cycling</td>
+<td>Can microbial photosynthesis modify the response of peatland carbon cycling to warming?</td>
+<td>Hamard et al.&nbsp;2025 [8]</td>
+</tr>
+<tr class="odd">
+<td>Global mountains, islands and deltas</td>
+<td>Multiple ecosystem services</td>
+<td>How are services bundled together across contrasting landscapes?</td>
+<td>Reader et al.&nbsp;2022, 2024 [9]</td>
+</tr>
+<tr class="even">
+<td>Biodiversity experiments and natural-system datasets</td>
+<td>Plants and other communities</td>
+<td>How general are relationships among biodiversity, productivity and environmental conditions?</td>
+<td>Parreño et al.&nbsp;2021; Hong et al.&nbsp;2022 [10]</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="icelands-naturally-heated-streams" class="level2">
+<h2 class="anchored" data-anchor-id="icelands-naturally-heated-streams">Iceland’s naturally heated streams</h2>
+<p>One direct way to investigate climate warming is to find ecosystems in which nature has already created a temperature experiment. In Iceland, geothermal activity produces neighbouring streams that are similar in many respects but differ substantially in temperature. Plebani and colleagues studied ciliate communities in 13 such streams spanning mean temperatures of approximately 5–20°C [1]. The same naturally warmed streams have also been used to test how well the architecture of entire food webs can be predicted as temperatures rise, extending the question from single communities to whole networks of feeding interactions. Their results also showed why field ecology can complicate simple expectations from laboratory experiments: on submerged rocks, ciliate biomass and local diversity declined as temperature increased, whereas on sandy substrates community composition showed no comparable temperature dependence. The effect of temperature therefore depended on the physical environment in which the organisms lived, with flow, resources, disturbance and exposure to grazers all potentially modifying how warming affected the microbial community. Natural experiments such as these occupy a useful middle ground between laboratory and observational ecology, because environmental variation is naturally generated but occurs across comparable ecosystems in the field.</p>
+</section>
+<section id="measuring-forests-and-ecosystem-services-from-above" class="level2">
+<h2 class="anchored" data-anchor-id="measuring-forests-and-ecosystem-services-from-above">Measuring forests and ecosystem services from above</h2>
+<p>Natural ecosystems also present a problem of scale. Traits can be measured carefully on individual plants, but ecological questions often concern entire forests and landscapes. Schneider and colleagues addressed this using a combination of airborne laser scanning and imaging spectroscopy to map morphological and physiological variation among trees [2]. The resulting maps estimated functional diversity continuously across a forest landscape rather than assigning a single diversity value to an individual vegetation plot. The remotely sensed estimates agreed reasonably with leaf measurements and forest inventory data collected on the ground, while also revealing relationships between functional diversity, topography and soil conditions [2]. This work connects directly to the earlier research on functional diversity: the question moves from how should functional diversity be measured? to can we actually observe it across real landscapes?</p>
+<p>Remote sensing also makes it possible to move beyond biodiversity itself and investigate what landscapes provide. Braun and colleagues combined Earth observation with ecosystem-service models to examine changes across Switzerland between 2004 and 2014 [3], considering services including carbon dioxide regulation, soil erosion prevention, air-quality regulation and recreational hiking. Rather than all services changing together, their relationships depended on both location and spatial scale, with some services showing synergies and others trade-offs. Related work has extended this perspective internationally, asking how suites of ecosystem services are associated with human modification across major delta systems and how recurring ecosystem-service bundles emerge across mountains, islands and deltas. The ecological unit has therefore expanded dramatically, from individual organisms and communities to landscapes whose ecological properties also affect human societies.</p>
+</section>
+<section id="birds-cities-and-changing-climates" class="level2">
+<h2 class="anchored" data-anchor-id="birds-cities-and-changing-climates">Birds, cities and changing climates</h2>
+<p>Birds have provided another important bridge between functional-diversity theory and large-scale natural communities. Hagen and colleagues compared 529 bird species across 25 urban areas worldwide, using 27 functional traits associated with resource use and comparing urban communities with paired non-urban communities [4]. The results were not a simple story of cities having uniformly lower functional diversity. After accounting for differences in species richness, urban assemblages could have relatively high functional diversity, while characteristics including vegetation, population density and city size were associated with the patterns observed. Other work with long-running bird monitoring data has considered the distinction between response traits—characteristics associated with how species respond to environmental change—and effect traits, which describe how species contribute to ecological functioning [5], a distinction explored further in <a href="../../../posts/research/2026-09-13-predicting-ecosystem-functioning/index.html">Predicting ecosystem functioning</a>. This allows natural bird communities to be viewed not simply as lists of species but as distributions of ecological strategies, linking changes in community composition to potential changes in ecosystem functioning.</p>
+<p>Long-term biodiversity monitoring also makes it possible to test ecological stability theory at much larger scales. Ghosh, Matthews and Petchey analysed 1,246 bird communities and 580 fish communities from temperate regions, asking how biodiversity and different aspects of temperature were related to community stability [6]. Temperature was not represented by a single mean value: the study distinguished its median, variability, long-term trend and extremes and examined how these components related to diversity, synchrony and stability. The results differed between birds and fishes. In fish communities, variation among species in responses to changing median temperature was associated with the diversity–synchrony–stability relationship, whereas in birds there was evidence for a role of temperature extremes [6]. This provides an important test of ideas developed in the <a href="../../../posts/research/2026-09-12-predicting-ecological-stability/index.html">response-diversity work</a>: stability in natural communities depends not only on how many species are present, but also on whether their populations respond to environmental variation in similar or different ways.</p>
+</section>
+<section id="peatlands-tiny-organisms-in-a-major-carbon-store" class="level2">
+<h2 class="anchored" data-anchor-id="peatlands-tiny-organisms-in-a-major-carbon-store">Peatlands: tiny organisms in a major carbon store</h2>
+<p>Some of the smallest organisms studied by the group occur in ecosystems of global significance. Peatlands contain large stores of carbon, and their future under climate change depends partly on the microorganisms responsible for photosynthesis, decomposition and nutrient cycling. In a Sphagnum-dominated peatland, Jassey and colleagues investigated microbial food-web structure and ecosystem functions including decomposition and enzyme activity [7]. Taxonomic richness itself did not directly explain variation in the measured functions. Instead, food-web properties—including trophic interactions, connectance, biomass and energy transfer—were more informative, shifting attention from how many microbial taxa occur in a peatland towards how energy moves among them.</p>
+<p>More recently, Hamard and colleagues investigated another easily overlooked component of peatland ecology: photosynthesis by microorganisms [8]. Their work shows that microbial photosynthesis can mitigate carbon loss from northern peatlands under warming, adding an important biological process to our understanding of peatland carbon cycling. Together, these studies illustrate a recurring feature of this research: ecosystem-scale processes can emerge from interactions among organisms that are individually microscopic. Understanding peatland responses to environmental change therefore requires attention not only to the plants that dominate the visible landscape but also to the microbial communities and food webs associated with them.</p>
+</section>
+<section id="field-systems-as-tests-of-ecological-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="field-systems-as-tests-of-ecological-ideas">Field systems as tests of ecological ideas</h2>
+<p>These natural-system studies span very different organisms and environments, but several common questions recur: does biodiversity stabilise ecological communities, does it matter which traits species possess, do species respond independently or synchronously to environmental change, and are ecosystem processes better predicted by species richness, functional differences or interactions among organisms? Field studies make these questions harder because temperature covaries with other environmental conditions, species interact with many other organisms, landscapes have histories, disturbances occur unexpectedly, and human activities alter both ecosystems and the services obtained from them. But that complexity is precisely why natural ecosystems matter. Laboratory experiments allow ecological mechanisms to be isolated and mathematical models make their assumptions explicit; natural experiments and long-term observations then ask whether those mechanisms remain useful when confronted with the full complexity of ecological systems. Across streams, forests, peatlands, cities and continental monitoring networks, the underlying goal remains much the same: to understand how differences among organisms, their interactions and their responses to environmental change scale up to determine how ecosystems function and persist.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ol type="1">
+<li>Plebani, M., Fussmann, K.E., Hansen, D.M., O’Gorman, E.J., Stewart, R.I.A., Woodward, G. &amp; Petchey, O.L. (2015). Substratum-dependent responses of ciliate assemblages to temperature: a natural experiment in Icelandic streams. <em>Freshwater Biology</em>, 60, 1561–1570. <a href="https://doi.org/10.1111/fwb.12588">DOI: 10.1111/fwb.12588</a></li>
+<li>Schneider, F.D., Morsdorf, F., Schmid, B., Petchey, O.L., Hueni, A., Schimel, D.S. &amp; Schaepman, M.E. (2017). Mapping functional diversity from remotely sensed morphological and physiological forest traits. <em>Nature Communications</em>, 8. <a href="https://doi.org/10.1038/s41467-017-01530-3">DOI: 10.1038/s41467-017-01530-3</a></li>
+<li>Braun, D., Damm, A., Hein, L., Petchey, O.L. &amp; Schaepman, M.E. (2018). Spatio-temporal trends and trade-offs in ecosystem services: An Earth observation based assessment for Switzerland between 2004 and 2014. <em>Ecological Indicators</em>. <a href="https://doi.org/10.1016/j.ecolind.2017.10.016">DOI: 10.1016/j.ecolind.2017.10.016</a></li>
+<li>Hagen, O., Ibáñez-Álamo, J.D., Petchey, O.L. &amp; Evans, K.L. (2017). Impacts of Urban Areas and Their Characteristics on Avian Functional Diversity. <em>Frontiers in Ecology and Evolution</em>, 5, 84. <a href="https://doi.org/10.3389/fevo.2017.00084">DOI: 10.3389/fevo.2017.00084</a></li>
+<li>Hordley, L.A., Gillings, S., Petchey, O.L., Tobias, J.A. &amp; Oliver, T.H. (2021). Diversity of response and effect traits provides complementary information about avian community dynamics linked to ecological function. <em>Functional Ecology</em>, 35, 1938–1950. <a href="https://doi.org/10.1111/1365-2435.13865">DOI: 10.1111/1365-2435.13865</a></li>
+<li>Ghosh, S., Matthews, B. &amp; Petchey, O.L. (2024). Temperature and biodiversity influence community stability differently in birds and fishes. <em>Nature Ecology &amp; Evolution</em>, 8, 1835–1846. <a href="https://doi.org/10.1038/s41559-024-02493-7">DOI: 10.1038/s41559-024-02493-7</a></li>
+<li>Jassey, V.E.J., Petchey, O.L., Binet, P., Buttler, A., Chiapusio, G., Delarue, F., et al.&nbsp;(2023). Food web structure and energy flux dynamics, but not taxonomic richness, influence microbial ecosystem functions in a Sphagnum-dominated peatland. <em>European Journal of Soil Biology</em>, 118, 103532. <a href="https://doi.org/10.1016/j.ejsobi.2023.103532">DOI: 10.1016/j.ejsobi.2023.103532</a></li>
+<li>Hamard, S., Planchenault, S., Walcker, R., Sytiuk, A., Le Geay, M., Küttim, M., et al.&nbsp;(2025). Microbial photosynthesis mitigates carbon loss from northern peatlands under warming. <em>Nature Climate Change</em>, 15, 436–443. <a href="https://doi.org/10.1038/s41558-025-02271-8">DOI: 10.1038/s41558-025-02271-8</a></li>
+<li>Reader, M.O., Eppinga, M.B., de Boer, H.J., Damm, A., Petchey, O.L. &amp; Santos, M.J. (2022). The relationship between ecosystem services and human modification displays decoupling across global delta systems. <em>Communications Earth &amp; Environment</em>, 3. Reader, M.O., Eppinga, M.B., de Boer, H.J., Petchey, O.L. &amp; Santos, M.J. (2024). Consistent ecosystem service bundles emerge across global mountain, island and delta systems. <em>Ecosystem Services</em>, 66, 101593.</li>
+<li>Parreño, M.A., Schmid, B. &amp; Petchey, O.L. (2021). Comparative study of the most tested hypotheses on relationships between biodiversity, productivity, light and nutrients. <em>Basic and Applied Ecology</em>, 53, 175–190. Hong, P., Schmid, B., De Laender, F., Eisenhauer, N., Zhang, X., Chen, H., et al.&nbsp;(2022). Biodiversity promotes ecosystem functioning despite environmental change. <em>Ecology Letters</em>, 25, 555–569.</li>
+</ol>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/predictiveecologyzurich\.org");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Predictive Ecology Group · Department of Evolutionary Biology and Environmental Studies · University of Zurich</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Content &amp; photos <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · Website code <a href="https://github.com/opetchey/predictive-ecology-zurich/blob/main/LICENSE">MIT</a></p>
+</div>
+    <div class="nav-footer-right">
+<p><a href="../../../posts.html">All posts</a> · <a href="../../../contact.html">Contact</a> · <a href="../../../imprint.html">Imprint &amp; privacy</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

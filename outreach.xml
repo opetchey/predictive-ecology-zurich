@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Predictive Ecology Group</title>
+<link>https://predictiveecologyzurich.org/outreach.html</link>
+<atom:link href="https://predictiveecologyzurich.org/outreach.xml" rel="self" type="application/rss+xml"/>
+<description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Mon, 07 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Keynote at the joint GfÖ/Oikos meeting, Odense</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Owen gave a keynote talk at the joint annual meeting of the <a href="https://gfoe.org/en/" target="_blank">German Ecological Society (GfÖ)</a> and the <a href="https://www.nordicsocietyoikos.org/news/nordic-oikos-2026" target="_blank">Nordic Society Oikos</a>, held in Odense, Denmark, on 7 September 2026.</p>
+<p><em>(Add the talk’s title and a sentence or two on what it covered.)</em></p>
+
+
+
+ ]]></description>
+  <category>outreach</category>
+  <category>keynote</category>
+  <guid>https://predictiveecologyzurich.org/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/</guid>
+  <pubDate>Mon, 07 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Example outreach post</title>
+  <dc:creator>Predictive Ecology Group</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/outreach/2026-09-04-example-outreach-post/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>(This is a placeholder post. Replace with real content — e.g.&nbsp;a recap of a public talk, a science communication piece, or a school visit — or delete once real posts exist.)</em></p>
+<p>Posts in this <code>outreach</code> folder appear automatically on the <a href="../../../outreach.html">Outreach</a> page, because their folder is <code>posts/outreach/</code> and their <code>categories:</code> field starts with <code>outreach</code>, the controlled tag for this page.</p>
+
+
+
+ ]]></description>
+  <category>outreach</category>
+  <guid>https://predictiveecologyzurich.org/posts/outreach/2026-09-04-example-outreach-post/</guid>
+  <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2026-09-04-example-outreach-post/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Leading a breakout session at the Second UZH Biodiversity Roundtable</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/outreach/2026-04-17-biodiversity-leadership-breakout/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>On 17 April 2026, Owen co-led a breakout session on biodiversity leadership at the Second UZH Biodiversity Roundtable — an invitation-only event bringing together around 55 sustainability specialists from Swiss and international companies and foundations, convened at the invitation of the UZH President to build a Switzerland-rooted network of biodiversity supporters with global reach.</p>
+<p>The roundtable ran three keynotes and breakout sessions, on biodiversity leadership, biodiversity assessment, and biodiversity finance, aimed at turning discussion into collaborative action towards a nature-positive future.</p>
+<p>Owen co-moderated the Biodiversity Leadership breakout together with Gabriela Schaepman-Strub (UZH), Meike Müller-Forte (Siemens), and Anja Helena Liski (Oliver Wyman). The session argued that meaningful leadership on biodiversity loss usually emerges through everyday decisions and influence rather than perfect strategies or formal authority, that it depends on cross-sectoral collaboration between science and business, and that the aim should be transformative action rather than simple information transfer — themes echoed in the World Biodiversity Forum’s 2026 focus on “Leading Transformation Together”.</p>
+<p>The other two breakouts covered biodiversity assessment — recognising that biodiversity can be measured in many ways, so the starting point should be the information actually needed rather than a search for the single best metric — and biodiversity finance, on biodiversity loss as an emerging financial risk that also opens up investment opportunities in nature-based and sustainable solutions.</p>
+
+
+
+ ]]></description>
+  <category>outreach</category>
+  <category>leadership</category>
+  <guid>https://predictiveecologyzurich.org/posts/outreach/2026-04-17-biodiversity-leadership-breakout/</guid>
+  <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2026-04-17-biodiversity-leadership-breakout/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Panel moderation: Future of Sustainability</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/outreach/2026-02-25-future-of-sustainability-panel/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>On 25 February 2026, Owen moderated the closing panel at “UZH Sustainable”, a university-wide event in the UZH Aula showcasing how the University of Zurich is putting sustainability into practice — in its operations, teaching, research, and its place in the international climate debate.</p>
+<p>Opening the evening, Rector Michael Schaepman illustrated the scale of the problem: compressed into diamonds, the world’s annual rise in atmospheric carbon (3.6 gigatonnes) would amount to around 18 quadrillion carats — enough to fill Lake Zurich within four years. Vice-Rector Gabriele Siegert set out UZH’s 2019 sustainability policy and its Strategy 2030, spanning operations, research, teaching, and public engagement, pointing to concrete progress such as an 18% cut in catering-related emissions by 2024 and new degree programmes including a Sustainable Finance minor and a Bachelor in Sustainability. Researchers Christian Huggel (on glacier melt, permafrost loss, and urban heatwaves) and Zacharias Sautner (on sustainability as a financial risk and opportunity) each gave a short talk on their own work, and Dean Katharina Michaelowa described the Faculty of Arts and Social Sciences’ internal carbon levy (CHF 130 per tonne CO₂) that funds climate-friendlier travel.</p>
+<p>That closing panel looked beyond UZH itself, with David Schimel (Research Scientist, NASA Jet Propulsion Laboratory), Sonia I. Seneviratne (Professor, Department of Environmental Systems Science, ETH Zurich), and Marco Lambertini (Convener, <a href="https://www.naturepositive.org/" target="_blank">Nature Positive Initiative</a>). All three argued for a fundamental shift: Lambertini said the world still clings to a nature-destroying economic model despite the evidence, and that prosperity isn’t possible without intact nature; Seneviratne pointed out that around 90% of CO₂ emissions still come from fossil energy, and that shifting to renewables is both ecologically necessary and increasingly the cheaper option; and Schimel reflected that science had underestimated both the pace of technological change and the true cost of climate damage — concluding that climate action is now a matter of economic sense rather than sacrifice.</p>
+
+
+
+ ]]></description>
+  <category>outreach</category>
+  <category>panel discussion</category>
+  <guid>https://predictiveecologyzurich.org/posts/outreach/2026-02-25-future-of-sustainability-panel/</guid>
+  <pubDate>Wed, 25 Feb 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2026-02-25-future-of-sustainability-panel/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>SYNT workshop at the UZH Science Lab</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/outreach/2026-01-15-synt-workshop-science-lab/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In January, Owen hosted a <a href="https://synt.ch/en/synt/workshop" target="_blank">SYNT</a> workshop at the <a href="https://www.sciencelab.uzh.ch/en.html">UZH Science Lab</a> — the university’s hands-on venue for connecting science with schools, teachers, and the public through interactive workshops and exhibits.</p>
+<p>SYNT, the Swiss Young Naturalists’ Tournament (“where tomorrow’s scientists meet”), is a competitive science event in which teams of students research an open-ended scientific problem and then present and defend their findings against other teams. The workshop is a full-day introduction to the tournament, aimed both at registered competitors and at students still deciding whether to take part. It walks participants through developing a research strategy for a tournament problem, the tournament’s structure, presentation and discussion protocols, and includes a live “Science Fight” demonstration of the competitive format itself, plus mentoring from experienced coaches.</p>
+<p>The Science Lab’s own format is built around doing rather than just listening: participants work through activities and experiments pitched at their class level, across subjects from biology and chemistry to physics, sustainability, and digitalisation. Hosting a SYNT workshop there is a chance to bring the group’s own thinking — about ecological forecasting, food webs, and how ecosystems respond to change — to an audience well outside the usual academic seminar room.</p>
+<p>Alongside hosting the workshop, Owen also judged as part of SYNT 2026.</p>
+
+
+
+ ]]></description>
+  <category>outreach</category>
+  <category>public engagement</category>
+  <category>judging</category>
+  <guid>https://predictiveecologyzurich.org/posts/outreach/2026-01-15-synt-workshop-science-lab/</guid>
+  <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2026-01-15-synt-workshop-science-lab/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Panelist: Building Resilience Through One Health</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/outreach/2024-06-21-una-europa-one-health-panel/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>On 20 June 2024, Owen joined the panel for <a href="https://www.una-europa.eu/calendar/una-europa-talk-building-resilience-through-one-health" target="_blank">Building Resilience through One Health</a>, a public talk hosted by <a href="https://www.una-europa.eu/" target="_blank">Una Europa</a> — an alliance of eleven European research universities — held in person at the University of Zurich and livestreamed online. Prof.&nbsp;Michael Schaepman, President of UZH, gave the welcome, and the evening was moderated by science communicator Eveline van Rijswijk.</p>
+<p>The panel brought together researchers working across different strands of One Health — the idea that human, animal, and ecosystem health are interconnected and need to be addressed together. Alongside Owen, then Director of the URPP Global Change and Biodiversity at UZH, the panel included Dr Andrew D. Kambugu (Executive Director, Uganda Infectious Diseases Institute, Makerere University), Prof.&nbsp;Andrea Winkler (Co-Director, Centre for Global Health, Technical University of Munich, and Professor at the University of Oslo), Prof.&nbsp;Elisabeth Stark (Vice President Research, UZH, and Una Europa Board Member), and Prof.&nbsp;Bruno González Zorn (Head of the Antimicrobial Resistance Unit, Complutense University of Madrid, and Chair of the Una Europa One Health Focus Area). Together they discussed why interdisciplinary, cross-sectoral collaboration is essential for tackling global health challenges, drawing on their own work spanning infectious disease, global health, biodiversity, and antimicrobial resistance.</p>
+
+
+
+ ]]></description>
+  <category>outreach</category>
+  <category>panel discussion</category>
+  <guid>https://predictiveecologyzurich.org/posts/outreach/2024-06-21-una-europa-one-health-panel/</guid>
+  <pubDate>Thu, 20 Jun 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/outreach/2024-06-21-una-europa-one-health-panel/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

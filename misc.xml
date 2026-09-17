@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Predictive Ecology Group</title>
+<link>https://predictiveecologyzurich.org/misc.html</link>
+<atom:link href="https://predictiveecologyzurich.org/misc.xml" rel="self" type="application/rss+xml"/>
+<description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Wed, 16 Jul 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Public critique or private conversation? How to know what’s best for you.</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/misc/2025-07-16-public-critique-or-private-conversation/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://predictiveecologyzurich.org/posts/misc/2025-07-16-public-critique-or-private-conversation/images/public_or_private.png" class="img-fluid" width="250"></p>
+<p>A few months ago, I and some colleagues at the University of Zurich gathered to discuss a recent paper in a leading ecology journal. During the discussion, I realised — or at least believed — that the paper contained an error. Depending on how one interpreted the error and the paper’s aims, it had the potential to mislead readers, especially students or early-career researchers still developing their understanding.</p>
+<p>So, what should I do?</p>
+<p>Should I write a formal comment, or post a critique in a public forum? Should I contact the author privately? Or should I do nothing, hoping others might notice and address the issue in their own way?</p>
+<p>Which would you choose? It’s not an easy decision, especially without knowing the specifics — but many of us have faced similar moments. My point here is simple: you do have a choice, your choice matters, and it’s worth making it deliberately and reflectively.</p>
+<p>Here’s how I approached it, guided by a few principles:</p>
+<ol type="1">
+<li>I might be wrong.</li>
+<li>I don’t need or want to benefit personally from this.</li>
+<li>I want to help the community and relationships, not harm them.</li>
+<li>People should have the chance to address issues themselves.</li>
+<li>We should foster an environment where it’s safe to make and correct mistakes.</li>
+<li>Researchers should be accountable for what they publish.</li>
+</ol>
+<p>Based on these, I decided a public critique — while perhaps justifiable — wasn’t the best first step. It could easily have read as confrontational or dismissive of the author’s work, and I wanted to avoid an adversarial exchange that might damage relationships or weaken our academic community.</p>
+<p>Instead, I wrote to the author directly. I explained my concerns, and after some thoughtful back and forth, we had a productive exchange. The author was receptive, and eventually submitted a correction to the journal.</p>
+<p>This experience reinforced a few things for me:</p>
+<ul>
+<li>Approach with humility and curiosity — I might be wrong, and listening matters.</li>
+<li>Private dialogue can work: it allows for nuance, mutual understanding, and a constructive outcome.</li>
+<li>Tone matters — I tried to centre the discussion on reasoning, not critique of the author.</li>
+<li>Expect defensiveness. Criticism, even of a small part of a paper, can feel personal.</li>
+<li>Expect misunderstanding, especially over email, where intentions and points can be misread.</li>
+<li>Stay focused. If the author raises tangential concerns, acknowledge them but gently steer the conversation back.</li>
+<li>Give space. Waiting a few days between responses can help keep things thoughtful rather than reactive.</li>
+</ul>
+<p>Still, I have mixed feelings. I’m not sure the correction was sufficient, or that it will be noticed — it’s a small change in a large and growing body of literature, and many readers may never see it. That’s a common problem with post-publication corrections: important, but often invisible. I also don’t know whether a public comment would have reached more people, or been remembered for longer.</p>
+<p>I’m in a fortunate position — I have long-term job security, and don’t feel a personal need to raise my profile. That wasn’t always the case; earlier in my career I engaged in more public back-and-forths, and may even have enjoyed them. But over time I’ve come to believe that public critiques, though sometimes necessary, often generate more heat than light. They can create a culture of defensiveness and fear rather than one of inquiry and humility.</p>
+<p>Not always, though — I admire those who manage public critique with grace and generosity.</p>
+<p>For me, the key realisation is this: how we critique each other’s work is just as important as the critique itself. Our choices shape the culture of our field — whether we cultivate curiosity and respect, or suspicion and hostility.</p>
+<p>Have you faced a similar decision? How did you handle it? I’d be very interested to hear your thoughts.</p>
+
+
+
+ ]]></description>
+  <category>misc</category>
+  <category>thoughts</category>
+  <category>research culture</category>
+  <guid>https://predictiveecologyzurich.org/posts/misc/2025-07-16-public-critique-or-private-conversation/</guid>
+  <pubDate>Wed, 16 Jul 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/misc/2025-07-16-public-critique-or-private-conversation/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>AI tips and tricks</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/misc/2025-06-27-ai-tips-and-tricks/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>At a recent group retreat we shared AI tips and tricks:</p>
+<ul>
+<li>Don’t forget all the cool stuff in <a href="https://notebooklm.google/">Google NotebookLM</a>, including making podcasts to listen to on the train, in the gym, or while doing the laundry.</li>
+<li>You can make agents with <a href="https://www.microsoft.com/en-us/microsoft-copilot/copilot-101/copilot-ai-agents">Copilot</a> (depending on your Microsoft licence) — potentially useful for building chatbots for teaching.</li>
+<li>Keep the <a href="https://milvus.io/ai-quick-reference/what-ethical-concerns-exist-with-llms">ethical</a>, <a href="https://cacm.acm.org/news/gauging-societal-impacts-of-large-language-models/">societal</a>, and <a href="https://www.nature.com/articles/s41598-024-76682-6">environmental</a> aspects in mind, and learn about them.</li>
+<li><a href="https://help.openai.com/en/articles/8914046-temporary-chat-faq">Temporary chat</a> is a useful ChatGPT feature — a clean slate for a conversation, and the content isn’t used for training.</li>
+<li><a href="https://help.openai.com/en/articles/10169521-projects-in-chatgpt">Projects</a> in ChatGPT are useful (may require a paid subscription).</li>
+<li><a href="https://support.anthropic.com/en/articles/10167454-using-the-github-integration">Claude allows linking to a GitHub repository</a>, handy when getting AI help on a coding project.</li>
+<li>ChatGPT can help by searching through the titles and abstracts of, say, 200 papers from a Web of Science search, for the most relevant ones.</li>
+<li>Great for generating ideas for the title and/or acronym of a paper, proposal, or project.</li>
+<li>A good website for keeping up with AI tools: <a href="https://www.oneusefulthing.org/">oneusefulthing.org</a>.</li>
+<li>Watch out for agents that do things <em>for</em> us — e.g.&nbsp;planning and booking a holiday, replying to emails, scheduling meetings.</li>
+</ul>
+
+
+
+ ]]></description>
+  <category>misc</category>
+  <category>tips</category>
+  <category>AI</category>
+  <guid>https://predictiveecologyzurich.org/posts/misc/2025-06-27-ai-tips-and-tricks/</guid>
+  <pubDate>Fri, 27 Jun 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/misc/2025-06-27-ai-tips-and-tricks/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>For your interest</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/misc/2019-10-17-for-your-interest/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A few things I’ve written that may be of interest. I wrote them a while ago and could now quibble with some of the points and arguments, but I think the main themes still hold up.</p>
+<ul>
+<li><a href="../../../posts/misc/2015-10-09-about-fairness-in-the-workplace/index.html"><strong>About fairness in the workplace</strong></a> — an incomplete delve into the role of fairness in the workplace.</li>
+<li><a href="../../../posts/misc/2019-03-11-an-academic-in-business-school-and-being-a-better-dad/index.html"><strong>An academic in business school, and being a better dad</strong></a> — a perhaps rather preachy piece about leadership and competitiveness.</li>
+<li><a href="../../../posts/misc/2014-07-28-when-should-i-start-giving/index.html"><strong>When should I start giving?</strong></a> — some thoughts on when, during our careers, we might start “giving”.</li>
+<li><a href="../../../posts/misc/2019-03-11-students-are-not-our-customers-they-are-our-products/index.html"><strong>Students are not our customers, they are our products</strong></a> — ideas about how we could avoid viewing students as customers, even if we did view a university as a business.</li>
+<li><a href="../../../posts/organising/2019-03-13-valuing-contributions-in-teams/index.html"><strong>A tool for valuing contributions in teams</strong></a> — comments on some challenges of working in teams, and a tool to help avoid them.</li>
+</ul>
+
+
+
+ ]]></description>
+  <category>misc</category>
+  <category>thoughts</category>
+  <guid>https://predictiveecologyzurich.org/posts/misc/2019-10-17-for-your-interest/</guid>
+  <pubDate>Thu, 17 Oct 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/misc/2019-10-17-for-your-interest/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>An academic in business school, and being a better dad</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/misc/2019-03-11-an-academic-in-business-school-and-being-a-better-dad/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’d never had formal management or leadership training, never been schooled in negotiation or influencing, and never run a business. I have now — and consequently have more ability and confidence to lead teams, to navigate them through uncertain times, and, perhaps most importantly, to be a better dad.</p>
+<p>During spring 2016 I took part in the Fast Track Advanced Management Programme at Ashridge Executive Education. The programme has two modules, each a one-week residential course at Ashridge, near Berkhamsted, just outside London.</p>
+<section id="wicked-problems-in-a-vuca-world" class="level2">
+<h2 class="anchored" data-anchor-id="wicked-problems-in-a-vuca-world">Wicked problems in a VUCA world</h2>
+<p>The industrial revolution led to an era characterised by relative predictability: design a television, make TVs, sell TVs, redesign TVs, make TVs, sell TVs. Manage the business to do that. That worked for at least half a century.</p>
+<p>A foundation of leadership education at Ashridge is that we now live in a VUCA world of wicked problems — volatile, uncertain, complex, and ambiguous. Things will change, and we can’t predict how or when. Wicked problems have no single solution; even the challenges we can foresee will escape any single, simple fix.</p>
+<p>In such a world, leaders must draw on and nurture creativity. Team members need the high intrinsic motivation that comes from autonomy, purpose, and the pursuit of mastery. Extrinsic motivation (e.g.&nbsp;performance-related pay) and command-and-control leadership tend to extinguish intrinsic motivation, and the creativity that comes with it.</p>
+<p>The research team I lead tackles wicked problems — in particular, how we can more accurately forecast ecological dynamics, such as fish stocks ten years from now. So while I was familiar with the territory, I hadn’t connected it to leadership before. Ashridge helped make that connection, and in doing so helped crystallise a personal leadership style that resonates with my research, that will bring out the best in team members, and that I understand and can keep developing.</p>
+</section>
+<section id="running-a-business" class="level2">
+<h2 class="anchored" data-anchor-id="running-a-business">Running a business</h2>
+<p>The programme included a business simulation, run at the rate of one simulated year per real hour. My small team of classmates competed against four other teams, designing, marketing, advertising, and selling retail products. The presence of the other teams created real uncertainty about the outcome of our actions — we didn’t know what products they’d produce, how hard they’d advertise, or the state of their finances. It’s a testament to the programme that our small company won the competition (there were only four of us, so we all played a key role).</p>
+<p>While I’m happy we won, I think more often about the mistakes we made, how we succeeded anyway, and what the other teams did differently. As it turned out, we’d been making a fairly serious mistake for the entire simulation — had it continued longer, we probably wouldn’t have won.</p>
+<p>The most significant lesson I took from the simulation was about what actually drives me. After we won, a classmate suggested I was probably highly competitive. I realised I don’t much care whether that’s true, because it’s not the important part. What I care about is learning new things so I can perform better than I could before, being creative, and seeing others (and myself) take on the hardest problems we can find. It’s nice, but for me relatively unimportant, that this kind of behaviour often also creates the best chance of winning.</p>
+</section>
+<section id="collaborating-and-challenging" class="level2">
+<h2 class="anchored" data-anchor-id="collaborating-and-challenging">Collaborating and challenging</h2>
+<p>Perhaps my greatest concern going in was how I’d get on with my classmates. Almost all were from the business world — managing director, development director, strategy director, vice president, financial controller — from a wide range of sectors. How would I compare, would I make a fool of myself, what would they think of me? I was stepping well outside my familiar ivory tower.</p>
+<p>I was challenged again and again, and had to ask what P&amp;L, KPIs, and B2B/B2C meant. I probably said some naive things. But I never felt judged, by instructors or classmates — quite the opposite. They were enthusiastic, supportive, open, observant, creative, and fun. The learning experience the instructors created was highly collaborative, and challenged all of us; we learned at least as much from each other as from the instructors. It’s given me real optimism that many leaders in the business world build success through supportive, safe, and authentic relationships.</p>
+<p>That might sound a bit warm and fluffy for “business folk.” None of my classmates were bankers, though one was a lawyer — but joking aside, all were highly driven, ambitious, and at times challenging. My optimism comes from seeing so many people show, believe in, and demonstrate that giving is a powerful, probably necessary partner to drive, ambition, and disruption.</p>
+</section>
+<section id="being-a-better-dad" class="level2">
+<h2 class="anchored" data-anchor-id="being-a-better-dad">Being a better dad</h2>
+<p>Before kids, life was relatively predictable and controllable: up at 7am, make breakfast, eat breakfast, read the paper, walk to work, work, go home, sleep, repeat. None of that is certain any more — the arrival of my kids brought volatility, uncertainty, complexity, and ambiguity, with no simple or single solution to the challenges they create. And they themselves will grow up, live, and — with whatever leadership I can offer — thrive in their own VUCA world of wicked problems.</p>
+<p><em>— Owen Petchey, April 2016</em></p>
+
+
+</section>
+
+ ]]></description>
+  <category>misc</category>
+  <category>thoughts</category>
+  <category>leadership</category>
+  <guid>https://predictiveecologyzurich.org/posts/misc/2019-03-11-an-academic-in-business-school-and-being-a-better-dad/</guid>
+  <pubDate>Mon, 11 Mar 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/misc/2019-03-11-an-academic-in-business-school-and-being-a-better-dad/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Students are not our customers, they are our products</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/misc/2019-03-11-students-are-not-our-customers-they-are-our-products/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Universities are made up of various groups of people, including managers and academics. Managers govern and lead; academics teach and do research. Managers tend to view the university as a business (the extent of this differs across nations and institutions), while academics tend to view it as, well, not a business. (Some managers were once academics; few academics are managers.)</p>
+<p>When a university is viewed as a business, the question “who are our customers?” arises. It’s tempting to see students as the customer. That might be accurate from a purely transactional perspective, but it’s a dysfunctional one.</p>
+<p>A customer-provider relationship doesn’t sit well alongside a teacher/mentor–student relationship. In particular, treating students as customers doesn’t encourage them to take responsibility for their own learning — which may be why the framing is unpalatable to many teachers.</p>
+<p>So let’s avoid viewing the student as the customer, and avoid thinking of a university as a business. But if you really do want to apply a business perspective to a university (and there may be good reasons to), then view the student as the product, and their future employer as the customer.</p>
+<p>The university takes in relatively raw materials (new students) and transforms them into valuable products (graduates) by adding value — knowledge, skills, attitudes, relationships. Graduates have attributes (the product specification), advertised to potential employers via their degree name, courses taken, and grades achieved. How attractive a graduate is to an employer (or to society more broadly) depends on the match between desired and advertised skills, the match between advertised and actual skills (under- or overselling both represent a mismatch), and brand perception — not all degrees are regarded equally.</p>
+<p>Perhaps this perspective would be more palatable to everyone involved.</p>
+
+
+
+ ]]></description>
+  <category>misc</category>
+  <category>thoughts</category>
+  <category>higher education</category>
+  <guid>https://predictiveecologyzurich.org/posts/misc/2019-03-11-students-are-not-our-customers-they-are-our-products/</guid>
+  <pubDate>Mon, 11 Mar 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/misc/2019-03-11-students-are-not-our-customers-they-are-our-products/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>About fairness in the workplace</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/misc/2015-10-09-about-fairness-in-the-workplace/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Following a discussion with a colleague about fairness in the workplace, I gave myself two hours to research it. A good starting point turned out to be Fujishiro, K. (2005), <em>Fairness at work: its impacts on employee well-being</em>.</p>
+<section id="what-is-fairness-in-the-workplace-organisational-justice" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-fairness-in-the-workplace-organisational-justice">What is fairness in the workplace (organisational justice)?</h2>
+<p><strong>Distributive fairness (justice)</strong>: individuals assess their own contribution-to-reward ratio and compare it with their assessment of their colleagues’. This looks like deservedness-based fairness, as distinct from sameness (everyone gets the same reward regardless of contribution) or need-based fairness (reward based on need rather than contribution). High distributive fairness might be thought of as a meritocracy based on equality of opportunity.</p>
+<p><strong>Procedural fairness</strong>: involvement in decision-making processes. This enhances the perception of fairness, because people feel they can influence a decision, and because merely expressing an opinion can have positive effects on its own.</p>
+<p><strong>Interactional justice</strong>: fairness in how employees are treated within organisational procedures — e.g.&nbsp;during a hiring or promotion process — enhanced by truthfulness, respect, appropriate questions, and clear justification.</p>
+<p>On equality versus equity: in the workplace, equality seems to be the stronger influence, though measures to promote equity also exist. As Dr Angie Hobbs put it on BBC Radio 4’s Today programme: “For me, the most attractive interpretation is that each person is of equal worth and should have the opportunity — ideally, an equal opportunity — to access goods, but most of the goods themselves will be proportionally distributed, according to need in some cases and merit in others.”</p>
+<p>Fairness assessment requires perceiving one’s own situation relative to others’, so accurate perception matters — and accurate perception is likely tied to effective communication (my own thought, not from the literature).</p>
+<p>My conclusion: workplace fairness is mostly about how fair workers <em>perceive</em> their environment to be, largely on meritocratic grounds.</p>
+</section>
+<section id="is-fairness-in-the-workplace-important" class="level2">
+<h2 class="anchored" data-anchor-id="is-fairness-in-the-workplace-important">Is fairness in the workplace important?</h2>
+<p>Two meta-analyses found that high workplace fairness predicts “high job satisfaction, high performance, low withdrawal, fewer counterproductive behaviors, high organizational commitment, and more organizational citizenship behaviours” (Fujishiro, 2005, citing Cohen-Charash &amp; Spector, 2001, and Colquitt et al., 2001).</p>
+<p>A few more quotes from Fujishiro (2005):</p>
+<blockquote class="blockquote">
+<p>“Fairness, or justice, is one of the most fundamental concerns in society.”</p>
+<p>“A lack of perceived fairness was negatively associated with employee well-being.”</p>
+<p>“High workload was associated with high strain only when perceived fairness was low.”</p>
+<p>“Low levels of organizational justice may act as an occupational stressor and have detrimental effects on employee health and well-being.”</p>
+</blockquote>
+<p>A large-scale longitudinal study in Finland found that a lack of organisational justice is associated with subsequent declines in self-rated health, absence due to sickness, and psychiatric disorders.</p>
+<p>The ease with which I found convincing evidence for the positive effects of fairness made me conclude that it’s an important issue, both for individuals and for organisations.</p>
+</section>
+<section id="objections-to-fairness" class="level2">
+<h2 class="anchored" data-anchor-id="objections-to-fairness">Objections to fairness</h2>
+<p>Are there studies, theories, or ideas suggesting unfairness might sometimes be desirable — or that concern for workplace fairness might be pointless or unprofitable? Here’s what I found in the little time I gave myself:</p>
+<ul>
+<li>The world isn’t fair — reality isn’t fair, there’s no such thing as a genuinely fair system.</li>
+<li>There may be higher-priority issues in the workplace.</li>
+<li>Chasing absolute fairness may itself cost performance — there’s presumably a curve of diminishing returns relating gains in perceived fairness to the effort spent pursuing it.</li>
+</ul>
+<p>One stimulating (if disagreeable) read put it this way: “Our idea of fairness isn’t actually obtainable. It’s really just a cloak for wishful thinking.”</p>
+<p>My conclusion: it’s worth thinking carefully about whether investing in perceived fairness is worthwhile — i.e.&nbsp;whether the benefits are likely to outweigh the costs.</p>
+</section>
+<section id="how-to-increase-workplace-fairness-should-you-wish-to" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-increase-workplace-fairness-should-you-wish-to">How to increase workplace fairness (should you wish to)</h2>
+<p>From <em>Workplace Tribes</em>: “Treating people fairly is important. Ensuring that they feel fairly treated is even more important.”</p>
+<p>I ran out of time on this one, but hope to come back to it.</p>
+<p><strong>References</strong></p>
+<p>Cohen-Charash, Y., &amp; Spector, P. E. (2001). The role of justice in organizations: A meta-analysis. <em>Organizational Behavior &amp; Human Decision Processes</em>, 86(2), 278–321.</p>
+<p>Colquitt, J. A., Conlon, D. E., Wesson, M. J., Porter, C. O. L. H., &amp; Ng, K. Y. (2001). Justice at the millennium: A meta-analytic review of 25 years of organizational justice research. <em>Journal of Applied Psychology</em>, 86(3), 425–445.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>misc</category>
+  <category>thoughts</category>
+  <category>team culture</category>
+  <guid>https://predictiveecologyzurich.org/posts/misc/2015-10-09-about-fairness-in-the-workplace/</guid>
+  <pubDate>Fri, 09 Oct 2015 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/misc/2015-10-09-about-fairness-in-the-workplace/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>When should I start giving?</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/misc/2014-07-28-when-should-i-start-giving/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>Give and Take: Why Helping Others Drives Our Success</em>, by Adam Grant — what a great read. It argues that givers are often the most successful people around, and explains why. It can also be read as a manifesto for change: I’d already started helping people I might not have, before reading it.</p>
+<p>But when should one start being a giver, or give giving more time? Is it better to be a matcher (or even a taker) early in one’s career, then gradually put more resources into giving? Clearly one must perform well early on, and attend to important short-term goals — publishing your first few papers, writing your thesis. On the other hand, I suspect important short-term goals never really go away. And, perhaps more importantly, giving is probably a bit like investing in a pension: early investments matter more than later ones, because interest builds on interest. If the benefits of giving have something like geometric growth, it’s never too early to start.</p>
+<p>The intuition is simple: two exponential growth curves with the same rate of growth, but one starting a little later than the other — the gap between them just grows and grows.</p>
+<p>That said, I’d never advise a PhD student (or postdoc) to compromise on publishing a paper. But I’d also be surprised if there wasn’t room for a little smart giving, to get that investment started.</p>
+
+
+
+ ]]></description>
+  <category>misc</category>
+  <category>thoughts</category>
+  <category>careers</category>
+  <guid>https://predictiveecologyzurich.org/posts/misc/2014-07-28-when-should-i-start-giving/</guid>
+  <pubDate>Mon, 28 Jul 2014 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/misc/2014-07-28-when-should-i-start-giving/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

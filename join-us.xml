@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Predictive Ecology Group</title>
+<link>https://predictiveecologyzurich.org/join-us.html</link>
+<atom:link href="https://predictiveecologyzurich.org/join-us.xml" rel="self" type="application/rss+xml"/>
+<description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Thu, 17 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>PhD position: bringing response diversity into biodiversity policy (ReDiLEEP)</title>
+  <dc:creator>Predictive Ecology Group</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We’re recruiting a Doctoral Candidate to <a href="../../../posts/organising/2026-09-05-redileep/index.html">ReDiLEEP</a>, the Marie Skłodowska-Curie Actions (MSCA) Doctoral Network on response diversity, for a project sitting right at the interface of ecological science and biodiversity policy.</p>
+<section id="the-project-dc11" class="level2">
+<h2 class="anchored" data-anchor-id="the-project-dc11">The project (DC11)</h2>
+<p>Response diversity — variation in how species or functional groups respond to environmental change — is increasingly recognised as a key driver of <a href="../../../posts/research/2026-09-12-predicting-ecological-stability/index.html">ecosystem resilience</a>, but current policy instruments such as the EU Nature Restoration Law, the Common Agricultural Policy, and the Corporate Sustainability Reporting Directive lack clear metrics, targets, or monitoring requirements for it. This project (DC11) sets out to close some of that gap.</p>
+<p>The doctoral researcher will use AI-assisted text analysis and network analysis to map how response diversity research relates — or fails to relate — to European biodiversity, restoration, and sustainability policy, identifying conceptual alignments, mismatches, and evidence gaps between the science and the policy frameworks. The aim is to help guide the development of policy-ready, measurable indicators that capture response diversity as a mechanism underpinning both ecological stability and policy effectiveness.</p>
+<p>Responsibilities include reviewing and synthesising response-diversity research relevant to EU biodiversity policy; applying text and network analysis to scientific literature and policy documents; identifying where ecological resilience and diversity mechanisms could strengthen conservation and restoration policy; and developing draft indicator sets and monitoring templates linking response diversity to ecosystem function and sustainability goals.</p>
+</section>
+<section id="supervision-and-network" class="level2">
+<h2 class="anchored" data-anchor-id="supervision-and-network">Supervision and network</h2>
+<p>Main supervisor: Prof.&nbsp;Owen Petchey, with co-supervision from Prof.&nbsp;Maria Santos, Dr Cornelia Krug, and Dr Ute Jacob. The position includes four months of secondments to non-academic and academic partners across the network — BioAgora, Swansea University, CarU, and Advanced Invasives — plus ReDiLEEP-wide training in response-diversity methods, reproducible code, R/Tidyverse, machine learning and AI for ecologists, and science-policy communication.</p>
+</section>
+<section id="details" class="level2">
+<h2 class="anchored" data-anchor-id="details">Details</h2>
+<ul>
+<li><strong>Duration:</strong> 48 months, full-time (36 months funded through the MSCA Doctoral Network, 12 months through the University of Zurich).</li>
+<li><strong>Profile:</strong> a Master’s degree (or equivalent) in ecology, environmental science, geography, sustainability science, environmental policy, biodiversity governance, computational social science, data science, or a related field; experience with literature synthesis, policy analysis, text or network analysis, statistical modelling, or programming (R, Python, or similar); strong written and spoken English.</li>
+<li><strong>MSCA mobility rule applies:</strong> applicants must not have resided or carried out their main activity in Switzerland for more than 12 of the 48 months immediately before the recruitment date (with the usual exceptions for compulsory national service, refugee status, and temporary protection).</li>
+<li><strong>Application deadline:</strong> 1 October 2026.</li>
+<li><strong>Earliest start:</strong> 1 February 2027 (by 30 June 2027 at the latest).</li>
+</ul>
+</section>
+<section id="how-to-apply" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-apply">How to apply</h2>
+<p>Full details, the complete application requirements, and how to submit are on the official listing: <a href="https://euraxess.ec.europa.eu/jobs/461564" target="_blank">ReDiLEEP PhD position DC11 on EURAXESS</a>. Administrative questions go to <a href="../../../posts/team/maja-weilenmann/index.html">Maja Weilenmann</a>; scientific questions about the project go to Owen Petchey — see <a href="../../../contact.html">Contact</a>.</p>
+<p>Before writing in, it’s worth reading our <a href="../../../posts/join-us/2019-03-03-making-an-effective-enquiry/index.html">advice on making an effective enquiry</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>join-us</category>
+  <category>phd</category>
+  <category>response diversity</category>
+  <category>policy</category>
+  <guid>https://predictiveecologyzurich.org/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/</guid>
+  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Postdoctoral Research Fellowship in Ecological Stability</title>
+  <dc:creator>Predictive Ecology Group</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We’re inviting applications for a Postdoctoral Research Fellowship of up to three years, 100%, to develop and lead an independent research programme on <a href="../../../posts/research/2026-09-12-predicting-ecological-stability/index.html">ecological stability</a>.</p>
+<section id="about-the-fellowship" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-fellowship">About the fellowship</h2>
+<p>Unlike a project-based postdoc, this fellowship is for researchers who want to shape and lead their own research agenda rather than join an existing project. Proposals should align with the group’s broad interests — understanding and predicting ecological stability through ecological theory, <a href="../../../posts/research/2026-09-09-mathematical-modelling/index.html">mathematical modelling</a>, <a href="../../../posts/research/2026-09-11-experimental-microbial-ecology/index.html">experimental ecology</a>, and the analysis of ecological observations and experiments — including the development and application of concepts and tools such as response diversity. Theoretical, computational, experimental, observational, or interdisciplinary approaches are all welcome, as are combinations of these.</p>
+<p>The fellowship combines real intellectual freedom with active mentorship: fellows pursue their own programme while benefiting from regular scientific interaction and collaboration within the group and the wider University of Zurich research environment. Projects involving fieldwork or analysis of local-to-large-scale ecological data are welcome, provided they’re planned, organised, and led by the fellow. Projects on Arctic ecosystems are also welcomed and may be supported through collaboration with Prof.&nbsp;Dr.&nbsp;Gabriela Schaepman-Strub.</p>
+</section>
+<section id="whats-offered" class="level2">
+<h2 class="anchored" data-anchor-id="whats-offered">What’s offered</h2>
+<p>Up to three years of funding, including research funding for the proposed programme, computing and analytical resources, access to the group’s lab facilities and infrastructure, and a supportive, collegial research environment with opportunities to collaborate within UZH and beyond.</p>
+</section>
+<section id="eligibility-and-what-were-looking-for" class="level2">
+<h2 class="anchored" data-anchor-id="eligibility-and-what-were-looking-for">Eligibility and what we’re looking for</h2>
+<p>Applicants must have been awarded their PhD no more than four years before the application deadline. We’re looking for a compelling vision for future research, creativity and initiative in developing scientific ideas, a strong record of research achievement relative to career stage, the ability to bring research projects to completion, and enthusiasm for collaborative research. Applications are welcome from a wide range of disciplinary backgrounds relevant to ecological stability.</p>
+</section>
+<section id="application-materials" class="level2">
+<h2 class="anchored" data-anchor-id="application-materials">Application materials</h2>
+<p>A single PDF containing:</p>
+<ol type="1">
+<li>A CV (maximum 2 pages).</li>
+<li>A research proposal (maximum 4 pages including references), covering the scientific questions to be addressed, the significance and originality of the proposed work, the planned approach and methodology, expected outcomes, how it advances understanding and prediction of ecological stability, and career objectives with the major milestones planned for the fellowship.</li>
+<li>Contact details for two referees.</li>
+</ol>
+</section>
+<section id="details" class="level2">
+<h2 class="anchored" data-anchor-id="details">Details</h2>
+<ul>
+<li><strong>Application deadline:</strong> 31 October 2026.</li>
+<li><strong>Earliest start date:</strong> January 2027.</li>
+</ul>
+</section>
+<section id="how-to-apply" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-apply">How to apply</h2>
+<p>Full details are on the official listing: <a href="https://www.findapostdoc.com/search/job-details.aspx?jobcode=12735" target="_blank">Postdoctoral Research Fellowship in Ecological Stability on FindAPostDoc</a>. Applications and administrative questions go to <a href="../../../posts/team/maja-weilenmann/index.html">Maja Weilenmann</a>; for scientific questions, see <a href="../../../contact.html">Contact</a> to reach Owen Petchey.</p>
+<p>Before writing in, it’s worth reading our <a href="../../../posts/join-us/2019-03-03-making-an-effective-enquiry/index.html">advice on making an effective enquiry</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>join-us</category>
+  <category>postdoc</category>
+  <category>ecological stability</category>
+  <guid>https://predictiveecologyzurich.org/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/</guid>
+  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Making an (even more) effective enquiry</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/join-us/2019-03-03-making-an-effective-enquiry/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Whether you’re asking about available positions (and perhaps funding), or you’ve found a funding scheme you’d like to apply for (to be held in a group member’s lab), there are a few things you can do to make it more likely you get a useful response.</p>
+<ul>
+<li>Include your CV, including the names of any previous supervisors.</li>
+<li>Include a short statement of your research interests and motivation, highlighting any notable achievements.</li>
+<li>Include a statement about the research you propose and how it fits well with the supervisor’s or group’s work.</li>
+<li>Be explicit about the funding source(s) you have in mind, and link to the relevant funding scheme web pages.</li>
+<li>Begin enquiries at least one month before any deadlines — more time may be needed in many cases.</li>
+</ul>
+<p>The point many enquiries miss is fit: it’s often unclear, or only weakly argued, why this particular supervisor or group is the right one for the proposed research. If you’d like advice about who at UZH, in Zurich, or further afield might be a better fit, lead with your own suggestions of people, groups, or labs — each with a short rationale — and we’re happy to give feedback on those.</p>
+
+
+
+ ]]></description>
+  <category>join-us</category>
+  <category>advice</category>
+  <guid>https://predictiveecologyzurich.org/posts/join-us/2019-03-03-making-an-effective-enquiry/</guid>
+  <pubDate>Sun, 03 Mar 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/join-us/2019-03-03-making-an-effective-enquiry/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

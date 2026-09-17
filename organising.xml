@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Predictive Ecology Group</title>
+<link>https://predictiveecologyzurich.org/organising.html</link>
+<atom:link href="https://predictiveecologyzurich.org/organising.xml" rel="self" type="application/rss+xml"/>
+<description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Sat, 05 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>ReDiLEEP: a doctoral network on response diversity</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/organising/2026-09-05-redileep/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://redileep.eu/">ReDiLEEP</a> — “using <strong>Re</strong>sponse <strong>Di</strong>versity knowledge to <strong>L</strong>everage <strong>E</strong>fficient <strong>E</strong>cosystem <strong>P</strong>reservation and restoration” — is a Marie Skłodowska-Curie Actions (MSCA) Doctoral Network funded through the EU’s Horizon Europe programme.</p>
+<p>The network recruits PhD candidates into linked projects across a consortium of universities, research institutes, policy organisations, NGOs, and industry partners. Doctoral researchers get disciplinary training, cross-sector supervision, secondments to partner organisations, and a shared cohort experience across the whole network, rather than working in isolation at a single institution.</p>
+<p>ReDiLEEP’s three interconnected goals are:</p>
+<ul>
+<li>developing standardised metrics for measuring response diversity across ecosystems;</li>
+<li>fostering collaboration between ecological research and policy implementation; and</li>
+<li>creating practical frameworks that put response diversity to work in conservation and restoration.</li>
+</ul>
+<p>Response diversity — variation among species or organisms in how they respond to environmental change — is a big part of what keeps ecosystem functions stable when conditions shift. Helping turn that idea into something measurable and usable by policy- and decision-makers is exactly the kind of applied, cross-institutional organising this group is glad to be part of.</p>
+<p><em>(Details of our specific role and doctoral projects within the consortium to be added.)</em></p>
+
+
+
+ ]]></description>
+  <category>organising</category>
+  <category>response diversity</category>
+  <category>funding</category>
+  <guid>https://predictiveecologyzurich.org/posts/organising/2026-09-05-redileep/</guid>
+  <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/organising/2026-09-05-redileep/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The Response Diversity Network</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/organising/2026-09-05-response-diversity-network/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The <a href="https://responsediversitynetwork.github.io/RDN-website/">Response Diversity Network</a> is a community of researchers working on a deceptively simple question: what is response diversity, why does it matter, and what should the field prioritise next?</p>
+<p>Response diversity — the idea that different species or organisms respond differently to the same environmental change — is increasingly framed as a sustainability strategy: it’s part of why ecosystem services can keep being delivered even as conditions shift, since not everything fails at once.</p>
+<p>The network runs regular seminars with researchers presenting on biodiversity–stability relationships, species traits, and ecosystem resilience; maintains a shared Zotero library of response-diversity-related papers; organises symposia at conferences including GfO, BES, and ESJ; and sends out a quarterly newsletter. A steering committee has been in place since November 2022, with a new leadership team as of this year.</p>
+<p>This group contributes to the network’s work on turning response diversity research into concrete opportunities for policy- and decision-makers — one strand of the broader push to make response diversity a genuinely useful concept outside academic ecology, not just inside it.</p>
+
+
+
+ ]]></description>
+  <category>organising</category>
+  <category>response diversity</category>
+  <category>community</category>
+  <guid>https://predictiveecologyzurich.org/posts/organising/2026-09-05-response-diversity-network/</guid>
+  <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/organising/2026-09-05-response-diversity-network/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Demonstrating added-value of integrative research</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Do you think <em>integrative</em> research has <em>added value</em> — that it’s more than the sum of its parts? How can we show how integrative a body of research is, and investigate whether it has added value?</p>
+<p>These are difficult questions we don’t have all the answers to. Here we give a few possibilities, based on the corpus of publications produced by a research programme aimed at creating added value by promoting integrative research. We visualise characteristics of that corpus and compare it to a reference corpus of publications from research that may or may not have been integrative. (The details of how we did this are below, for anyone who wants to try something similar.)</p>
+<p>The example involves the corpus of publications arising from the <a href="https://www.gcb.uzh.ch/en.html">University of Zurich Research Priority Programme in Global Change and Biodiversity (URPP GCB)</a>. The reference corpus is from related research fields at the University of Zurich over a similar time period (exact specification in the details section below).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://predictiveecologyzurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/coauthor-network.jpg" class="img-fluid figure-img"></p>
+<figcaption>The network of co-authors in the URPP GCB corpus.</figcaption>
+</figure>
+</div>
+<p>This figure shows the tightly connected co-authorship network of 20 of the researchers in the URPP GCB — a great deal of integration in terms of collaboration. The number of co-authors per article in the URPP GCB corpus is about 20% greater than in the reference corpus, though only by around one author on average, and articles are cited about 30% more often (figure below).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://predictiveecologyzurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/corpus-comparison.jpg" class="img-fluid figure-img"></p>
+<figcaption>Comparison of number of authors per article and number of times articles are cited, between the reference corpus and the focal (URPP GCB) corpus. Mean ± one standard error.</figcaption>
+</figure>
+</div>
+<section id="the-gory-details" class="level1">
+<h1>The gory details</h1>
+<p>What follows is fairly technical, and assumes some familiarity with R/RStudio and a handful of add-on packages. The code chunks are shown for reference — they call external files and desktop paths from the original analysis, so they’re marked <code>eval: false</code> here rather than run at render time. The code and datasets are available in <a href="https://github.com/opetchey/dumping_ground/tree/master/corpus_comparison">this GitHub folder</a>.</p>
+<section id="assemble-your-focal-corpus" class="level2">
+<h2 class="anchored" data-anchor-id="assemble-your-focal-corpus">Assemble your focal corpus</h2>
+<p>We manually entered all publications produced by the <a href="https://www.gcb.uzh.ch/en.html">URPP GCB</a> into <a href="https://www.zotero.org/">Zotero</a> (using Zotero’s <em>Add items by identifier</em> button, adding by DOI).</p>
+</section>
+<section id="get-information-about-your-corpus-from-web-of-science" class="level2">
+<h2 class="anchored" data-anchor-id="get-information-about-your-corpus-from-web-of-science">Get information about your corpus from Web of Science</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## install the following if required</span></span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(bibliometrix)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(tidyverse)</span>
+<span id="cb1-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(circlize)</span>
+<span id="cb1-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(wordcloud2)</span>
+<span id="cb1-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">library</span>(cowplot)</span></code></pre></div>
+</div>
+<ol type="1">
+<li>Highlight the papers in Zotero that make up your corpus.</li>
+<li>Use <em>File → Export Library…</em> in Zotero, choose the BibTeX format, leave the boxes unchecked, leave the character encoding as Unicode (UTF-8), and save (we used <code>from_zotero.bib</code>).</li>
+<li>Use the following code to build the search text to paste into the Web of Science (WoS) search field:</li>
+</ol>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">readFiles</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"~/Desktop/from_zotero.bib"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">isibib2df</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-3">  dplyr<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">DOI =</span> stringr<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">str_trim</span>(DI)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">is.na</span>(DOI)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">pull</span>(DOI) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paste</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">collapse =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">" OR "</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-7">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">file =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"~/Desktop/dois_for_WoS.txt"</span>)</span></code></pre></div>
+</div>
+<ol start="4" type="1">
+<li>Paste the resulting DOI text into the search field of WoS Basic Search, with <code>DOI</code> selected as the field being searched, and hit search.</li>
+<li>Expect to get fewer results than DOIs entered — at the time of writing we had 164 DOIs, of which WoS found 138.</li>
+<li>Export the results using <em>Save to Other File Formats</em>, with Record Content set to <em>Full Record and Cited References</em> and File Format set to BibTeX (WoS caps this at 500 records per export, so large corpora may need several exports).</li>
+</ol>
+</section>
+<section id="get-information-about-the-reference-corpus" class="level2">
+<h2 class="anchored" data-anchor-id="get-information-about-the-reference-corpus">Get information about the reference corpus</h2>
+<p>We built the reference corpus from WoS using:</p>
+<ul>
+<li>Organisation: University of Zurich</li>
+<li>WoS categories: Environmental Sciences, Remote Sensing, Ecology, Plant Sciences, Physical Geography, Environmental Studies</li>
+<li>Timespan: 2013–2018</li>
+<li>Indexes: SCI-EXPANDED, SSCI, A&amp;HCI, CPCI-S, CPCI-SSH, BKCI-S, BKCI-SSH, ESCI, CCR-EXPANDED, IC</li>
+</ul>
+<p>This search returned over 2,000 papers, exported the same way as above (across several files, due to WoS’s 500-record export limit).</p>
+</section>
+<section id="load-everything-into-r" class="level2">
+<h2 class="anchored" data-anchor-id="load-everything-into-r">Load everything into R</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">focal_corpus <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">readFiles</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"~/Desktop/focal_corpus_from_WoS.bib"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb3-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">isibib2df</span>() <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb3-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">TC =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.numeric</span>(TC),</span>
+<span id="cb3-4">         <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Corpus =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"URPPGCB"</span>,</span>
+<span id="cb3-5">         <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">AUx =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gsub</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">";"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>, AU),</span>
+<span id="cb3-6">         <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">num_authors =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">nchar</span>(AU) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">nchar</span>(AUx))</span>
+<span id="cb3-7"></span>
+<span id="cb3-8">D1 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">readFiles</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"~/Desktop/ref-corpus1.bib"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">isibib2df</span>()</span>
+<span id="cb3-9">D2 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">readFiles</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"~/Desktop/ref-corpus2.bib"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">isibib2df</span>()</span>
+<span id="cb3-10">D3 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">readFiles</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"~/Desktop/ref-corpus3.bib"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">isibib2df</span>()</span>
+<span id="cb3-11">D4 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">readFiles</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"~/Desktop/ref-corpus4.bib"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">isibib2df</span>()</span>
+<span id="cb3-12">D5 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">readFiles</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"~/Desktop/ref-corpus5.bib"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">isibib2df</span>()</span>
+<span id="cb3-13"></span>
+<span id="cb3-14">reference_corpus <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rbind</span>(D1, D2, D3, D4, D5) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb3-15">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">TC =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.numeric</span>(TC),</span>
+<span id="cb3-16">         <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Corpus =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Reference"</span>,</span>
+<span id="cb3-17">         <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">AUx =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">gsub</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">";"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>, AU),</span>
+<span id="cb3-18">         <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">num_authors =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">nchar</span>(AU) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">nchar</span>(AUx))</span>
+<span id="cb3-19"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rm</span>(D1, D2, D3, D4, D5)</span></code></pre></div>
+</div>
+</section>
+<section id="make-a-co-authorship-network-focal-corpus" class="level2">
+<h2 class="anchored" data-anchor-id="make-a-co-authorship-network-focal-corpus">Make a co-authorship network (focal corpus)</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">focal_corpus_biban <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">biblioAnalysis</span>(focal_corpus)</span>
+<span id="cb4-2">NetMatrix <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">biblioNetwork</span>(focal_corpus, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">analysis =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"collaboration"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">network =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"authors"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sep =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">";"</span>)</span>
+<span id="cb4-3">MM <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as</span>(NetMatrix, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"matrix"</span>)</span>
+<span id="cb4-4">MM <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> MM[<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">order</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rownames</span>(MM)), <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">order</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">colnames</span>(MM))]</span>
+<span id="cb4-5"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">diag</span>(MM) <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb4-6">top_authors <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> focal_corpus_biban<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>Authors[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>]</span>
+<span id="cb4-7">these_cols <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">colnames</span>(MM) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%in%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">names</span>(top_authors)</span>
+<span id="cb4-8">these_rows <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rownames</span>(MM) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%in%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">names</span>(top_authors)</span>
+<span id="cb4-9">top_MM <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> MM[these_rows, these_cols]</span>
+<span id="cb4-10"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">set.seed</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">999</span>)</span>
+<span id="cb4-11"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">chordDiagram</span>(top_MM, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">symmetric =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">TRUE</span>)</span></code></pre></div>
+</div>
+</section>
+<section id="combine-and-compare-the-focal-and-reference-corpora" class="level2">
+<h2 class="anchored" data-anchor-id="combine-and-compare-the-focal-and-reference-corpora">Combine and compare the focal and reference corpora</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">reference_corpus <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">select</span>(reference_corpus, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">intersect</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">names</span>(reference_corpus), <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">names</span>(focal_corpus)))</span>
+<span id="cb5-2">focal_corpus <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">select</span>(focal_corpus, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">intersect</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">names</span>(reference_corpus), <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">names</span>(focal_corpus)))</span>
+<span id="cb5-3">corpus <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">rbind</span>(focal_corpus, reference_corpus)</span>
+<span id="cb5-4"></span>
+<span id="cb5-5">summ_stats <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">group_by</span>(corpus, Corpus) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb5-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">summarise</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mean_cites =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mean</span>(TC),</span>
+<span id="cb5-7">            <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sem_cites =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sd</span>(TC) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sqrt</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">n</span>()),</span>
+<span id="cb5-8">            <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mean_num_authors =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mean</span>(num_authors),</span>
+<span id="cb5-9">            <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">sem_num_authors =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sd</span>(num_authors) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sqrt</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">n</span>()))</span>
+<span id="cb5-10"></span>
+<span id="cb5-11">p1 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(summ_stats) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-12">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_point</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> Corpus, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> mean_cites)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-13">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_errorbar</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> Corpus,</span>
+<span id="cb5-14">                               <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymin =</span> mean_cites <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> sem_cites,</span>
+<span id="cb5-15">                               <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymax =</span> mean_cites <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> sem_cites),</span>
+<span id="cb5-16">                <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">width =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-17">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ylab</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Number of times cited"</span>)</span>
+<span id="cb5-18"></span>
+<span id="cb5-19">p2 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(summ_stats) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-20">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_point</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> Corpus, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> mean_num_authors)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-21">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_errorbar</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">mapping =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> Corpus,</span>
+<span id="cb5-22">                               <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymin =</span> mean_num_authors <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> sem_num_authors,</span>
+<span id="cb5-23">                               <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymax =</span> mean_num_authors <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> sem_num_authors),</span>
+<span id="cb5-24">                <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">width =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-25">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ylab</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Number of authors"</span>)</span>
+<span id="cb5-26"></span>
+<span id="cb5-27"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">plot_grid</span>(p2, p1)</span></code></pre></div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>organising</category>
+  <category>bibliometrics</category>
+  <category>R</category>
+  <guid>https://predictiveecologyzurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/</guid>
+  <pubDate>Thu, 14 Mar 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/coauthor-network.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>A tool for valuing contributions in teams</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/organising/2019-03-13-valuing-contributions-in-teams/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Working in teams can be some of the most stimulating, exciting, and important experiences we have. At other times things can get a bit sticky — for example when it comes to attributing rewards, such as deciding authorship and authorship order on publications. Proactive planning and assessment of contributions can help, alongside a collaboration agreement.</p>
+<p>The <a href="https://owenpetchey.shinyapps.io/valuing_contributions_in_teams/">web application for valuing contributions in teams</a> summarises the contributions a team can report in the associated <a href="https://docs.google.com/spreadsheets/d/1jw3rfSDpQbT-IfgGsCbYSy7XIe92UiZqCFw8zMZcLRM">Google Sheet</a>. Below is a bit more detail about the problems it addresses and how.</p>
+<section id="in-the-google-sheet-you" class="level3">
+<h3 class="anchored" data-anchor-id="in-the-google-sheet-you">In the Google Sheet, you:</h3>
+<ul>
+<li>Enter the project information you have so far; update as required.</li>
+<li>Enter your team members by name.</li>
+<li>Enter the contributions made by each team member on the contributions sheet.</li>
+</ul>
+</section>
+<section id="problems-and-solutions-in-team-projects" class="level3">
+<h3 class="anchored" data-anchor-id="problems-and-solutions-in-team-projects">Problems and solutions in team projects</h3>
+<p>There are a number of recurring challenges:</p>
+<ul>
+<li>Authorship order alone doesn’t capture what are, in reality, nuanced, continuous, and diverse types of contribution.</li>
+<li>Lack of transparency in team members’ efforts can lead to <a href="https://www.thecut.com/2017/04/what-to-do-when-you-feel-like-the-only-roommate-who-cleans.html">overestimating our own contribution and underestimating others’</a>.</li>
+<li>Contributions change over the course of a project.</li>
+<li>Actual and intended contributions can diverge.</li>
+<li>Value created by synergies is hard to account for.</li>
+</ul>
+<p>Some solutions to these problems:</p>
+<ul>
+<li>Use the Contributor Roles Taxonomy (CRediT) with a degree of contribution (lead, equal, supporting), and report this in publications.</li>
+<li>Keep a team-accessible list of contributions.</li>
+<li>Track how contributions evolve, from intended to actual/final.</li>
+<li>Use a transparent, flexible method for translating actual/final contributions into authorship order.</li>
+<li>Give each contributor responsibility for recording their own contributions.</li>
+<li>Give the project leader responsibility for making sure this self-responsibility is understood, remembered, and acted upon — e.g.&nbsp;by building it into the team’s research culture, and issuing reminders.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>organising</category>
+  <category>team culture</category>
+  <guid>https://predictiveecologyzurich.org/posts/organising/2019-03-13-valuing-contributions-in-teams/</guid>
+  <pubDate>Wed, 13 Mar 2019 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/organising/2019-03-13-valuing-contributions-in-teams/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>IEU photo exhibition</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictiveecologyzurich.org/posts/organising/2014-11-13-ieu-photo-exhibition/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A nice example of a low-effort, high-fun way to build community within a department: a photo exhibition.</p>
+<p>The original invitation, sent round the Department of Evolutionary Biology and Environmental Studies (IEU) in late 2014, was simple:</p>
+<blockquote class="blockquote">
+<p>Share your research experiences, subjects, highlights (even lowlights). Choose one or two of your best photos, have them printed, mounted, or framed as you like, and bring them along to be hung on boards at an apéro — around the Christmas party, or another department social. Maximum two photos per person.</p>
+</blockquote>
+<p>It’s a nice format: everyone gets to see the fieldwork, systems, and places behind each other’s research, with no more organisational overhead than picking a date and finding some boards to hang things on. Worth repeating from time to time.</p>
+
+
+
+ ]]></description>
+  <category>organising</category>
+  <category>community</category>
+  <guid>https://predictiveecologyzurich.org/posts/organising/2014-11-13-ieu-photo-exhibition/</guid>
+  <pubDate>Thu, 13 Nov 2014 00:00:00 GMT</pubDate>
+  <media:content url="https://predictiveecologyzurich.org/posts/organising/2014-11-13-ieu-photo-exhibition/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
