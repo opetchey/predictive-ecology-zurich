@@ -1,11 +1,11 @@
 ---
 title: "Panelist: Building Resilience Through One Health"
 author: "Owen Petchey"
-date: 2024-06-21
+date: 2024-06-20
 categories: [outreach, panel discussion]
 image: cover.jpg
 ---
 
-On 21 June 2024, Owen was a panelist for [Building Resilience Through One Health](https://www.una-europa.eu/calendar/una-europa-talk-building-resilience-through-one-health){target="_blank"}, a [Una Europa](https://www.una-europa.eu/){target="_blank"} event connecting ecosystem, animal, and human health.
+On 20 June 2024, Owen joined the panel for [Building Resilience through One Health](https://www.una-europa.eu/calendar/una-europa-talk-building-resilience-through-one-health){target="_blank"}, a public talk hosted by [Una Europa](https://www.una-europa.eu/){target="_blank"} — an alliance of eleven European research universities — held in person at the University of Zurich and livestreamed online. Prof. Michael Schaepman, President of UZH, gave the welcome, and the evening was moderated by science communicator Eveline van Rijswijk.
 
-*(Add a sentence or two on the discussion and Owen's contribution.)*
+The panel brought together researchers working across different strands of One Health — the idea that human, animal, and ecosystem health are interconnected and need to be addressed together. Alongside Owen, then Director of the URPP Global Change and Biodiversity at UZH, the panel included Dr Andrew D. Kambugu (Executive Director, Uganda Infectious Diseases Institute, Makerere University), Prof. Andrea Winkler (Co-Director, Centre for Global Health, Technical University of Munich, and Professor at the University of Oslo), Prof. Elisabeth Stark (Vice President Research, UZH, and Una Europa Board Member), and Prof. Bruno González Zorn (Head of the Antimicrobial Resistance Unit, Complutense University of Madrid, and Chair of the Una Europa One Health Focus Area). Together they discussed why interdisciplinary, cross-sectoral collaboration is essential for tackling global health challenges, drawing on their own work spanning infectious disease, global health, biodiversity, and antimicrobial resistance.
