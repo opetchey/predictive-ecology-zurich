@@ -1,7 +1,7 @@
 ---
 title: "Biodiversity means life"
 author: "Owen Petchey"
-date: 2026-09-18
+date: 2017-06-01
 categories: [outreach, public engagement, biodiversity]
 image: cover.jpg
 ---
