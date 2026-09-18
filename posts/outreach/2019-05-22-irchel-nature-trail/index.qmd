@@ -1,7 +1,7 @@
 ---
 title: "The Irchel Nature Trail"
 author: "Owen Petchey"
-date: 2018-06-01
+date: 2019-05-22
 categories: [outreach, public engagement, biodiversity]
 image: cover.jpg
 ---
