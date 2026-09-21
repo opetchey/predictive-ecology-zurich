@@ -60,6 +60,22 @@ It also connects naturally to trait-based ecology. Functional traits need not be
 
 The result is a view of ecological communities not as collections of fixed species identities, but as populations of individuals whose phenotypes and behaviours change while interacting with one another—and whose changes can increasingly be measured automatically.
 
+## Watch
+
+A couple of short clips showing the tracking output in action — individual trajectories reconstructed from raw video:
+
+```{=html}
+<div style="max-width: 560px; margin: 1.5rem auto;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/36vEuvrf0-U?si=CTwkMdEy5Pg_CaIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; aspect-ratio: 560 / 315; height: auto;"></iframe>
+</div>
+```
+
+```{=html}
+<div style="max-width: 560px; margin: 1.5rem auto;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zMqIHgpQIdM?si=V0yzd0ncyf3xZxhm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; aspect-ratio: 560 / 315; height: auto;"></iframe>
+</div>
+```
+
 ## References
 
 [1] Pennekamp, F., Schtickzelle, N. & Petchey, O. L. (2015). BEMOVI, software for extracting behavior and morphology from videos, illustrated with analyses of microbes. Ecology and Evolution, 5, 2584–2595. DOI: 10.1002/ece3.1529. 
