@@ -609,6 +609,13 @@
     "text": "From counting organisms to observing ecological dynamics\nBEMOVI and the work around it illustrate a broader change in ecological measurement. A microscope traditionally produces observations that a researcher converts manually into data. Video microscopy coupled with computer vision instead turns the image stream itself into a quantitative dataset. Individual organisms become trackable objects described by morphology, movement and ultimately inferred identity.\nFor experimental microbial ecology, that creates a particularly useful bridge between scales: individual phenotype → behaviour → species interactions → population dynamics → community dynamics.\nIt also connects naturally to trait-based ecology. Functional traits need not be fixed numbers assigned to species from a database. They can be measured repeatedly on individual organisms as communities develop and environments change.\nThe result is a view of ecological communities not as collections of fixed species identities, but as populations of individuals whose phenotypes and behaviours change while interacting with one another—and whose changes can increasingly be measured automatically."
   },
   {
+    "objectID": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#watch",
+    "href": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#watch",
+    "title": "Video microscopy and computer vision",
+    "section": "Watch",
+    "text": "Watch\nA couple of short clips showing the tracking output in action — individual trajectories reconstructed from raw video:"
+  },
+  {
     "objectID": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#references",
     "href": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#references",
     "title": "Video microscopy and computer vision",
@@ -718,7 +725,7 @@
     "href": "index.html#welcome",
     "title": "Predictive Ecology Group",
     "section": "Welcome",
-    "text": "Welcome\nWe are the Predictive Ecology Group at the University of Zurich. We study the processes that structure ecological communities, from individual interactions to whole food webs, with the aim of making ecology a more predictive science.\nWe have a special interest in how organisms, populations, communities, and ecosystem respond to environmental change, and how integrating responses across scales can provide a fuller and more predictive understanding of ecological stability."
+    "text": "Welcome\nWe are the Predictive Ecology Group at the University of Zurich. We study the processes that structure ecological communities — from individual interactions to whole food webs — with the aim of making ecology a more predictive science.\n(Replace this paragraph with a fuller welcome and a short description of the group’s research focus.)"
   },
   {
     "objectID": "index.html#explore",
