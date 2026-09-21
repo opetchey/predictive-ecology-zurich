@@ -571,14 +571,14 @@
     "href": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html",
     "title": "Video microscopy and computer vision",
     "section": "",
-    "text": "Microbial communities offer ecologists an unusual opportunity. Entire communities can be maintained in small laboratory microcosms, replicated extensively, and followed across many generations. But their small size also creates a measurement problem: counting organisms manually under a microscope is slow, and measuring their morphology and behaviour at the same time is considerably harder.\nWork by Frank Pennekamp, Owen Petchey and colleagues helped address this problem by combining video microscopy, computer vision and machine learning. Rather than using microscopy simply to identify and count organisms, their approach treats a video as a source of quantitative ecological data about individual organisms."
+    "text": "Here’s a short video of a microbial community under the microscope — dozens of individual organisms swimming, dividing, interacting.\nTry counting them. Try telling the species apart. Try judging which ones are moving fastest, or whether any of them are changing size over time. It’s hard even for a few seconds of footage — and these experiments typically run for hundreds of generations, across many replicate communities. That’s the measurement problem this post is about.\n(Psst — spoiler alert: there’s a second version of this same kind of footage at the bottom of the post, with every individual organism automatically tracked. Keep reading.)"
   },
   {
     "objectID": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#watching-microbial-communities-video-microscopy-computer-vision-and-the-development-of-bemovi",
     "href": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#watching-microbial-communities-video-microscopy-computer-vision-and-the-development-of-bemovi",
     "title": "Video microscopy and computer vision",
-    "section": "",
-    "text": "Microbial communities offer ecologists an unusual opportunity. Entire communities can be maintained in small laboratory microcosms, replicated extensively, and followed across many generations. But their small size also creates a measurement problem: counting organisms manually under a microscope is slow, and measuring their morphology and behaviour at the same time is considerably harder.\nWork by Frank Pennekamp, Owen Petchey and colleagues helped address this problem by combining video microscopy, computer vision and machine learning. Rather than using microscopy simply to identify and count organisms, their approach treats a video as a source of quantitative ecological data about individual organisms."
+    "section": "Watching microbial communities: video microscopy, computer vision and the development of BEMOVI",
+    "text": "Watching microbial communities: video microscopy, computer vision and the development of BEMOVI\nMicrobial communities offer ecologists an unusual opportunity. Entire communities can be maintained in small laboratory microcosms, replicated extensively, and followed across many generations. But their small size also creates a measurement problem: counting organisms manually under a microscope is slow, and measuring their morphology and behaviour at the same time is considerably harder.\nWork by Frank Pennekamp, Owen Petchey and colleagues helped address this problem by combining video microscopy, computer vision and machine learning. Rather than using microscopy simply to identify and count organisms, their approach treats a video as a source of quantitative ecological data about individual organisms."
   },
   {
     "objectID": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#from-microscope-videos-to-ecological-data",
@@ -609,11 +609,11 @@
     "text": "From counting organisms to observing ecological dynamics\nBEMOVI and the work around it illustrate a broader change in ecological measurement. A microscope traditionally produces observations that a researcher converts manually into data. Video microscopy coupled with computer vision instead turns the image stream itself into a quantitative dataset. Individual organisms become trackable objects described by morphology, movement and ultimately inferred identity.\nFor experimental microbial ecology, that creates a particularly useful bridge between scales: individual phenotype → behaviour → species interactions → population dynamics → community dynamics.\nIt also connects naturally to trait-based ecology. Functional traits need not be fixed numbers assigned to species from a database. They can be measured repeatedly on individual organisms as communities develop and environments change.\nThe result is a view of ecological communities not as collections of fixed species identities, but as populations of individuals whose phenotypes and behaviours change while interacting with one another—and whose changes can increasingly be measured automatically."
   },
   {
-    "objectID": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#watch",
-    "href": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#watch",
+    "objectID": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#watch-the-reveal",
+    "href": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#watch-the-reveal",
     "title": "Video microscopy and computer vision",
-    "section": "Watch",
-    "text": "Watch\nA couple of short clips showing the tracking output in action — individual trajectories reconstructed from raw video:"
+    "section": "Watch: the reveal",
+    "text": "Watch: the reveal\nAs promised — here’s that same kind of footage again, but this time run through BEMOVI’s tracking pipeline, with every individual organism identified and followed frame by frame to reconstruct its movement trajectory:"
   },
   {
     "objectID": "posts/research/2026-09-10-video-microscopy-computer-vision/index.html#references",
