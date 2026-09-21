@@ -6,6 +6,18 @@ categories: [research, methods, video tracking, R]
 image: cover.jpg
 ---
 
+Here's a short video of a microbial community under the microscope — dozens of individual organisms swimming, dividing, interacting.
+
+```{=html}
+<div style="max-width: 560px; margin: 1.5rem auto;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/36vEuvrf0-U?si=CTwkMdEy5Pg_CaIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; aspect-ratio: 560 / 315; height: auto;"></iframe>
+</div>
+```
+
+Try counting them. Try telling the species apart. Try judging which ones are moving fastest, or whether any of them are changing size over time. It's hard even for a few seconds of footage — and these experiments typically run for hundreds of generations, across many replicate communities. That's the measurement problem this post is about.
+
+*(Psst — spoiler alert: there's a second version of this same kind of footage at the bottom of the post, with every individual organism automatically tracked. Keep reading.)*
+
 ## Watching microbial communities: video microscopy, computer vision and the development of BEMOVI
 
 Microbial communities offer ecologists an unusual opportunity. Entire communities can be maintained in small laboratory microcosms, replicated extensively, and followed across many generations. But their small size also creates a measurement problem: counting organisms manually under a microscope is slow, and measuring their morphology and behaviour at the same time is considerably harder.
@@ -60,15 +72,9 @@ It also connects naturally to trait-based ecology. Functional traits need not be
 
 The result is a view of ecological communities not as collections of fixed species identities, but as populations of individuals whose phenotypes and behaviours change while interacting with one another—and whose changes can increasingly be measured automatically.
 
-## Watch
+## Watch: the reveal
 
-A couple of short clips showing the tracking output in action — individual trajectories reconstructed from raw video:
-
-```{=html}
-<div style="max-width: 560px; margin: 1.5rem auto;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/36vEuvrf0-U?si=CTwkMdEy5Pg_CaIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; aspect-ratio: 560 / 315; height: auto;"></iframe>
-</div>
-```
+As promised — here's that same kind of footage again, but this time run through BEMOVI's tracking pipeline, with every individual organism identified and followed frame by frame to reconstruct its movement trajectory:
 
 ```{=html}
 <div style="max-width: 560px; margin: 1.5rem auto;">
