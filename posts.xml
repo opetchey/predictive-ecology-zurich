@@ -10,7 +10,281 @@
 <atom:link href="https://predictive-ecology-zurich.org/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Sun, 20 Sep 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 25 Sep 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>When finance started talking about biodiversity</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictive-ecology-zurich.org/posts/outreach/2026-09-25-nature-in-the-boardroom-sfi-ssf/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>An ecologist’s notes from the first half of “Nature and Climate Risks Shaping Investment Decisions”, Zurich, 24 September 2026</em></p>
+<p>Yesterday I went along to the <a href="https://www.sfi.ch/en/events/sfi-ssf-conference-2026" target="_blank">SFI–SSF Conference 2026</a>, <em>Nature and Climate Risks Shaping Investment Decisions</em>. The Swiss Finance Institute (SFI) organised it with Swiss Sustainable Finance (SSF) and Building Bridges, and it took place at Lake Side in Zurich. I only stayed for the opening keynotes and the Nature Finance session, so I missed the afternoon on real estate and carbon and the closing panel. Even so, the first two hours were enough to change how I think.</p>
+<p>I expected climate to dominate, with biodiversity mentioned once or twice for good measure. That isn’t what happened. Nature and biodiversity were the main topic, and speakers treated them as a financial issue, not a side note on corporate responsibility. People talked about pressures, dependencies, soil health, freshwater withdrawal, Mean Species Abundance and the Living Planet Index to a room full of bankers and asset managers, and nobody seemed to think it was out of place (as far as I could tell).</p>
+<p>This post has three parts: what I saw, what the speakers were doing, and a short primer for fellow ecologists who want to understand the language and the organisations involved. I’ve written the primer because I think our community has a lot to contribute here, and because a few terms make the conversation much easier to follow.</p>
+<hr>
+<section id="part-1-what-i-saw" class="level2">
+<h2 class="anchored" data-anchor-id="part-1-what-i-saw">Part 1: What I saw</h2>
+<section id="keynote-1-the-financial-materiality-of-nature-risks-prof.-zacharias-sautner-uzh-sfi" class="level3">
+<h3 class="anchored" data-anchor-id="keynote-1-the-financial-materiality-of-nature-risks-prof.-zacharias-sautner-uzh-sfi">Keynote 1: The financial materiality of nature risks (Prof.&nbsp;Zacharias Sautner, UZH / SFI)</h3>
+<p>Zacharias Sautner, Professor of Sustainable Finance at UZH and Senior Chair at SFI, opened with a research-based case that nature risks are <strong>financially material</strong>. In other words, they affect firms’ cash flows, costs of capital and valuations, so investors have a financial reason to care, not only an ethical one. His group’s recent work includes studies of how firms <em>perceive</em> nature risk (published in the <em>Review of Finance</em>) and of <strong>firm-level nature dependence</strong>, which measures how much individual companies rely on ecosystem services. All his papers are listed at <a href="https://www.zachariassautner.com/" target="_blank">zachariassautner.com</a>.</p>
+<p>One thing struck me when Zacharias responded to questions after his keynote. He often responded in one of two ways: <em>here’s what the data tell us</em>, or <em>here’s what data we would need</em> (i.e., we don’t yet have it / have access to it). Framing the questions in terms of data needed and types of analyses to make resonates with much of what I do in my own work.</p>
+</section>
+<section id="keynote-2-the-business-case-for-nature-at-holcim-renata-pollini-holcim" class="level3">
+<h3 class="anchored" data-anchor-id="keynote-2-the-business-case-for-nature-at-holcim-renata-pollini-holcim">Keynote 2: The business case for nature at Holcim (Renata Pollini, Holcim)</h3>
+<p>Holcim is one of the world’s largest building-materials companies, and cement and quarrying are about as close to “nature-negative” as industries get. That made the talk especially interesting to me.</p>
+<p><strong>“Nature is catching up to climate rapidly.”</strong> One slide lined up each climate framework with its newer nature equivalent:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Function</th>
+<th>Climate</th>
+<th>Nature</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Intergovernmental science panel</td>
+<td>IPCC (1988)</td>
+<td>IPBES (2012)</td>
+</tr>
+<tr class="even">
+<td>International policy goal</td>
+<td>Paris Agreement (2015)</td>
+<td>Kunming–Montreal Global Biodiversity Framework (2022)</td>
+</tr>
+<tr class="odd">
+<td>Financial disclosure</td>
+<td>TCFD (2017)</td>
+<td>TNFD (2023)</td>
+</tr>
+<tr class="even">
+<td>Corporate target-setting</td>
+<td>Science Based Targets initiative (2014)</td>
+<td>Science Based Targets Network (2023)</td>
+</tr>
+<tr class="odd">
+<td>Investor engagement</td>
+<td>Climate Action 100+ (2017)</td>
+<td>Nature Action 100 (2023)</td>
+</tr>
+</tbody>
+</table>
+<p>The pattern is clear. Nature is following the same institutional path that climate did, with a lag of about a decade, and that lag is getting shorter.</p>
+<p>Other points from the talk:</p>
+<ul>
+<li><strong>Risks and opportunities.</strong> Holcim sorts nature risks into the same categories used for climate: <em>policy and legal</em> (new nature regulation), <em>technology</em>, <em>market</em> (price swings in raw materials and natural inputs), <em>reputation</em> and <em>liability</em> (claims arising from nature impacts). It also lists nature <em>opportunities</em>, such as demand for nature-friendly products, resource efficiency and brand value.</li>
+<li><strong>A “nature-positive offering.”</strong> This includes pervious concrete and sustainable drainage for climate resilience, green roofs, living walls and artificial reefs for biodiversity, and rainwater harvesting for freshwater protection.</li>
+<li><strong>Hard targets.</strong> The company aims to cut freshwater withdrawal per tonne of cementitious material by 33% between 2020 and 2030, from 239 L/t to below 160 L/t.</li>
+<li><strong>Biodiversity commitments with an ecological metric.</strong> By 2022, all quarries had rehabilitation plans and all high-biodiversity quarries had Biodiversity Management Plans. By 2024, every site had a baseline under <strong>IUCN’s Biodiversity Indicator and Reporting System (BIRS)</strong>. The 2030 commitment is a positive change in that index relative to the baseline.</li>
+<li><strong>Governance and pay.</strong> A board-level Health, Safety &amp; Sustainability Committee oversees climate <em>and</em> nature matters. What surprised me most was that the executive Long-Term Incentive plan includes a sustainability objective with three parts: CO₂ per tonne of cement (50% weight), reuse of waste-derived resources (25%), and <strong>freshwater withdrawal per tonne of cement (25%)</strong>. So part of executive pay depends on a nature metric.</li>
+</ul>
+<p>This last point seemed critical and is worth repeating. <em>Executive bonuses depend on whether or not nature objectives are met.</em> Another speaker mentioned that they sometimes experience CEOs saying with some frustration “<em>please stop mentioning biodiversity</em>” but <strong>not</strong> because they have any particular position on biodiversity, but rather because they are not provided with ways to take a position. When executive bonuses are linked to biodiversity there has to be a clear framework for attributing and measuring against targets.</p>
+</section>
+<section id="nature-finance-session" class="level3">
+<h3 class="anchored" data-anchor-id="nature-finance-session">Nature Finance session</h3>
+<section id="financing-nature-conservation-prof.-thomas-giroux-eth-zurich-sfi" class="level4">
+<h4 class="anchored" data-anchor-id="financing-nature-conservation-prof.-thomas-giroux-eth-zurich-sfi">Financing nature conservation (Prof.&nbsp;Thomas Giroux, ETH Zurich / SFI)</h4>
+<p>Thomas Giroux (co-author, with Caroline Flammer and Geoffrey Heal, of the <em>Journal of Financial Economics</em> paper <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X24002101" target="_blank">“Biodiversity Finance”</a>) started with the scale of the funding gap, using UNEP’s <em>State of Finance for Nature</em> (2026):</p>
+<ul>
+<li>Roughly <strong>US$7.3 trillion</strong> a year flows to nature-negative activities. That is about US$4.9 tn of private finance plus US$2.4 tn of public environmentally harmful subsidies.</li>
+<li>Only about <strong>US$220 billion</strong> went to nature-based solutions in 2023.</li>
+<li>Nature-negative flows are therefore <strong>more than 30 times</strong> nature-positive ones.</li>
+<li>Nature-positive investment needs to grow about <strong>2.5-fold by 2030</strong> (to around US$571 bn) and reach about US$771 bn by 2050.</li>
+<li><strong>Public money provided about 90%</strong> of nature-positive investment in 2023.</li>
+</ul>
+<p>That last number was the context for the rest of the session: nature finance still mostly depends on public money, and the question is how to bring in private capital.</p>
+<p>Here, blended finance can help. I’m afraid my cynical side came out here. What? Use public money to subsidise for-profit activities… no thank you. But I soon learned that I had misunderstood. Blended finance is most effective and appropriate when there is a potentially viable investment, but specific risks or barriers are keeping private capital away. Public or philanthropic funding can be used strategically to absorb some of that risk, helping to crowd in private investment that would otherwise not materialise. The point is not to subsidise investments that the private sector would happily make anyway, but to use limited public funds catalytically—unlocking larger pools of private capital for projects that deliver benefits for nature and society.</p>
+</section>
+<section id="nature-as-infrastructure-regenerative-value-chains-josé-maría-ortiz-lombard-odier" class="level4">
+<h4 class="anchored" data-anchor-id="nature-as-infrastructure-regenerative-value-chains-josé-maría-ortiz-lombard-odier">Nature as infrastructure: regenerative value chains (José María Ortiz, Lombard Odier)</h4>
+<p>The opening line of the talk was: <em>“Nature: it explains our planet and is our keystone infrastructure.”</em> Ortiz then put a chart of world GDP rising exponentially next to the <strong>Living Planet Index</strong>, which shows a decline in monitored wildlife populations since 1970. That second chart is very familiar to ecologists, but it looked different on a slide at a finance conference.</p>
+<p>The investment argument centred on <strong>food systems, which both drive nature loss and are exposed to it</strong>. They occupy about 60% of habitable land, account for about 90% of deforestation, 70% of freshwater use and 34% of greenhouse-gas emissions, and about 52% of agricultural soils are degraded. On the exposure side, the talk tracked extreme-weather shocks and the price rises that followed: +280% for cocoa after heatwaves in Ghana and Côte d’Ivoire, +100% for robusta coffee, +50% for olive oil, and others. Physical nature and climate risk is already showing up in commodity prices.</p>
+<p>The proposed investment approach is <strong>regenerative agriculture</strong>, described as “a direction of travel rather than a fixed end-state”. The principles are minimal soil disturbance, keeping plants in the ground, maximising biodiversity (agroforestry, integrated livestock) and replacing synthetic inputs with bio-based ones. The evidence came from the European Alliance for Regenerative Agriculture (EARA) and the certifier Regenified: yields close to conventional with 61% less synthetic nitrogen and 75% less pesticide, 20–30% higher margins, and 16% higher plant diversity than neighbouring farms. The investment model backs <strong>“integrated operators”</strong> that aggregate farms and handle processing and distribution. They provide farmers with genetic material, technical assistance and long-term contracts, and they give retailers guaranteed volumes, full traceability and verified nature benefits.</p>
+<blockquote class="blockquote">
+<p><em>Ecologist’s aside: most of these evidence numbers are farmer-led comparisons with neighbouring farms, not controlled experiments. That is exactly where our field’s experience with study design, counterfactuals and monitoring could make a difference.</em></p>
+</blockquote>
+</section>
+<section id="where-the-number-ends-and-the-opportunity-begins-victor-neamtu-lgt-capital-partners" class="level4">
+<h4 class="anchored" data-anchor-id="where-the-number-ends-and-the-opportunity-begins-victor-neamtu-lgt-capital-partners">Where the number ends and the opportunity begins (Victor Neamtu, LGT Capital Partners)</h4>
+<p>This was the talk I found most interesting as an ecologist, because it was about <strong>“the hunt for a biodiversity number.”</strong> Investors already have an ESG score (say, 74) and a portfolio “temperature” for climate (say, 2.4 °C). For biodiversity, the matching box was a question mark labelled <strong>“the missing number.”</strong></p>
+<p>Neamtu explained why the number is hard to pin down: complex operations, interconnected nature, controversies and many data points, all seen through three different lenses (pressure, dependency and impact). The candidates he listed are metrics we know well: <strong>Mean Species Abundance (MSA)</strong>, <strong>Potentially Disappeared Fraction of species (PDF)</strong> and the <strong>Biodiversity Intactness Index (BII)</strong>. None of them does the job on its own.</p>
+<p>His practical approach:</p>
+<ol type="1">
+<li><strong>Screen with ENCORE</strong>, which maps sectors to their pressures on nature (land use, pollution, resource use) and their dependencies on ecosystem services (water, pollination, regulation), rated from very high to very low materiality. It’s “useful for identifying where to look closer” but “not a company-level verdict”.</li>
+<li><strong>Due diligence</strong> that asks “what does the company actually do?” and not only “what sector is it in?”. His example was Agronova, an agricultural biotech company that falls under an agrochemicals sector label, even though about 70% of its revenue comes from biostimulants, biocontrol and soil-health products.</li>
+<li><strong>Write the findings into the loan.</strong> In a <strong>sustainability-linked loan</strong>, five company-specific KPIs (renewable electricity 22%→62%, bio-based product sales 70%→75%, sustainable raw materials 44.6%→50%, waste recovered to at least 90%, and academic publications 17→23, from a 2025 baseline to 2029) are tied to a <em>loan-margin incentive</em>. If the company hits its targets, it pays less interest.</li>
+<li><strong>Monitor</strong> at fund and portfolio level, including MSA·km².</li>
+</ol>
+<p>His summary line was <em>“The number is a floor. The process creates the value.”</em> In other words, a biodiversity metric starts a conversation with the company; it doesn’t settle anything by itself.</p>
+</section>
+</section>
+<section id="reflections" class="level3">
+<h3 class="anchored" data-anchor-id="reflections">Reflections</h3>
+<p>A few things stood out to me.</p>
+<ul>
+<li><strong>The vocabulary is ours.</strong> Ecosystem services, pollination, soil microbial activity, species abundance, intactness: these came up constantly. People in finance aren’t asking ecologists to learn a new field. They are using ours, sometimes loosely, and they need help using it well.</li>
+<li><strong>Measurement is the bottleneck.</strong> Every talk ran into the same problem: nobody has settled how to turn the state of nature into a comparable, decision-ready number. Biodiversity scientists have spent decades thinking about indicators, scale, baselines, counterfactuals and uncertainty, and that expertise is badly needed here.</li>
+<li><strong>The money moves through contracts, not only through disclosure.</strong> Executive pay tied to freshwater withdrawal, loan margins tied to bio-based sales, long-term offtake contracts for regenerative produce: these are the mechanisms that actually change what gets done on the ground.</li>
+<li><strong>Some healthy scepticism is also needed.</strong> Many of the evidence claims were preliminary, and several slides were marked as marketing material. It would be naive to think the nature-positive label always matches what happens in the field. But I left the room more encouraged than I expected.</li>
+</ul>
+</section>
+</section>
+<section id="part-2-a-primer-for-biodiversity-scientists-and-ecologists" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-a-primer-for-biodiversity-scientists-and-ecologists">Part 2: A primer for biodiversity scientists and ecologists</h2>
+<section id="key-finance-and-investment-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="key-finance-and-investment-concepts">Key finance and investment concepts</h3>
+<p><strong>Financial materiality.</strong> An issue is <em>financially material</em> if it could reasonably affect a company’s financial performance or value, and therefore an investor’s returns. Showing that nature risks are material is what makes them relevant to fiduciaries and not only to people who care about the environment.</p>
+<p><strong>Nature risks.</strong> A nature risk is the possibility that an organization or financial asset suffers negative financial consequences because of its dependencies and impacts on nature.</p>
+<p><strong>Fiduciaries.</strong> A fiduciary is a person or organization that has a legal or ethical duty to act in someone else’s best interests, rather than putting their own interests first.</p>
+<p><strong>Double materiality.</strong> This means looking in two directions: how nature affects the company (<em>outside-in</em>, financial materiality) and how the company affects nature (<em>inside-out</em>, impact materiality). EU sustainability reporting under the CSRD/ESRS uses this principle.</p>
+<p><strong>Dependencies, impacts, risks and opportunities.</strong> This is the core logic of TNFD (see below for what this is). Companies <strong>depend</strong> on ecosystem services (pollination, water supply, flood regulation) and <strong>impact</strong> nature through the drivers of loss (land and sea use change, direct exploitation, climate change, pollution, invasive species; the IPBES drivers). Both give rise to <strong>risks</strong> and <strong>opportunities</strong>.</p>
+<p><strong>Physical vs transition risk.</strong> <em>Physical risks</em> come from nature degrading, either as sudden shocks (a pollination failure, a drought) or gradually (soil erosion). <em>Transition risks</em> come from society’s response: new regulation, changing consumer demand, litigation, reputational damage and technology shifts.</p>
+<p><strong>Systemic risk.</strong> This is the risk that nature loss destabilises the financial system as a whole, and not only individual firms, for example when an ecosystem tipping point hits many sectors at once.</p>
+<p><strong>ESG.</strong> Environmental, Social and Governance, the broad label for non-financial factors in investment analysis. ESG <em>ratings</em> are scores assigned by <em>data providers</em>, and they are known to disagree a lot with each other.</p>
+<p><strong>Data providers.</strong> Data providers are organizations that collect, process, estimate, and package information about companies’ or assets’ relationships with nature so that investors, banks, insurers, companies, and others can use it in decision-making.</p>
+<p><strong>Asset classes.</strong> These are the main types of investment. <em>Listed equity</em> means shares traded on stock exchanges. <em>Fixed income / debt</em> includes bonds and loans. <em>Private equity</em> and <em>private debt</em> are ownership stakes and loans in companies that aren’t publicly traded. <em>Real assets</em> include real estate, infrastructure, farmland and forestry. Neamtu’s talk was about <strong>private debt</strong>, where lenders can write conditions directly into the loan agreement.</p>
+<p><strong>Sustainability-linked loans and bonds (SLL/SLB).</strong> The interest rate or coupon depends on whether the borrower meets pre-agreed sustainability <strong>KPIs</strong> (key performance indicators) and targets. Hit the targets and you pay less. Miss them and you pay more. This differs from <strong>green bonds and loans</strong>, where the <em>money raised</em> has to be spent on specified green projects.</p>
+<p><strong>Use of proceeds vs general purpose.</strong> Green bonds are “use-of-proceeds” instruments, meaning the money is ring-fenced for specific projects. Sustainability-linked instruments are general-purpose, and they create incentives through their pricing.</p>
+<p><strong>Screening and exclusions.</strong> <em>Negative screening</em> removes companies or sectors from the investible universe, for example firms involved in deforestation. <em>Positive or best-in-class screening</em> selects the leaders.</p>
+<p><strong>Due diligence.</strong> The detailed investigation of a company before investing or lending.</p>
+<p><strong>Engagement and stewardship.</strong> Using an investor’s position (shareholder votes, dialogue with management, loan covenants) to push a company to improve. Nature Action 100 is a collective engagement initiative.</p>
+<p><strong>Loan covenants.</strong> Conditions written into a loan agreement that require the borrower to meet certain standards or take—or avoid—certain actions. In nature finance, for example, a lender might require a company to meet deforestation targets, report on its impacts on biodiversity, or comply with agreed environmental standards. If the borrower breaches these conditions, the lender may have the right to take action, such as increasing the interest rate or, in serious cases, demanding repayment.</p>
+<p><strong>Offtake contract.</strong> A long-term agreement to buy a producer’s future output, which makes their revenue more predictable.</p>
+<p><strong>Blended finance.</strong> Using public or philanthropic money, often on concessional terms or as first-loss capital, to reduce the risk for private investors. This matters here because public money still provides about 90% of nature-positive finance.</p>
+<p><strong>Concessional terms.</strong> Financing offered on more favourable terms than would normally be available in the market—for example, a lower interest rate, longer repayment period, or more flexible repayment conditions.</p>
+<p><strong>First-loss capital.</strong> Funding that agrees to absorb losses before other investors do. By protecting other investors from some of the downside risk, it can encourage private capital to participate in investments it might otherwise consider too risky.</p>
+<p><strong>Nature-based solutions (NbS).</strong> Actions that protect, sustainably manage or restore ecosystems to address societal challenges while also benefiting biodiversity. Some examples are wetland restoration for flood control, urban greening and agroforestry.</p>
+<p><strong>Nature-positive.</strong> A goal of halting and reversing nature loss by 2030 relative to a 2020 baseline, aiming for full recovery by 2050. It is now widely used in corporate and policy language, although it risks being diluted.</p>
+<p><strong>Environmentally harmful subsidies (EHS).</strong> Public subsidies that end up damaging nature, such as some agricultural, fisheries and fossil-fuel support. The Global Biodiversity Framework’s Target 18 calls for reducing them by at least US$500 billion a year by 2030.</p>
+<p><strong>Portfolio alignment temperature.</strong> A climate metric that expresses how much warming the world would see if everyone behaved like the companies in a portfolio (e.g.&nbsp;“2.4 °C”). The “missing number” in Neamtu’s talk was the biodiversity equivalent.</p>
+<p><strong>Greenwashing / “nature-washing”.</strong> Making misleading claims about environmental performance. Regulators are paying more and more attention to it.</p>
+</section>
+<section id="biodiversity-metrics-that-finance-is-using" class="level3">
+<h3 class="anchored" data-anchor-id="biodiversity-metrics-that-finance-is-using">Biodiversity metrics that finance is using</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>What it is</th>
+<th>Notes for ecologists</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>MSA</strong> (Mean Species Abundance)</td>
+<td>Mean abundance of original species relative to an undisturbed state (0–1). <strong>MSA·km²</strong> multiplies by area.</td>
+<td>From the GLOBIO model. It is used in the Biodiversity Footprint for Financial Institutions and by several data providers.</td>
+</tr>
+<tr class="even">
+<td><strong>PDF</strong> (Potentially Disappeared Fraction of species)</td>
+<td>A life-cycle assessment (LCA) metric for the fraction of species potentially lost locally due to a pressure.</td>
+<td>Common in LCA-based footprinting (e.g.&nbsp;ReCiPe, LC-Impact).</td>
+</tr>
+<tr class="odd">
+<td><strong>BII</strong> (Biodiversity Intactness Index)</td>
+<td>Average abundance of originally present species relative to an intact reference.</td>
+<td>From the Natural History Museum / PREDICTS database.</td>
+</tr>
+<tr class="even">
+<td><strong>BIRS</strong> (IUCN Biodiversity Indicator and Reporting System)</td>
+<td>A site-level habitat-condition index.</td>
+<td>Developed with the cement industry. Holcim uses it.</td>
+</tr>
+<tr class="odd">
+<td><strong>STAR</strong> (Species Threat Abatement and Restoration)</td>
+<td>Measures the potential contribution of an action to reducing species extinction risk.</td>
+<td>Built on the IUCN Red List.</td>
+</tr>
+<tr class="even">
+<td><strong>Living Planet Index</strong></td>
+<td>Average change in monitored vertebrate population sizes since 1970.</td>
+<td>From WWF / ZSL. It is used widely in communication but not designed for asset-level accounting.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="organisations-and-frameworks-worth-knowing" class="level3">
+<h3 class="anchored" data-anchor-id="organisations-and-frameworks-worth-knowing">Organisations and frameworks worth knowing</h3>
+<p><strong>Science–policy</strong></p>
+<ul>
+<li><strong>IPBES</strong>, the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services, is the “IPCC for nature”. Its 2024 <em>Nexus</em> and <em>Transformative Change</em> assessments, and the forthcoming <em>Business and Biodiversity</em> assessment, are directly relevant.</li>
+<li><strong>Kunming–Montreal Global Biodiversity Framework (GBF)</strong>, adopted at CBD COP15 in 2022. It includes <strong>30x30</strong>, <strong>Target 15</strong> (businesses and financial institutions assess and disclose risks, dependencies and impacts), <strong>Target 18</strong> (harmful subsidies) and <strong>Target 19</strong> (mobilise US$200 bn/year).</li>
+</ul>
+<p><strong>Disclosure and target-setting</strong></p>
+<ul>
+<li><strong>TNFD</strong>, the Taskforce on Nature-related Financial Disclosures, published its recommendations in 2023. It is structured like TCFD and adds the <strong>LEAP</strong> approach (Locate, Evaluate, Assess, Prepare). The <strong>ISSB</strong> (International Sustainability Standards Board) is building on TNFD’s work to develop nature-related disclosure requirements.</li>
+<li><strong>SBTN</strong>, the Science Based Targets Network, provides methods for companies to set science-based targets for freshwater, land and, increasingly, biodiversity.</li>
+<li><strong>CSRD/ESRS</strong>: EU corporate sustainability reporting. <strong>ESRS E4</strong> covers biodiversity and ecosystems and uses double materiality.</li>
+<li><strong>ENCORE</strong>, an online tool from UNEP-WCMC, UNEP FI and the Global Canopy partnership, maps economic sectors to their dependencies and impacts on nature. It is the usual first step, as in Neamtu’s talk.</li>
+<li><strong>PBAF</strong>, the Partnership for Biodiversity Accounting Financials, sets out a harmonised approach for financial institutions to measure the biodiversity impacts of their loans and investments.</li>
+</ul>
+<p><strong>Investor coalitions and finance bodies</strong></p>
+<ul>
+<li><strong>Nature Action 100</strong> is a collective engagement initiative in which investors push companies in key sectors to act on nature loss. It is modelled on Climate Action 100+.</li>
+<li><strong>UNEP FI</strong>, the UN Environment Programme Finance Initiative, and its <em>State of Finance for Nature</em> reports, which were the source of the Giroux statistics.</li>
+<li><strong>NGFS</strong>, the Network for Greening the Financial System, is a group of central banks and supervisors that has recognised nature-related risks as a potential source of financial risk.</li>
+<li><strong>Finance for Biodiversity Pledge / Foundation</strong> is a group of financial institutions committed to protecting and restoring biodiversity through their investments.</li>
+</ul>
+<p><strong>Swiss context</strong></p>
+<ul>
+<li><strong>Swiss Finance Institute (SFI)</strong> is a national centre for research and training in banking and finance, and a joint effort by Swiss universities and the financial industry.</li>
+<li><strong>Swiss Sustainable Finance (SSF)</strong> is an association that promotes sustainable finance in Switzerland.</li>
+<li><strong>Building Bridges</strong> is a Geneva-based initiative connecting finance with the UN and international sustainability communities.</li>
+<li><strong>UZH Department of Finance / Initiative in Sustainable Finance</strong> and <strong>ETH Zurich’s Chair of Sustainable Finance and Impact Investing</strong> are the academic homes of Sautner and Giroux respectively.</li>
+</ul>
+</section>
+<section id="where-ecologists-can-help" class="level3">
+<h3 class="anchored" data-anchor-id="where-ecologists-can-help">Where ecologists can help</h3>
+<ol type="1">
+<li><strong>Metrics and indicators</strong>: which metric suits which decision, at what spatial and temporal scale, and with what uncertainty.</li>
+<li><strong>Counterfactuals and baselines</strong>: helping to show that “+16% plant diversity vs neighbours” reflects a real effect.</li>
+<li><strong>Monitoring</strong>: eDNA, acoustic monitoring, remote sensing and citizen science to verify claimed outcomes over time.</li>
+<li><strong>Dependencies</strong>: quantifying which ecosystem services firms and supply chains really depend on, and how fragile those services are.</li>
+<li><strong>Translation</strong>: talking to finance people in their language (materiality, KPIs, risk) without losing ecological accuracy.</li>
+</ol>
+<hr>
+</section>
+<section id="further-reading" class="level3">
+<h3 class="anchored" data-anchor-id="further-reading">Further reading</h3>
+<ul>
+<li>SFI–SSF Conference 2026 programme: <a href="https://www.sfi.ch/en/events/sfi-ssf-conference-2026" class="uri">https://www.sfi.ch/en/events/sfi-ssf-conference-2026</a></li>
+<li>Zacharias Sautner, publications: <a href="https://www.zachariassautner.com/publications" class="uri">https://www.zachariassautner.com/publications</a></li>
+<li>Gjerde, Sautner, Wagner &amp; Wegerich, “Corporate Nature Risk Perceptions”, <em>Review of Finance</em>: <a href="https://academic.oup.com/rof/article/30/1/11/8322449" class="uri">https://academic.oup.com/rof/article/30/1/11/8322449</a></li>
+<li>Garel, Romec, Sautner &amp; Wagner, “Firm-Level Nature Dependence”: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5196826" class="uri">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5196826</a></li>
+<li>Flammer, Giroux &amp; Heal, “Biodiversity Finance”, <em>Journal of Financial Economics</em> (2025): <a href="https://www.sciencedirect.com/science/article/abs/pii/S0304405X24002101" class="uri">https://www.sciencedirect.com/science/article/abs/pii/S0304405X24002101</a></li>
+<li>Giglio, Kuchler, Stroebel &amp; Wang, “Nature and Biodiversity Loss: A Research Agenda for Financial Economics”: <a href="https://pages.stern.nyu.edu/~jstroebe/PDF/GKSW_JFIP_NatureFinance.pdf" class="uri">https://pages.stern.nyu.edu/~jstroebe/PDF/GKSW_JFIP_NatureFinance.pdf</a></li>
+<li>UNEP, <em>State of Finance for Nature</em>: <a href="https://www.unep.org/resources/state-finance-nature" class="uri">https://www.unep.org/resources/state-finance-nature</a></li>
+<li>TNFD recommendations: <a href="https://tnfd.global" class="uri">https://tnfd.global</a></li>
+<li>ENCORE: <a href="https://encorenature.org" class="uri">https://encorenature.org</a></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>outreach</category>
+  <category>biodiversity</category>
+  <category>finance</category>
+  <category>conference</category>
+  <guid>https://predictive-ecology-zurich.org/posts/outreach/2026-09-25-nature-in-the-boardroom-sfi-ssf/</guid>
+  <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/outreach/2026-09-25-nature-in-the-boardroom-sfi-ssf/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Francesco Polazzo</title>
   <link>https://predictive-ecology-zurich.org/posts/team/francesco-polazzo/</link>
@@ -74,6 +348,131 @@
   <guid>https://predictive-ecology-zurich.org/posts/team/til-hammig/</guid>
   <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
   <media:content url="https://predictive-ecology-zurich.org/posts/team/til-hammig/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Jeannine Roy</title>
+  <link>https://predictive-ecology-zurich.org/posts/team/jeannine-roy/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Jeannine Roy is the group’s lab manager and technician, keeping the lab and fieldwork running.</p>
+
+
+
+ ]]></description>
+  <category>team</category>
+  <category>lab-manager</category>
+  <category>technician</category>
+  <guid>https://predictive-ecology-zurich.org/posts/team/jeannine-roy/</guid>
+  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/team/jeannine-roy/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>PhD position: bringing response diversity into biodiversity policy (ReDiLEEP)</title>
+  <dc:creator>Predictive Ecology Group</dc:creator>
+  <link>https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We’re recruiting a Doctoral Candidate to <a href="../../../posts/organising/2026-09-05-redileep/index.html">ReDiLEEP</a>, the Marie Skłodowska-Curie Actions (MSCA) Doctoral Network on response diversity, for a project sitting right at the interface of ecological science and biodiversity policy.</p>
+<section id="the-project-dc11" class="level2">
+<h2 class="anchored" data-anchor-id="the-project-dc11">The project (DC11)</h2>
+<p>Response diversity — variation in how species or functional groups respond to environmental change — is increasingly recognised as a key driver of <a href="../../../posts/research/2026-09-12-predicting-ecological-stability/index.html">ecosystem resilience</a>, but current policy instruments such as the EU Nature Restoration Law, the Common Agricultural Policy, and the Corporate Sustainability Reporting Directive lack clear metrics, targets, or monitoring requirements for it. This project (DC11) sets out to close some of that gap.</p>
+<p>The doctoral researcher will use AI-assisted text analysis and network analysis to map how response diversity research relates — or fails to relate — to European biodiversity, restoration, and sustainability policy, identifying conceptual alignments, mismatches, and evidence gaps between the science and the policy frameworks. The aim is to help guide the development of policy-ready, measurable indicators that capture response diversity as a mechanism underpinning both ecological stability and policy effectiveness.</p>
+<p>Responsibilities include reviewing and synthesising response-diversity research relevant to EU biodiversity policy; applying text and network analysis to scientific literature and policy documents; identifying where ecological resilience and diversity mechanisms could strengthen conservation and restoration policy; and developing draft indicator sets and monitoring templates linking response diversity to ecosystem function and sustainability goals.</p>
+</section>
+<section id="supervision-and-network" class="level2">
+<h2 class="anchored" data-anchor-id="supervision-and-network">Supervision and network</h2>
+<p>Main supervisor: Prof.&nbsp;Owen Petchey, with co-supervision from Prof.&nbsp;Maria Santos, Dr Cornelia Krug, and Dr Ute Jacob. The position includes four months of secondments to non-academic and academic partners across the network — BioAgora, Swansea University, CarU, and Advanced Invasives — plus ReDiLEEP-wide training in response-diversity methods, reproducible code, R/Tidyverse, machine learning and AI for ecologists, and science-policy communication.</p>
+</section>
+<section id="details" class="level2">
+<h2 class="anchored" data-anchor-id="details">Details</h2>
+<ul>
+<li><strong>Duration:</strong> 48 months, full-time (36 months funded through the MSCA Doctoral Network, 12 months through the University of Zurich).</li>
+<li><strong>Profile:</strong> a Master’s degree (or equivalent) in ecology, environmental science, geography, sustainability science, environmental policy, biodiversity governance, computational social science, data science, or a related field; experience with literature synthesis, policy analysis, text or network analysis, statistical modelling, or programming (R, Python, or similar); strong written and spoken English.</li>
+<li><strong>MSCA mobility rule applies:</strong> applicants must not have resided or carried out their main activity in Switzerland for more than 12 of the 48 months immediately before the recruitment date (with the usual exceptions for compulsory national service, refugee status, and temporary protection).</li>
+<li><strong>Application deadline:</strong> 1 October 2026.</li>
+<li><strong>Earliest start:</strong> 1 February 2027 (by 30 June 2027 at the latest).</li>
+</ul>
+</section>
+<section id="how-to-apply" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-apply">How to apply</h2>
+<p>Full details, the complete application requirements, and how to submit are on the official listing: <a href="https://euraxess.ec.europa.eu/jobs/461564" target="_blank">ReDiLEEP PhD position DC11 on EURAXESS</a>. Administrative questions go to <a href="../../../posts/team/maja-weilenmann/index.html">Maja Weilenmann</a>; scientific questions about the project go to Owen Petchey — see <a href="../../../contact.html">Contact</a>.</p>
+<p>Before writing in, it’s worth reading our <a href="../../../posts/join-us/2019-03-03-making-an-effective-enquiry/index.html">advice on making an effective enquiry</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>join-us</category>
+  <category>phd</category>
+  <category>response diversity</category>
+  <category>policy</category>
+  <guid>https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/</guid>
+  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Postdoctoral Research Fellowship in Ecological Stability</title>
+  <dc:creator>Predictive Ecology Group</dc:creator>
+  <link>https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>We’re inviting applications for a Postdoctoral Research Fellowship of up to three years, 100%, to develop and lead an independent research programme on <a href="../../../posts/research/2026-09-12-predicting-ecological-stability/index.html">ecological stability</a>.</p>
+<section id="about-the-fellowship" class="level2">
+<h2 class="anchored" data-anchor-id="about-the-fellowship">About the fellowship</h2>
+<p>Unlike a project-based postdoc, this fellowship is for researchers who want to shape and lead their own research agenda rather than join an existing project. Proposals should align with the group’s broad interests — understanding and predicting ecological stability through ecological theory, <a href="../../../posts/research/2026-09-09-mathematical-modelling/index.html">mathematical modelling</a>, <a href="../../../posts/research/2026-09-11-experimental-microbial-ecology/index.html">experimental ecology</a>, and the analysis of ecological observations and experiments — including the development and application of concepts and tools such as response diversity. Theoretical, computational, experimental, observational, or interdisciplinary approaches are all welcome, as are combinations of these.</p>
+<p>The fellowship combines real intellectual freedom with active mentorship: fellows pursue their own programme while benefiting from regular scientific interaction and collaboration within the group and the wider University of Zurich research environment. Projects involving fieldwork or analysis of local-to-large-scale ecological data are welcome, provided they’re planned, organised, and led by the fellow. Projects on Arctic ecosystems are also welcomed and may be supported through collaboration with Prof.&nbsp;Dr.&nbsp;Gabriela Schaepman-Strub.</p>
+</section>
+<section id="whats-offered" class="level2">
+<h2 class="anchored" data-anchor-id="whats-offered">What’s offered</h2>
+<p>Up to three years of funding, including research funding for the proposed programme, computing and analytical resources, access to the group’s lab facilities and infrastructure, and a supportive, collegial research environment with opportunities to collaborate within UZH and beyond.</p>
+</section>
+<section id="eligibility-and-what-were-looking-for" class="level2">
+<h2 class="anchored" data-anchor-id="eligibility-and-what-were-looking-for">Eligibility and what we’re looking for</h2>
+<p>Applicants must have been awarded their PhD no more than four years before the application deadline. We’re looking for a compelling vision for future research, creativity and initiative in developing scientific ideas, a strong record of research achievement relative to career stage, the ability to bring research projects to completion, and enthusiasm for collaborative research. Applications are welcome from a wide range of disciplinary backgrounds relevant to ecological stability.</p>
+</section>
+<section id="application-materials" class="level2">
+<h2 class="anchored" data-anchor-id="application-materials">Application materials</h2>
+<p>A single PDF containing:</p>
+<ol type="1">
+<li>A CV (maximum 2 pages).</li>
+<li>A research proposal (maximum 4 pages including references), covering the scientific questions to be addressed, the significance and originality of the proposed work, the planned approach and methodology, expected outcomes, how it advances understanding and prediction of ecological stability, and career objectives with the major milestones planned for the fellowship.</li>
+<li>Contact details for two referees.</li>
+</ol>
+</section>
+<section id="details" class="level2">
+<h2 class="anchored" data-anchor-id="details">Details</h2>
+<ul>
+<li><strong>Application deadline:</strong> 31 October 2026.</li>
+<li><strong>Earliest start date:</strong> January 2027.</li>
+</ul>
+</section>
+<section id="how-to-apply" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-apply">How to apply</h2>
+<p>Full details are on the official listing: <a href="https://www.findapostdoc.com/search/job-details.aspx?jobcode=12735" target="_blank">Postdoctoral Research Fellowship in Ecological Stability on FindAPostDoc</a>. Applications and administrative questions go to <a href="../../../posts/team/maja-weilenmann/index.html">Maja Weilenmann</a>; for scientific questions, see <a href="../../../contact.html">Contact</a> to reach Owen Petchey.</p>
+<p>Before writing in, it’s worth reading our <a href="../../../posts/join-us/2019-03-03-making-an-effective-enquiry/index.html">advice on making an effective enquiry</a>.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>join-us</category>
+  <category>postdoc</category>
+  <category>ecological stability</category>
+  <guid>https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/</guid>
+  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>From streams to forests: ecology in the natural world</title>
@@ -219,131 +618,6 @@
   <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-17-from-streams-to-forests/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Postdoctoral Research Fellowship in Ecological Stability</title>
-  <dc:creator>Predictive Ecology Group</dc:creator>
-  <link>https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>We’re inviting applications for a Postdoctoral Research Fellowship of up to three years, 100%, to develop and lead an independent research programme on <a href="../../../posts/research/2026-09-12-predicting-ecological-stability/index.html">ecological stability</a>.</p>
-<section id="about-the-fellowship" class="level2">
-<h2 class="anchored" data-anchor-id="about-the-fellowship">About the fellowship</h2>
-<p>Unlike a project-based postdoc, this fellowship is for researchers who want to shape and lead their own research agenda rather than join an existing project. Proposals should align with the group’s broad interests — understanding and predicting ecological stability through ecological theory, <a href="../../../posts/research/2026-09-09-mathematical-modelling/index.html">mathematical modelling</a>, <a href="../../../posts/research/2026-09-11-experimental-microbial-ecology/index.html">experimental ecology</a>, and the analysis of ecological observations and experiments — including the development and application of concepts and tools such as response diversity. Theoretical, computational, experimental, observational, or interdisciplinary approaches are all welcome, as are combinations of these.</p>
-<p>The fellowship combines real intellectual freedom with active mentorship: fellows pursue their own programme while benefiting from regular scientific interaction and collaboration within the group and the wider University of Zurich research environment. Projects involving fieldwork or analysis of local-to-large-scale ecological data are welcome, provided they’re planned, organised, and led by the fellow. Projects on Arctic ecosystems are also welcomed and may be supported through collaboration with Prof.&nbsp;Dr.&nbsp;Gabriela Schaepman-Strub.</p>
-</section>
-<section id="whats-offered" class="level2">
-<h2 class="anchored" data-anchor-id="whats-offered">What’s offered</h2>
-<p>Up to three years of funding, including research funding for the proposed programme, computing and analytical resources, access to the group’s lab facilities and infrastructure, and a supportive, collegial research environment with opportunities to collaborate within UZH and beyond.</p>
-</section>
-<section id="eligibility-and-what-were-looking-for" class="level2">
-<h2 class="anchored" data-anchor-id="eligibility-and-what-were-looking-for">Eligibility and what we’re looking for</h2>
-<p>Applicants must have been awarded their PhD no more than four years before the application deadline. We’re looking for a compelling vision for future research, creativity and initiative in developing scientific ideas, a strong record of research achievement relative to career stage, the ability to bring research projects to completion, and enthusiasm for collaborative research. Applications are welcome from a wide range of disciplinary backgrounds relevant to ecological stability.</p>
-</section>
-<section id="application-materials" class="level2">
-<h2 class="anchored" data-anchor-id="application-materials">Application materials</h2>
-<p>A single PDF containing:</p>
-<ol type="1">
-<li>A CV (maximum 2 pages).</li>
-<li>A research proposal (maximum 4 pages including references), covering the scientific questions to be addressed, the significance and originality of the proposed work, the planned approach and methodology, expected outcomes, how it advances understanding and prediction of ecological stability, and career objectives with the major milestones planned for the fellowship.</li>
-<li>Contact details for two referees.</li>
-</ol>
-</section>
-<section id="details" class="level2">
-<h2 class="anchored" data-anchor-id="details">Details</h2>
-<ul>
-<li><strong>Application deadline:</strong> 31 October 2026.</li>
-<li><strong>Earliest start date:</strong> January 2027.</li>
-</ul>
-</section>
-<section id="how-to-apply" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-apply">How to apply</h2>
-<p>Full details are on the official listing: <a href="https://www.findapostdoc.com/search/job-details.aspx?jobcode=12735" target="_blank">Postdoctoral Research Fellowship in Ecological Stability on FindAPostDoc</a>. Applications and administrative questions go to <a href="../../../posts/team/maja-weilenmann/index.html">Maja Weilenmann</a>; for scientific questions, see <a href="../../../contact.html">Contact</a> to reach Owen Petchey.</p>
-<p>Before writing in, it’s worth reading our <a href="../../../posts/join-us/2019-03-03-making-an-effective-enquiry/index.html">advice on making an effective enquiry</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>join-us</category>
-  <category>postdoc</category>
-  <category>ecological stability</category>
-  <guid>https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/</guid>
-  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>PhD position: bringing response diversity into biodiversity policy (ReDiLEEP)</title>
-  <dc:creator>Predictive Ecology Group</dc:creator>
-  <link>https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>We’re recruiting a Doctoral Candidate to <a href="../../../posts/organising/2026-09-05-redileep/index.html">ReDiLEEP</a>, the Marie Skłodowska-Curie Actions (MSCA) Doctoral Network on response diversity, for a project sitting right at the interface of ecological science and biodiversity policy.</p>
-<section id="the-project-dc11" class="level2">
-<h2 class="anchored" data-anchor-id="the-project-dc11">The project (DC11)</h2>
-<p>Response diversity — variation in how species or functional groups respond to environmental change — is increasingly recognised as a key driver of <a href="../../../posts/research/2026-09-12-predicting-ecological-stability/index.html">ecosystem resilience</a>, but current policy instruments such as the EU Nature Restoration Law, the Common Agricultural Policy, and the Corporate Sustainability Reporting Directive lack clear metrics, targets, or monitoring requirements for it. This project (DC11) sets out to close some of that gap.</p>
-<p>The doctoral researcher will use AI-assisted text analysis and network analysis to map how response diversity research relates — or fails to relate — to European biodiversity, restoration, and sustainability policy, identifying conceptual alignments, mismatches, and evidence gaps between the science and the policy frameworks. The aim is to help guide the development of policy-ready, measurable indicators that capture response diversity as a mechanism underpinning both ecological stability and policy effectiveness.</p>
-<p>Responsibilities include reviewing and synthesising response-diversity research relevant to EU biodiversity policy; applying text and network analysis to scientific literature and policy documents; identifying where ecological resilience and diversity mechanisms could strengthen conservation and restoration policy; and developing draft indicator sets and monitoring templates linking response diversity to ecosystem function and sustainability goals.</p>
-</section>
-<section id="supervision-and-network" class="level2">
-<h2 class="anchored" data-anchor-id="supervision-and-network">Supervision and network</h2>
-<p>Main supervisor: Prof.&nbsp;Owen Petchey, with co-supervision from Prof.&nbsp;Maria Santos, Dr Cornelia Krug, and Dr Ute Jacob. The position includes four months of secondments to non-academic and academic partners across the network — BioAgora, Swansea University, CarU, and Advanced Invasives — plus ReDiLEEP-wide training in response-diversity methods, reproducible code, R/Tidyverse, machine learning and AI for ecologists, and science-policy communication.</p>
-</section>
-<section id="details" class="level2">
-<h2 class="anchored" data-anchor-id="details">Details</h2>
-<ul>
-<li><strong>Duration:</strong> 48 months, full-time (36 months funded through the MSCA Doctoral Network, 12 months through the University of Zurich).</li>
-<li><strong>Profile:</strong> a Master’s degree (or equivalent) in ecology, environmental science, geography, sustainability science, environmental policy, biodiversity governance, computational social science, data science, or a related field; experience with literature synthesis, policy analysis, text or network analysis, statistical modelling, or programming (R, Python, or similar); strong written and spoken English.</li>
-<li><strong>MSCA mobility rule applies:</strong> applicants must not have resided or carried out their main activity in Switzerland for more than 12 of the 48 months immediately before the recruitment date (with the usual exceptions for compulsory national service, refugee status, and temporary protection).</li>
-<li><strong>Application deadline:</strong> 1 October 2026.</li>
-<li><strong>Earliest start:</strong> 1 February 2027 (by 30 June 2027 at the latest).</li>
-</ul>
-</section>
-<section id="how-to-apply" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-apply">How to apply</h2>
-<p>Full details, the complete application requirements, and how to submit are on the official listing: <a href="https://euraxess.ec.europa.eu/jobs/461564" target="_blank">ReDiLEEP PhD position DC11 on EURAXESS</a>. Administrative questions go to <a href="../../../posts/team/maja-weilenmann/index.html">Maja Weilenmann</a>; scientific questions about the project go to Owen Petchey — see <a href="../../../contact.html">Contact</a>.</p>
-<p>Before writing in, it’s worth reading our <a href="../../../posts/join-us/2019-03-03-making-an-effective-enquiry/index.html">advice on making an effective enquiry</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>join-us</category>
-  <category>phd</category>
-  <category>response diversity</category>
-  <category>policy</category>
-  <guid>https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/</guid>
-  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictive-ecology-zurich.org/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Jeannine Roy</title>
-  <link>https://predictive-ecology-zurich.org/posts/team/jeannine-roy/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Jeannine Roy is the group’s lab manager and technician, keeping the lab and fieldwork running.</p>
-
-
-
- ]]></description>
-  <category>team</category>
-  <category>lab-manager</category>
-  <category>technician</category>
-  <guid>https://predictive-ecology-zurich.org/posts/team/jeannine-roy/</guid>
-  <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictive-ecology-zurich.org/posts/team/jeannine-roy/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
   <title>Sara Galizia</title>
   <link>https://predictive-ecology-zurich.org/posts/team/sara-galizia/</link>
   <description><![CDATA[ 
@@ -406,6 +680,28 @@
   <guid>https://predictive-ecology-zurich.org/posts/team/lina-hasenfratz/</guid>
   <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
   <media:content url="https://predictive-ecology-zurich.org/posts/team/lina-hasenfratz/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Paula Stöckli</title>
+  <link>https://predictive-ecology-zurich.org/posts/team/paula-stockli/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Paula Stöckli completed her Bachelor’s thesis with the group, 2025–2026.</p>
+
+
+
+ ]]></description>
+  <category>team</category>
+  <category>bsc-student</category>
+  <category>alumni</category>
+  <category>archive</category>
+  <guid>https://predictive-ecology-zurich.org/posts/team/paula-stockli/</guid>
+  <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/team/paula-stockli/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Predicting ecosystem functioning: functional diversity</title>
@@ -510,26 +806,26 @@
   <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-13-predicting-ecosystem-functioning/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Paula Stöckli</title>
-  <link>https://predictive-ecology-zurich.org/posts/team/paula-stockli/</link>
+  <title>Noé Bugaud</title>
+  <link>https://predictive-ecology-zurich.org/posts/team/noe-bugaud/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p>Paula Stöckli completed her Bachelor’s thesis with the group, 2025–2026.</p>
+<p><em>(Draft — not yet public. Remove the <code>archive</code> tag from the front matter once Noé actually starts.)</em></p>
+<p>Noé Bugaud will join the group as a Master’s student in 2027.</p>
 
 
 
  ]]></description>
   <category>team</category>
-  <category>bsc-student</category>
-  <category>alumni</category>
+  <category>msc-student</category>
   <category>archive</category>
-  <guid>https://predictive-ecology-zurich.org/posts/team/paula-stockli/</guid>
-  <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictive-ecology-zurich.org/posts/team/paula-stockli/cover.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://predictive-ecology-zurich.org/posts/team/noe-bugaud/</guid>
+  <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/team/noe-bugaud/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Predicting ecological stability: response diversity</title>
@@ -605,26 +901,25 @@
   <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-12-predicting-ecological-stability/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Noé Bugaud</title>
-  <link>https://predictive-ecology-zurich.org/posts/team/noe-bugaud/</link>
+  <title>Isabel Schöchli</title>
+  <link>https://predictive-ecology-zurich.org/posts/team/isabel-schochli/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p><em>(Draft — not yet public. Remove the <code>archive</code> tag from the front matter once Noé actually starts.)</em></p>
-<p>Noé Bugaud will join the group as a Master’s student in 2027.</p>
+<p><img src="https://predictive-ecology-zurich.org/posts/team/isabel-schochli/cover.jpg" class="float-end img-fluid" width="300"></p>
+<p>Isabel Schöchli handles HR administration for the group.</p>
 
 
 
  ]]></description>
   <category>team</category>
-  <category>msc-student</category>
-  <category>archive</category>
-  <guid>https://predictive-ecology-zurich.org/posts/team/noe-bugaud/</guid>
-  <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictive-ecology-zurich.org/posts/team/noe-bugaud/cover.jpg" medium="image" type="image/jpeg"/>
+  <category>administration</category>
+  <guid>https://predictive-ecology-zurich.org/posts/team/isabel-schochli/</guid>
+  <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/team/isabel-schochli/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Experimental microbial ecology</title>
@@ -706,25 +1001,25 @@
   <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-11-experimental-microbial-ecology/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Isabel Schöchli</title>
-  <link>https://predictive-ecology-zurich.org/posts/team/isabel-schochli/</link>
+  <title>Maja Weilenmann</title>
+  <link>https://predictive-ecology-zurich.org/posts/team/maja-weilenmann/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p><img src="https://predictive-ecology-zurich.org/posts/team/isabel-schochli/cover.jpg" class="float-end img-fluid" width="300"></p>
-<p>Isabel Schöchli handles HR administration for the group.</p>
+<p><img src="https://predictive-ecology-zurich.org/posts/team/maja-weilenmann/cover.jpg" class="float-end img-fluid" width="300"></p>
+<p>Maja Weilenmann handles group administration.</p>
 
 
 
  ]]></description>
   <category>team</category>
   <category>administration</category>
-  <guid>https://predictive-ecology-zurich.org/posts/team/isabel-schochli/</guid>
-  <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictive-ecology-zurich.org/posts/team/isabel-schochli/cover.jpg" medium="image" type="image/jpeg"/>
+  <guid>https://predictive-ecology-zurich.org/posts/team/maja-weilenmann/</guid>
+  <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/team/maja-weilenmann/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Video microscopy and computer vision</title>
@@ -804,81 +1099,6 @@
   <guid>https://predictive-ecology-zurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/</guid>
   <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
   <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-10-video-microscopy-computer-vision/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Maja Weilenmann</title>
-  <link>https://predictive-ecology-zurich.org/posts/team/maja-weilenmann/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><img src="https://predictive-ecology-zurich.org/posts/team/maja-weilenmann/cover.jpg" class="float-end img-fluid" width="300"></p>
-<p>Maja Weilenmann handles group administration.</p>
-
-
-
- ]]></description>
-  <category>team</category>
-  <category>administration</category>
-  <guid>https://predictive-ecology-zurich.org/posts/team/maja-weilenmann/</guid>
-  <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictive-ecology-zurich.org/posts/team/maja-weilenmann/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Mathematical modelling</title>
-  <dc:creator>Owen Petchey</dc:creator>
-  <link>https://predictive-ecology-zurich.org/posts/research/2026-09-09-mathematical-modelling/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="mathematical-modelling-exploring-the-mechanisms-behind-ecological-dynamics" class="level2">
-<h2 class="anchored" data-anchor-id="mathematical-modelling-exploring-the-mechanisms-behind-ecological-dynamics">Mathematical modelling: exploring the mechanisms behind ecological dynamics</h2>
-<p>Ecological systems contain many interacting processes, making it difficult to determine which mechanisms are responsible for an observed pattern. Mathematical models offer a complementary approach to experiments and field observations: simplify the system, specify its mechanisms explicitly, and investigate their consequences.</p>
-<p>This type of theoretical modelling has been an important strand of work by Owen Petchey and collaborators. The models range from predator–prey interactions and food webs to microbial ecosystems capable of switching between alternative states. A recurring objective is not to reproduce every detail of nature, but to ask what follows logically from a specified set of ecological mechanisms.</p>
-</section>
-<section id="from-foraging-mechanisms-to-food-web-structure" class="level2">
-<h2 class="anchored" data-anchor-id="from-foraging-mechanisms-to-food-web-structure">From foraging mechanisms to food-web structure</h2>
-<p>An early example concerns the effects of temperature on food webs. Petchey, Brose and Rall developed a mathematical model connecting temperature-dependent foraging processes to the structure of ecological networks [1]. The model incorporated temperature dependence into quantities such as attack rates and handling times and then examined the consequences for which feeding interactions should occur — part of the group’s longer engagement with predicting the architecture of food webs.</p>
-<p>The results predicted that warming could substantially alter food-web connectance. Importantly, warming did not have a single inevitable effect: whether connectance increased or decreased depended on the relative temperature sensitivities of the underlying foraging processes [1].</p>
-</section>
-<section id="nonlinear-interactions-and-ecological-stability" class="level2">
-<h2 class="anchored" data-anchor-id="nonlinear-interactions-and-ecological-stability">Nonlinear interactions and ecological stability</h2>
-<p>Mathematical models are particularly valuable when ecological interactions are nonlinear. Daugaard, Petchey and Pennekamp investigated how warming could alter the functional response between a microbial predator and its prey [2]. Experimental observations suggested that increasing temperature shifted the interaction from a stabilising Type III functional response towards a Type II response.</p>
-<p>The ecological consequences were explored by incorporating these temperature-dependent functions into a population-dynamic model. Simulations predicted that the change in interaction shape could destabilise predator–prey dynamics and increase the likelihood of prey extinction at higher temperatures [2]. The important result is not simply that temperature affects feeding. A relatively subtle change in the mathematical form of an interaction can qualitatively alter the dynamics of an ecological system.</p>
-</section>
-<section id="alternative-states-and-tipping-points" class="level2">
-<h2 class="anchored" data-anchor-id="alternative-states-and-tipping-points">Alternative states and tipping points</h2>
-<p>More recent theoretical work has focused on systems that can undergo abrupt regime shifts. Aquatic microbial ecosystems provide a useful example. Feedbacks among microorganisms, oxygen production and consumption, and biogeochemical processes can allow an ecosystem to persist in very different states—for example, an oxygenated state or an anoxic state.</p>
-<p>Limberger, Daugaard, Gupta, Krug, Lemmen, van Moorsel, Suleiman, Zuppinger-Dingley and Petchey used a mathematical model of such anoxic–oxic regime shifts to investigate how biodiversity affects ecosystem resilience [3]. The model contained three functional groups of bacteria and allowed trait diversity within those groups to vary. It was then possible to ask a deceptively simple question: does greater functional diversity make an ecosystem more resistant to collapse?</p>
-<p>The answer depended on where that diversity occurred. Greater trait diversity in two bacterial groups increased the resilience of their associated ecosystem state. In another group, however, greater diversity reduced resilience and could facilitate the collapse of the state in which that group occurred [3]. When diversity was introduced simultaneously into several groups, effects could weaken or cancel one another.</p>
-<p>The model therefore revealed something that a general statement such as “biodiversity increases resilience” misses. Diversity changes the range of ecological processes occurring within a system, and those processes can either reinforce or undermine the current ecosystem state. In some circumstances, functional diversity may therefore make a desirable ecosystem more resilient. In others, it may help destabilise an undesirable state and facilitate its transition to another one.</p>
-</section>
-<section id="degradation-and-recovery-need-not-follow-the-same-path" class="level2">
-<h2 class="anchored" data-anchor-id="degradation-and-recovery-need-not-follow-the-same-path">Degradation and recovery need not follow the same path</h2>
-<p>Alternative stable states raise another theoretical question. If environmental deterioration pushes an ecosystem from state A to state B, will reversing the environmental change simply take it back along the same trajectory? Bärtschi and Petchey explored this using a deliberately simple mathematical model of a microbial ecosystem in which two components mutually inhibited one another [4]. The simplicity of the model made it possible to manipulate two forms of symmetry independently: symmetry in the biological system itself and symmetry in the way the environment was changed.</p>
-<p>When both were perfectly symmetrical, degradation and restoration trajectories were also symmetrical. Introducing asymmetry into either the biological interactions or the environmental change produced increasingly asymmetric ecological responses [4]. This has implications for thinking about tipping points and ecosystem restoration. Removing the environmental pressure that caused ecosystem degradation need not produce an equal and opposite ecological response. Whether recovery resembles degradation depends on the structure and strength of the processes generating the alternative states.</p>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<p>[1] Petchey, O. L., Brose, U. &amp; Rall, B. C. (2010). Predicting the effects of temperature on food web connectance. Philosophical Transactions of the Royal Society B: Biological Sciences, 365, 2081–2091. DOI: 10.1098/rstb.2010.0011.</p>
-<p>[2] Daugaard, U., Petchey, O. L. &amp; Pennekamp, F. (2019). Warming can destabilise predator–prey interactions by shifting the functional response from Type III to Type II. Journal of Animal Ecology. DOI associated with the preprint record: 10.1101/498030.</p>
-<p>[3] Limberger, R., Daugaard, U., Gupta, A., Krug, R. M., Lemmen, K., van Moorsel, S. J., Suleiman, M., Zuppinger-Dingley, D. &amp; Petchey, O. L. (2023). Functional diversity can facilitate the collapse of an undesirable ecosystem state. Ecology Letters. DOI: 10.1111/ele.14217.</p>
-<p>[4] Bärtschi, P. &amp; Petchey, O. L. (2024). Reflecting on the symmetry of ecosystem tipping points: The influence of trait dissimilarity and environmental driver dynamics in a simple ecosystem model. Ecology and Evolution, 14. DOI: 10.1002/ece3.11421.</p>
-
-
-</section>
-
- ]]></description>
-  <category>research</category>
-  <category>mathematical modelling</category>
-  <guid>https://predictive-ecology-zurich.org/posts/research/2026-09-09-mathematical-modelling/</guid>
-  <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-09-mathematical-modelling/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Maura Ganz</title>

@@ -1,25 +1,8 @@
 [
   {
-    "listing": "/join-us.html",
-    "items": [
-      "/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/index.html",
-      "/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/index.html",
-      "/posts/join-us/2019-03-03-making-an-effective-enquiry/index.html"
-    ]
-  },
-  {
-    "listing": "/organising.html",
-    "items": [
-      "/posts/organising/2026-09-05-redileep/index.html",
-      "/posts/organising/2026-09-05-response-diversity-network/index.html",
-      "/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/index.html",
-      "/posts/organising/2019-03-13-valuing-contributions-in-teams/index.html",
-      "/posts/organising/2014-11-13-ieu-photo-exhibition/index.html"
-    ]
-  },
-  {
     "listing": "/outreach.html",
     "items": [
+      "/posts/outreach/2026-09-25-nature-in-the-boardroom-sfi-ssf/index.html",
       "/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/index.html",
       "/posts/outreach/2026-04-17-biodiversity-leadership-breakout/index.html",
       "/posts/outreach/2026-02-25-future-of-sustainability-panel/index.html",
@@ -42,39 +25,71 @@
     ]
   },
   {
-    "listing": "/education.html",
-    "items": []
-  },
-  {
-    "listing": "/posts.html",
+    "listing": "/team.html",
     "items": [
       "/posts/team/francesco-polazzo/index.html",
       "/posts/team/martina-jelic/index.html",
       "/posts/team/til-hammig/index.html",
-      "/posts/research/2026-09-17-from-streams-to-forests/index.html",
-      "/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/index.html",
-      "/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/index.html",
       "/posts/team/jeannine-roy/index.html",
       "/posts/team/sara-galizia/index.html",
       "/posts/team/jenni-lucien/index.html",
-      "/posts/team/lina-hasenfratz/index.html",
-      "/posts/research/2026-09-13-predicting-ecosystem-functioning/index.html",
-      "/posts/team/paula-stockli/index.html",
-      "/posts/research/2026-09-12-predicting-ecological-stability/index.html",
-      "/posts/team/noe-bugaud/index.html",
-      "/posts/research/2026-09-11-experimental-microbial-ecology/index.html",
       "/posts/team/isabel-schochli/index.html",
-      "/posts/research/2026-09-10-video-microscopy-computer-vision/index.html",
       "/posts/team/maja-weilenmann/index.html",
-      "/posts/research/2026-09-09-mathematical-modelling/index.html",
       "/posts/team/maura-ganz/index.html",
       "/posts/team/lia-moana-de-turris/index.html",
       "/posts/team/yanan-wei/index.html",
-      "/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/index.html",
-      "/posts/research/2026-09-05-ecological-forecasting/index.html",
-      "/posts/team/owen-petchey/index.html",
-      "/posts/organising/2026-09-05-response-diversity-network/index.html",
+      "/posts/team/owen-petchey/index.html"
+    ]
+  },
+  {
+    "listing": "/join-us.html",
+    "items": [
+      "/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/index.html",
+      "/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/index.html",
+      "/posts/join-us/2019-03-03-making-an-effective-enquiry/index.html"
+    ]
+  },
+  {
+    "listing": "/organising.html",
+    "items": [
       "/posts/organising/2026-09-05-redileep/index.html",
+      "/posts/organising/2026-09-05-response-diversity-network/index.html",
+      "/posts/organising/2019-03-14-demonstrating-added-value-of-integrative-research/index.html",
+      "/posts/organising/2019-03-13-valuing-contributions-in-teams/index.html",
+      "/posts/organising/2014-11-13-ieu-photo-exhibition/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/outreach/2026-09-25-nature-in-the-boardroom-sfi-ssf/index.html",
+      "/posts/team/francesco-polazzo/index.html",
+      "/posts/team/martina-jelic/index.html",
+      "/posts/team/til-hammig/index.html",
+      "/posts/team/jeannine-roy/index.html",
+      "/posts/join-us/2026-09-17-phd-response-diversity-policy-redileep/index.html",
+      "/posts/join-us/2026-09-17-postdoc-fellowship-ecological-stability/index.html",
+      "/posts/research/2026-09-17-from-streams-to-forests/index.html",
+      "/posts/team/sara-galizia/index.html",
+      "/posts/team/jenni-lucien/index.html",
+      "/posts/team/lina-hasenfratz/index.html",
+      "/posts/team/paula-stockli/index.html",
+      "/posts/research/2026-09-13-predicting-ecosystem-functioning/index.html",
+      "/posts/team/noe-bugaud/index.html",
+      "/posts/research/2026-09-12-predicting-ecological-stability/index.html",
+      "/posts/team/isabel-schochli/index.html",
+      "/posts/research/2026-09-11-experimental-microbial-ecology/index.html",
+      "/posts/team/maja-weilenmann/index.html",
+      "/posts/research/2026-09-10-video-microscopy-computer-vision/index.html",
+      "/posts/team/maura-ganz/index.html",
+      "/posts/research/2026-09-09-mathematical-modelling/index.html",
+      "/posts/team/lia-moana-de-turris/index.html",
+      "/posts/team/yanan-wei/index.html",
+      "/posts/outreach/2026-09-07-gfo-oikos-keynote-odense/index.html",
+      "/posts/team/owen-petchey/index.html",
+      "/posts/organising/2026-09-05-redileep/index.html",
+      "/posts/organising/2026-09-05-response-diversity-network/index.html",
+      "/posts/research/2026-09-05-ecological-forecasting/index.html",
       "/posts/outreach/2026-04-17-biodiversity-leadership-breakout/index.html",
       "/posts/outreach/2026-02-25-future-of-sustainability-panel/index.html",
       "/posts/outreach/2026-01-15-synt-workshop-science-lab/index.html",
@@ -99,6 +114,10 @@
     ]
   },
   {
+    "listing": "/education.html",
+    "items": []
+  },
+  {
     "listing": "/research.html",
     "items": [
       "/posts/research/2026-09-17-from-streams-to-forests/index.html",
@@ -110,23 +129,6 @@
       "/posts/research/2026-09-05-ecological-forecasting/index.html",
       "/posts/research/2019-03-04-calculating-fd/index.html",
       "/posts/research/2019-03-04-food-web-tools/index.html"
-    ]
-  },
-  {
-    "listing": "/team.html",
-    "items": [
-      "/posts/team/francesco-polazzo/index.html",
-      "/posts/team/martina-jelic/index.html",
-      "/posts/team/til-hammig/index.html",
-      "/posts/team/jeannine-roy/index.html",
-      "/posts/team/sara-galizia/index.html",
-      "/posts/team/jenni-lucien/index.html",
-      "/posts/team/isabel-schochli/index.html",
-      "/posts/team/maja-weilenmann/index.html",
-      "/posts/team/maura-ganz/index.html",
-      "/posts/team/lia-moana-de-turris/index.html",
-      "/posts/team/yanan-wei/index.html",
-      "/posts/team/owen-petchey/index.html"
     ]
   }
 ]
