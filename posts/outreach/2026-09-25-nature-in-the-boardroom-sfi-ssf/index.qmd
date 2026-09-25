@@ -1,0 +1,217 @@
+---
+title: "When finance started talking about biodiversity"
+author: "Owen Petchey"
+date: 2026-09-25
+categories: [outreach, biodiversity, finance, conference]
+image: cover.jpg
+---
+
+*An ecologist's notes from the first half of "Nature and Climate Risks Shaping Investment Decisions", Zurich, 24 September 2026*
+
+Yesterday I went along to the [SFI–SSF Conference 2026](https://www.sfi.ch/en/events/sfi-ssf-conference-2026){target="_blank"}, *Nature and Climate Risks Shaping Investment Decisions*. The Swiss Finance Institute (SFI) organised it with Swiss Sustainable Finance (SSF) and Building Bridges, and it took place at Lake Side in Zurich. I only stayed for the opening keynotes and the Nature Finance session, so I missed the afternoon on real estate and carbon and the closing panel. Even so, the first two hours were enough to change how I think.
+
+I expected climate to dominate, with biodiversity mentioned once or twice for good measure. That isn't what happened. Nature and biodiversity were the main topic, and speakers treated them as a financial issue, not a side note on corporate responsibility. People talked about pressures, dependencies, soil health, freshwater withdrawal, Mean Species Abundance and the Living Planet Index to a room full of bankers and asset managers, and nobody seemed to think it was out of place (as far as I could tell).
+
+This post has three parts: what I saw, what the speakers were doing, and a short primer for fellow ecologists who want to understand the language and the organisations involved. I've written the primer because I think our community has a lot to contribute here, and because a few terms make the conversation much easier to follow.
+
+---
+
+## Part 1: What I saw
+
+### Keynote 1: The financial materiality of nature risks (Prof. Zacharias Sautner, UZH / SFI)
+
+Zacharias Sautner, Professor of Sustainable Finance at UZH and Senior Chair at SFI, opened with a research-based case that nature risks are **financially material**. In other words, they affect firms' cash flows, costs of capital and valuations, so investors have a financial reason to care, not only an ethical one. His group's recent work includes studies of how firms *perceive* nature risk (published in the *Review of Finance*) and of **firm-level nature dependence**, which measures how much individual companies rely on ecosystem services. All his papers are listed at [zachariassautner.com](https://www.zachariassautner.com/){target="_blank"}.
+
+One thing struck me when Zacharias responded to questions after his keynote. He often responded in one of two ways: *here's what the data tell us*, or *here's what data we would need* (i.e., we don't yet have it / have access to it). Framing the questions in terms of data needed and types of analyses to make resonates with much of what I do in my own work.
+
+### Keynote 2: The business case for nature at Holcim (Renata Pollini, Holcim)
+
+Holcim is one of the world's largest building-materials companies, and cement and quarrying are about as close to "nature-negative" as industries get. That made the talk especially interesting to me.
+
+**"Nature is catching up to climate rapidly."** One slide lined up each climate framework with its newer nature equivalent:
+
+| Function | Climate | Nature |
+|---|---|---|
+| Intergovernmental science panel | IPCC (1988) | IPBES (2012) |
+| International policy goal | Paris Agreement (2015) | Kunming–Montreal Global Biodiversity Framework (2022) |
+| Financial disclosure | TCFD (2017) | TNFD (2023) |
+| Corporate target-setting | Science Based Targets initiative (2014) | Science Based Targets Network (2023) |
+| Investor engagement | Climate Action 100+ (2017) | Nature Action 100 (2023) |
+
+The pattern is clear. Nature is following the same institutional path that climate did, with a lag of about a decade, and that lag is getting shorter.
+
+Other points from the talk:
+
+- **Risks and opportunities.** Holcim sorts nature risks into the same categories used for climate: *policy and legal* (new nature regulation), *technology*, *market* (price swings in raw materials and natural inputs), *reputation* and *liability* (claims arising from nature impacts). It also lists nature *opportunities*, such as demand for nature-friendly products, resource efficiency and brand value.
+- **A "nature-positive offering."** This includes pervious concrete and sustainable drainage for climate resilience, green roofs, living walls and artificial reefs for biodiversity, and rainwater harvesting for freshwater protection.
+- **Hard targets.** The company aims to cut freshwater withdrawal per tonne of cementitious material by 33% between 2020 and 2030, from 239 L/t to below 160 L/t.
+- **Biodiversity commitments with an ecological metric.** By 2022, all quarries had rehabilitation plans and all high-biodiversity quarries had Biodiversity Management Plans. By 2024, every site had a baseline under **IUCN's Biodiversity Indicator and Reporting System (BIRS)**. The 2030 commitment is a positive change in that index relative to the baseline.
+- **Governance and pay.** A board-level Health, Safety & Sustainability Committee oversees climate *and* nature matters. What surprised me most was that the executive Long-Term Incentive plan includes a sustainability objective with three parts: CO₂ per tonne of cement (50% weight), reuse of waste-derived resources (25%), and **freshwater withdrawal per tonne of cement (25%)**. So part of executive pay depends on a nature metric.
+
+This last point seemed critical and is worth repeating. *Executive bonuses depend on whether or not nature objectives are met.* Another speaker mentioned that they sometimes experience CEOs saying with some frustration "*please stop mentioning biodiversity*" but **not** because they have any particular position on biodiversity, but rather because they are not provided with ways to take a position. When executive bonuses are linked to biodiversity there has to be a clear framework for attributing and measuring against targets.
+
+### Nature Finance session
+
+#### Financing nature conservation (Prof. Thomas Giroux, ETH Zurich / SFI)
+
+Thomas Giroux (co-author, with Caroline Flammer and Geoffrey Heal, of the *Journal of Financial Economics* paper ["Biodiversity Finance"](https://www.sciencedirect.com/science/article/abs/pii/S0304405X24002101){target="_blank"}) started with the scale of the funding gap, using UNEP's *State of Finance for Nature* (2026):
+
+- Roughly **US$7.3 trillion** a year flows to nature-negative activities. That is about US$4.9 tn of private finance plus US$2.4 tn of public environmentally harmful subsidies.
+- Only about **US$220 billion** went to nature-based solutions in 2023.
+- Nature-negative flows are therefore **more than 30 times** nature-positive ones.
+- Nature-positive investment needs to grow about **2.5-fold by 2030** (to around US$571 bn) and reach about US$771 bn by 2050.
+- **Public money provided about 90%** of nature-positive investment in 2023.
+
+That last number was the context for the rest of the session: nature finance still mostly depends on public money, and the question is how to bring in private capital.
+
+Here, blended finance can help. I'm afraid my cynical side came out here. What? Use public money to subsidise for-profit activities... no thank you. But I soon learned that I had misunderstood. Blended finance is most effective and appropriate when there is a potentially viable investment, but specific risks or barriers are keeping private capital away. Public or philanthropic funding can be used strategically to absorb some of that risk, helping to crowd in private investment that would otherwise not materialise. The point is not to subsidise investments that the private sector would happily make anyway, but to use limited public funds catalytically—unlocking larger pools of private capital for projects that deliver benefits for nature and society.
+
+#### Nature as infrastructure: regenerative value chains (José María Ortiz, Lombard Odier)
+
+The opening line of the talk was: *"Nature: it explains our planet and is our keystone infrastructure."* Ortiz then put a chart of world GDP rising exponentially next to the **Living Planet Index**, which shows a decline in monitored wildlife populations since 1970. That second chart is very familiar to ecologists, but it looked different on a slide at a finance conference.
+
+The investment argument centred on **food systems, which both drive nature loss and are exposed to it**. They occupy about 60% of habitable land, account for about 90% of deforestation, 70% of freshwater use and 34% of greenhouse-gas emissions, and about 52% of agricultural soils are degraded. On the exposure side, the talk tracked extreme-weather shocks and the price rises that followed: +280% for cocoa after heatwaves in Ghana and Côte d'Ivoire, +100% for robusta coffee, +50% for olive oil, and others. Physical nature and climate risk is already showing up in commodity prices.
+
+The proposed investment approach is **regenerative agriculture**, described as "a direction of travel rather than a fixed end-state". The principles are minimal soil disturbance, keeping plants in the ground, maximising biodiversity (agroforestry, integrated livestock) and replacing synthetic inputs with bio-based ones. The evidence came from the European Alliance for Regenerative Agriculture (EARA) and the certifier Regenified: yields close to conventional with 61% less synthetic nitrogen and 75% less pesticide, 20–30% higher margins, and 16% higher plant diversity than neighbouring farms. The investment model backs **"integrated operators"** that aggregate farms and handle processing and distribution. They provide farmers with genetic material, technical assistance and long-term contracts, and they give retailers guaranteed volumes, full traceability and verified nature benefits.
+
+> *Ecologist's aside: most of these evidence numbers are farmer-led comparisons with neighbouring farms, not controlled experiments. That is exactly where our field's experience with study design, counterfactuals and monitoring could make a difference.*
+
+#### Where the number ends and the opportunity begins (Victor Neamtu, LGT Capital Partners)
+
+This was the talk I found most interesting as an ecologist, because it was about **"the hunt for a biodiversity number."** Investors already have an ESG score (say, 74) and a portfolio "temperature" for climate (say, 2.4 °C). For biodiversity, the matching box was a question mark labelled **"the missing number."**
+
+Neamtu explained why the number is hard to pin down: complex operations, interconnected nature, controversies and many data points, all seen through three different lenses (pressure, dependency and impact). The candidates he listed are metrics we know well: **Mean Species Abundance (MSA)**, **Potentially Disappeared Fraction of species (PDF)** and the **Biodiversity Intactness Index (BII)**. None of them does the job on its own.
+
+His practical approach:
+
+1. **Screen with ENCORE**, which maps sectors to their pressures on nature (land use, pollution, resource use) and their dependencies on ecosystem services (water, pollination, regulation), rated from very high to very low materiality. It's "useful for identifying where to look closer" but "not a company-level verdict".
+2. **Due diligence** that asks "what does the company actually do?" and not only "what sector is it in?". His example was Agronova, an agricultural biotech company that falls under an agrochemicals sector label, even though about 70% of its revenue comes from biostimulants, biocontrol and soil-health products.
+3. **Write the findings into the loan.** In a **sustainability-linked loan**, five company-specific KPIs (renewable electricity 22%→62%, bio-based product sales 70%→75%, sustainable raw materials 44.6%→50%, waste recovered to at least 90%, and academic publications 17→23, from a 2025 baseline to 2029) are tied to a *loan-margin incentive*. If the company hits its targets, it pays less interest.
+4. **Monitor** at fund and portfolio level, including MSA·km².
+
+His summary line was *"The number is a floor. The process creates the value."* In other words, a biodiversity metric starts a conversation with the company; it doesn't settle anything by itself.
+
+### Reflections
+
+A few things stood out to me.
+
+- **The vocabulary is ours.** Ecosystem services, pollination, soil microbial activity, species abundance, intactness: these came up constantly. People in finance aren't asking ecologists to learn a new field. They are using ours, sometimes loosely, and they need help using it well.
+- **Measurement is the bottleneck.** Every talk ran into the same problem: nobody has settled how to turn the state of nature into a comparable, decision-ready number. Biodiversity scientists have spent decades thinking about indicators, scale, baselines, counterfactuals and uncertainty, and that expertise is badly needed here.
+- **The money moves through contracts, not only through disclosure.** Executive pay tied to freshwater withdrawal, loan margins tied to bio-based sales, long-term offtake contracts for regenerative produce: these are the mechanisms that actually change what gets done on the ground.
+- **Some healthy scepticism is also needed.** Many of the evidence claims were preliminary, and several slides were marked as marketing material. It would be naive to think the nature-positive label always matches what happens in the field. But I left the room more encouraged than I expected.
+
+## Part 2: A primer for biodiversity scientists and ecologists
+
+### Key finance and investment concepts
+
+**Financial materiality.** An issue is *financially material* if it could reasonably affect a company's financial performance or value, and therefore an investor's returns. Showing that nature risks are material is what makes them relevant to fiduciaries and not only to people who care about the environment.
+
+**Nature risks.** A nature risk is the possibility that an organization or financial asset suffers negative financial consequences because of its dependencies and impacts on nature.
+
+**Fiduciaries.** A fiduciary is a person or organization that has a legal or ethical duty to act in someone else's best interests, rather than putting their own interests first.
+
+**Double materiality.** This means looking in two directions: how nature affects the company (*outside-in*, financial materiality) and how the company affects nature (*inside-out*, impact materiality). EU sustainability reporting under the CSRD/ESRS uses this principle.
+
+**Dependencies, impacts, risks and opportunities.** This is the core logic of TNFD (see below for what this is). Companies **depend** on ecosystem services (pollination, water supply, flood regulation) and **impact** nature through the drivers of loss (land and sea use change, direct exploitation, climate change, pollution, invasive species; the IPBES drivers). Both give rise to **risks** and **opportunities**.
+
+**Physical vs transition risk.** *Physical risks* come from nature degrading, either as sudden shocks (a pollination failure, a drought) or gradually (soil erosion). *Transition risks* come from society's response: new regulation, changing consumer demand, litigation, reputational damage and technology shifts.
+
+**Systemic risk.** This is the risk that nature loss destabilises the financial system as a whole, and not only individual firms, for example when an ecosystem tipping point hits many sectors at once.
+
+**ESG.** Environmental, Social and Governance, the broad label for non-financial factors in investment analysis. ESG *ratings* are scores assigned by *data providers*, and they are known to disagree a lot with each other.
+
+**Data providers.** Data providers are organizations that collect, process, estimate, and package information about companies' or assets' relationships with nature so that investors, banks, insurers, companies, and others can use it in decision-making.
+
+**Asset classes.** These are the main types of investment. *Listed equity* means shares traded on stock exchanges. *Fixed income / debt* includes bonds and loans. *Private equity* and *private debt* are ownership stakes and loans in companies that aren't publicly traded. *Real assets* include real estate, infrastructure, farmland and forestry. Neamtu's talk was about **private debt**, where lenders can write conditions directly into the loan agreement.
+
+**Sustainability-linked loans and bonds (SLL/SLB).** The interest rate or coupon depends on whether the borrower meets pre-agreed sustainability **KPIs** (key performance indicators) and targets. Hit the targets and you pay less. Miss them and you pay more. This differs from **green bonds and loans**, where the *money raised* has to be spent on specified green projects.
+
+**Use of proceeds vs general purpose.** Green bonds are "use-of-proceeds" instruments, meaning the money is ring-fenced for specific projects. Sustainability-linked instruments are general-purpose, and they create incentives through their pricing.
+
+**Screening and exclusions.** *Negative screening* removes companies or sectors from the investible universe, for example firms involved in deforestation. *Positive or best-in-class screening* selects the leaders.
+
+**Due diligence.** The detailed investigation of a company before investing or lending.
+
+**Engagement and stewardship.** Using an investor's position (shareholder votes, dialogue with management, loan covenants) to push a company to improve. Nature Action 100 is a collective engagement initiative.
+
+**Loan covenants.** Conditions written into a loan agreement that require the borrower to meet certain standards or take—or avoid—certain actions. In nature finance, for example, a lender might require a company to meet deforestation targets, report on its impacts on biodiversity, or comply with agreed environmental standards. If the borrower breaches these conditions, the lender may have the right to take action, such as increasing the interest rate or, in serious cases, demanding repayment.
+
+**Offtake contract.** A long-term agreement to buy a producer's future output, which makes their revenue more predictable.
+
+**Blended finance.** Using public or philanthropic money, often on concessional terms or as first-loss capital, to reduce the risk for private investors. This matters here because public money still provides about 90% of nature-positive finance.
+
+**Concessional terms.** Financing offered on more favourable terms than would normally be available in the market—for example, a lower interest rate, longer repayment period, or more flexible repayment conditions.
+
+**First-loss capital.** Funding that agrees to absorb losses before other investors do. By protecting other investors from some of the downside risk, it can encourage private capital to participate in investments it might otherwise consider too risky.
+
+**Nature-based solutions (NbS).** Actions that protect, sustainably manage or restore ecosystems to address societal challenges while also benefiting biodiversity. Some examples are wetland restoration for flood control, urban greening and agroforestry.
+
+**Nature-positive.** A goal of halting and reversing nature loss by 2030 relative to a 2020 baseline, aiming for full recovery by 2050. It is now widely used in corporate and policy language, although it risks being diluted.
+
+**Environmentally harmful subsidies (EHS).** Public subsidies that end up damaging nature, such as some agricultural, fisheries and fossil-fuel support. The Global Biodiversity Framework's Target 18 calls for reducing them by at least US$500 billion a year by 2030.
+
+**Portfolio alignment temperature.** A climate metric that expresses how much warming the world would see if everyone behaved like the companies in a portfolio (e.g. "2.4 °C"). The "missing number" in Neamtu's talk was the biodiversity equivalent.
+
+**Greenwashing / "nature-washing".** Making misleading claims about environmental performance. Regulators are paying more and more attention to it.
+
+### Biodiversity metrics that finance is using
+
+| Metric | What it is | Notes for ecologists |
+|---|---|---|
+| **MSA** (Mean Species Abundance) | Mean abundance of original species relative to an undisturbed state (0–1). **MSA·km²** multiplies by area. | From the GLOBIO model. It is used in the Biodiversity Footprint for Financial Institutions and by several data providers. |
+| **PDF** (Potentially Disappeared Fraction of species) | A life-cycle assessment (LCA) metric for the fraction of species potentially lost locally due to a pressure. | Common in LCA-based footprinting (e.g. ReCiPe, LC-Impact). |
+| **BII** (Biodiversity Intactness Index) | Average abundance of originally present species relative to an intact reference. | From the Natural History Museum / PREDICTS database. |
+| **BIRS** (IUCN Biodiversity Indicator and Reporting System) | A site-level habitat-condition index. | Developed with the cement industry. Holcim uses it. |
+| **STAR** (Species Threat Abatement and Restoration) | Measures the potential contribution of an action to reducing species extinction risk. | Built on the IUCN Red List. |
+| **Living Planet Index** | Average change in monitored vertebrate population sizes since 1970. | From WWF / ZSL. It is used widely in communication but not designed for asset-level accounting. |
+
+### Organisations and frameworks worth knowing
+
+**Science–policy**
+
+- **IPBES**, the Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services, is the "IPCC for nature". Its 2024 *Nexus* and *Transformative Change* assessments, and the forthcoming *Business and Biodiversity* assessment, are directly relevant.
+- **Kunming–Montreal Global Biodiversity Framework (GBF)**, adopted at CBD COP15 in 2022. It includes **30x30**, **Target 15** (businesses and financial institutions assess and disclose risks, dependencies and impacts), **Target 18** (harmful subsidies) and **Target 19** (mobilise US$200 bn/year).
+
+**Disclosure and target-setting**
+
+- **TNFD**, the Taskforce on Nature-related Financial Disclosures, published its recommendations in 2023. It is structured like TCFD and adds the **LEAP** approach (Locate, Evaluate, Assess, Prepare). The **ISSB** (International Sustainability Standards Board) is building on TNFD's work to develop nature-related disclosure requirements.
+- **SBTN**, the Science Based Targets Network, provides methods for companies to set science-based targets for freshwater, land and, increasingly, biodiversity.
+- **CSRD/ESRS**: EU corporate sustainability reporting. **ESRS E4** covers biodiversity and ecosystems and uses double materiality.
+- **ENCORE**, an online tool from UNEP-WCMC, UNEP FI and the Global Canopy partnership, maps economic sectors to their dependencies and impacts on nature. It is the usual first step, as in Neamtu's talk.
+- **PBAF**, the Partnership for Biodiversity Accounting Financials, sets out a harmonised approach for financial institutions to measure the biodiversity impacts of their loans and investments.
+
+**Investor coalitions and finance bodies**
+
+- **Nature Action 100** is a collective engagement initiative in which investors push companies in key sectors to act on nature loss. It is modelled on Climate Action 100+.
+- **UNEP FI**, the UN Environment Programme Finance Initiative, and its *State of Finance for Nature* reports, which were the source of the Giroux statistics.
+- **NGFS**, the Network for Greening the Financial System, is a group of central banks and supervisors that has recognised nature-related risks as a potential source of financial risk.
+- **Finance for Biodiversity Pledge / Foundation** is a group of financial institutions committed to protecting and restoring biodiversity through their investments.
+
+**Swiss context**
+
+- **Swiss Finance Institute (SFI)** is a national centre for research and training in banking and finance, and a joint effort by Swiss universities and the financial industry.
+- **Swiss Sustainable Finance (SSF)** is an association that promotes sustainable finance in Switzerland.
+- **Building Bridges** is a Geneva-based initiative connecting finance with the UN and international sustainability communities.
+- **UZH Department of Finance / Initiative in Sustainable Finance** and **ETH Zurich's Chair of Sustainable Finance and Impact Investing** are the academic homes of Sautner and Giroux respectively.
+
+### Where ecologists can help
+
+1. **Metrics and indicators**: which metric suits which decision, at what spatial and temporal scale, and with what uncertainty.
+2. **Counterfactuals and baselines**: helping to show that "+16% plant diversity vs neighbours" reflects a real effect.
+3. **Monitoring**: eDNA, acoustic monitoring, remote sensing and citizen science to verify claimed outcomes over time.
+4. **Dependencies**: quantifying which ecosystem services firms and supply chains really depend on, and how fragile those services are.
+5. **Translation**: talking to finance people in their language (materiality, KPIs, risk) without losing ecological accuracy.
+
+---
+
+### Further reading
+
+- SFI–SSF Conference 2026 programme: <https://www.sfi.ch/en/events/sfi-ssf-conference-2026>
+- Zacharias Sautner, publications: <https://www.zachariassautner.com/publications>
+- Gjerde, Sautner, Wagner & Wegerich, "Corporate Nature Risk Perceptions", *Review of Finance*: <https://academic.oup.com/rof/article/30/1/11/8322449>
+- Garel, Romec, Sautner & Wagner, "Firm-Level Nature Dependence": <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5196826>
+- Flammer, Giroux & Heal, "Biodiversity Finance", *Journal of Financial Economics* (2025): <https://www.sciencedirect.com/science/article/abs/pii/S0304405X24002101>
+- Giglio, Kuchler, Stroebel & Wang, "Nature and Biodiversity Loss: A Research Agenda for Financial Economics": <https://pages.stern.nyu.edu/~jstroebe/PDF/GKSW_JFIP_NatureFinance.pdf>
+- UNEP, *State of Finance for Nature*: <https://www.unep.org/resources/state-finance-nature>
+- TNFD recommendations: <https://tnfd.global>
+- ENCORE: <https://encorenature.org>
