@@ -100,6 +100,8 @@ A few things stood out to me.
 - **The money moves through contracts, not only through disclosure.** Executive pay tied to freshwater withdrawal, loan margins tied to bio-based sales, long-term offtake contracts for regenerative produce: these are the mechanisms that actually change what gets done on the ground.
 - **Some healthy scepticism is also needed.** Many of the evidence claims were preliminary, and several slides were marked as marketing material. It would be naive to think the nature-positive label always matches what happens in the field. But I left the room more encouraged than I expected.
 
+For anyone who wants to go deeper into the research side, *Ecological Economics* has a special issue, [Biodiversity and Finance: Risk, Disclosure and Double Materiality](https://www.sciencedirect.com/special-issue/1023619ZWMM){target="_blank"}. It collects work on how nature-related financial risks show up in asset valuations and whether disclosure can steer capital towards conservation.
+
 ## Part 2: A primer for biodiversity scientists and ecologists
 
 ### Key finance and investment concepts
@@ -212,6 +214,7 @@ A few things stood out to me.
 - Garel, Romec, Sautner & Wagner, "Firm-Level Nature Dependence": <https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5196826>
 - Flammer, Giroux & Heal, "Biodiversity Finance", *Journal of Financial Economics* (2025): <https://www.sciencedirect.com/science/article/abs/pii/S0304405X24002101>
 - Giglio, Kuchler, Stroebel & Wang, "Nature and Biodiversity Loss: A Research Agenda for Financial Economics": <https://pages.stern.nyu.edu/~jstroebe/PDF/GKSW_JFIP_NatureFinance.pdf>
+- *Ecological Economics* special issue, "Biodiversity and Finance: Risk, Disclosure and Double Materiality": <https://www.sciencedirect.com/special-issue/1023619ZWMM>
 - UNEP, *State of Finance for Nature*: <https://www.unep.org/resources/state-finance-nature>
 - TNFD recommendations: <https://tnfd.global>
 - ENCORE: <https://encorenature.org>
