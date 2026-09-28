@@ -55,4 +55,15 @@ the group's research focus.)*
 - [**Contact**](contact.qmd) — how to reach us
 
 </div>
+
+<div style="max-width: 760px; margin: 0 auto 4rem;">
+
+## A note on names
+
+Looking for SpaDES, LandR or ecological forecasting of forest landscapes?
+You may want the [Predictive Ecology](https://predictiveecology.org/){target="_blank"}
+community. We're
+a different group with a very similar name, and we're very happy to share it.
+
+</div>
 :::

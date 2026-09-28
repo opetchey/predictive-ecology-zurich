@@ -37,6 +37,6 @@ A single PDF containing:
 
 ## How to apply
 
-Full details are on the official listing: [Postdoctoral Research Fellowship in Ecological Stability on FindAPostDoc](https://www.findapostdoc.com/search/job-details.aspx?jobcode=12735){target="_blank"}. Applications and administrative questions go to [Maja Weilenmann](../../team/maja-weilenmann/index.qmd); for scientific questions, see [Contact](../../../contact.qmd) to reach Owen Petchey.
+Full details are on the official listings: [Postdoctoral Research Fellowship in Ecological Stability on FindAPostDoc](https://www.findapostdoc.com/search/job-details.aspx?jobcode=12735){target="_blank"} and [on EURAXESS](https://euraxess.ec.europa.eu/jobs/465982){target="_blank"}. Applications and administrative questions go to [Maja Weilenmann](../../team/maja-weilenmann/index.qmd); for scientific questions, see [Contact](../../../contact.qmd) to reach Owen Petchey.
 
 Before writing in, it's worth reading our [advice on making an effective enquiry](../2019-03-03-making-an-effective-enquiry/index.qmd).
