@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Owen Petchey">
+<meta name="dcterms.date" content="2026-10-16">
+<meta name="description" content="An explorable map of the institutions of everyone I’ve co-authored a paper with, built from open publication data.">
+
+<title>A map of collaborations – Predictive Ecology Group</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../assets/img/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-02d34e70ceb977c5483aa9035b9585c2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-f4c26967e951590981a8ea930b127b34.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-02d34e70ceb977c5483aa9035b9585c2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<link rel="preload" href="assets/fonts/lora-variable.woff2" as="font" type="font/woff2" crossorigin="">
+<link rel="preload" href="assets/fonts/worksans-variable.woff2" as="font" type="font/woff2" crossorigin="">
+
+
+<link rel="stylesheet" href="../../../assets/styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Predictive Ecology Group</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../team.html"> 
+<span class="menu-text">Team</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../education.html"> 
+<span class="menu-text">Education</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../organising.html"> 
+<span class="menu-text">Organising</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../outreach.html"> 
+<span class="menu-text">Outreach</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../join-us.html"> 
+<span class="menu-text">Join us</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../misc.html"> 
+<span class="menu-text">Misc</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../contact.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">A map of collaborations</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">research</div>
+    <div class="quarto-category">collaboration</div>
+    <div class="quarto-category">open data</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    An explorable map of the institutions of everyone I’ve co-authored a paper with, built from open publication data.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Owen Petchey </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">October 16, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Science is a team sport. Almost every paper I’ve been part of has had co-authors, and many of those co-authors were somewhere else — another department, another country, another continent. This map shows where they were.</p>
+<p>Each circle is an institution that at least one of my co-authors listed as their affiliation on a paper we wrote together. Bigger circles mean more joint papers. Click a circle (or a name in the list) to see who the co-authors were and which papers we wrote; use the slider to look at a particular period, and the search box to find a person, institution or country.</p>
+<link rel="stylesheet" href="vendor/leaflet.css">
+<style>
+  .collab { --c-accent:#0028A5; --c-accent-soft:rgba(0,40,165,.18); --c-home:#b4530f;
+            --c-land:#ecebe6; --c-land-hit:#dfe4f5; --c-border:#ffffff; --c-sea:#f6f6f3;
+            --c-line:#e7e5df; --c-muted:#54534c; --c-panel:#ffffff; --c-text:#141414; }
+  body.quarto-dark .collab { --c-accent:#BACBFF; --c-accent-soft:rgba(186,203,255,.22); --c-home:#f0a96a;
+            --c-land:#1b1e2d; --c-land-hit:#25305a; --c-border:#0b0d16; --c-sea:#10121d;
+            --c-line:#232637; --c-muted:#a9adc2; --c-panel:#0f111b; --c-text:#eef0f7; }
+  .collab { margin: 1.5rem 0 2rem; font-size: .92rem; color:var(--c-text); }
+  .collab .leaflet-control-attribution { background:var(--c-panel); color:var(--c-muted); opacity:.9; }
+  .collab .leaflet-control-attribution a { color:var(--c-accent); }
+  .collab .leaflet-bar a { background:var(--c-panel); color:var(--c-text); border-color:var(--c-line); }
+  .collab .leaflet-tooltip { background:var(--c-panel); color:var(--c-text); border-color:var(--c-line); }
+  .collab-controls { display:flex; flex-wrap:wrap; gap:.75rem 1.25rem; align-items:center; margin-bottom:.75rem; }
+  .collab-controls > label:first-child { flex:1 1 auto; max-width:24rem; }
+  .collab-controls > label:first-child input { flex:1; }
+  .collab-controls label { color:var(--c-muted); font-size:.82rem; display:flex; align-items:center; gap:.4rem; }
+  .collab-controls input[type=search] { width:15rem; max-width:100%; padding:.3rem .55rem; border:1px solid var(--c-line);
+            border-radius:6px; background:var(--c-panel); color:inherit; }
+  .collab-years { display:flex; align-items:center; gap:.4rem; }
+  .collab-years { flex-wrap:wrap; }
+  .collab-years input[type=range] { width:7.5rem; max-width:28vw; accent-color:var(--c-accent); }
+  .collab-years output { font-variant-numeric: tabular-nums; min-width:2.6rem; display:inline-block; }
+  .collab-grid { display:grid; grid-template-columns: minmax(0,1fr) 20rem; gap:1rem; }
+  @media (max-width: 900px) { .collab-grid { grid-template-columns: 1fr; } }
+  .collab-map { height: 520px; border:1px solid var(--c-line); border-radius:8px; background:var(--c-sea); }
+  @media (max-width: 600px) { .collab-map { height: 380px; } }
+  .collab-map .leaflet-container { background:var(--c-sea); font: inherit; }
+  .collab .country { fill:var(--c-land); stroke:var(--c-border); stroke-width:.6; fill-opacity:1; }
+  .collab .country.hit { fill:var(--c-land-hit); }
+  .collab .dot { fill:var(--c-accent); fill-opacity:.55; stroke:var(--c-accent); stroke-width:1; stroke-opacity:.9; cursor:pointer; }
+  .collab .dot.home { fill:var(--c-home); stroke:var(--c-home); }
+  .collab .dot.sel { fill-opacity:.95; stroke-width:2.5; }
+  .collab .dot.dim { fill-opacity:.08; stroke-opacity:.2; }
+  .collab-panel { border:1px solid var(--c-line); border-radius:8px; padding:.85rem 1rem; background:var(--c-panel);
+            max-height:520px; overflow:auto; }
+  @media (max-width: 900px) { .collab-panel { max-height:none; } }
+  .collab-panel h4 { font-size:1.05rem; margin:.1rem 0 .2rem; }
+  .collab-panel .sub { color:var(--c-muted); font-size:.82rem; margin-bottom:.6rem; }
+  .collab-panel ol, .collab-panel ul { padding-left:1.1rem; margin:.3rem 0 .8rem; }
+  .collab-panel li { margin:.2rem 0; }
+  .collab-panel a.linky { color:var(--c-accent); }
+  .collab-panel .n { color:var(--c-muted); font-variant-numeric: tabular-nums; }
+  .collab-panel .back { font-size:.82rem; margin-bottom:.5rem; display:inline-block; }
+  .collab-stats { display:grid; grid-template-columns:repeat(4, auto); justify-content:start; gap:.4rem 1.1rem; margin:.25rem 0 .9rem; }
+  .collab-panel .collab-stats { grid-template-columns:repeat(2, auto); }
+  @media (max-width: 900px) { .collab-panel .collab-stats { grid-template-columns:repeat(4, auto); } }
+  .collab-stats div { line-height:1.1; }
+  .collab-stats b { display:block; font-size:1.35rem; font-family: "Lora", Georgia, serif; font-weight:600; }
+  .collab-stats span { color:var(--c-muted); font-size:.78rem; }
+  .collab-legend { color:var(--c-muted); font-size:.8rem; margin-top:.5rem; display:flex; gap:1rem; flex-wrap:wrap; }
+  .collab-legend i { display:inline-block; width:.8rem; height:.8rem; border-radius:50%; vertical-align:-1px; margin-right:.3rem;
+            background:var(--c-accent); opacity:.7; }
+  .collab-legend i.h { background:var(--c-home); }
+  .collab .paper { font-size:.85rem; }
+  .collab .paper .yr { color:var(--c-muted); font-variant-numeric: tabular-nums; margin-right:.3rem; }
+  .collab .paper .venue { color:var(--c-muted); font-style:italic; }
+  .collab .hl { background:var(--c-accent-soft); border-radius:3px; padding:0 .15em; }
+</style>
+
+<div class="collab column-page" id="collab">
+  <div class="collab-controls">
+    <label>Search <input type="search" id="collab-q" placeholder="person, institution, country…" aria-label="Search collaborations"></label>
+    <div class="collab-years">
+      <label for="collab-y0">Years</label>
+      <input type="range" id="collab-y0" aria-label="From year"><output id="collab-y0o"></output>
+      <span>–</span>
+      <input type="range" id="collab-y1" aria-label="To year"><output id="collab-y1o"></output>
+    </div>
+    <label><input type="checkbox" id="collab-home"> Show my own institutions</label>
+  </div>
+  <div class="collab-grid">
+    <div>
+      <div class="collab-map" id="collab-map" role="region" aria-label="Map of collaborating institutions"></div>
+      <div class="collab-legend">
+        <span><i></i>Co-author institution</span>
+        <span><i class="h"></i>My own institutions (Zurich, Sheffield)</span>
+        <span>Circle area ∝ number of joint papers</span>
+      </div>
+    </div>
+    <div class="collab-panel" id="collab-panel" aria-live="polite">Loading…</div>
+  </div>
+</div>
+
+<script src="vendor/leaflet.js"></script>
+<script>
+(async function () {
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  let data, world;
+  try {
+    [data, world] = await Promise.all(['data/collaborations.json', 'data/world-110m.json']
+      .map(u => fetch(u).then(r => { if (!r.ok) throw new Error(u); return r.json(); })));
+  } catch (e) { $('collab-panel').textContent = 'Could not load the map data.'; return; }
+
+  const P = data.papers;                       // [doi, title, year, venue, nAuthors]
+  const INST = data.institutions;              // {n, city, country, lat, lng, home, p:[idx], c:[[name,[idx]]]}
+  const years = P.map(p => p[2]).filter(Boolean);
+  const yMin = Math.min(...years), yMax = Math.max(...years);
+
+  // --- map ---------------------------------------------------------------
+  const map = L.map('collab-map', { worldCopyJump: false, minZoom: 1, maxZoom: 9, zoomSnap: 0.5,
+    maxBounds: [[-70, -200], [85, 200]], attributionControl: true, scrollWheelZoom: false });
+  map.attributionControl.setPrefix('').addAttribution('Data: <a href="https://openalex.org">OpenAlex</a> · Borders: Natural Earth');
+  map.on('focus click', () => map.scrollWheelZoom.enable());
+  map.on('blur', () => map.scrollWheelZoom.disable());
+  const countryLayer = L.geoJSON(world, { style: () => ({ className: 'country' }), interactive: false }).addTo(map);
+  map.fitBounds([[-45, -125], [65, 150]]);
+  document.getElementById('collab-map')._map = map;
+
+  const markers = INST.map((d, i) => {
+    const m = L.circleMarker([d.lat, d.lng], { className: 'dot' + (d.home ? ' home' : ''), radius: 4 });
+    m.bindTooltip(() => `<b>${esc(d.n)}</b><br>${esc([d.city, d.country].filter(Boolean).join(', '))}<br>${m._np} joint paper${m._np === 1 ? '' : 's'}`, { direction: 'top' });
+    m.on('click', () => select(i));
+    return m;
+  });
+  const markerLayer = L.layerGroup().addTo(map);
+
+  // --- state & filtering ---------------------------------------------------
+  const y0 = $('collab-y0'), y1 = $('collab-y1'), q = $('collab-q'), homeBox = $('collab-home');
+  for (const el of [y0, y1]) { el.min = yMin; el.max = yMax; el.step = 1; }
+  y0.value = yMin; y1.value = yMax;
+  let selected = null, visible = [];
+
+  const inRange = idx => { const y = P[idx][2]; return y >= +y0.value && y <= +y1.value; };
+  // Papers (within the year range) that make an institution match the search:
+  // all of them if the institution / place matches, otherwise only the papers
+  // written with co-authors whose name matches.
+  function matchedPapers(d, term) {
+    const inYears = d.p.filter(inRange);
+    if (!term || [d.n, d.city, d.country].join(' ').toLowerCase().includes(term)) return inYears;
+    const s = new Set();
+    d.c.forEach(c => { if (c[0].toLowerCase().includes(term)) c[1].forEach(p => s.add(p)); });
+    return inYears.filter(p => s.has(p));
+  }
+
+  function update() {
+    if (+y0.value > +y1.value) [y0.value, y1.value] = [y1.value, y0.value];
+    $('collab-y0o').textContent = y0.value; $('collab-y1o').textContent = y1.value;
+    const term = q.value.trim().toLowerCase();
+    markerLayer.clearLayers();
+    visible = [];
+    const hitCountries = new Set();
+    INST.forEach((d, i) => {
+      const m = markers[i];
+      m._all = d.p.filter(inRange).length;
+      m._mp = matchedPapers(d, term);
+      const ok = m._mp.length > 0;
+      m._np = ok ? m._mp.length : m._all;
+      if (!m._all || (d.home && !homeBox.checked)) return;
+      m.setRadius(3 + 2.6 * Math.sqrt(m._np));
+      markerLayer.addLayer(m);
+      const el = m.getElement();
+      if (el) { el.classList.toggle('dim', !ok); el.classList.toggle('sel', i === selected); }
+      if (ok) { visible.push(i); if (!d.home) hitCountries.add(d.country); }
+    });
+    // draw small circles on top of large ones
+    visible.slice().sort((a, b) => markers[a]._np - markers[b]._np).forEach(i => markers[i].bringToFront());
+    countryLayer.eachLayer(l => {
+      const nm = l.feature.properties.name;
+      l.getElement()?.classList.toggle('hit', hitCountries.has(nm));
+    });
+    if (selected !== null && !visible.includes(selected)) selected = null;
+    selected === null ? overview(term) : detail(selected);
+  }
+
+  function overview(term) {
+    const vis = visible;
+    const papers = new Set(), people = new Set(), countries = new Set();
+    vis.forEach(i => { const d = INST[i]; const mp = new Set(markers[i]._mp); mp.forEach(p => papers.add(p));
+      d.c.forEach(c => { if (c[1].some(p => mp.has(p))) people.add(c[0]); }); countries.add(d.country); });
+    const top = vis.slice().sort((a, b) => markers[b]._np - markers[a]._np).slice(0, 25);
+    $('collab-panel').innerHTML = `
+      <div class="collab-stats">
+        <div><b>${vis.length}</b><span>institutions</span></div>
+        <div><b>${countries.size}</b><span>countries</span></div>
+        <div><b>${people.size}</b><span>co-authors</span></div>
+        <div><b>${papers.size}</b><span>papers</span></div>
+      </div>
+      <div class="sub">${term ? `Matching “${esc(term)}”` : 'Most frequent collaborating institutions'}, ${y0.value}–${y1.value}</div>
+      <ol>${top.map(i => `<li><a href="#collab" class="linky" data-i="${i}">${esc(INST[i].n)}</a> <span class="n">${markers[i]._np}</span></li>`).join('')}</ol>
+      ${vis.length > 25 ? `<div class="sub">…and ${vis.length - 25} more on the map.</div>` : ''}`;
+  }
+
+  function detail(i) {
+    const d = INST[i];
+    const ps = markers[i]._mp.slice().sort((a, b) => P[b][2] - P[a][2]);
+    const psSet = new Set(ps);
+    const term = q.value.trim().toLowerCase();
+    const people = d.c.map(c => [c[0], c[1].filter(p => psSet.has(p)).length]).filter(c => c[1] > 0);
+    $('collab-panel').innerHTML = `
+      <a href="#collab" class="linky back" data-back>← All institutions</a>
+      <h4>${esc(d.n)}</h4>
+      <div class="sub">${esc([d.city, d.country].filter(Boolean).join(', '))} · ${ps.length} joint paper${ps.length === 1 ? '' : 's'}${term ? ` matching “${esc(term)}”` : ''}, ${y0.value}–${y1.value}</div>
+      <strong>Co-authors</strong>
+      <ul>${people.map(c => `<li>${term && c[0].toLowerCase().includes(term) ? `<span class="hl">${esc(c[0])}</span>` : esc(c[0])} <span class="n">${c[1]}</span></li>`).join('')}</ul>
+      <strong>Papers</strong>
+      <ul>${ps.map(p => { const [doi, t, y, v, n] = P[p];
+        const title = doi ? `<a href="https://doi.org/${esc(doi)}">${esc(t)}</a>` : esc(t);
+        return `<li class="paper"><span class="yr">${y}</span>${title}${v ? ` <span class="venue">${esc(v)}</span>` : ''}</li>`; }).join('')}</ul>`;
+  }
+
+  function select(i) {
+    selected = i;
+    update();
+    const d = INST[i];
+    if (!map.getBounds().contains([d.lat, d.lng])) map.panTo([d.lat, d.lng]);
+  }
+
+  $('collab-panel').addEventListener('click', e => {
+    const b = e.target.closest('a.linky'); if (!b) return;
+    e.preventDefault();
+    if (b.hasAttribute('data-back')) { selected = null; update(); }
+    else if (b.dataset.i) select(+b.dataset.i);
+  });
+  [y0, y1].forEach(el => el.addEventListener('input', update));
+  q.addEventListener('input', update);
+  homeBox.addEventListener('change', update);
+  update();
+})();
+</script>
+<section id="how-the-map-was-made" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-map-was-made">How the map was made</h2>
+<p>The data come from <a href="https://openalex.org">OpenAlex</a>, an open catalogue of scholarly works, authors and institutions. A small Python script in this post’s folder (<code>data/build_collab_data.py</code>) downloads every work linked to my <a href="https://openalex.org/authors/A5028533498">OpenAlex author profile</a> (<a href="https://orcid.org/0000-0002-7724-1633">ORCID 0000-0002-7724-1633</a>), together with the location of every institution my co-authors listed on those works. It then:</p>
+<ul>
+<li>keeps journal articles, reviews, books, book chapters, letters and editorials, plus preprints that never became a published paper (datasets and duplicate records are dropped);</li>
+<li>counts, for each co-author institution, how many papers we wrote together and who the co-authors were;</li>
+<li>marks the two institutions where I have spent most of my career — the University of Zurich and the University of Sheffield — so they can be hidden, because they would otherwise dominate the map.</li>
+</ul>
+<p>The result is a single small JSON file that this page reads. Nothing is fetched from OpenAlex when you view the page, and the map itself uses no third-party tiles: country outlines are from <a href="https://www.naturalearthdata.com">Natural Earth</a> (public domain) and the map library is <a href="https://leafletjs.com">Leaflet</a>, both served from this site.</p>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<p>Bibliographic databases are imperfect, and this map inherits their imperfections. Some co-authors have no affiliation recorded at all (in this snapshot roughly one in five), so their institutions are missing. OpenAlex also occasionally attaches every institution on a paper to each author; the build script spots this (an author given more than six institutions, or more than three-quarters of a paper’s institutions) and ignores those affiliation lists rather than mapping them. Occasionally an affiliation is wrong or a large organisation such as CNRS is placed at its headquarters rather than at the lab where the person actually works. Papers with very many authors add many institutions at once. Treat the map as a portrait of a network of people rather than an exact census. If you spot an error involving your own institution, the fix belongs in OpenAlex (or ORCID), and it will appear here the next time the data are refreshed.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/predictive-ecology-zurich\.org");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Predictive Ecology Group · Department of Evolutionary Biology and Environmental Studies · University of Zurich</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Content &amp; photos <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · Website code <a href="https://github.com/opetchey/predictive-ecology-zurich/blob/main/LICENSE">MIT</a></p>
+</div>
+    <div class="nav-footer-right">
+<p><a href="../../../posts.html">All posts</a> · <a href="../../../contact.html">Contact</a> · <a href="../../../imprint.html">Imprint &amp; privacy</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
