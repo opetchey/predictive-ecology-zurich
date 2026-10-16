@@ -1,0 +1,255 @@
+---
+title: "A map of collaborations"
+author: "Owen Petchey"
+date: 2026-10-16
+categories: [research, collaboration, open data]
+image: cover.png
+description: "An explorable map of the institutions of everyone I've co-authored a paper with, built from open publication data."
+resources:
+  - data/collaborations.json
+  - data/world-110m.json
+  - vendor/leaflet.js
+  - vendor/leaflet.css
+---
+
+Science is a team sport. Almost every paper I've been part of has had co-authors, and many of those co-authors were somewhere else — another department, another country, another continent. This map shows where they were.
+
+Each circle is an institution that at least one of my co-authors listed as their affiliation on a paper we wrote together. Bigger circles mean more joint papers. Click a circle (or a name in the list) to see who the co-authors were and which papers we wrote; use the slider to look at a particular period, and the search box to find a person, institution or country.
+
+```{=html}
+<link rel="stylesheet" href="vendor/leaflet.css">
+<style>
+  .collab { --c-accent:#0028A5; --c-accent-soft:rgba(0,40,165,.18); --c-home:#b4530f;
+            --c-land:#ecebe6; --c-land-hit:#dfe4f5; --c-border:#ffffff; --c-sea:#f6f6f3;
+            --c-line:#e7e5df; --c-muted:#54534c; --c-panel:#ffffff; --c-text:#141414; }
+  body.quarto-dark .collab { --c-accent:#BACBFF; --c-accent-soft:rgba(186,203,255,.22); --c-home:#f0a96a;
+            --c-land:#1b1e2d; --c-land-hit:#25305a; --c-border:#0b0d16; --c-sea:#10121d;
+            --c-line:#232637; --c-muted:#a9adc2; --c-panel:#0f111b; --c-text:#eef0f7; }
+  .collab { margin: 1.5rem 0 2rem; font-size: .92rem; color:var(--c-text); }
+  .collab .leaflet-control-attribution { background:var(--c-panel); color:var(--c-muted); opacity:.9; }
+  .collab .leaflet-control-attribution a { color:var(--c-accent); }
+  .collab .leaflet-bar a { background:var(--c-panel); color:var(--c-text); border-color:var(--c-line); }
+  .collab .leaflet-tooltip { background:var(--c-panel); color:var(--c-text); border-color:var(--c-line); }
+  .collab-controls { display:flex; flex-wrap:wrap; gap:.75rem 1.25rem; align-items:center; margin-bottom:.75rem; }
+  .collab-controls > label:first-child { flex:1 1 auto; max-width:24rem; }
+  .collab-controls > label:first-child input { flex:1; }
+  .collab-controls label { color:var(--c-muted); font-size:.82rem; display:flex; align-items:center; gap:.4rem; }
+  .collab-controls input[type=search] { width:15rem; max-width:100%; padding:.3rem .55rem; border:1px solid var(--c-line);
+            border-radius:6px; background:var(--c-panel); color:inherit; }
+  .collab-years { display:flex; align-items:center; gap:.4rem; }
+  .collab-years { flex-wrap:wrap; }
+  .collab-years input[type=range] { width:7.5rem; max-width:28vw; accent-color:var(--c-accent); }
+  .collab-years output { font-variant-numeric: tabular-nums; min-width:2.6rem; display:inline-block; }
+  .collab-grid { display:grid; grid-template-columns: minmax(0,1fr) 20rem; gap:1rem; }
+  @media (max-width: 900px) { .collab-grid { grid-template-columns: 1fr; } }
+  .collab-map { height: 520px; border:1px solid var(--c-line); border-radius:8px; background:var(--c-sea); }
+  @media (max-width: 600px) { .collab-map { height: 380px; } }
+  .collab-map .leaflet-container { background:var(--c-sea); font: inherit; }
+  .collab .country { fill:var(--c-land); stroke:var(--c-border); stroke-width:.6; fill-opacity:1; }
+  .collab .country.hit { fill:var(--c-land-hit); }
+  .collab .dot { fill:var(--c-accent); fill-opacity:.55; stroke:var(--c-accent); stroke-width:1; stroke-opacity:.9; cursor:pointer; }
+  .collab .dot.home { fill:var(--c-home); stroke:var(--c-home); }
+  .collab .dot.sel { fill-opacity:.95; stroke-width:2.5; }
+  .collab .dot.dim { fill-opacity:.08; stroke-opacity:.2; }
+  .collab-panel { border:1px solid var(--c-line); border-radius:8px; padding:.85rem 1rem; background:var(--c-panel);
+            max-height:520px; overflow:auto; }
+  @media (max-width: 900px) { .collab-panel { max-height:none; } }
+  .collab-panel h4 { font-size:1.05rem; margin:.1rem 0 .2rem; }
+  .collab-panel .sub { color:var(--c-muted); font-size:.82rem; margin-bottom:.6rem; }
+  .collab-panel ol, .collab-panel ul { padding-left:1.1rem; margin:.3rem 0 .8rem; }
+  .collab-panel li { margin:.2rem 0; }
+  .collab-panel a.linky { color:var(--c-accent); }
+  .collab-panel .n { color:var(--c-muted); font-variant-numeric: tabular-nums; }
+  .collab-panel .back { font-size:.82rem; margin-bottom:.5rem; display:inline-block; }
+  .collab-stats { display:grid; grid-template-columns:repeat(4, auto); justify-content:start; gap:.4rem 1.1rem; margin:.25rem 0 .9rem; }
+  .collab-panel .collab-stats { grid-template-columns:repeat(2, auto); }
+  @media (max-width: 900px) { .collab-panel .collab-stats { grid-template-columns:repeat(4, auto); } }
+  .collab-stats div { line-height:1.1; }
+  .collab-stats b { display:block; font-size:1.35rem; font-family: "Lora", Georgia, serif; font-weight:600; }
+  .collab-stats span { color:var(--c-muted); font-size:.78rem; }
+  .collab-legend { color:var(--c-muted); font-size:.8rem; margin-top:.5rem; display:flex; gap:1rem; flex-wrap:wrap; }
+  .collab-legend i { display:inline-block; width:.8rem; height:.8rem; border-radius:50%; vertical-align:-1px; margin-right:.3rem;
+            background:var(--c-accent); opacity:.7; }
+  .collab-legend i.h { background:var(--c-home); }
+  .collab .paper { font-size:.85rem; }
+  .collab .paper .yr { color:var(--c-muted); font-variant-numeric: tabular-nums; margin-right:.3rem; }
+  .collab .paper .venue { color:var(--c-muted); font-style:italic; }
+  .collab .hl { background:var(--c-accent-soft); border-radius:3px; padding:0 .15em; }
+</style>
+
+<div class="collab column-page" id="collab">
+  <div class="collab-controls">
+    <label>Search <input type="search" id="collab-q" placeholder="person, institution, country…" aria-label="Search collaborations"></label>
+    <div class="collab-years">
+      <label for="collab-y0">Years</label>
+      <input type="range" id="collab-y0" aria-label="From year"><output id="collab-y0o"></output>
+      <span>–</span>
+      <input type="range" id="collab-y1" aria-label="To year"><output id="collab-y1o"></output>
+    </div>
+    <label><input type="checkbox" id="collab-home"> Show my own institutions</label>
+  </div>
+  <div class="collab-grid">
+    <div>
+      <div class="collab-map" id="collab-map" role="region" aria-label="Map of collaborating institutions"></div>
+      <div class="collab-legend">
+        <span><i></i>Co-author institution</span>
+        <span><i class="h"></i>My own institutions (Zurich, Sheffield)</span>
+        <span>Circle area ∝ number of joint papers</span>
+      </div>
+    </div>
+    <div class="collab-panel" id="collab-panel" aria-live="polite">Loading…</div>
+  </div>
+</div>
+
+<script src="vendor/leaflet.js"></script>
+<script>
+(async function () {
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+  let data, world;
+  try {
+    [data, world] = await Promise.all(['data/collaborations.json', 'data/world-110m.json']
+      .map(u => fetch(u).then(r => { if (!r.ok) throw new Error(u); return r.json(); })));
+  } catch (e) { $('collab-panel').textContent = 'Could not load the map data.'; return; }
+
+  const P = data.papers;                       // [doi, title, year, venue, nAuthors]
+  const INST = data.institutions;              // {n, city, country, lat, lng, home, p:[idx], c:[[name,[idx]]]}
+  const years = P.map(p => p[2]).filter(Boolean);
+  const yMin = Math.min(...years), yMax = Math.max(...years);
+
+  // --- map ---------------------------------------------------------------
+  const map = L.map('collab-map', { worldCopyJump: false, minZoom: 1, maxZoom: 9, zoomSnap: 0.5,
+    maxBounds: [[-70, -200], [85, 200]], attributionControl: true, scrollWheelZoom: false });
+  map.attributionControl.setPrefix('').addAttribution('Data: <a href="https://openalex.org">OpenAlex</a> · Borders: Natural Earth');
+  map.on('focus click', () => map.scrollWheelZoom.enable());
+  map.on('blur', () => map.scrollWheelZoom.disable());
+  const countryLayer = L.geoJSON(world, { style: () => ({ className: 'country' }), interactive: false }).addTo(map);
+  map.fitBounds([[-45, -125], [65, 150]]);
+  document.getElementById('collab-map')._map = map;
+
+  const markers = INST.map((d, i) => {
+    const m = L.circleMarker([d.lat, d.lng], { className: 'dot' + (d.home ? ' home' : ''), radius: 4 });
+    m.bindTooltip(() => `<b>${esc(d.n)}</b><br>${esc([d.city, d.country].filter(Boolean).join(', '))}<br>${m._np} joint paper${m._np === 1 ? '' : 's'}`, { direction: 'top' });
+    m.on('click', () => select(i));
+    return m;
+  });
+  const markerLayer = L.layerGroup().addTo(map);
+
+  // --- state & filtering ---------------------------------------------------
+  const y0 = $('collab-y0'), y1 = $('collab-y1'), q = $('collab-q'), homeBox = $('collab-home');
+  for (const el of [y0, y1]) { el.min = yMin; el.max = yMax; el.step = 1; }
+  y0.value = yMin; y1.value = yMax;
+  let selected = null, visible = [];
+
+  const inRange = idx => { const y = P[idx][2]; return y >= +y0.value && y <= +y1.value; };
+  // Papers (within the year range) that make an institution match the search:
+  // all of them if the institution / place matches, otherwise only the papers
+  // written with co-authors whose name matches.
+  function matchedPapers(d, term) {
+    const inYears = d.p.filter(inRange);
+    if (!term || [d.n, d.city, d.country].join(' ').toLowerCase().includes(term)) return inYears;
+    const s = new Set();
+    d.c.forEach(c => { if (c[0].toLowerCase().includes(term)) c[1].forEach(p => s.add(p)); });
+    return inYears.filter(p => s.has(p));
+  }
+
+  function update() {
+    if (+y0.value > +y1.value) [y0.value, y1.value] = [y1.value, y0.value];
+    $('collab-y0o').textContent = y0.value; $('collab-y1o').textContent = y1.value;
+    const term = q.value.trim().toLowerCase();
+    markerLayer.clearLayers();
+    visible = [];
+    const hitCountries = new Set();
+    INST.forEach((d, i) => {
+      const m = markers[i];
+      m._all = d.p.filter(inRange).length;
+      m._mp = matchedPapers(d, term);
+      const ok = m._mp.length > 0;
+      m._np = ok ? m._mp.length : m._all;
+      if (!m._all || (d.home && !homeBox.checked)) return;
+      m.setRadius(3 + 2.6 * Math.sqrt(m._np));
+      markerLayer.addLayer(m);
+      const el = m.getElement();
+      if (el) { el.classList.toggle('dim', !ok); el.classList.toggle('sel', i === selected); }
+      if (ok) { visible.push(i); if (!d.home) hitCountries.add(d.country); }
+    });
+    // draw small circles on top of large ones
+    visible.slice().sort((a, b) => markers[a]._np - markers[b]._np).forEach(i => markers[i].bringToFront());
+    countryLayer.eachLayer(l => {
+      const nm = l.feature.properties.name;
+      l.getElement()?.classList.toggle('hit', hitCountries.has(nm));
+    });
+    if (selected !== null && !visible.includes(selected)) selected = null;
+    selected === null ? overview(term) : detail(selected);
+  }
+
+  function overview(term) {
+    const vis = visible;
+    const papers = new Set(), people = new Set(), countries = new Set();
+    vis.forEach(i => { const d = INST[i]; const mp = new Set(markers[i]._mp); mp.forEach(p => papers.add(p));
+      d.c.forEach(c => { if (c[1].some(p => mp.has(p))) people.add(c[0]); }); countries.add(d.country); });
+    const top = vis.slice().sort((a, b) => markers[b]._np - markers[a]._np).slice(0, 25);
+    $('collab-panel').innerHTML = `
+      <div class="collab-stats">
+        <div><b>${vis.length}</b><span>institutions</span></div>
+        <div><b>${countries.size}</b><span>countries</span></div>
+        <div><b>${people.size}</b><span>co-authors</span></div>
+        <div><b>${papers.size}</b><span>papers</span></div>
+      </div>
+      <div class="sub">${term ? `Matching “${esc(term)}”` : 'Most frequent collaborating institutions'}, ${y0.value}–${y1.value}</div>
+      <ol>${top.map(i => `<li><a href="#collab" class="linky" data-i="${i}">${esc(INST[i].n)}</a> <span class="n">${markers[i]._np}</span></li>`).join('')}</ol>
+      ${vis.length > 25 ? `<div class="sub">…and ${vis.length - 25} more on the map.</div>` : ''}`;
+  }
+
+  function detail(i) {
+    const d = INST[i];
+    const ps = markers[i]._mp.slice().sort((a, b) => P[b][2] - P[a][2]);
+    const psSet = new Set(ps);
+    const term = q.value.trim().toLowerCase();
+    const people = d.c.map(c => [c[0], c[1].filter(p => psSet.has(p)).length]).filter(c => c[1] > 0);
+    $('collab-panel').innerHTML = `
+      <a href="#collab" class="linky back" data-back>← All institutions</a>
+      <h4>${esc(d.n)}</h4>
+      <div class="sub">${esc([d.city, d.country].filter(Boolean).join(', '))} · ${ps.length} joint paper${ps.length === 1 ? '' : 's'}${term ? ` matching “${esc(term)}”` : ''}, ${y0.value}–${y1.value}</div>
+      <strong>Co-authors</strong>
+      <ul>${people.map(c => `<li>${term && c[0].toLowerCase().includes(term) ? `<span class="hl">${esc(c[0])}</span>` : esc(c[0])} <span class="n">${c[1]}</span></li>`).join('')}</ul>
+      <strong>Papers</strong>
+      <ul>${ps.map(p => { const [doi, t, y, v, n] = P[p];
+        const title = doi ? `<a href="https://doi.org/${esc(doi)}">${esc(t)}</a>` : esc(t);
+        return `<li class="paper"><span class="yr">${y}</span>${title}${v ? ` <span class="venue">${esc(v)}</span>` : ''}</li>`; }).join('')}</ul>`;
+  }
+
+  function select(i) {
+    selected = i;
+    update();
+    const d = INST[i];
+    if (!map.getBounds().contains([d.lat, d.lng])) map.panTo([d.lat, d.lng]);
+  }
+
+  $('collab-panel').addEventListener('click', e => {
+    const b = e.target.closest('a.linky'); if (!b) return;
+    e.preventDefault();
+    if (b.hasAttribute('data-back')) { selected = null; update(); }
+    else if (b.dataset.i) select(+b.dataset.i);
+  });
+  [y0, y1].forEach(el => el.addEventListener('input', update));
+  q.addEventListener('input', update);
+  homeBox.addEventListener('change', update);
+  update();
+})();
+</script>
+```
+
+## How the map was made
+
+The data come from [OpenAlex](https://openalex.org), an open catalogue of scholarly works, authors and institutions. A small Python script in this post's folder (`data/build_collab_data.py`) downloads every work linked to my [OpenAlex author profile](https://openalex.org/authors/A5028533498) ([ORCID 0000-0002-7724-1633](https://orcid.org/0000-0002-7724-1633)), together with the location of every institution my co-authors listed on those works. It then:
+
+- keeps journal articles, reviews, books, book chapters, letters and editorials, plus preprints that never became a published paper (datasets and duplicate records are dropped);
+- counts, for each co-author institution, how many papers we wrote together and who the co-authors were;
+- marks the two institutions where I have spent most of my career — the University of Zurich and the University of Sheffield — so they can be hidden, because they would otherwise dominate the map.
+
+The result is a single small JSON file that this page reads. Nothing is fetched from OpenAlex when you view the page, and the map itself uses no third-party tiles: country outlines are from [Natural Earth](https://www.naturalearthdata.com) (public domain) and the map library is [Leaflet](https://leafletjs.com), both served from this site.
+
+## Caveats
+
+Bibliographic databases are imperfect, and this map inherits their imperfections. Some co-authors have no affiliation recorded at all (in this snapshot roughly one in five), so their institutions are missing. OpenAlex also occasionally attaches every institution on a paper to each author; the build script spots this (an author given more than six institutions, or more than three-quarters of a paper's institutions) and ignores those affiliation lists rather than mapping them. Occasionally an affiliation is wrong or a large organisation such as CNRS is placed at its headquarters rather than at the lab where the person actually works. Papers with very many authors add many institutions at once. Treat the map as a portrait of a network of people rather than an exact census. If you spot an error involving your own institution, the fix belongs in OpenAlex (or ORCID), and it will appear here the next time the data are refreshed.
