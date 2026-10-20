@@ -10,7 +10,59 @@
 <atom:link href="https://predictive-ecology-zurich.org/misc.xml" rel="self" type="application/rss+xml"/>
 <description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Wed, 16 Jul 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 16 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>A fantastic evening at the 2026 NOMIS Award Ceremony</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictive-ecology-zurich.org/posts/misc/2026-10-16-nomis-award-ceremony-2026/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<!-- DRAFT — not for publication yet. `draft: true` keeps this post out of
+     rendered output, listings and site search. Before publishing:
+     1. check the text, especially the personal impressions;
+     2. check Andy is happy to appear in the photo;
+     3. remove `draft: true`. -->
+<p>What a night. On Thursday 15 October, the <a href="https://nomisfoundation.ch">NOMIS Foundation</a> held its 2026 Award Ceremony at the Kunsthaus Zürich, and it was a real pleasure to be there.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://predictive-ecology-zurich.org/posts/misc/2026-10-16-nomis-award-ceremony-2026/cover.jpg" class="img-fluid figure-img" alt="Owen Petchey (left) and Andrew Gonzalez (right) smiling in front of the NOMIS Foundation Distinguished Scientist &amp; Scholar Award 2026 backdrop."></p>
+<figcaption>With Andy Gonzalez (right) at the 2026 NOMIS Distinguished Scientist and Scholar Award ceremony, Kunsthaus Zürich.</figcaption>
+</figure>
+</div>
+<section id="the-award" class="level2">
+<h2 class="anchored" data-anchor-id="the-award">The award</h2>
+<p>The <a href="https://nomisfoundation.ch/research/awards/">NOMIS Distinguished Scientist and Scholar Award</a>, established in 2016, honours researchers whose bold questions and broad approaches change how we understand the world, and who build bridges between the sciences and the humanities. Rather than rewarding past work alone, it backs people: each award funds a new, curiosity-driven research project. That fits the foundation’s own philosophy. NOMIS, based here in Zurich and founded by Georg Heinrich (Heini) Thyssen, describes itself as being about enabling outstanding talent to take on high-risk research.</p>
+</section>
+<section id="this-years-awardees" class="level2">
+<h2 class="anchored" data-anchor-id="this-years-awardees">This year’s awardees</h2>
+<p>Three very different researchers, three very different questions:</p>
+<ul>
+<li><strong><a href="https://nomisfoundation.ch/people/andrew-gonzalez/">Andrew Gonzalez</a></strong>, Professor and Liber Ero Chair in Biodiversity Conservation at McGill University, Montreal — <em>A Mesoscale Theory of the Biosphere</em>. Andrew’s project (2026–2031) aims to build a general theory of how ecological change at regional scales, between the local and the planetary, adds up to shape the stability of the biosphere: how connected ecosystems across landscapes, seascapes and regions buffer or amplify environmental change.</li>
+<li><strong><a href="https://nomisfoundation.ch/people/tobias-kippenberg/">Tobias Kippenberg</a></strong>, Full Professor of Physics and Electrical Engineering at EPFL, Lausanne — <em>The Quest for Ultralow Dissipation: From Self-Organized Light to Collective Quantum Drums</em>. Tobias is known for showing that tiny optical microresonators can generate optical frequency combs from a single laser on a chip, and for pioneering cavity optomechanics. His project asks how energy loss shapes the emergence of order in complex optical systems, and how quantum behaviour can be pushed to ever larger objects.</li>
+<li><strong>Ulrike Malmendier</strong>, Cora Jane Flood Professor of Finance and Professor of Economics at the University of California, Berkeley — <em>Stress and Economics: Exploring the Alleviating Role of Predictability and Controllability</em>, on how stress interacts with economic behaviour.</li>
+</ul>
+</section>
+<section id="a-personal-note" class="level2">
+<h2 class="anchored" data-anchor-id="a-personal-note">A personal note</h2>
+<p>I was especially delighted to see Andrew honoured. We go back a long way: some of our first papers together, in the late 1990s, were about how the colour of environmental noise affects population persistence (<a href="https://doi.org/10.1098/rspb.1997.0254">Petchey, Gonzalez &amp; Wilson 1997</a>), including building a <a href="https://doi.org/10.1098/rspb.1998.0257">novel experimental apparatus</a> to expose populations to white and 1/f noise. More recently we have worked together on <a href="https://doi.org/10.1111/oik.07829">how prior exposure to stress lets an ecosystem cycle survive severe acidification</a> and on <a href="https://doi.org/10.1002/fee.2536">expert perspectives on global biodiversity loss</a>. A theory of how ecological change scales up across the biosphere is exactly the kind of big, bold question this award was made for, and it is great to see it backed.</p>
+<p>Congratulations to Andrew, Tobias and Ulrike, and thank you to the NOMIS Foundation for a wonderful evening, and for championing curiosity-driven research.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>misc</category>
+  <category>awards</category>
+  <category>NOMIS</category>
+  <category>events</category>
+  <guid>https://predictive-ecology-zurich.org/posts/misc/2026-10-16-nomis-award-ceremony-2026/</guid>
+  <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/misc/2026-10-16-nomis-award-ceremony-2026/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Public critique or private conversation? How to know what’s best for you.</title>
   <dc:creator>Owen Petchey</dc:creator>
