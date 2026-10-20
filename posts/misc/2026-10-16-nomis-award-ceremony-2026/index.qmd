@@ -6,7 +6,7 @@ categories: [misc, awards, NOMIS, events]
 image: cover.jpg
 image-alt: "Owen Petchey (left) and Andrew Gonzalez (right) smiling in front of the NOMIS Foundation Distinguished Scientist & Scholar Award 2026 backdrop."
 description: "Celebrating Andrew Gonzalez, Tobias Kippenberg and Ulrike Malmendier at the Kunsthaus Zürich."
-draft: true
+draft: false
 ---
 
 <!-- DRAFT — not for publication yet. `draft: true` keeps this post out of
