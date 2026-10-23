@@ -1,0 +1,38 @@
+---
+title: "Lina Hasenfratz wins a UZH Semester Award for her Bachelor's thesis"
+author: "Owen Petchey"
+date: 2026-10-23
+categories: [misc, awards, students, protist microcosms]
+image: cover.jpg
+image-alt: "Portrait of Lina Hasenfratz."
+description: "Lina's thesis on local adaptation, multiple stressors and competition in protist microcosms has received a Semester Award from the University of Zurich."
+draft: true
+---
+
+<!-- DRAFT — before publishing:
+     1. check Lina is happy with the post (and with her team photo being reused as the cover);
+     2. check Martina is happy with how her supervision is described;
+     3. check the "very first cohort" wording and the names/roles in the programme section;
+     4. remove `draft: true`. -->
+
+Huge congratulations to [Lina Hasenfratz](../../team/lina-hasenfratz/index.qmd), whose Bachelor's thesis has been awarded a **Semester Award** (Semesterpreis) by the University of Zurich for the Spring Semester 2026. The award was made on the recommendation of the Faculty of Science, and Lina will be honoured, along with the other award winners, at the closing event of the UZH *Tag der Lehre* on 28 October 2026.
+
+## A first for the new Biodiversity programme
+
+This award is a particularly nice milestone because Lina was in the very first cohort of students on UZH's new [BSc Biodiversity programme](https://www.biodiversitaet.uzh.ch/de/bachelor.html) to reach the [Bachelor's thesis module](https://www.biodiversitaet.uzh.ch/de/bachelor/bachelorarbeit.html) (EEE 299/EEE 300, 12 ECTS). Hers is therefore one of the very first theses produced by the programme, and it is wonderful to see it recognised in this way. Congratulations and thanks also to the programme director, Florian Altermatt, and to Kentaro Shimizu (module responsible) and Rie Shimizu Inatsugi (module coordinator), who run the thesis module.
+
+## The thesis
+
+Lina's thesis, *Does local adaptation in single- vs. multiple stressor environments alter competitive effects?*, was supervised day-to-day by [Martina Jelić](../../team/martina-jelic/index.qmd), with Owen as co-supervisor.
+
+Environmental change rarely comes one stressor at a time, and the combined effects of several stressors are often hard to predict. Local adaptation can help populations persist under new conditions, but adaptation does not happen in isolation: it happens within communities, where species also compete for resources. Lina asked whether populations adapted to a particular environment gain a competitive advantage in that environment, and whether this differs between single- and multiple-stressor conditions.
+
+To find out, she worked with the ciliate *Dexiostoma*, which had evolved for two years under four selection regimes: control, increased salinity, elevated temperature, and both stressors combined. She then tested every selection line in every one of the four environments, with and without competition from *Paramecium*, in a full-factorial microcosm experiment, measuring performance as carrying capacity under competition relative to monoculture.
+
+The results did not show a general "home advantage" for locally adapted populations. Instead, the current (assay) environment had by far the largest effect on performance, in line with other studies finding that short-term plastic responses can outweigh evolutionary history. Selection history did matter in some specific combinations of selection and assay environment, which highlights just how difficult it is to predict eco-evolutionary responses when several environmental drivers act together.
+
+## Why it stood out
+
+This was a demanding project: it brought together local adaptation, multiple stressors and interspecific competition in a single experiment, which is not easy either conceptually or practically. Lina handled that complexity very well. She carried out much of the experimental work independently, adapted constructively when the experiment did not go exactly to plan, and drew careful, balanced conclusions from results that were not entirely straightforward. The written thesis is clear, well argued, and honest about its limitations. It is among the best Bachelor's research projects I have supervised in recent years.
+
+Congratulations, Lina, and thank you to Martina for excellent supervision!
