@@ -1,0 +1,12 @@
+---
+title: "Aline Michelle Kohler"
+date: 2026-10-26
+categories: [team, bsc-student]
+image: cover.jpg
+---
+
+![](cover.jpg){.float-end width="300"}
+
+Aline Michelle Kohler is completing her Bachelor's thesis with the group during the 2026–2027 academic year.
+
+*(Add a sentence about Aline's thesis topic here.)*

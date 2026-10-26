@@ -5,4 +5,6 @@ categories: [team, technician, apprentice]
 image: cover.jpg
 ---
 
+![](cover.jpg){.float-end width="300"}
+
 Lia Moana De Turris is a technician apprentice with the group.
