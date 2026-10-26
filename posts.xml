@@ -10,7 +10,29 @@
 <atom:link href="https://predictive-ecology-zurich.org/posts.xml" rel="self" type="application/rss+xml"/>
 <description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Thu, 22 Oct 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 26 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Aline Michelle Kohler</title>
+  <link>https://predictive-ecology-zurich.org/posts/team/aline-michelle-kohler/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://predictive-ecology-zurich.org/posts/team/aline-michelle-kohler/cover.jpg" class="float-end img-fluid" width="300"></p>
+<p>Aline Michelle Kohler is completing her Bachelor’s thesis with the group during the 2026–2027 academic year.</p>
+<p><em>(Add a sentence about Aline’s thesis topic here.)</em></p>
+
+
+
+ ]]></description>
+  <category>team</category>
+  <category>bsc-student</category>
+  <guid>https://predictive-ecology-zurich.org/posts/team/aline-michelle-kohler/</guid>
+  <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/team/aline-michelle-kohler/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Thu-Hương Huỳnh</title>
   <link>https://predictive-ecology-zurich.org/posts/team/thu-huong-huynh/</link>
@@ -1314,27 +1336,6 @@
   <guid>https://predictive-ecology-zurich.org/posts/research/2026-09-11-experimental-microbial-ecology/</guid>
   <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
   <media:content url="https://predictive-ecology-zurich.org/posts/research/2026-09-11-experimental-microbial-ecology/cover.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Isabel Schöchli</title>
-  <link>https://predictive-ecology-zurich.org/posts/team/isabel-schochli/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><img src="https://predictive-ecology-zurich.org/posts/team/isabel-schochli/cover.jpg" class="float-end img-fluid" width="300"></p>
-<p>Isabel Schöchli handles HR administration for the group.</p>
-
-
-
- ]]></description>
-  <category>team</category>
-  <category>administration</category>
-  <guid>https://predictive-ecology-zurich.org/posts/team/isabel-schochli/</guid>
-  <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://predictive-ecology-zurich.org/posts/team/isabel-schochli/cover.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
