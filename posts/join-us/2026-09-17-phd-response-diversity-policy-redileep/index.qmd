@@ -2,9 +2,14 @@
 title: "PhD position: bringing response diversity into biodiversity policy (ReDiLEEP)"
 author: "Predictive Ecology Group"
 date: 2026-09-17
-categories: [join-us, phd, response diversity, policy]
+categories: [join-us, phd, response diversity, policy, archive]
 image: cover.jpg
 ---
+
+::: {.callout-important}
+## Applications closed
+The application deadline (1 October 2026) has passed, and applications for this position are now closed.
+:::
 
 We're recruiting a Doctoral Candidate to [ReDiLEEP](../../organising/2026-09-05-redileep/index.qmd), the Marie Skłodowska-Curie Actions (MSCA) Doctoral Network on response diversity, for a project sitting right at the interface of ecological science and biodiversity policy.
 

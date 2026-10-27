@@ -1,0 +1,8 @@
+---
+title: "Lucien Jenni"
+date: 2026-09-15
+categories: [team, bsc-student]
+image: cover.jpg
+---
+
+Lucien Jenni is completing a Bachelor's thesis with the group during academic year 2026-2027.

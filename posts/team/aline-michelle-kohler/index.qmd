@@ -9,4 +9,4 @@ image: cover.jpg
 
 Aline Michelle Kohler is completing her Bachelor's thesis with the group during the 2026–2027 academic year.
 
-*(Add a sentence about Aline's thesis topic here.)*
+Her thesis topic is the evolution of temperature performance curves.

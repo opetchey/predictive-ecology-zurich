@@ -6,5 +6,3 @@ image: cover.jpg
 ---
 
 Sara Galizia is completing a Bachelor's thesis with the group.
-
-*(Add a sentence about Sara's thesis topic here.)*
