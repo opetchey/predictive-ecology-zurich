@@ -4,18 +4,14 @@ author: "Owen Petchey"
 date: 2026-10-23
 categories: [misc, awards, students, protist microcosms]
 image: cover.jpg
-image-alt: "Portrait of Lina Hasenfratz."
+image-alt: "Owen Petchey, Lina Hasenfratz and Martina Jelić standing together in front of a large window."
 description: "Lina's thesis on local adaptation, multiple stressors and competition in protist microcosms has received a Semester Award from the University of Zurich."
-draft: true
+draft: false
 ---
 
-<!-- DRAFT — before publishing:
-     1. check Lina is happy with the post (and with her team photo being reused as the cover);
-     2. check Martina is happy with how her supervision is described;
-     3. check the "very first cohort" wording and the names/roles in the programme section;
-     4. remove `draft: true`. -->
+Huge congratulations to [Lina Hasenfratz](../../team/lina-hasenfratz/index.qmd), whose Bachelor's thesis has been awarded a **Semester Award** (Semesterpreis) by the University of Zurich for the Spring Semester 2026. The award was made on the recommendation of the Faculty of Science, and Lina was honoured, along with the other award winners, at the closing event of the UZH *Tag der Lehre* on 28 October 2026.
 
-Huge congratulations to [Lina Hasenfratz](../../team/lina-hasenfratz/index.qmd), whose Bachelor's thesis has been awarded a **Semester Award** (Semesterpreis) by the University of Zurich for the Spring Semester 2026. The award was made on the recommendation of the Faculty of Science, and Lina will be honoured, along with the other award winners, at the closing event of the UZH *Tag der Lehre* on 28 October 2026.
+![The evening event of the UZH Teaching Day (*Tag der Lehre*), 28 October 2026, where the Semester Awards were presented.](teaching-day.jpg){fig-alt="A grand hall with a large screen showing the UZH Teaching Day 2026 evening event slide, flowers on a table in front, and musicians at a piano." fig-align="center"}
 
 ## A first for the new Biodiversity programme
 
