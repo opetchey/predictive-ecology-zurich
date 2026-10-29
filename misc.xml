@@ -10,7 +10,52 @@
 <atom:link href="https://predictive-ecology-zurich.org/misc.xml" rel="self" type="application/rss+xml"/>
 <description>Predictive Ecology Group, University of Zurich — research, teaching and outreach in ecological forecasting.</description>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Fri, 16 Oct 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 23 Oct 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Lina Hasenfratz wins a UZH Semester Award for her Bachelor’s thesis</title>
+  <dc:creator>Owen Petchey</dc:creator>
+  <link>https://predictive-ecology-zurich.org/posts/misc/2026-10-23-lina-hasenfratz-semester-award/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Huge congratulations to <a href="../../../posts/team/lina-hasenfratz/index.html">Lina Hasenfratz</a>, whose Bachelor’s thesis has been awarded a <strong>Semester Award</strong> (Semesterpreis) by the University of Zurich for the Spring Semester 2026. The award was made on the recommendation of the Faculty of Science, and Lina was honoured, along with the other award winners, at the closing event of the UZH <em>Tag der Lehre</em> on 28 October 2026.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://predictive-ecology-zurich.org/posts/misc/2026-10-23-lina-hasenfratz-semester-award/teaching-day.jpg" class="img-fluid figure-img" alt="A grand hall with a large screen showing the UZH Teaching Day 2026 evening event slide, flowers on a table in front, and musicians at a piano."></p>
+<figcaption>The evening event of the UZH Teaching Day (<em>Tag der Lehre</em>), 28 October 2026, where the Semester Awards were presented.</figcaption>
+</figure>
+</div>
+<section id="a-first-for-the-new-biodiversity-programme" class="level2">
+<h2 class="anchored" data-anchor-id="a-first-for-the-new-biodiversity-programme">A first for the new Biodiversity programme</h2>
+<p>This award is a particularly nice milestone because Lina was in the very first cohort of students on UZH’s new <a href="https://www.biodiversitaet.uzh.ch/de/bachelor.html">BSc Biodiversity programme</a> to reach the <a href="https://www.biodiversitaet.uzh.ch/de/bachelor/bachelorarbeit.html">Bachelor’s thesis module</a> (EEE 299/EEE 300, 12 ECTS). Hers is therefore one of the very first theses produced by the programme, and it is wonderful to see it recognised in this way. Congratulations and thanks also to the programme director, Florian Altermatt, and to Kentaro Shimizu (module responsible) and Rie Shimizu Inatsugi (module coordinator), who run the thesis module.</p>
+</section>
+<section id="the-thesis" class="level2">
+<h2 class="anchored" data-anchor-id="the-thesis">The thesis</h2>
+<p>Lina’s thesis, <em>Does local adaptation in single- vs.&nbsp;multiple stressor environments alter competitive effects?</em>, was supervised day-to-day by <a href="../../../posts/team/martina-jelic/index.html">Martina Jelić</a>, with Owen as co-supervisor.</p>
+<p>Environmental change rarely comes one stressor at a time, and the combined effects of several stressors are often hard to predict. Local adaptation can help populations persist under new conditions, but adaptation does not happen in isolation: it happens within communities, where species also compete for resources. Lina asked whether populations adapted to a particular environment gain a competitive advantage in that environment, and whether this differs between single- and multiple-stressor conditions.</p>
+<p>To find out, she worked with the ciliate <em>Dexiostoma</em>, which had evolved for two years under four selection regimes: control, increased salinity, elevated temperature, and both stressors combined. She then tested every selection line in every one of the four environments, with and without competition from <em>Paramecium</em>, in a full-factorial microcosm experiment, measuring performance as carrying capacity under competition relative to monoculture.</p>
+<p>The results did not show a general “home advantage” for locally adapted populations. Instead, the current (assay) environment had by far the largest effect on performance, in line with other studies finding that short-term plastic responses can outweigh evolutionary history. Selection history did matter in some specific combinations of selection and assay environment, which highlights just how difficult it is to predict eco-evolutionary responses when several environmental drivers act together.</p>
+</section>
+<section id="why-it-stood-out" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-stood-out">Why it stood out</h2>
+<p>This was a demanding project: it brought together local adaptation, multiple stressors and interspecific competition in a single experiment, which is not easy either conceptually or practically. Lina handled that complexity very well. She carried out much of the experimental work independently, adapted constructively when the experiment did not go exactly to plan, and drew careful, balanced conclusions from results that were not entirely straightforward. The written thesis is clear, well argued, and honest about its limitations. It is among the best Bachelor’s research projects I have supervised in recent years.</p>
+<p>Congratulations, Lina, and thank you to Martina for excellent supervision!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>misc</category>
+  <category>awards</category>
+  <category>students</category>
+  <category>protist microcosms</category>
+  <guid>https://predictive-ecology-zurich.org/posts/misc/2026-10-23-lina-hasenfratz-semester-award/</guid>
+  <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://predictive-ecology-zurich.org/posts/misc/2026-10-23-lina-hasenfratz-semester-award/cover.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>A fantastic evening at the 2026 NOMIS Award Ceremony</title>
   <dc:creator>Owen Petchey</dc:creator>
