@@ -4,7 +4,7 @@ author: "Predictive Ecology Group"
 date: 2018-09-09
 categories: [research, food webs, history]
 image: cover.jpg
-draft: true
+draft: false
 ---
 
 ## Predicting the architecture of food webs
@@ -107,7 +107,6 @@ None of this means that body size and optimal foraging provide a complete theory
 
 The achievement of this research programme is to demonstrate that surprisingly complicated ecological networks can be approached from a small number of measurable biological mechanisms. Body size tells us something about what an organism can eat. Foraging theory tells us something about what it should eat. Temperature changes the costs and benefits involved. Species loss changes the menu itself. From those ingredients emerge changes in diets, interactions, connectance and eventually the architecture of the whole ecosystem. That is the larger promise of mechanistic food-web ecology: not simply to draw increasingly detailed maps of nature, but to understand the rules well enough that, when the world changes, we can begin to predict how those maps will be redrawn.
 
-
 ## References
 
 Allesina, S. (2009/2010). Predicting trophic relations in ecological networks: a test of the Allometric Diet Breadth Model. Journal of Theoretical Biology. (Paper)
@@ -135,4 +134,3 @@ Thompson, R., Dunne, J., & Woodward, G. (2012). Freshwater food webs: towards a 
 Woodward, G., Ebenman, B., Emmerson, M., Montoya, J., Olesen, J., Valido, A., & Warren, P. (2005). Body size in ecological networks. Trends in Ecology & Evolution, 20, 402–409. (Paper)
 
 Woodward, G., Blanchard, J., Lauridsen, R.B., Edwards, F.K., Jones, J.I., Figueroa, D., et al. (2010). Individual-based food webs: species identity, body size and sampling effects. Advances in Ecological Research, 43, 211–266.
-
