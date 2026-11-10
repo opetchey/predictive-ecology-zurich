@@ -5,6 +5,16 @@ categories: [team, postdoc]
 image: cover.jpg
 ---
 
-Maura Ganz is a postdoctoral researcher in the group.
+![](cover.jpg){.float-end width="300"}
 
-*(Add a sentence or two about Maura's research focus here.)*
+Maura is currently leading several projects on response diversity, which is how the different ways species respond to environmental change can stabilise ecosystems. She also helped coordinate the [UZH presence at COP17](https://www.news.uzh.ch/en/articles/news/2026/cop17-biodiversity.html), the UN Biodiversity Conference in Yerevan, Armenia. There she presented a low-cost approach to monitoring biodiversity with acoustic sensors at the Data to Action pavilion.
+
+Maura did her PhD at ETH Zurich in the Chair of Ecosystem Management, working with the Agroscope group Agricultural Landscape and Biodiversity. She studied whether diversifying conventionally managed Swiss farms, for example by using fewer pesticides and adding more landscape and plant diversity, benefits biodiversity, yield and natural pest control. Her paper on biodiversity, pest control and crop yields showed that the benefits of agroecological management depend strongly on context [1].
+
+She used spiders as a model group of generalist predators. In a second paper, she analysed the functional traits of 84 spider species across Swiss arable fields, finding that farming practices filter spider communities only weakly, probably because the species present are already adapted to agricultural disturbance [2]. She also used molecular analysis of spider diets and found no evidence that spiders ate more pests in extensively managed fields. Together, these findings, brought together in her [doctoral thesis](https://www.research-collection.ethz.ch/entities/publication/56c1cf6d-dac8-4d19-9a4f-d3fda9ad250e), suggest that biodiversity gains from diversification don’t automatically translate into better pest control.
+
+Publications:
+
+[1] Ganz, M., Ghazoul, J. & Jeanneret, P. (2025). [Context dependency and differential arthropod responses belie simple agro-ecological management solutions](https://doi.org/10.1016/j.agee.2025.109771). Agriculture, Ecosystems & Environment, 393, 109771. DOI: 10.1016/j.agee.2025.109771.
+
+[2] Ganz, M., Dray, S., Blandenier, G., Ghazoul, J. & Jeanneret, P. (2026). [Limited functional response to agroecological practices in spider communities in arable crops](https://www.research-collection.ethz.ch/entities/publication/4939c490-b4af-413e-9f4a-04779a195327). Agriculture, Ecosystems & Environment, 407, 110446. DOI: 10.1016/j.agee.2026.110446.
